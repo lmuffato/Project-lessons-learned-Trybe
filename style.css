@@ -26,13 +26,22 @@ main {
   text-align: justify;
 }
 
-#lista-aprendido {
+.listas {
   border: 3px solid black;
   width: 295px;
   background-color: black;
+  margin-bottom: 10px;
 }
 
 #licoes_aprendidas {
+  margin-left: 25px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+#licoes_a_aprender {
   margin-left: 25px;
   margin-top: 2px;
   margin-bottom: 2px;
