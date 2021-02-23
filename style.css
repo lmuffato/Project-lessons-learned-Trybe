@@ -57,3 +57,23 @@ main{
     left: 3rem;
     border-bottom: solid 1px black;
 }
+.licoes{
+    margin-left: 15rem;
+    font-family: "Mulish", serif;
+    font-size: 1.5rem;
+}
+.licoes, .perfil{
+    display: flex;
+}
+#licoes_aprendidass ol{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+#licoes_a_aprenderr ul{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+#licoes_a_aprenderr h2{
+    margin-left: 9rem;
