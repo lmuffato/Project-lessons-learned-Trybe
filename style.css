@@ -1,0 +1,29 @@
+/*Resetando qualquer estilo atribuido automaticamente*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    top: 0px;
+    position: fixed;
+    padding: 0 15px;
+    
+    width: 100vw;
+    height: 75px;
+    
+    background-color: rgb(67, 153, 67);
+    border-bottom: solid 4px rgb(125, 199, 125);
+
+    display: flex;
+    align-items: center;
+}
+
+#titulo{
+    color: #FFF;
+}
