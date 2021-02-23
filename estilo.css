@@ -12,3 +12,7 @@ body{
 #titulo{
     color: white;
 }
+
+#minha_foto{
+    border-radius: 4px 10px 4px 15px solid #000;
+}
