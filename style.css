@@ -11,3 +11,12 @@ body {
     width: 400px;
     padding-top: 100px;
 }
+
+#licoes_aprendidas {
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+#aulas {
+    padding-top: 50px;
+}
