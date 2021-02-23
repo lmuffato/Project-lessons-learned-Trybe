@@ -23,16 +23,86 @@ body {
   border-bottom: solid 4px rgb(125, 199, 125);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  color: #fff;
 }
 
-#titulo {
-  color: white;
+#lista_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 20px;
+    color: #fff;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-main {
-  padding: 0 50px;
+.item_menu:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#hero {
+  text-align: center;
+  font-size: 72px;
+  color: rgb(125, 199, 125);
+}
+
+#hero_subtitle {
+  text-align: center;
+  margin-bottom: 70px;
+  color: rgb(125, 199, 125);
+}
+
+#perfil {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 50px;
+  color: #000;
+  justify-content: center;
+}
+
+#perfil #introducao {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#perfil #introducao h2 {
+  margin-top: 2px;
+  color: #646262;
+  text-align: center;
 }
 
 #minha_foto {
   border-radius: 50%;
+  box-shadow: 0 0 1em #000;
+}
+
+#links_perfil {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.rede_social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rede_social a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.redes_sociais_logos {
+  width: 75px;
+  object-fit: cover;
 }
