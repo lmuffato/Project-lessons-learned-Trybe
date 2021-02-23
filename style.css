@@ -33,5 +33,11 @@ body {
   display: inline-block;
 }
 
+.table {
+  width: 100%;
+  border: solid black;
+}
 
-
+.table td {
+  text-align: center;
+}
