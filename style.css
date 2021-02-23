@@ -54,3 +54,15 @@ body {
   float: right;
   width: 600px;
 }
+
+footer {
+  text-align: center;
+  border-top: 5px solid rgb(47, 193, 140);
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer a {
+  color: black;
+}
