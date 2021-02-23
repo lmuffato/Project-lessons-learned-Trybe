@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(253, 251, 251) ;
+}
+#cabeçalho{
+    position: fixed;
+    top: 0px;
+    padding: 100px;
+    padding-right: 1000px;
+    background-image: url("imagens/matrix.png");
+    background-size: cover;
+    border-style: solid;
+    border-color: green;
+    border-width:3px;
+    
+}
+#título{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    color: honeydew;
+    
+    
+
+}
