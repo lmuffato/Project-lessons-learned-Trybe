@@ -5,6 +5,7 @@ body {
 
 nav {
   background-color: rgb(135, 181, 136);
+  display: block;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -61,4 +62,20 @@ h2 , h3 {
 .footer-icon {
   width: 50px;
   padding-left: 10px;
+}
+
+#minha_foto {
+  width: 150px;
+  border-radius: 100px;
+}
+
+#foto_perfil {
+  display: inline-block;
+
+}
+
+#quem_sou {
+  display: inline-block;
+  width: 500px;
+
 }
