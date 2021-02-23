@@ -26,3 +26,18 @@ header {
   color: white;
   padding: 20px;
 }
+
+.photoContent {
+  width: 20rem;
+  height: auto;
+  padding: 100px 20px 20px;
+}
+
+.photoContent img {
+  width: 100%
+}
+
+.photoContent span{
+  display: block;
+  padding-top: 5px;
+}
