@@ -47,4 +47,17 @@ body {
   font-family: monospace;
   columns: 2;
   width: 600px;
+  margin-bottom: 100px;
+}
+
+#rodape {
+  position: fixed;
+  height: 40px;
+  bottom: 0;
+  top: auto;
+  background-color: rgb(196, 225, 65);
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid black;
+  margin-top: 20px;
 }
