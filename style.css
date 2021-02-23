@@ -1,10 +1,24 @@
 * {
   margin: 0;
-  padding: 0;}
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;}
 
 body {
   background-color: rgb(253, 251, 251);}
 
-header {
-  top: 0px;
-}
+#cabecalho {
+  top: 0;
+  background-color: lightblue;
+  height: 150px;
+  position: fixed;
+  width: 100%;}
+
+header h1 {
+  font-size: 50px;}
+
+header h2 {
+  font-size: 35px;}
+
+#picture {
+  margin-left: 50px;
+  margin-top: 180px;}
