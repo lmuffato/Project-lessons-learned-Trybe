@@ -13,7 +13,9 @@ body {
   background-color: aqua;
 }
 
-img {
+#minha_foto {
+  display: block;
+  margin: 0 auto;  
   width: 20%;
-  margin-top: 5em;
+  margin-top: 6em;
 }
