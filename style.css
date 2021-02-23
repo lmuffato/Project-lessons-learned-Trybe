@@ -1,5 +1,4 @@
 body {
-  
   background-color: rgb(253, 251, 251);
   font-size: 12px;
   font-family: monospace;
@@ -7,24 +6,20 @@ body {
   color: blue;
 }
 header {
-  
   position: fixed;
   top: 0px;
 }
 #tabela {
-  
   border-width: 1px;
   border-style: dotted;
   margin: 5px;
   padding: 1px;
 }
 img {
-  
   border-style: solid;
   border-width: 2px;
 }
 .lado-esquerdo {
-  
   float: left;
   border-style: solid;
   border-width: 2px;
@@ -32,7 +27,6 @@ img {
   display: inline-block;
 }
 .lado-direito {
-  
   float: right;
   border-style: solid;
   border-width: 2px;
