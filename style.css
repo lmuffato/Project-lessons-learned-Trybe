@@ -26,10 +26,12 @@
 
     }
     #minha_foto{
-        padding: 300px;
         width: 200px;
-        margin-left: 300px;
+        margin-left: 500px;
         border-radius: 100%;
+        display: inline-block;
+        margin-top: 50px;
+        padding: 2em;
     }
     #licoes_aprendidas{
         display: inline-block;
@@ -37,3 +39,22 @@
     #licoes_a_aprender{
         display: inline-block;
     }
+    a:visited,a:link,a:active{
+        color:green;
+        font-size: x-large;
+        font-weight: bold;
+        display: inline-block;}
+        
+
+     #link{
+        padding-top: 400px; 
+     }
+     a:hover{
+         background-color: black;
+         color: blue;
+     }
+     h5{
+         color: green;
+         padding-top: 0px;
+         padding-left:550px ;
+     }
