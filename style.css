@@ -11,6 +11,12 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    display: flex;
+    background-color: rgb(43, 226, 119);
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
 }
 
 #titulo {
@@ -38,7 +44,12 @@ body {
 }
 
 #rodape {
+    display: flex;
+    background-color: rgb(43, 226, 119);
     position: fixed;
     bottom: 0px;
-
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
 }
