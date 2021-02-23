@@ -5,20 +5,33 @@
 
 body {
     background-color:rgb(253, 251, 251);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    top: 0;
     background-color: green;
     width: 100%;
 }
 
 #titulo {
     color: white;
+    padding-left: 30px;
+    text-align: center;
 }
 
+#nav-bar ul li {
+    display: inline-block;
+    padding: 15px;
+    color: rgb(253, 251, 251);
+    
+}
+
+#nav-bar {
+    justify-content: center;
+}
 
 #minha_foto {
     margin-top: 80px;
@@ -28,3 +41,4 @@ body {
 #hard-skills {
     padding: 20px;
 }
+
