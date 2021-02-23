@@ -39,11 +39,13 @@ body{
 #secao_licoes_aprendidas{
     display: inline-block;
     margin: 30px;
+    width: 100px;
 }
 
 #secao_licoes_aprender{
     display: inline-block;
     margin: 30px;
+    width: 100px;
 }
 
 #licoes_aprender{
