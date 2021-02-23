@@ -16,42 +16,43 @@ body {
     }
 
 nav {
-    color: white;
-    position: absolute;
-
+    color:white;
+    position: fixed;
 }
 
 img {
     width: 150px;
     height: 150px;
-    margin-top: 100px;
-    position: absolute;
+    margin-top: 80px;
 }
+.lado-a-lado-lista {
+        }
 
-.organizacao_de_lista {
-    display: inline-block;
-    margin-top: 260px;
-    
+.lado-a-lado-artigo {
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
-
 .lado-esquerdo {
-    background-color: orange;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     display: inline-block;
     border: 20px;
     padding: 20px;
-        
+    margin-top: 20px;
+    text-align: justify;
+    align-items: center;
 }
 
 .lado-direito {
-    background-color: rgb(204, 137, 12);
-    width: 400px;
-    height: 400px;
+        width: 300px;
+    height: 200px;
     display: inline-block;
     border: 20px;
     padding: 20px;
-        
+    margin-top: 20px;
+    text-align: justify;    
+    align-items: center;
 }
 
 aside {
@@ -76,6 +77,19 @@ table, tr, th {
     border: 1px;
     background-color:black;
     color: white;
+    display: inline-block
+    align-items: center;
+}
+
+
+#tabela-esq {
+    width: 280px;
+    height: 180px;
     display: inline-block;
 }
 
+#tabela-dir {
+    width: 280px;
+    height: 180px;
+    display: inline-block;
+}
