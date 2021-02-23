@@ -4,6 +4,8 @@ body {
   font-size: 19px;
   line-height: 35px;
   color: rgb(17, 17, 17);
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #cabecalho {
