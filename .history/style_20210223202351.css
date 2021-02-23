@@ -41,12 +41,10 @@
         bottom: 0;
         width: 100%;
         background-color: blue;
-        
+        position: absolute
     }
 
-    #rodape p {
-        padding-top: 10px;
-    }
+    #rodape p 
 
     .Article {
         padding-top: 5px;

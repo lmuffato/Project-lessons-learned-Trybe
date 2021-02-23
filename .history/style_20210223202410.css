@@ -41,7 +41,7 @@
         bottom: 0;
         width: 100%;
         background-color: blue;
-        
+        position: absolute
     }
 
     #rodape p {
