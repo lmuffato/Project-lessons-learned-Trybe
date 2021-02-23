@@ -16,11 +16,10 @@
     
     #titulo {
         color: red;
-        position: absolute;
     }
     
     #minha_foto {
-        margin-top:10px;
+        margin: 1px;
         width: 200px;
     }
     
