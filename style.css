@@ -1,2 +1,8 @@
 body {
-    background-color:rgb(253, 251, 100)
+    background-color:rgb(253, 251, 251)
+}
+
+.cabecalho {
+        position: static;
+        top= 0px
+      }
