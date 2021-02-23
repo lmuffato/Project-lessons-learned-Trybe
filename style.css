@@ -24,3 +24,9 @@ body {
     width: 100px;
     border-radius: 30%;
 }
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 230px;
+    left: 90px;
+}
