@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+      margin: 0;
+      padding: 0;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0px;
+    top: 0;
     background-color: darkmagenta;
     width: 100%;
 
@@ -28,7 +28,7 @@ body {
 
 #minha_foto {
     width: 140px;
-    border-radius:60px;
+    border-radius: 60px;
     display: inline-block;
     float: left;
     margin: 20px;
@@ -55,20 +55,24 @@ footer {
     text-align: right;
 }
 
-footer p {
-    margin-right: 20px;
-}
-
-a:visited, a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:active{
-    text-decoration: underline;
-}
-
 p {
     width: 75%;
     text-align: justify;
 }
+
+footer p {
+    margin-right: 20px;
+}
+
+a:visited
+,a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
