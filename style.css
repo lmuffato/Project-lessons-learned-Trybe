@@ -38,7 +38,6 @@
 
 #licoes_a_aprender {
   font-family: 'Akaya Telivigala', cursive;
-  display: inline-block;
   margin-left: 15px;
   font-size: large;
   line-height: 20px;
@@ -50,7 +49,7 @@ section {
 
 #licaoaprendida {
   font-family: 'Akaya Telivigala', cursive;
-  margin-top: 360px;
+  
 }
 
 #licaoaaprender {
@@ -73,11 +72,18 @@ section {
 }
 
 .lado-esquerdo {
-  float: left;
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-left: 40px;
+  text-align: justify;
+  
 }
 
 .lado-direito{
-  float: right
+  display: inline-block;
+  margin-left: 100px;
 }
 
 span{
