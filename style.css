@@ -9,18 +9,19 @@ body{
 #cabecalho{
     top: 0px;
     position: fixed;
+    margin-left: 400px;
 }
 
 #titulo{
     text-align: center;
+    
 }
 
-img{
+#minha_foto{
     width: 200px;
     border-radius: 20%;
+    margin-top: 100px;
+    margin-left: 70px;
+    float: left;
 }
 
-#foto{
-    display: inline-block;
-    margin: 300 200;
-}
