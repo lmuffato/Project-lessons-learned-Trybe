@@ -2,7 +2,7 @@
   border: none;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 300;
 }
@@ -21,7 +21,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  background-color: rgba(46,193,139,255);
+  background-color: rgba(46, 193, 139, 255);
   top: 0;
   width: 100%;
   text-align: center;
@@ -41,7 +41,7 @@ body {
   margin: 2em 0 0 1em;
 }
 
-#licoes_aprendidas { 
+#licoes_aprendidas {
   margin: 4em 0 0 2em;
 }
 
