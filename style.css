@@ -5,4 +5,25 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    background-color: rgb(54,54,50);
+    margin-left: 0px;
+    width: 100%;
 }
+#titulo {
+    
+}
+#rodape {
+    background-color: rgb(54,54,50);
+}
+#minha_foto {
+    width: 400px;
+}
+#licoes_aprendidas {
+    display: inline-block;
+}
+#licoes_a_aprender {
+    display: inline-block;
+}
+#Artigo2 {
+}
+
