@@ -1,11 +1,14 @@
-
+    body {
+        position: relative;
+        height: 100%;
+    }
     
     #Background {
         background-color: rgb(253, 251, 251);
     }
     
     #cabecalho {
-        text-align: center;
+        text-align: ;
         position: fixed;
         top: 0px;
     }
@@ -19,19 +22,17 @@
     }
     
     #licoes_aprendidas {
-        margin-top: 1px;
         color: blue;
         font-family: 'Courier New'
     }
     
     #licoes_a_aprender {
         color: red;
-        margin-top: 1px;
     }
     
     #rodape {
         text-align: center;
-        height: 50px;
+        height: 10px;
         bottom: 0;
         width: 100%;
         background-color: blue;

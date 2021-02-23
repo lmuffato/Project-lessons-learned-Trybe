@@ -1,4 +1,7 @@
-
+    body {
+        position: relative;
+        height: 100%;
+    }
     
     #Background {
         background-color: rgb(253, 251, 251);
@@ -26,12 +29,12 @@
     
     #licoes_a_aprender {
         color: red;
-        margin-top: 1px;
+        mar
     }
     
     #rodape {
         text-align: center;
-        height: 50px;
+        height: 10px;
         bottom: 0;
         width: 100%;
         background-color: blue;
