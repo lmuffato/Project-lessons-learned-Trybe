@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
@@ -9,15 +10,49 @@ body {
 
 #minha_foto {
   width: 200px;
+  margin-top: 80px;
+  border-radius: 3px;
+  border-color: rgba(179, 50, 71, 0.63);
+  border-style: solid;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.article {
+  padding: 20px;
+}
+
+section {
+  padding:  30px;
 }
 
 #table {
   width: 600px;
   border: 1px solid black;
   border-collapse: collapse;
+  margin: 50px;
+  font-family: monospace;
 }
 
-th, td {
+th , td {
   border: 1px solid black;
   text-align: center;
+}
+
+footer {
+  bottom: 0px;
+}
+
+nav a {
+  color: black;
+}
+
+aside {
+  border-radius: 3px;
+  border-color: rgba(179, 50, 71, 0.63);
+  border-style: solid;
+  background-color: rgba(194, 155, 155, 0.644);
+  float: right;
 }
