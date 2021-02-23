@@ -1,7 +1,10 @@
 body {
+    padding: opx;
     margin:0px;
     margin-top:120px;
     background-color:rgb(253, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 22, 22);
 }
 #cabecalho {
     position:fixed;
@@ -11,9 +14,47 @@ body {
 }
 #titulo {
     text-align:center;
+    color: rgb(245, 240, 240);
+    font-size: 40px;
 }
 #minha_foto {
     width:200px;
     border-radius:100px;
+    border: solid 2px rgb(92, 92, 92);
+    float: left;
+    margin: 40px 60px 40px 60px;
 }
-
+#trybe {
+    color: green;
+}
+th, td{
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(62, 63, 63);
+    color: rgb(234, 237, 240);
+}
+#tabela {
+    border-radius: 3px;
+    background-color: rgb(37, 37, 37);
+}
+ol, ul {
+    line-height: 25px;
+}
+#artigo {
+    width: 65%;
+    margin-left: 30px;
+}
+aside {
+    width: 30%;
+}
+.main {
+    display: inline-block;
+}
+footer {
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+.foot {
+    display: inline-block;
+}

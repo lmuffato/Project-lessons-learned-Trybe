@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Primeiro Projeto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,43 +13,55 @@
     </header>
     <img id="minha_foto" src="me.jpg" alt="foto do Lucas">
     <section id="listas">
-        <ol id="licoes_aprendidas">
-            <li>Unix</li>
-            <li>Shell</li>
-            <li>Bash</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Internet</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>HTML Semântico</li>
-            <li>Seletores e Posicionamento</li>
-        </ol>
-        <ul id="licoes_a_aprender">
-            <li>JavaScript</li>
-            <li>Lógica de Programação</li>
-            <li>Algoritmos</li>
-            <li>Objetos e Funções</li>
-            <li>DOM e Seletores</li>
-            <li>Web Storage</li>
-            <li>CSS Flexbox</li>
-            <li>CSS Responsivo</li>
-            <li>Higher Order Functions</li>
-            <li>Map e Filter</li>
-        </ul>
+        <table id="tabela">
+            <tr>
+                <th>Lições Aprendidas</th>
+                <th>Lições à Aprender</th>
+            </tr>
+            <tr>
+                <td>
+                    <ol id="licoes_aprendidas">
+                        <li>Unix</li>
+                        <li>Shell</li>
+                        <li>Bash</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Internet</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>HTML Semântico</li>
+                        <li>Seletores e Posicionamento</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul id="licoes_a_aprender">
+                        <li>JavaScript</li>
+                        <li>Lógica de Programação</li>
+                        <li>Algoritmos</li>
+                        <li>Objetos e Funções</li>
+                        <li>DOM e Seletores</li>
+                        <li>Web Storage</li>
+                        <li>CSS Flexbox</li>
+                        <li>CSS Responsivo</li>
+                        <li>Higher Order Functions</li>
+                        <li>Map e Filter</li>
+                    </ul>
+                </tr>
+            </td>
+        </table>
     </section>
     <main>
-        <article id="artigo">
+        <article id="artigo" class="main">
             <h2>Nova forma de aprender</h2>
-            <p>Como foi proposto pela Trybe no primeiro dia do curso (Welcomeday 1), o aprendizado acontece de uma forma diferente do que estamos acostumados. O ponto central ou o foco do ensino é o aluno, e não o professor, o que em outras palavras significa que o aluno participa ativamente, praticando o conteúdo ensinado intensivamente desde os primeiros dias até o final do curso.</p>
+            <p>Como foi proposto pela <strong><span id="trybe">Trybe</span></strong> no primeiro dia do curso (Welcomeday 1), o aprendizado acontece de uma forma diferente do que estamos acostumados. O ponto central ou o foco do ensino é o aluno, e não o professor, o que em outras palavras significa que o aluno participa ativamente, praticando o conteúdo ensinado intensivamente desde os primeiros dias até o final do curso.</p>
         </article>
-        <aside>
-            <p>"Esse modelo de ensino tem se mostrado muito eficas para mim, visto que já posso afirmar que aprendi muito mais do que esperava em pouco mais do que duas semanas desde o início das aulas." - Lucas André</p>
+        <aside class="main">
+            <p>"Esse modelo de ensino tem se mostrado muito eficaz para mim, visto que já posso afirmar que aprendi muito mais do que esperava em pouco mais do que duas semanas desde o início das aulas." - Lucas André</p>
         </aside>
     </main>
     <footer id="rodape">
-        <p>Elaborado por Lucas André / 2021</p>
-        <nav><a target="blank" href="https://www.linkedin.com/in/lucascandre/">Linkedin</a></nav>
+        <p class="foot">Elaborado por Lucas André / 2021</p>
+        <nav class="foot"><a target="blank" href="https://www.linkedin.com/in/lucascandre/">Linkedin</a></nav>
     </footer>
 </body>
 </html>
