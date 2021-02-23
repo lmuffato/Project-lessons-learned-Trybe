@@ -30,3 +30,7 @@ body{
     position: relative;
     background-color: aqua;
 }
+
+section{
+    position: relative;
+}
