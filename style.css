@@ -12,3 +12,13 @@ body {
 #titulo {
   color: darkslategray;
 }
+
+#minha_foto {
+  border-radius: 30%;
+  width: 250px;
+}
+
+#licoes_aprendidas {
+  font-family: monospace , sans-serif;
+  font-weight: 300;
+}
