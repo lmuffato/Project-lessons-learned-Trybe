@@ -3,13 +3,41 @@ body {
 }
 
 #cabecalho {
-  /* position: fixed; */
+  position: fixed;
   top: 0px;
-  color: #472d30;
-  background-color: #ffe1a8;
+  color: rgb(71, 45, 48);
+  background-color: rgb(255, 225, 168);
+  width: 100%;
+  
 }
 
-#id {
+#minha_foto {
   position: relative;
-  display: flex;
+  display: inline-block;
+  margin: 20px;
+  top: 60px;
+  padding: 5px;
+
+}
+
+.foto {
+    padding: 5px;
+    margin:20px;
+
+}
+
+.licoes {
+    margin: 20px;
+    display: inline-block;
+    padding: 5px;
+    top: 400px;
+}
+
+#rodape {
+    background-color:rgb(71, 45, 48);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    bottom: 0px;
+
 }
