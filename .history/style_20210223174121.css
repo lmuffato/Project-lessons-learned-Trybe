@@ -1,40 +1,21 @@
-    body {
-        position: relative;
-        height: 100%;
-    }
-    
     #Background {
         background-color: rgb(253, 251, 251);
     }
-    
     #cabecalho {
         top: 0px;
     }
-    
     #titulo {
         color: red;
     }
-    
     #minha_foto {
         width: 200px;
     }
-    
     #licoes_aprendidas {
         color: blue;
         font-family: 'Courier New'
     }
-    
     #licoes_a_aprender {
         color: red;
     }
-    
-    #rodape {
-        height: 10px;
-        bottom: 0;
-        width: 100%;
-        background-color: blue;
-        position: absolute
-        
-      
-        }
+    #rodape
         

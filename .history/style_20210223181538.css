@@ -1,7 +1,4 @@
-    body {
-        position: relative;
-        height: 100%;
-    }
+    body
     
     #Background {
         background-color: rgb(253, 251, 251);
@@ -18,23 +15,15 @@
     #minha_foto {
         width: 200px;
     }
-    
     #licoes_aprendidas {
         color: blue;
         font-family: 'Courier New'
     }
-    
     #licoes_a_aprender {
         color: red;
     }
-    
     #rodape {
-        height: 10px;
-        bottom: 0;
-        width: 100%;
-        background-color: blue;
         position: absolute
-        
-      
+        bottom: 0
         }
         

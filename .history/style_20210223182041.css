@@ -29,9 +29,7 @@
     }
     
     #rodape {
-        height: 10px;
-        bottom: 0;
-        width: 100%;
+        border-width: 1px;
         background-color: blue;
         position: absolute
         

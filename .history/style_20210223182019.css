@@ -28,10 +28,8 @@
         color: red;
     }
     
-    #rodape {
-        height: 10px;
-        bottom: 0;
-        width: 100%;
+    #rodape 
+    bor{
         background-color: blue;
         position: absolute
         

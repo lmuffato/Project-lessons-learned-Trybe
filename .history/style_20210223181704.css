@@ -1,5 +1,5 @@
     body {
-        position: relative;
+        position: ;
         height: 100%;
     }
     
@@ -29,12 +29,7 @@
     }
     
     #rodape {
-        height: 10px;
-        bottom: 0;
-        width: 100%;
-        background-color: blue;
         position: absolute
-        
-      
+        bottom: 0
         }
         
