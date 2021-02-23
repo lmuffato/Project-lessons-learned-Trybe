@@ -4,3 +4,6 @@ body{
 #cabecalho{
     top: 0px;
 }
+.listas{
+    display: inline-block;
+}
