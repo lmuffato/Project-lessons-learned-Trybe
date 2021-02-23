@@ -17,7 +17,11 @@ nav ul li {
 }
 
 table, caption, td {
-    border: 1px solid black;
+    border: 1px solid white;
+    background-color: #2d4654;
+    color: white;
+    margin: 3px;
+    padding: 5px;
 }
 
 section, article, aside, nav {
