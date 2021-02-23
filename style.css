@@ -1,10 +1,15 @@
 #cabecalho { top: 0px;
-position: fixed;
-background-color: pink;
-border-bottom-left-radius: 20px;
-border-bottom-right-radius: 20px;
-width: 600px;
-left: 90mm;}
+  position: fixed;
+  background-color: pink;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 600px;
+  left: 90mm;}
+
 body { text-align: center;
     background-color: rgb(253, 251, 251); }
-#minha_foto { width: 200px;}
+
+#minha_foto { width: 200px;
+    margin-top: 28mm;}
+
+#licoes_aprendidas {line-height: 10mm;}
