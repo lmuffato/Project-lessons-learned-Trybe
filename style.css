@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(253, 251, 251);
+ 
+}
+
+article {
+
+}
+
+nav {
+    background-color: blueviolet;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+}
+
+article img {
+    width: 200px;
+    float: right;
+}
+
+main {
+    background-color: sandybrown;
+    margin-top: 100px;
+}
+
+header {
+    background-color: seagreen;
+    top: 0px;
+    position: absolute;
+    
+}
+
+footer {
+    background-color: sienna;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+}
+
+aside {
+    background-color: slateblue;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+}
+
+#cabecalho { 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+    
+}
+#titulo {
+    text-align: center;
+    color: blue;
+}
+
+#minha-foto {
+    float: right;
+}
