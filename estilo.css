@@ -1,10 +1,13 @@
 body{
     background-color: rgb(253, 251, 251);
 }
-.cabecalho{
+#cabecalho{
     background-color: blue;
     border: 1px solid #000;
-    position: absolute;
+    position: fixed;
     top: 0px;
 }
 
+#titulo{
+    color: blue;
+}
