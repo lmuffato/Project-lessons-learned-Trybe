@@ -15,8 +15,13 @@ body {
 }
 
 #minha_foto {
+  display: block;
+  margin-top: 100px;
+  border-radius: 10px;
   width: 20%;
-  position: absolute;
-  top: 110px;
   border: 2px solid black;
+}
+
+#licoes_aprendidas {
+  margin-top: 20px;
 }
