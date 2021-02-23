@@ -19,6 +19,25 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+#menu {
+  position: fixed;
+  background-color: rgba(80, 130, 139, 255);
+  top: 37px;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+#menu li{
+  display: inline-block;
+  padding-inline-end: 30px;
+  padding-top: 20px;
+}
+
+#menu a{
+  color: rgb(253, 251, 251);
+  font-size: larger;
+}
+
 #cabecalho {
   position: fixed;
   background-color: rgba(46, 193, 139, 255);
@@ -34,7 +53,7 @@ body {
 #minha_foto {
   border-radius: 100%;
   width: 20em;
-  margin: 4em 0 0 2em;
+  margin: 8em 0 0 2em;
 }
 
 #licoes h2 {
@@ -56,7 +75,7 @@ body {
   margin: 2em 0 3em 1em;
 }
 
-#aprendizado h2{
+#aprendizado h2 {
   margin: 2em 0 2em 1em;
   background-color: rgba(46, 193, 139, 255);
   width: 500px;
@@ -70,4 +89,11 @@ body {
 
 #rodape {
   text-align: center;
+  margin-bottom: 3em;
+}
+
+#rodape img {
+  width: 50px;
+  margin-top: 10px;
+  margin-inline-end: 20px;
 }
