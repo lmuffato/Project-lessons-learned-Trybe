@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", "Times", serif;
 }
 
 #cabecalho {
@@ -63,6 +63,7 @@ nav a:hover , nav a:active {
 #licoes_aprendidas {
   margin: 30px;
   display: inline-block;
+  margin-right: 40%;
 }
 
 #licoes_a_aprender {
@@ -71,7 +72,7 @@ nav a:hover , nav a:active {
 
 article {
   width: 45%;
-  margin-left: 20px;
+  margin-right: 40px;
   display: inline-block;
   text-align: justify;
 }
@@ -86,4 +87,15 @@ aside {
 
 #rodape {
   font-size: 10px;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th, td, table {
+  border: solid black 1px;
+  
 }
