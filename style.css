@@ -19,24 +19,30 @@ body {
 #minha_foto {
     width: 250px;
     top: 50px;
-    
 }
 
 .lado-esquerdo {
     display: inline-block;
     border: 1px solid black;
-    
 }
 
 .lado-direito {
     display: inline-block;
     border: 1px solid black;
-    
+}
+
+#rodape {
+    border: 1px solid blueviolet;
+    margin-bottom: 20px;
 }
 
 #rodape p {
-    bottom: 0px;
-    border: 1px solid black;
+    margin-bottom: -10px;
+    display: inline-block;
+}
+
+#rodape a {
+    margin-bottom: -10px
 }
 
 .article-esquerdo {
@@ -44,6 +50,7 @@ body {
     border: 1px solid blue;
     width: 500px;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .aside-direito {
@@ -51,7 +58,6 @@ body {
     border: 1px solid darkblue;
     width: 500px;
     text-align: justify;
-    margin-left: 200 px
-    ;
-
+    margin-left: 200 px;
+    font-family: Arial, Helvetica, sans-serif;
 }
