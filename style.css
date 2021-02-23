@@ -67,7 +67,6 @@ header {
 
 .content_middle {
   width: 100%;
-  background-color: tomato;
   padding: 40px 20px;
   display: block;
   overflow: auto;
@@ -87,7 +86,6 @@ header {
 }
 
 .side_bar {
-  background-color: yellowgreen;
   width: 35%;
   float: right;
   border: 1px dashed black;
