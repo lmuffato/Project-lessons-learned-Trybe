@@ -6,8 +6,9 @@ body{
     border: 1px solid #000;
     position: fixed;
     top: 0px;
+    width: 100%;
 }
 
 #titulo{
-    color: blue;
+    color: white;
 }
