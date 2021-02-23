@@ -21,6 +21,7 @@ body {
   color: white;
   font-weight: 600;
   text-decoration: none;
+  font-size: 18px;
 }
 
 table {
@@ -39,5 +40,15 @@ table th, td {
 #minha_foto {
   width: 300px;
   margin-top: 200px;
-  border-radius: 500px 
+  border-radius: 500px; 
+}
+
+ol, ul {
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+}
+
+ul {
+  font-weight: bolder;
+  color: cadetblue;
 }
