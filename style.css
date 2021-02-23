@@ -17,6 +17,7 @@ body {
   height: 80px;
   width: 100%;
   background-color: rgb(86, 130, 89);
+  z-index: 1;
 }
 
 .navbar {
@@ -95,6 +96,10 @@ main {
   display: inline-block;
 }
 
+.articles {
+  margin-bottom: 200px;
+}
+
 .lado-esquerdo {
   width: 300px;
   float: left;
@@ -104,6 +109,17 @@ main {
   margin-left: 330px;
 }
 
+#tabela {
+  width: 100%;
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+#tabela tr th {
+  /* margin: 1em; */
+  color: rgb(150, 230, 179);
+}
+
 #rodape {
   background-color: rgb(86, 130, 89);
   width: 100%;
@@ -111,4 +127,5 @@ main {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 1;
 }
