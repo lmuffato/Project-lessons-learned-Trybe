@@ -5,3 +5,12 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    background-color: darkmagenta;
+    width: 100%;
+}
+#titulo{
+    text-align: center;
+}
