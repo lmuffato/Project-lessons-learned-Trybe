@@ -17,7 +17,20 @@ body {
 }
 
 #minha_foto {
-  width: 500px;
+  width: 300px;
   margin-top: 71px;
   border-radius: 40%;
 }
+
+section {
+  background-color: rgb(170, 185, 187);
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+#licoes_aprendidas {
+  font-size: 20px;
+  color: rgb(230, 239, 240);
+  font-weight: bold;
+}
+
