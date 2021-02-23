@@ -45,6 +45,7 @@ header {
 #licoes {
   padding: 20px;
   display: inline-block;
+  width: 100%;
 }
 
 #licoes ol , ul {
@@ -64,15 +65,32 @@ header {
   padding: 20px;
 }
 
+.content_middle {
+  width: 100%;
+  background-color: tomato;
+  padding: 40px 20px;
+  display: block;
+  overflow: auto;
+}
+
 .articles {
-  text-align: center;
+  width: 60%;
+  float: left;
 }
 
 .articles article {
-  border: 1px solid black;
+  border: 1px dashed black;
   display: inline-block;
-  max-width: 40%;
-  width: 40%;
-  margin: 20px;
+  width: 100%;
   padding: 5px;
+  margin: 5px;
+}
+
+.side_bar {
+  background-color: yellowgreen;
+  width: 35%;
+  float: right;
+  border: 1px dashed black;
+  padding: 5px;
+  margin: 5px;
 }
