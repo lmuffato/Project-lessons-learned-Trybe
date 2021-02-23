@@ -9,6 +9,7 @@ header {
 
 div#content {
     margin-top: 100px;
+    padding: 50px;
 }
 
 nav ul li {
@@ -17,4 +18,11 @@ nav ul li {
 
 table, caption, td {
     border: 1px solid black;
+}
+
+section, article, aside, nav {
+    border: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
 }
