@@ -12,6 +12,7 @@ body {
   left: 0;
   background-color: rgb(47, 193, 140);
   width: 100%;
+  padding-left: 115px;
 }
 
 #cabecalho h1 {
