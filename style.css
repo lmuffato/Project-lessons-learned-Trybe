@@ -24,8 +24,13 @@ body { text-align: center;
   display: inline-block;
   list-style-position: inside;}
 
-  article { padding: 100px;}
+article { padding: 100px;}
 
-  .listas { margin-top: 10mm;}
+.listas { margin-top: 10mm;}
 
-  aside { margin-bottom: 20mm;}
+aside { margin-bottom: 20mm;}
+
+#sumario { list-style: none;}
+
+#sumario li { display: inline;}
+
