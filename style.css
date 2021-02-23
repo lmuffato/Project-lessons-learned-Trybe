@@ -1,3 +1,27 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
 body { 
     background-color: rgb(253, 251, 251);
+    text-align: center;
+}
+
+#cabecalho {
+    background-color: rgb(52, 161, 169);
+    text-align: center;
+    top: 0px;
+}
+
+#titulo {
+    font-size: 10px;
+}
+
+#minha_foto {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin-top: 20px;
 }
