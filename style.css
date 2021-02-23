@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #cabecalho {
@@ -17,13 +17,22 @@ body {
   padding-bottom: 10px;
 }
 
+main {
+  text-align: center;
+}
+
+#minha_foto {
+  margin-top: 100px;
+  border-radius: 100%;
+}
+
 #titulo {
   padding: 20px;
   text-align: center;
-  color:rgb(253, 251, 251)
+  color: rgb(253, 251, 251);
 }
 
-nav a:link, nav a:visited {
+nav a:link , nav a:visited {
   text-decoration: none;
   background-color: rgb(54, 233, 10);
   border: 1px solid black;
@@ -33,9 +42,9 @@ nav a:link, nav a:visited {
   text-align: center;
 }
 
-nav a:hover, nav a:active {
+nav a:hover , nav a:active {
   background-color: rgb(17, 20, 231);
-  color:rgb(54, 233, 10)
+  color:rgb(54, 233, 10);
 }
 
 main {
@@ -43,13 +52,10 @@ main {
   padding: 20px;
 }
 
-.listas ol, li {
+.listas ol , li {
   padding: 2px;
   margin: 2px;
-}
-
-.listas{
-  text-align: center;
+  text-align: justify;
 }
 
 #licoes_aprendidas {
