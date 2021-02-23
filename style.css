@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
+  width: 100%;
 }
 
 a {
@@ -13,7 +14,6 @@ a {
   position: fixed;
   top: 0;
   background-color: green;
-  width: 100%;
   padding-left: 20px;
 }
 
@@ -41,7 +41,11 @@ a {
 }
 
 main {
-  margin-top: 100px;
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 180px;
+  padding-left: 10px;
+  padding-right: 50px;
 }
 
 /*
