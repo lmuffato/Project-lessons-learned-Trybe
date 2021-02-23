@@ -7,6 +7,9 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: green;
+  width: 100%;
+  padding-left: 20px;
 }
 
 main {
