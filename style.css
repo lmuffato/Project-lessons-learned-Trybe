@@ -1,6 +1,6 @@
 * {
   background-color: rgb(253, 251, 251);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: slategrey;
   font-size: 22px;
   line-height: 22px;
@@ -11,8 +11,8 @@ table {
 }
 
 header {
-width: 100%;
-padding: 0 0 0 40%;
+  width: 100%;
+  padding: 0 0 0 40%;
 }
 
 #cabecalho {
@@ -21,3 +21,13 @@ padding: 0 0 0 40%;
 
 #minha_foto {
   margin: 80px 0 0; }
+
+.lado-esquerdo {
+  padding: auto;
+  height: 0px;
+  width: 80%;
+}
+
+.lado-direito {
+  margin:0 0 0 80%;
+  width: 20%; }
