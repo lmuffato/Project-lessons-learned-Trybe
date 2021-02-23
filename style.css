@@ -10,14 +10,19 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-
-  background-color: #2fc18c;
+  background-color: rgb(47, 193, 140);
   width: 100%;
 }
 
 #cabecalho h1 {
   width: 300px;
   display: inline-block;
+}
+
+#cabecalho nav {
+  display: inline-block;
+  position: absolute;
+  top: 35%;
 }
 
 .lado-esquerdo {
