@@ -2,12 +2,23 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+h2, h3, h4 {
+  color: #2fc18c;
+}
+
 #cabecalho {
+  width: 100%;
   position: fixed;
   top: 0;
+  background-color: #036b52;
+  color:rgb(253, 251, 251);
+  padding: 10px;
+  text-align: center;
 }
 
 #minha_foto {
   width: 150px;
   border-radius: 100%;
+  border: 2px solid black;
+  margin-top: 100px;
 }
