@@ -1,13 +1,21 @@
 body {
+    margin-top: 120px;
     background-color: rgb(253, 251, 251);
 }
 
-#cbecalho {
+#cabecalho {
     position: fixed;
     top: 0px;
+    background-color: green;
+    width: 100%;
 }
 
 #titulo {
     text-align: center;
+}
+
+#minha_foto {
+    width: 200px;
+    border-radius: 100px;
 }
 
