@@ -1,62 +1,61 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-size: 15px;
-    color: #5b5151;
+        background-color: rgb(253, 251, 251);
+        font-size: 15px;
+        color: #5b5151;
 }
 
 #cabecalho {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    position: fixed;
-    background-color: #e5efc1;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        position: fixed;
+        background-color: rgb(229, 239, 193);
 }
 
 #titulo {
-    padding-left: 20px;
-    font-size: 30px;
-    color: #22696f;
+        padding-left: 20px;
+        font-size: 30px;
+        color: rgb(34, 105, 111);
 }
 
 #minha_foto {
-    width: 30%;
-    margin-top: 60px;
-    margin-left: -10px;
-    margin-right: 10px;
-    box-shadow: 5px 5px 5px  #22696f;
+        width: 30%;
+        margin-top: 60px;
+        margin-left: -10px;
+        margin-right: 10px;
+        box-shadow: 5px 5px 5px  rgb(34, 105, 111);
 }
 
 #licoes_aprendidas {
-    display: inline-block;
-    box-shadow: 5px 5px 5px  #22696f;
-    background-color: #e5efc1;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 200px;
+        display: inline-block;
+        box-shadow: 5px 5px 5px  rgb(34, 105, 111);
+        background-color: rgb(229, 239, 193);
+        margin-left: 10px;
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 200px;
 }
 
 #licoes_a_aprender {
-    display: inline-block;
-    box-shadow: 5px 5px 5px #22696f;
-    background-color: #e5efc1;
-    margin-right: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 200px;
+        display: inline-block;
+        box-shadow: 5px 5px 5px rgb(34, 105, 111);
+        background-color: rgb(229, 239, 193);
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 200px;
 }
 
 #rodape {
-    background-color: #e5efc1;
-    color: #22696f;
-    padding: 10px;
-    margin: -10px;
-
+        background-color: rgb(229, 239, 193);
+        color: rgb(34, 105, 111);
+        padding: 10px;
+        margin: -10px;
 }
 
 #content {
-    margin-bottom: 30%;
+        margin-bottom: 30%;
 }
