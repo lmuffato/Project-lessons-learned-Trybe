@@ -61,4 +61,8 @@ body {
   margin-top: 50px;
 }
 
-#link_linkedin {}
+#link_linkedin {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
