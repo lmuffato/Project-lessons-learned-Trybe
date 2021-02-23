@@ -7,7 +7,7 @@
 body {
   background-color: rgb(253, 251, 251);
   color: #070707;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   line-height: 1.3em;
 }
 
@@ -70,13 +70,11 @@ main {
   margin: 0 auto;
 }
 
-.lista1,
-.lista2 {
+.lista1, .lista2 {
   display: inline-block;
 }
 
-.lista1 h2,
-.lista2 h2 {
+.lista1 h2, .lista2 h2 {
   font-size: 1.2em;
   color: #568259;
   margin-bottom: 10px;
