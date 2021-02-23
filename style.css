@@ -32,3 +32,9 @@ body {
   height: 30px;
   text-align: center;
 }
+
+#artigo {
+  width: 400px;
+  overflow: auto;
+  padding-bottom: 15px;
+}
