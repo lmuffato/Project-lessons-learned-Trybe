@@ -31,3 +31,9 @@
         margin-left: 300px;
         border-radius: 100%;
     }
+    #licoes_aprendidas{
+        display: inline-block;
+    }
+    #licoes_a_aprender{
+        display: inline-block;
+    }
