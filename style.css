@@ -7,7 +7,8 @@
   left: 90mm;}
 
 body { text-align: center;
-  background-color: rgb(253, 251, 251); }
+  background-color: rgb(253, 251, 251);
+  font-family: monospace; }
 
 #minha_foto { width: 200px;
   margin-top: 28mm;}
@@ -27,4 +28,4 @@ body { text-align: center;
 
   .listas { margin-top: 10mm;}
 
-  aside { margin-bottom: 10mm;}
+  aside { margin-bottom: 20mm;}
