@@ -21,3 +21,10 @@ body{
     top: 100px;
     left: 50px;
 }
+
+#licoes_aprendidas{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 20px;
+    font-size: 15px;
+}
