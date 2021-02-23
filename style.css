@@ -58,3 +58,8 @@ header {
 .lessons_to_learn {
   display: inline-block;
 }
+
+#rodape {
+  text-align: center;
+  padding: 20px;
+}
