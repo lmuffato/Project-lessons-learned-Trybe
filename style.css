@@ -12,11 +12,11 @@ body {
 }
 
 #licoes_aprendidas {
-    color: red;
+    font-style: italic;
 }
 
 #licoes_a_aprende {
-    color: blueviolet;
+  font-style: initial;
 }
 
 #rodape {
@@ -32,4 +32,11 @@ body {
     padding: 10px;
     margin: 10px;
     border: 5px solid black;
+}
+
+li {
+    font-size: large;
+    color: red;
+    line-height: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
