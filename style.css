@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(253, 251, 251);
-}
+  background-color: rgb(253, 251, 251);
+  }
+
 #cabecalho {
-    background-color: rosybrown;
-    position: fixed;
-    top: 0px;
-}
-h1 {
-    font-family: monospace;
-    color: black
-}
+  background-color: rosybrown;
+  position: fixed;
+  top: 0px;
+  }
+
+  h1 {
+  font-family: monospace;
+  color: black
+  } 
