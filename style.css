@@ -1,7 +1,26 @@
-body {
+  body {
     background-color: rgb(253, 251, 251);
-}
-#cabecalho {
+  }
+  #cabecalho {
     margin-top: 0px;
     background-color: red;
-}
+    position: fixed;
+  }
+  
+  aside {
+     padding-left: 200px;
+     padding-right: 200px;
+  }
+  
+  #meu-aprendizado {
+     padding-left: 200px;
+     padding-right: 200px;
+  }
+   
+  .listas {
+      padding: 10px;
+      display: inline-block;
+  }
+  #foto {
+      margin-top: 100px;
+  }
