@@ -27,3 +27,8 @@ body{
     position: relative;
     background-color: aqua;
 }
+
+#secao_foto{
+    margin-top: 100px;
+    margin-left: 50px;
+}
