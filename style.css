@@ -30,9 +30,13 @@ body{
     margin: 20px;
 }
 .secoes{
-    padding:30px;
+    padding-top:30px;
+    padding-left: 30px ;
     margin-left: 10px;
 }
 #licoes{
     margin-top: 230px;
+}
+.subtitulos-h2{
+    padding-bottom: 8px;
 }
