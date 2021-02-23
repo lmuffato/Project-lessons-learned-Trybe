@@ -9,17 +9,16 @@ body {
 
 #minha_foto {
     width: 150px;
-
 }
 
 #licoes_aprendidas {
-    
+    color: red;
 }
 
 #licoes_a_aprende {
-
+    color: blueviolet;
 }
 
 #rodape {
-    
+    color: brown;
 }
