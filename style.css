@@ -4,6 +4,11 @@ body {
 
 #cabecalho {
   position: sticky;
-  top: 0%;
+  top: 0px;
   background-color: rgb(253, 251, 251);
+}
+
+#minha_foto {
+  height: 130px;
+  width: 110px;
 }
