@@ -11,8 +11,8 @@ img {
 
 body {
   background: rgb(253, 251, 251);
-  font-family: 'Karla', sans-serif;
-  color: #222222;
+  font-family: "Karla", sans-serif;
+  color: #222;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
   left: 0;
   width: 100vw;
   height: auto;
-  background: #161616;
+  background: rgb(22, 22, 22)
 }
 
 .cabecalho {
@@ -35,16 +35,16 @@ a {
   background: #161616;
   margin: 0 auto;
   max-width: 75%;
-  padding: 12px 12px;
+  padding: 12px;
   align-items: center;
   justify-content: space-between;
 }
 
 #titulo {
-  color: #fd402a;
+  color: rgb(253, 64, 42);
   margin: 0 15px;
   font-size: 1.5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #navegacao {
@@ -56,26 +56,5 @@ a {
 #navegacao a {
   margin: 0 15px;
   font-size: 1em;
-  color: #922b22;
+  color: rgb(146, 43, 34);
 }
-
-/* 
-#navegacao {
-  background: #93e2b3;
-  margin: 0 auto;
-  text-align: center;
-  padding: 3px 3px;
-}
-
-.navegacao {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.navegacao a {
-  margin: 0px 5%;
-}
-*/
