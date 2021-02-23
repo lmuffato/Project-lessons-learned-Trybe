@@ -22,3 +22,7 @@ body {
   font-family: monospace , sans-serif;
   font-weight: 300;
 }
+
+#githubimage {
+  width: 100px;
+}
