@@ -1,3 +1,13 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#cbecalho {
+    position: fixed;
+    top: 0px;
+}
+
+#titulo {
+    text-align: center;
+}
+
