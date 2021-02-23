@@ -9,6 +9,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+
+  background-color: #2fc18c;
+  width: 100%;
 }
 
 .lado-esquerdo {
