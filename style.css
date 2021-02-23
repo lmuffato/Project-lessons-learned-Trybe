@@ -3,11 +3,29 @@ body {
 }
 
 #cabecalho {
+  background-color: rgb(58, 141, 85);
+  font-family: monospace, sans-serif;
   position: fixed;
   top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+#logo {  
+  width: 70px;
+  float: left;
+  padding-top: 3px;
+  padding-left: 30px;
 }
 
 #minha_foto {
+  position: absolute;  
   width: 300px;
+  margin-left: 315px;
+  margin-top: 15px;
+}
+
+#learned {
   margin-top: 150px;
 }
