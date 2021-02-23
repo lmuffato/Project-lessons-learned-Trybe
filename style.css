@@ -36,3 +36,9 @@ body {
     top: 230px;
     right: 230px;
 }
+
+#rodape {
+    position: fixed;
+    bottom: 0px;
+
+}
