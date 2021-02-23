@@ -21,6 +21,22 @@ a{
   font-weight:500;
   font-size: 40px;
 }
+
+#navegacao li {
+  display: inline;
+  color: white;
+  padding-left: 10px;
+}
+
+#navegacao ul{
+  text-align: right;
+  padding-right: 50px;
+}
+
+#navegacao li:hover{
+  color: black;
+}
+
 main {
   margin-top: 100px;
 }
