@@ -51,12 +51,12 @@ footer a {
 
 .lado-esquerdo {
   display: inline-block;
-  width: 600px;
+  width: 500px;
 }
 
 .lado-direito {
   float: right;
-  width: 600px;
+  width: 500px;
 }
 
 footer {
