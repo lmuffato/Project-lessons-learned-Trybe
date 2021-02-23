@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -8,7 +8,20 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  position: fixed;
+  width: 1366px;
+  top: 0;
   background-color: aquamarine;
   padding: 20px;
 }
+
+main {
+  margin: 100px 20px 30px 20px;
+  text-align: justify;
+}
+
+#rodape {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
