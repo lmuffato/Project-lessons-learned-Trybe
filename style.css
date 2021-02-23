@@ -14,3 +14,13 @@ body{
 #titulo{
     text-align: center;
 }
+
+img{
+    width: 200px;
+    border-radius: 20%;
+}
+
+#foto{
+    display: inline-block;
+    margin: 300 200;
+}
