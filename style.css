@@ -1,3 +1,15 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    width: 99%;
+    background-color: greenyellow;   
+}
+
+#titulo{
+    font-family: 'DotGothic16', sans-serif;
 }
