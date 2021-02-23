@@ -1,7 +1,22 @@
-<<<<<<< HEAD
 body {
-=======
-body{
->>>>>>> ad78c782fe325a8a5a41b7dc3c71d2fa21d4615b
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  background-color: rgb(21, 211, 116);
+  margin-left: -20px;
+  padding-right: 20px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#cabecalho h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
 }
