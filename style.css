@@ -66,8 +66,21 @@ section {
   height: 150px;
 }
 
-#texto_rodape{
-    padding-top: 120px;
-    padding-left: 50px;
-    font-size: 16px;
+#texto_rodape { 
+  padding-top: 120px;
+  padding-left: 50px;
+  font-size: 16px;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito{
+  float: right
+}
+
+span{
+    text-decoration: none;
+}
+
