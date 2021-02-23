@@ -1,3 +1,18 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(18, 20, 20);
+  display: flex;
+  margin-left: -8px;
+  justify-content: center;
+}
+
+#titulo {
+  color: aqua;
+}
+
