@@ -43,20 +43,20 @@ h2 , h3 {
 .lado-esquerdo {
   display: inline-block;
   width: 400px;
-  background-color: rgb(255, 251, 243) ;
-  border: 3px solid rgb(237,226, 207);
-  margin: 20px;
-  padding: 20px;
+  padding-inline: 50px;
 }
 
 .lado-direito {
   display: inline-block; 
   width: 300px;
+
+}
+
+#aprendizado {
   background-color: rgb(255, 251, 243);
-  border: 3px solid rgb(237,226, 207);
-  margin: 20px;
+  border-top: 3px solid rgb(237,226, 207);
+  border-bottom: 3px solid rgb(237,226, 207);
   padding: 20px;
-  margin-bottom: 80px;
 }
 
 .footer-icon {
