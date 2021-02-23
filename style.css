@@ -17,7 +17,10 @@ body{
     color: #22696F;
 }
 #minha_foto{
-
+    width: 30%;
+    margin-top: 60px;
+    margin-left: -10px;
+    display: inline-block;
 }
 #licoes_aprendidas{
 
