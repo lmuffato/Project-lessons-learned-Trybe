@@ -29,6 +29,11 @@ main {
   margin-top: 90px;
 }
 
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+
 #minha_foto {
   width: 300px;
 
