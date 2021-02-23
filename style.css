@@ -32,6 +32,14 @@ body{
     margin-left: 50px;
 }
 
+#secao_licoes_aprendidas{
+    display: inline-block;
+}
+
+#secao_licoes_aprender{
+    display: inline-block;
+}
+
 #licoes_aprender{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
