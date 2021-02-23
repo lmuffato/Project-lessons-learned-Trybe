@@ -10,8 +10,12 @@ body {
   text-align: center;
 }
 #minha_foto {
-    width: 500px;
-    position: absolute;
-    left: 370px;
-    top: 150px;
+  width: 500px;
+  position: absolute;
+  left: 370px;
+  top: 150px;
+}
+#licoes_aprendidas {
+  position: absolute;
+  top: 350px;
 }
