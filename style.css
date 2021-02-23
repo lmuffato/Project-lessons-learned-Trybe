@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-  top: 0;
+  top: 0px;
   background-color: slategray;
   font-size: 10px;
   text-align: center;
@@ -21,4 +21,5 @@ body {
 
 img {
   width: 200px;
-  margin-top: 50px;}
+  margin-top: 50px;
+}
