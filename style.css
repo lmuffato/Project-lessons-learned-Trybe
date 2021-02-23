@@ -5,9 +5,24 @@ body {
 #cabecalho {
         position: fixed;
         top: 0px;
+        background-color: aqua;
+        width: 100%;
 }
 
 #minha_foto {
         width: 200px;
         margin-top: 50px;
+}
+
+aside {
+        
+        width: 100px;
+        flex-direction: column;
+        margin-left: 90%;
+        display: flex;
+    }
+
+article {
+        margin-right: 20%;
+        display: inline-block;
 }
