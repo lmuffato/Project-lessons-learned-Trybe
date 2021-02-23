@@ -37,7 +37,15 @@ header {
   width: 100%;
 }
 
-.photoContent span{
+.photoContent span {
   display: block;
   padding-top: 5px;
+}
+
+#licoes_aprendidas {
+  padding: 20px;
+}
+
+#licoes_aprendidas ol {
+  padding: 20px 0 20px 40px;
 }
