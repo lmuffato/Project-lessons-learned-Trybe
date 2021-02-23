@@ -2,8 +2,9 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(253, 251, 251);
-  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  font-family: sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -30,12 +31,12 @@ a {
   padding-left: 10px;
 }
 
-#navegacao ul{
+#navegacao ul {
   text-align: right;
   padding-right: 50px;
 }
 
-#navegacao li:hover{
+#navegacao li:hover {
   color: black;
 }
 
@@ -43,7 +44,7 @@ main {
   margin-top: 100px;
 }
 
-/* 
+/*
 #minha_foto{
 }
 #licoes_aprendidas{
