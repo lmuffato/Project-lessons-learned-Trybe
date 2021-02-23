@@ -26,7 +26,16 @@ body {
   width: auto;
   height: auto;
   margin-top: 90px;
-  margin-left: 50px;
+  margin-left: 100px;
   border: 2px solid black;
   border-radius: 35%;
+}
+
+#licoes_aprendidas {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: monospace;
+  columns: 2;
+  width: 600px;
 }
