@@ -2,17 +2,45 @@
     margin: 0px;
     border: 0px;
     padding: 0px;
+    font-size: 4px;
+    font-family: monospace, sans-serif;
+    --main: rgb(253, 251, 251);
+    --blue: rgb(95, 135, 148)
+
+}
+
+nav li{
+    display: inline;
+    margin-left: 32px
 }
 
 body { 
-    background-color: rgb(253, 251, 251);
-    text-align: center;
+    background-color: white;
+    text-align: center; 
 }
 
-#cabecalho {
-    background-color: rgb(52, 161, 169);
-    text-align: center;
-    top: 0px;
+h3, ul, ol {
+    margin-top: 10px;
+}
+
+h3 {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+
+header, footer {
+    background-color: var(--blue);
+    height: 16px;
+    justify-content: center;
+    text-align: center; 
+    color: var(--main);  
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #titulo {
@@ -24,4 +52,13 @@ body {
     height: 75px;
     border-radius: 100%;
     margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main);
+}
+
+ol li {
+    list-style-type: upper-roman;
 }
