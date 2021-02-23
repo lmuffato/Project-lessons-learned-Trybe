@@ -14,3 +14,7 @@ div#content {
 nav ul li {
     list-style: none;
 }
+
+table, caption, td {
+    border: 1px solid black;
+}
