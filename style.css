@@ -1,6 +1,6 @@
 * {
   background-color: rgb(253, 251, 251);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
   color: slategrey;
   font-size: 22px;
   line-height: 22px;
@@ -24,10 +24,12 @@ header {
 
 .lado-esquerdo {
   padding: auto;
-  height: 0px;
+  height: 0; /* no unit */
   width: 80%;
+  float: left;
 }
 
 .lado-direito {
-  margin:0 0 0 80%;
-  width: 20%; }
+  margin: 0 0 0 80%;
+  width: 20%; 
+  float: right; }
