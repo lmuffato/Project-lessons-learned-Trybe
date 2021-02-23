@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+header {
+    text-align: center;
+}
+
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(251, 253, 252);
 }
 
 #cabecalho {
@@ -12,7 +16,7 @@ body {
 }
 
 #titulo {
-    background-color: rgb(36, 165, 133);
+    background-color: rgb(157, 228, 210);
     text-align: center;
     padding: 50px;
 }
@@ -22,9 +26,37 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 100%;
+    text-align: center;
+}
+
+#licoes-aprendidas {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#listaol {
+    margin-right: 50px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+#listaul {
+    margin-left: 50px;
+    padding-left: 50px; 
+    display:inline-block; 
 }
 
 #licoes_aprendidas {
-    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#licoes_a_aprender {
+    margin-top: 10px; 
+}
+
+#secao {
+    text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(157, 228, 210);
 }
