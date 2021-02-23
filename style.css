@@ -2,9 +2,9 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
+#cabecalho {
   background-color: green;
-  top: 0px;
+  top: 0;
 }
 
 #minha_foto {
