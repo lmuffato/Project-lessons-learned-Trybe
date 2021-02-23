@@ -18,11 +18,19 @@ aside {
         
         width: 100px;
         flex-direction: column;
-        margin-left: 90%;
-        display: flex;
+        float: right;
+        display: inline-block;
+        margin: 80px 50px 10px 10px;
+        border: blue 1px solid;
+        background-color: chartreuse;
+        padding: 5px;
     }
 
 article {
         margin-right: 20%;
         display: inline-block;
+}
+
+nav {
+        flex-direction: column;
 }
