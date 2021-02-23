@@ -10,9 +10,21 @@ nav {
   padding-bottom: 10px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  
+}
+
+a:link {
   color: white;
-  list-style: none;
- 
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 251, 243);
+  text-decoration: none;
+}
+
+a:visited{
+  color: rgb(195, 214, 178);
 }
 
 #cabecalho {
@@ -78,4 +90,8 @@ h2 , h3 {
   display: inline-block;
   width: 500px;
 
+}
+
+#about {
+  margin-top: 150px;
 }
