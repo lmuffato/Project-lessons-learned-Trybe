@@ -8,7 +8,40 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header {
+  width: 100%;
+  height: 70px;
+  padding: 10px 60px;
   position: fixed;
   top: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 1;
+}
+
+.links-list li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.content {
+  position: absolute;
+  top: 70px;
+}
+
+aside {
+  display: none;
+}
+
+#rodape {
+  position: absolute;
+  bottom: 0px;
 }
