@@ -40,7 +40,7 @@ body {
     margin-left: 10px;
 }
 
-#licoes {
+#quem {
     margin-top: 230px;
 }
 
@@ -65,7 +65,7 @@ footer p {
 }
 
 a:visited
- , a:link {
+  , a:link {
     text-decoration: none;
     color: black;
 }
@@ -76,4 +76,12 @@ a:active {
 
 aside p {
     width: 25%;
+    text-align: justify;
 }
+
+td
+ , th{
+        padding: 1.5%;
+        border: 1px solid black;
+        text-align: center;
+    }
