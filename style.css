@@ -1,5 +1,8 @@
 body {
     background-color: rgb(253,251,251);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
 #cabecalho {
@@ -8,7 +11,7 @@ body {
     background-color: black;
     color: white;
     height: 100px;
-    width: 1000px;
+    width: 1350px;
     text-align: center;
     }
 
@@ -28,8 +31,51 @@ img {
 .organizacao_de_lista {
     display: inline-block;
     margin-top: 260px;
+    
+}
+
+.lado-esquerdo {
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 20px;
+    padding: 20px;
+        
+}
+
+.lado-direito {
+    background-color: rgb(204, 137, 12);
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 20px;
+    padding: 20px;
+        
 }
 
 aside {
     margin-right: 30px;
+    
 }
+
+table, tr, th {
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    border-color: gray;
+    
+}
+
+.tabelaCores {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+    padding: 60px;
+    border: 1px;
+    background-color:black;
+    color: white;
+    display: inline-block;
+}
+
