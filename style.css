@@ -51,7 +51,6 @@ body {
 }
 
 #rodape {
-  position: fixed;
   height: 40px;
   bottom: 0;
   top: auto;
@@ -59,5 +58,7 @@ body {
   text-align: center;
   vertical-align: middle;
   border: 2px solid black;
-  margin-top: 20px;
+  margin-top: 50px;
 }
+
+#link_linkedin {}
