@@ -8,11 +8,21 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #588157;
+    background-color: rgb(88, 129, 87);
     padding: 5px;
     border-bottom: 7px solid black;
 }
 
 #titulo {
     text-align: center;
+}
+
+#minha_foto {
+    width: 300px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
 }
