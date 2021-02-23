@@ -1,8 +1,49 @@
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #C2B6DB;
+    height: 10%;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+#minha_foto {
+    position: relative;
+    float: right;
+    padding: 10%;
+    border: 1px;
+    height: 250px;
+    margin-top: 5;
+    margin-left: 10px;
+}
+
+.minha_foto {
+    text-align: center;
+}
+
+#titulo {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    color: #DB17EB;
+    text-shadow: 1.5px 1.5px white; /*sombra nas letras***/
+}
+
+main {
+    position:absolute;
+    background-color: #E7D6F2;
+    width: 95%;
+    top: 12%;
+    margin-left: 20px;
+    margin-right: 50px;
+
+ 
+    
 }
