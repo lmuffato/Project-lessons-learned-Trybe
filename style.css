@@ -6,4 +6,15 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgb(118, 154, 183);
+  width: 100%;
+}
+
+#perfil {
+  margin-top: 100px;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  width: 150px;
 }
