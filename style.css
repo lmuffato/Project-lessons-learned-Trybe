@@ -3,10 +3,7 @@ body {
 }
 
 #cabecalho {
-  margin-top: 0px;
+  top: 0;
+  position: fixed;
   background-color: black;
-}
-
-#titulo {
-  margin-top: 0px;
 }
