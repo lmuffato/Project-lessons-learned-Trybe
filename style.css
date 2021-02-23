@@ -1,3 +1,14 @@
-body{
-    background: rgb(253, 251, 251);
+body {
+  background: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  left: 30%;
+  border: 2px solid lightgray;
+  position: fixed;
+  top: 0px;
+}
+
+#titulo {
+  color: darkslategray;
 }
