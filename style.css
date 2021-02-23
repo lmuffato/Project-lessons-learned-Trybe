@@ -1,13 +1,13 @@
-body {
-  background-color: rgb(253, 251, 251);
-  font-family: Noto Sans JP, sans-serif;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
   width: 99%;
   background-color: greenyellow;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Noto Sans JP, sans-serif;
 }
 
 #titulo {
