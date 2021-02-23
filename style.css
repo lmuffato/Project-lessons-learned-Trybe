@@ -26,3 +26,13 @@ body {
 #githubimage {
   width: 100px;
 }
+
+.trybecolor {
+  color: rgb(39, 167, 137);
+  font-weight: 900;
+}
+
+#artigo {
+  font-family: monospace, sans-serif;
+  max-width: 50%;
+}
