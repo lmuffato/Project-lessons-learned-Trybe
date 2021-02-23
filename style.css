@@ -15,3 +15,10 @@ body { text-align: center;
 #licoes_aprendidas { line-height: 10mm;}
 
 #licoes_a_aprender { line-height: 10mm;}
+
+.listaOrdenada {display: inline-block;
+  margin-right: 5mm;}
+
+.listaNordenada { margin-left: 5mm;
+  display: inline-block;
+  list-style-position: inside;}
