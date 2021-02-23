@@ -5,5 +5,15 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
-  background-color:#32a791;
+  background-color: rgb(91, 199, 91);
+  color: white;
+  width: 100%;
+}
+
+#minha_foto {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-top: 100px;
 }
