@@ -1,24 +1,28 @@
 * {
-    border: none;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+        border: none;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
 }
+
 body {
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
-    position: fixed;
-    background-color: #0d8609;
-    top: 0px;
-    width: 100%;
-    text-align: center;
+        position: fixed;
+        background-color: #0d8609;
+        top: 0px;
+        width: 100%;
+        text-align: center;
 }
+
 #titulo {
-    color: rgb(253, 251, 251);
+        color: rgb(253, 251, 251);
 }
+
 #minha_foto {
-    border-radius: 100%;
-    width: 20em;
-    margin: 4em 0 0 2em;
+        border-radius: 100%;
+        width: 20em;
+        margin: 4em 0 0 2em;
 }
