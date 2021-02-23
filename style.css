@@ -3,6 +3,27 @@ body {
 }
 
 #cabecalho {
-  position: fixed;
+  background-color: slategray;
+  font-size: 10px;
+  text-align: center;
   top: 0px;
+}
+
+.logo {
+  width: 10px;
+}
+
+.table td{
+  border: black;
+  border-style: double;
+  margin-left: 100px;
+  background-color: gray;
+  padding-top: 5px;
+  size: 50px;
+  text-decoration: black;
+}
+
+img {
+  width: 200px;
+  margin-top: 50px;
 }
