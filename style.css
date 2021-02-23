@@ -30,7 +30,9 @@ article { padding: 100px;}
 
 aside { margin-bottom: 20mm;}
 
-#sumario { list-style: none;}
+#sumario { position: relative; 
+  list-style: none;
+  right: 5mm;}
 
 #sumario li { display: inline;}
 
