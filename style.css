@@ -6,6 +6,12 @@ header {
     top:0px;
 }
 #tabela {
-    border: 1px;
+    border-width: 1px;
     border-style: dotted;
+    margin: 5px;
+    padding: 1px;
+}
+img {
+    border-style: solid;
+    border-width: 2px;
 }
