@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,4 +9,27 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
+  font-family: sans-serif;
+
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;  
+}
+article{
+    float: left;
+}
+aside > p {
+    margin: .5rem;
+}
+img{
+    width: 400px;
+}
+p{
+    font-size: 30px;
 }
