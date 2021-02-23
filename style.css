@@ -4,10 +4,34 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
+  background-color: salmon;
+  width: 100%;
+  text-align: center;
 }
 
 #minha_foto {
   width: 100px;
   margin-top: 60px;
 }
+
+.container {
+  position: relative;
+  top: 90px;
+}
+
+.container ul {
+  padding-bottom: 30px;
+}
+
+.container li {
+  display: inline-block;
+  width: 90px;
+}
+
+.lesson {
+  display: inline-block;
+}
+
+
+
