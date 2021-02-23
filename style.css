@@ -44,3 +44,16 @@ nav{
 .menu:hover{
     background: rgba(45, 255, 3, 0.253)
 }
+main{
+    border-bottom: solid 2px green;
+}
+#minha_foto{
+    width: 15rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+.perfil p{
+    position: absolute;
+    left: 3rem;
+    border-bottom: solid 1px black;
+}
