@@ -1,6 +1,6 @@
 * {
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -55,8 +55,8 @@ footer {
     text-align: right;
 }
 
-p {
-    width: 75%;
+article p {
+    width: 50%;
     text-align: justify;
 }
 
@@ -64,8 +64,8 @@ footer p {
     margin-right: 20px;
 }
 
-a:visited
-,a:link {
+a:visited 
+, a:link {
     text-decoration: none;
     color: black;
 }
@@ -74,5 +74,6 @@ a:active {
     text-decoration: underline;
 }
 
-
-
+aside p {
+    width: 25%;
+}
