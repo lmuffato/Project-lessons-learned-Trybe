@@ -11,6 +11,8 @@ img {
 
 body {
   background: rgb(253, 251, 251);
+  font-family: 'Karla', sans-serif;
+  color: #222222;
 }
 
 a {
@@ -24,17 +26,42 @@ a {
   left: 0;
   width: 100vw;
   height: auto;
+  background: #161616;
 }
 
 .cabecalho {
-  background: tomato;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  background: #161616;
   margin: 0 auto;
-  padding: 9px 9px;
+  max-width: 75%;
+  padding: 12px 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#titulo {
+  color: #fd402a;
+  margin: 0 15px;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #navegacao {
-  background: red;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+#navegacao a {
+  margin: 0 15px;
+  font-size: 1em;
+  color: #922b22;
+}
+
+/* 
+#navegacao {
+  background: #93e2b3;
   margin: 0 auto;
   text-align: center;
   padding: 3px 3px;
@@ -47,6 +74,8 @@ a {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
 .navegacao a {
-    margin: 0px 5%;
+  margin: 0px 5%;
 }
+*/
