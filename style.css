@@ -42,8 +42,21 @@ main {
     width: 95%;
     top: 12%;
     margin-left: 20px;
-    margin-right: 50px;
+    margin-right: 50px;    
+}
 
- 
-    
+.aprendidas {
+    position: relative;
+    color: #DED8D7;
+}
+
+ul li {
+    list-style-type: none;
+    color: #5988E0;
+   font-weight: bolder;
+}
+
+h2 {
+    color: violet;
+   
 }
