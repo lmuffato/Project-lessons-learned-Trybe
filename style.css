@@ -5,20 +5,23 @@ body {
   line-height: 20px;
   color: blue;
 }
+
 header {
   position: fixed;
-  top: 0px;
 }
+
 #tabela {
   border-width: 1px;
   border-style: dotted;
   margin: 5px;
   padding: 1px;
 }
+
 img {
   border-style: solid;
   border-width: 2px;
 }
+
 .lado-esquerdo {
   float: left;
   border-style: solid;
@@ -26,6 +29,7 @@ img {
   width: 40%;
   display: inline-block;
 }
+
 .lado-direito {
   float: right;
   border-style: solid;
