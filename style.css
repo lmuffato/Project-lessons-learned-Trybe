@@ -5,9 +5,12 @@ body {
 header {
     position: fixed;
     top: 0px;
-    background-color:  red;
 }
 
 div#content {
     margin-top: 100px;
+}
+
+nav ul li {
+    list-style: none;
 }
