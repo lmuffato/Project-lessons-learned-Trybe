@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: cadetblue;
   width: 100%;
   padding: 20px;
@@ -33,22 +33,22 @@ table tr {
   text-align: left;
 }
 
-table th, td {
+table th , td {
   border: 1px solid cadetblue;
 }
 
 #minha_foto {
   width: 300px;
   margin-top: 200px;
-  border-radius: 500px; 
+  border-radius: 500px;
 }
 
-ol, ul {
-  font-family: 'Roboto', sans-serif;
+ol , ul {
+  font-family: Roboto, sans-serif;
   line-height: 25px;
 }
 
 ul {
-  font-weight: bolder;
+  font-weight: 600;
   color: cadetblue;
 }
