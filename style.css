@@ -27,13 +27,14 @@ body {
   text-align: center;
   height: 50px;
 }
-#menu li{
+
+#menu li {
   display: inline-block;
   padding-inline-end: 30px;
   padding-top: 20px;
 }
 
-#menu a{
+#menu a {
   color: rgb(253, 251, 251);
   font-size: larger;
 }
