@@ -1,8 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
 }
 
-h2, h3, h4 {
+h2 , h3 , h4 {
   color: #2fc18c;
 }
 
@@ -11,9 +12,13 @@ h2, h3, h4 {
   position: fixed;
   top: 0;
   background-color: #036b52;
-  color:rgb(253, 251, 251);
+  color: rgb(253, 251, 251);
   padding: 10px;
   text-align: center;
+}
+
+#titulo {
+  font-size: 2.5em;
 }
 
 #minha_foto {
@@ -21,4 +26,8 @@ h2, h3, h4 {
   border-radius: 100%;
   border: 2px solid black;
   margin-top: 100px;
+}
+
+#fato-ou-fake {
+  letter-spacing: -1px;
 }
