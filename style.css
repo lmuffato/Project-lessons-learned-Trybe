@@ -1,8 +1,30 @@
-body {
-    background-color: rgb(253, 251, 251)
+* {
+    box-sizing: border-box;
 }
+
+
+body {
+    background-color:rgb(253, 251, 251);
+}
+
 
 #cabecalho {
     position: fixed;
     top: 0px;
+    background-color: green;
+    width: 100%;
+}
+
+#titulo {
+    color: white;
+}
+
+
+#minha_foto {
+    margin-top: 80px;
+    padding-top: 70px;
+}
+
+#hard-skills {
+    padding: 20px;
 }
