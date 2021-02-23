@@ -9,6 +9,8 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
+  width: 100%;
+  height: 120px;
   background-color: green;
 }
 
@@ -18,4 +20,14 @@ body {
 
 #minha_foto{
   width: 300px;
+  padding-top: 120px;
+}
+
+#licoes_aprendidas{
+  display: inline-block;
+
+}
+
+#licoes_a_aprender {
+ display: inline-block;
 }
