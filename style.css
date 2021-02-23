@@ -17,14 +17,32 @@ body {
   width: 300px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas ,#licoes_a_aprender {
   font-size: 25px;
   color: blue;
-  line-height: 18px;
+  line-height: 40px;
   font-weight: 600;
 }
 
-table, th, td {
+#listas {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#listaEsquerda {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+}
+
+#listaDireita {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+}
+
+table ,th ,td {
   border: 1px solid black;
   border-collapse: collapse;
 }
