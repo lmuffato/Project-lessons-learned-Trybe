@@ -8,6 +8,13 @@ body {
   top: 0;
   background-color: rgb(118, 154, 183);
   width: 100vw;
+  height: 100px;
+  text-align: center;
+}
+
+#menu ul li {
+  display: inline-block;
+  padding: 5px;
 }
 
 #perfil {
@@ -37,4 +44,13 @@ body {
   width: 400px;
   overflow: auto;
   padding-bottom: 15px;
+}
+
+#artigos {
+  display: inline-flex;
+}
+
+#curiosidade {
+  width: 300px;
+  overflow: auto;
 }
