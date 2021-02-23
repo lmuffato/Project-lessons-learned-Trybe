@@ -25,6 +25,12 @@ body {
   top: 35%;
 }
 
+#cabecalho nav a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-right: 20px;
+}
+
 .lado-esquerdo {
   display: inline-block;
   width: 600px;
