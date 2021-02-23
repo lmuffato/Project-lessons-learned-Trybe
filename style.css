@@ -8,6 +8,9 @@ nav {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  list-style: none;
  
 }
 
@@ -17,10 +20,7 @@ nav {
   top: 0px;
   background-color:  rgb(47, 95, 81);
   color: white;
-  font-family: 'Roboto' , sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  width:m500px;
+  font-family: 'Roboto', sans-serif;
 }
 
 p, ul, ol {
@@ -43,11 +43,19 @@ h2 , h3 {
 .lado-esquerdo {
   display: inline-block;
   width: 400px;
+  background-color: rgb(255, 251, 243) ;
+  border: 3px solid rgb(237,226, 207);
+  margin: 20px;
+  padding: 20px;
 }
 
 .lado-direito {
   display: inline-block; 
   width: 300px;
+  background-color: rgb(255, 251, 243);
+  border: 3px solid rgb(237,226, 207);
+  margin: 20px;
+  padding: 20px;
 }
 
 .footer-icon {
