@@ -1,150 +1,177 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,400;0,500;0,600;0,700;1,200;1,300&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     overflow-x: none;
     scroll-behavior: smooth;
-    font-family: "Josefin Slab", serif;
+    font-family: Josefin Slab, serif;
 }
+
 body{
     background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-    top: 0px;
+
+#cabecalho {
+    top: 0;
     width: 100%;
     height: 10rem;
     background: green;
     position: fixed;
     z-index: 90;
 }
-#titulo{
+
+#titulo {
     text-align: center;
     line-height: 13rem;
     color: white;
 }
-nav{
+
+nav {
     position: fixed;
     width: 100%;
     height: 3rem;
     background: black;
-    top: 0rem;
+    top: 0;
     line-height: 3rem;
     justify-content: space-evenly;
     display: flex;
     font-size: 2rem;
-    opacity: .7;
+    opacity:  .7;
     z-index: 20;
 }
-.menu{
+
+.menu {
     color: rgb(255, 208, 0);
     text-decoration: none;
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.menu:hover{
+
+.menu:hover {
     background: rgba(45, 255, 3, 0.253)
 }
-main{
+
+main {
     margin-top: 10rem;
-    border-bottom: solid 2px green;
+    border-bottom: solid 2px rgb(0, 128, 0);
 }
-#minha_foto{
+
+#minha_foto {
     width: 15rem;
     margin-left: 5rem;
     border-radius: 50%;
 }
-.perfil p{
+
+.perfil p {
     position: absolute;
     left: 3rem;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px rgb(0, 0, 0);
 }
-.licoes{
+
+.licoes {
     margin-left: 15rem;
-    font-family: "Mulish", serif;
+    font-family: Mulish, serif;
     font-size: 1.5rem;
 }
-.licoes, .perfil{
+
+.licoes, .perfil {
     display: flex;
 }
-#licoes_aprendidass ol{
+
+#licoes_aprendidass ol {
     margin-left: 2rem;
     margin-top: 2rem;
     line-height: 1.5rem;
 }
-#licoes_a_aprenderr ul{
+
+#licoes_a_aprenderr ul {
     margin-left: 10rem;
     margin-top: 2rem;
     line-height: 1.5rem;
 }
-#licoes_a_aprenderr h2{
+
+#licoes_a_aprenderr h2 {
     margin-left: 9rem;
 }
-.img-wrapper-trybe{
-    font-family: "Mulish", serif;
+
+.img-wrapper-trybe {
+    font-family: Mulish, serif;
 }
-.img-wrapper-trybe img{
+
+.img-wrapper-trybe img {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 30%;
     margin-top: 2rem;
 }
+
 .img-trybe p {
     text-align: center;
     font-size:3rem;
     margin-top: 1rem;
 }
-.img-trybe p a{
-    color: black;
+
+.img-trybe p a {
+    color: rgb(0, 0, 0);
 }
+
 .negrito{
     font-weight: bold;
     text-transform: uppercase;
 }
-article{
+
+article {
     width: 50%;
     height: 100vh;
     text-align: center;
 }
 
-.artigos{
+.artigos {
     margin-top: 15rem;
     width: 100%;
     height: 100vh;
     display: flex;
     margin-bottom: -10rem;
 }
-.artigos h2{
+
+.artigos h2 {
     text-align: center;
     margin-bottom: 2rem;
 }
-.artigos h2, p{
+
+.artigos h2, p {
     font-size: 2rem;
     letter-spacing: 2px;
 }
-aside{
+
+aside {
     width: 50%;
     height: 100vh;
     text-align: center;
 }
-footer{
+
+footer {
     background: rgb(73, 73, 73);
     width: 100%;
     height: 10rem;
     text-align: center;
 }
-table, th, td{
-    border: solid 1px black;
+
+table, th, td {
+    border: solid 1px rgb(0, 0, 0);
     color: rgb(0, 0, 0);  
 }
-table{
+
+table {
     margin-left: 50%;
     transform: translateX(-50%);
 }
-footer p{
+
+footer p {
     line-height: 10rem;
     color: rgb(255, 255, 255);
 }
