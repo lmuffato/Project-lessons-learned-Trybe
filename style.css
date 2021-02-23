@@ -7,6 +7,10 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+#cabecalho {
+    margin-top: 0px;
+}
+
 #titulo {
     background-color: rgb(36, 165, 133);
     text-align: center;
@@ -15,4 +19,12 @@ body {
 
 #minha_foto {
     max-width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+#licoes_aprendidas {
+    margin-left: 50px;
+    margin-top: 20px;
 }
