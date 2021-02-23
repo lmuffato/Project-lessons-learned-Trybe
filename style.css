@@ -12,7 +12,9 @@ body {
     text-align: center;
     }
 
-#titulo {
+nav {
+    color: white;
+    position: absolute;
 
 }
 
@@ -26,4 +28,8 @@ img {
 .organizacao_de_lista {
     display: inline-block;
     margin-top: 260px;
+}
+
+aside {
+    margin-right: 30px;
 }
