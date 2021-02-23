@@ -110,9 +110,11 @@ main {
 }
 
 #tabela {
-  width: 100%;
-  margin: 1.5em 0;
+  width: 550px;
   text-align: center;
+  padding-left: 15px;
+margin: 0 auto;
+margin-top: 20px;
 }
 
 #tabela tr th {
