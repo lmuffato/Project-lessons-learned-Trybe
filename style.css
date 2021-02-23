@@ -22,3 +22,9 @@ body { text-align: center;
 .listaNordenada { margin-left: 5mm;
   display: inline-block;
   list-style-position: inside;}
+
+  article { padding: 100px;}
+
+  .listas { margin-top: 10mm;}
+
+  aside { margin-bottom: 10mm;}
