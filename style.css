@@ -12,11 +12,42 @@ img {
 body {
   background: rgb(253, 251, 251);
   font-family: Karla, sans-serif;
+  line-height: 1.4;
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center
+}
+
+#principal {
+  background: rgb(104, 151, 117)
+}
+
+.main-title {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.main-title-lesson {
+  font-size: 4.5em;
+  color: rgb(253, 64, 42);
+  letter-spacing: 5px;
+  font-style: italic;
+}
+
+.main-title-renzo {
+  font-size: 4.5em;
+  color: rgb(146, 43, 34);
 }
 
 #cabecalho {
@@ -56,4 +87,17 @@ a {
   margin: 0 15px;
   font-size: 1em;
   color: rgb(146, 43, 34);
+}
+
+.licoes {
+  max-width: 66.6%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#minha_foto {
+  max-width: 20%;
+  border-radius: 30%;
+  border: 3px solid rgb(253, 64, 42);
+  margin: 0 auto;
 }
