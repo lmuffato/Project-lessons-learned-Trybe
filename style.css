@@ -16,7 +16,7 @@ body {
   top: 0;
   height: 80px;
   width: 100%;
-  background-color: #568259;
+  background-color: rgb(86,130,89);
 }
 
 .navbar {
@@ -44,7 +44,7 @@ main {
 
 #minha_foto {
   width: 300px;
-  border-bottom: 35px solid #96e6b3;
+  border-bottom: 35px solid rgb(150,230,179);
 }
 
 .name {
@@ -55,7 +55,7 @@ main {
 .socials a {
   position: relative;
   top: -32px;
-  color: #070707;
+  color: rgb(7,7,7);
 }
 
 .lessons {
@@ -70,23 +70,13 @@ main {
   margin: 0 auto;
 }
 
-.lista1 {
+.lista1, .lista2 {
   display: inline-block;
 }
 
-.lista2 {
-  display: inline-block;
-}
-
-.lista1 h2 {
+.lista1 h2, .lista2 h2 {
   font-size: 1.2em;
-  color: #568259;
-  margin-bottom: 10px;
-}
-
-.lista2 h2 {
-  font-size: 1.2em;
-  color: #568259;
+  color: rgb(86,130,89);
   margin-bottom: 10px;
 }
 
