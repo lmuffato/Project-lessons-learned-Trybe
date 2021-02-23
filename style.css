@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #cabecalho {
@@ -19,11 +19,14 @@ body {
 
 main {
   text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 
 #minha_foto {
   margin-top: 100px;
   border-radius: 100%;
+  height: 300px;
 }
 
 #titulo {
@@ -44,15 +47,14 @@ nav a:link , nav a:visited {
 
 nav a:hover , nav a:active {
   background-color: rgb(17, 20, 231);
-  color:rgb(54, 233, 10);
+  color: rgb(54, 233, 10);
 }
 
-main {
-  margin: 20px;
-  padding: 20px;
+.listas {
+  line-height: 25px;
 }
 
-.listas ol , li {
+.listas li {
   padding: 2px;
   margin: 2px;
   text-align: justify;
@@ -65,10 +67,6 @@ main {
 
 #licoes_a_aprender {
   display: inline-block;
-}
-
-#minha_foto {
-  height: 300px;
 }
 
 article {
