@@ -20,3 +20,12 @@ main {
 #minha_foto {
   height: 300px;
 }
+
+article {
+  width: 45%;
+  margin-left: 20px;
+}
+
+#rodape {
+  font-size: 10px;
+}
