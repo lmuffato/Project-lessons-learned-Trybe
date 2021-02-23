@@ -1,25 +1,32 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   text-align: center;
-  width: 100%
+  width: 100%;
+  background-color: darkgreen;
+  color: white;
 }
 
 #cabecalho nav ul li{
   display: inline-block;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16px;
 }
 
 main {
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 #minha_foto {
+  display: block;
   margin: auto;
-  text-align: center;
+  width: 15%;
+  border-radius: 50%;
+  border: 4px solid lightgreen;
 }
