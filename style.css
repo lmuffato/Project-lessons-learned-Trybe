@@ -60,14 +60,14 @@ img {
 
 .lado-esquerdo {
   display: inline-block;
-  width: 300px;
-  text-align: center;
+ 
+  text-align: left;
   position: relative;
   z-index: -1;}
 
 .lado-direito {
   display: inline-block;
-  width: 300px;
+  
   position: absolute;
   z-index: -1;
-  text-align: center;}
+  text-align: right;}
