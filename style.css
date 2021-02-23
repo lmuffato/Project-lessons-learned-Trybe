@@ -11,6 +11,14 @@ body {
 }
 #minha_foto {
     width: 250px;
-    position:absolute;
-    top: 200px;
+    position: absolute;
+    right: 0px;
+}
+#licoes_aprendidas {
+    position:static;
+    top: 1000px;
+}
+#licoes_a_aprender {
+    position:static;
+    top: 1000px; 
 }
