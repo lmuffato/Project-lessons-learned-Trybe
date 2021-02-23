@@ -3,4 +3,9 @@ body {
   width: 1366px;
   height: 768px;
 }
+#cabecalho {
+    top: 0px;
+    position: fixed;
+}
+    
 
