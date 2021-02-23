@@ -12,3 +12,9 @@ img {
   height: 350px;
   border-radius: 100%;
 }
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
