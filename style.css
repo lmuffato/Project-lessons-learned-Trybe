@@ -2,7 +2,17 @@
   border: none;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 body {
@@ -11,8 +21,8 @@ body {
 
 #cabecalho {
   position: fixed;
-  background-color: rgb(6, 117, 39);
-  top: 0px;
+  background-color: rgba(46,193,139,255);
+  top: 0;
   width: 100%;
   text-align: center;
 }
@@ -27,14 +37,18 @@ body {
   margin: 4em 0 0 2em;
 }
 
-#licoes h2{
+#licoes h2 {
   margin: 2em 0 0 1em;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas { 
   margin: 4em 0 0 2em;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   margin: 4em 0 0 2em;
+}
+
+#rodape {
+  text-align: center;
 }
