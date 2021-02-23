@@ -34,6 +34,13 @@ body{
 #secao_foto{
     margin-top: 100px;
     margin-left: 50px;
+    display: inline-block;
+}
+
+#secao_artigo{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
 }
 
 #secao_licoes_aprendidas{
