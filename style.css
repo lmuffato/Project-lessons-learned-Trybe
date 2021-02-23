@@ -113,12 +113,11 @@ main {
   width: 550px;
   text-align: center;
   padding-left: 15px;
-margin: 0 auto;
-margin-top: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 #tabela tr th {
-  /* margin: 1em; */
   color: rgb(150, 230, 179);
 }
 
