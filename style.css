@@ -28,6 +28,10 @@ body {
   top: 35%;
 }
 
+footer a {
+  color: black;
+}
+
 #cabecalho nav a {
   color: black;
   font-weight: 600;
@@ -61,8 +65,4 @@ footer {
   margin-top: 50px;
   padding-top: 25px;
   padding-bottom: 25px;
-}
-
-footer a {
-  color: black;
 }
