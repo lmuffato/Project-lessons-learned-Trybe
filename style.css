@@ -4,11 +4,20 @@ body {
 
 #cabecalho {
   position: sticky;
-  top: 0px;
+  top: 0;
   background-color: rgb(253, 251, 251);
 }
 
 #minha_foto {
-  height: 130px;
-  width: 110px;
+  height: 300px;
+  width: 300px;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  margin-left: 280px;
+}
+
+#licoes_aprendidas {
+  position: absolute;
 }
