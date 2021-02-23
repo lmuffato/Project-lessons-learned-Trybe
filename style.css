@@ -10,6 +10,7 @@ body{
     top: 0px;
     position: fixed;
     margin-left: 400px;
+    
 }
 
 #titulo{
@@ -27,4 +28,11 @@ body{
 
 #licoes_aprendidas{
     font-family:'Akaya Telivigala', cursive;
+    display: inline-block;
+    margin-top: 360px;
+    line-height: 20px;
+}
+
+#licoes_a_aprender{
+    
 }
