@@ -6,4 +6,11 @@ body {
     position: fixed;
     top: 0px;
     background-color: rgb(79,26,128);
+    padding: 15px;
+    
+}
+#minha_foto {
+    width: 250px;
+    position:absolute;
+    top: 200px;
 }
