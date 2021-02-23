@@ -70,6 +70,7 @@ header {
 #rodape {
   text-align: center;
   padding: 20px;
+  background-color: rgb(211, 211, 211);
 }
 
 .content_middle {
@@ -102,4 +103,8 @@ header {
   color: rgb(15, 15, 15);
   letter-spacing: 0.1rem;
   line-height: 1.1rem;
+}
+
+strong {
+  color: #328008;
 }
