@@ -3,17 +3,13 @@ body {
 }
 
 #cabecalho {
+  top: 0;
   background-color: slategray;
   font-size: 10px;
   text-align: center;
-  top: 0px;
 }
 
-.logo {
-  width: 10px;
-}
-
-.table td{
+.table td {
   border: black;
   border-style: double;
   margin-left: 100px;
@@ -25,5 +21,4 @@ body {
 
 img {
   width: 200px;
-  margin-top: 50px;
-}
+  margin-top: 50px;}
