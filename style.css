@@ -11,3 +11,11 @@
 table , th , td {
   border: 1px solid black;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
