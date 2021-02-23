@@ -1,7 +1,23 @@
 * {
   background-color: rgb(253, 251, 251);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: slategrey;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+table {
+  border: 2px black solid;
+}
+
+header {
+width: 100%;
+padding: 0 0 0 40%;
 }
 
 #cabecalho {
   top: 0; /* no unit */
   position: fixed; }
+
+#minha_foto {
+  margin: 80px 0 0; }
