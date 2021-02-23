@@ -20,8 +20,7 @@ body {
 
 #minha_foto {
   width: 30%;
-  margin-top: 60px;
-  margin-left: -10px;
+  margin-top: 75px;
   margin-right: 10px;
   box-shadow: 5px 5px 5px  rgb(34, 105, 111);
 }
@@ -58,4 +57,27 @@ body {
 
 #content {
   margin-bottom: 30%;
+}
+
+#linkedinicon {
+    height: 120px;
+    position: absolute;
+    left: 410px;
+    top: 100px;
+    
+}
+
+#githubicon {
+    height: 120px;
+    position: absolute;
+    left: 560px;
+    top: 100px;
+    
+}
+
+#trybeicon {
+    height: 120px;
+    position: absolute;
+    left: 710px;
+    top: 100px;
 }
