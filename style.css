@@ -24,13 +24,19 @@ h2 {
 h3 {
   font-size: 14px;}
 
+a {
+  text-decoration: none;
+  transition: all ease-out 1s;}
+
+a:hover {
+  color: rgb(39, 39, 39, 0.1);
+  text-decoration: underline;}
+
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(127, 232, 250);
-  background-image: linear-gradient(315deg, rgb(127, 232, 250) 0%, rgb(126, 255, 112) 74%);
-}
+  background-color: rgb(126, 255, 112);}
 
 #titulo {
   margin: 10px 0 0 20px;
@@ -38,8 +44,7 @@ h3 {
   text-transform: uppercase;}
 
 .nav-links {
-  list-style: none;
-  text-align: center;}
+  list-style: none;}
 
 .nav-links li {
   display: inline-block;
@@ -52,3 +57,17 @@ img {
   border: 1px solid black;
   margin: 150px 0 30px 20px;
   box-shadow: 2px 2px 5px -2px rgb(0, 0, 0, 1);}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  z-index: -1;}
+
+.lado-direito {
+  display: inline-block;
+  width: 300px;
+  position: absolute;
+  z-index: -1;
+  text-align: center;}
