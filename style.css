@@ -19,3 +19,9 @@ img {
     border-style: solid;
     border-width: 2px;
 }
+.lado-esquerdo {
+    float: left;
+}
+.lado-direito {
+    float: right;
+}
