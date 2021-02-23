@@ -1,4 +1,12 @@
 body {
     background-color: rgb(253, 251, 251);
-    color: purple;
+}
+#cabecalho {
+    background-color: rosybrown;
+    position: fixed;
+    top: 0px;
+}
+h1 {
+    font-family: monospace;
+    color: black
 }
