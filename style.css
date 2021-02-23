@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Oswald', sans-serif;;
 }
 
 #cabecalho {
@@ -9,6 +15,13 @@ body {
 
 #minha_foto {
   width: 300px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  font-size: 25px;
+  color: blue;
+  line-height: 18px;
+  font-weight: 600;
 }
 
 table, th, td {
