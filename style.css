@@ -4,8 +4,8 @@ body {
 
 #cabecalho {
   top: 0px;
-  left: 0;
-  right: 0;
+  left: 0px;
+  right: 0px;
   position: fixed;
   text-align: center;
   background-color: rgb(25, 209, 80);
@@ -31,5 +31,5 @@ body {
 }
 
 nav {
-  margin-top: 85px;
-};
+  margin-top: 85px
+}
