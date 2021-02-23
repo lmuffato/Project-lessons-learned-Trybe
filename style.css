@@ -18,16 +18,35 @@ body {
 #titulo {
     color: white;
     text-align: center;
-    margin: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+nav li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+main {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #minha_foto {
     width: 300px;
-    margin-top: 130px;
+}
+
+h2 {
+    color: plum;
 }
 
 ol, ul{
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 #licoes {
