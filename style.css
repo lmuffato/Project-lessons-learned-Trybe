@@ -6,11 +6,25 @@ body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     position: fixed;
     top: 0px;
     background-color: darkmagenta;
     width: 100%;
+
 }
 #titulo{
-    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+#minha_foto{
+    width: 140px;
+    border-radius:60px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
 }
