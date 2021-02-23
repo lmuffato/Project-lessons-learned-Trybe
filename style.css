@@ -42,10 +42,19 @@ header {
   padding-top: 5px;
 }
 
-#licoes_aprendidas {
+#licoes {
   padding: 20px;
+  display: inline-block;
 }
 
-#licoes_aprendidas ol {
-  padding: 20px 0 20px 40px;
+#licoes ol , ul {
+  margin: 35px;
+}
+
+.lessons_learned {
+  display: inline-block;
+}
+
+.lessons_to_learn {
+  display: inline-block;
 }
