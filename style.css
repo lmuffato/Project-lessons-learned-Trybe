@@ -33,3 +33,10 @@ ol, ul{
 #licoes {
     display: flex;
 }
+
+#rodape {
+    background-color: plum;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
