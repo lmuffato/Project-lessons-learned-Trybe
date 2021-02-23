@@ -1,24 +1,24 @@
-*{
+* {
 
 }
 
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     top: 0px;
     position: fixed;
     margin-left: 400px;
     
 }
 
-#titulo{
+#titulo {
     text-align: center;
     
 }
 
-#minha_foto{
+#minha_foto {
     width: 200px;
     border-radius: 20%;
     margin-top: 100px;
@@ -26,13 +26,13 @@ body{
     float: left;
 }
 
-#licoes_aprendidas{
-    font-family:'Akaya Telivigala', cursive;
+#licoes_aprendidas {
+    font-family: 'Akaya Telivigala', cursive;
     display: inline-block;
     margin-top: 360px;
     line-height: 20px;
 }
 
-#licoes_a_aprender{
-    
+#licoes_a_aprender {
+
 }
