@@ -5,4 +5,15 @@ body {
 header {
   position: fixed;
   top: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+#title {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#minha_foto {
+  
 }
