@@ -3,5 +3,5 @@
 }
 
 #cabecalho {
-  top: 0px; /* no unit */
+  top: 0; /* no unit */
   position: fixed; }
