@@ -7,9 +7,11 @@
   left: 90mm;}
 
 body { text-align: center;
-    background-color: rgb(253, 251, 251); }
+  background-color: rgb(253, 251, 251); }
 
 #minha_foto { width: 200px;
-    margin-top: 28mm;}
+  margin-top: 28mm;}
 
-#licoes_aprendidas {line-height: 10mm;}
+#licoes_aprendidas { line-height: 10mm;}
+
+#licoes_a_aprender { line-height: 10mm;}
