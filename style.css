@@ -24,11 +24,18 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 20px;
     font-size: 15px;
-    position: relative;
     background-color: aqua;
 }
 
 #secao_foto{
     margin-top: 100px;
     margin-left: 50px;
+}
+
+#licoes_aprender{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 20px;
+    font-size: 15px;
+    background-color: aqua;
 }
