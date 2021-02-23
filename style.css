@@ -1,8 +1,56 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color:rgb(253, 251, 251);
+  margin: 0;
 }
 
-.cabecalho {
-    position: fixed;
-    top: 0px;
+nav {
+  background-color: rgb(135, 181, 136);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+ 
+}
+
+#cabecalho {
+  position: fixed;
+  display: block;
+  top: 0px;
+  background-color:  rgb(47, 95, 81);
+  color: white;
+  font-family: 'Roboto' , sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width:m500px;
+}
+
+p, ul, ol {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1,2rem;
+}
+
+h2 , h3 {
+  font-family: 'Roboto' , sans-serif;
+  color: rgb(40, 85, 72);
+}
+
+#rodape {
+  background-color: rgb(135, 181, 136);
+  padding: 20px;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 400px;
+}
+
+.lado-direito {
+  display: inline-block; 
+  width: 300px;
+}
+
+.footer-icon {
+  width: 50px;
+  padding-left: 10px;
 }
