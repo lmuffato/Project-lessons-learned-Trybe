@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+figure {
+    display: inline-block;
+}
+#minha_foto {
+    width: 302px; 
+    height: 388px;
+    padding: 12px;
+    background-color: rgb(150, 163, 165);
+    position: absolute;
+    z-index: -5;
+    margin-top: 80px;
+    margin-left: 20px;
+    display: block;
+}
+#legenda {
+    z-index: 1;
+    margin-top: 500px;
+    margin-left: 110px;
+}
+#licoes_aprendidas {
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 180px;
+    position: absolute;
+}
+#licoes_a_aprender {
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 180px;
+    position: absolute;
+}
+
