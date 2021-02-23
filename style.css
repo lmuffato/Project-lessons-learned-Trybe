@@ -39,14 +39,33 @@ body {
 
 #licoes h2 {
   margin: 2em 0 0 1em;
+  background-color: rgba(46, 193, 139, 255);
+  width: 500px;
+  text-align: center;
 }
 
 #licoes_aprendidas {
-  margin: 4em 0 0 2em;
+  margin: 3em 0 0 1em;
 }
 
 #licoes_a_aprender {
-  margin: 4em 0 0 2em;
+  margin: 3em 0 0 1em;
+}
+
+#aprendizado {
+  margin: 2em 0 3em 1em;
+}
+
+#aprendizado h2{
+  margin: 2em 0 2em 1em;
+  background-color: rgba(46, 193, 139, 255);
+  width: 500px;
+  text-align: center;
+}
+
+#aprendizado p {
+  margin-left: 1em;
+  width: 30em;
 }
 
 #rodape {
