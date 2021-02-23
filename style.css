@@ -1,24 +1,33 @@
-body{
+    body{
     background-color:rgb(253, 251, 251) ;
 }
-#cabecalho{
+    #cabecalho{
     position: fixed;
     top: 0px;
     padding: 100px;
     padding-right: 1000px;
     background-image: url("imagens/matrix.png");
-    background-size: cover;
     border-style: solid;
     border-color: green;
-    border-width:3px;
+    border-width:3px;   
     
 }
-#titulo{
+    #titulo{
     margin-right: auto;
     margin-left: auto;
-    width: 1200px;
+    width: 900px;
     color: honeydew;
-    
+    text-align: center;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-left: 100px;
     
 
-}
+    }
+    #minha_foto{
+        padding: 300px;
+        width: 200px;
+        margin-left: 300px;
+        border-radius: 100%;
+    }
