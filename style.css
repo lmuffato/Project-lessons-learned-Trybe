@@ -11,8 +11,7 @@ img {
 
 body {
   background: rgb(253, 251, 251);
-  font-family: 'Karla', sans-serif;
-  background: rgb(34, 34, 34);
+  font-family: Karla, sans-serif;
 }
 
 a {
@@ -44,7 +43,7 @@ a {
   color: rgb(253, 64, 42);
   margin: 0 15px;
   font-size: 1.5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 #navegacao {
