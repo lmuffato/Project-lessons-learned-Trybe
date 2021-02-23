@@ -31,13 +31,17 @@ body {
 
 .lesson {
   display: inline-block;
+  margin-left: 20%;
 }
 
 .table {
   width: 100%;
   border: solid black;
+  margin: 10px;
+  padding: 2px;
 }
 
 .table td {
   text-align: center;
 }
+
