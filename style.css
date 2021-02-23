@@ -1,8 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+* {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  color: rgb(39, 39, 39);}
+
 body {
   background-color : rgb(253, 251, 251);}
+
+h1 , h2 , h3 {
+  font-weight: 500;}
+
+p {
+  font-weight: 200;}
 
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: lightgreen;}
+  background-color: rgb(128, 255, 114);}
+
+#titulo {
+  margin: 10px 0 0 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;}
+
+.nav-links {
+  list-style: none;
+  text-align: center;}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px 10px;}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 150px 0 30px 20px;
+  box-shadow: 2px 2px 5px -2px rgb(0, 0, 0, 1);}
