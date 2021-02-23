@@ -3,18 +3,7 @@
   }
   #cabecalho {
     margin-top: 0px;
-    background-color: red;
     position: fixed;
-  }
-  
-  aside {
-     padding-left: 200px;
-     padding-right: 200px;
-  }
-  
-  #meu-aprendizado {
-     padding-left: 200px;
-     padding-right: 200px;
   }
    
   .listas {
@@ -23,4 +12,20 @@
   }
   #foto {
       margin-top: 100px;
+  }
+  #meu-aprendizado {
+      padding: 10px 10px 10px 10px;
+      position: absolute;
+      right: 20px;
+      bottom: 500px;
+      right: 330px;
+  }
+  #coisas_que_vou_aprender {
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 500px;
+    right: 330px;
+    top: 130px;
+    right: 450px;
   }
