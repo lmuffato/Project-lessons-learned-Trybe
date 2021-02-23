@@ -7,7 +7,7 @@ body {
   position: fixed;
   top: 0;
   background-color: rgb(118, 154, 183);
-  width: 100%;
+  width: 100vw;
 }
 
 #perfil {
@@ -17,4 +17,18 @@ body {
 #minha_foto {
   border-radius: 50%;
   width: 150px;
+}
+
+#licoes {
+  padding-top: 10px;
+  display: inline-flex;
+}
+
+#rodape {
+  background-color: rgb(118, 154, 183);
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 30px;
+  text-align: center;
 }
