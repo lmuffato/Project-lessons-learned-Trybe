@@ -27,7 +27,7 @@
     }
     #minha_foto{
         width: 200px;
-        margin-left: 500px;
+        margin-left: 600px;
         border-radius: 100%;
         display: inline-block;
         margin-top: 50px;
@@ -35,9 +35,11 @@
     }
     #licoes_aprendidas{
         display: inline-block;
+        padding: 3em;
     }
     #licoes_a_aprender{
         display: inline-block;
+        padding: 3em
     }
     a:visited,a:link,a:active{
         color:green;
@@ -56,5 +58,26 @@
      h5{
          color: green;
          padding-top: 0px;
-         padding-left:550px ;
+         padding-left:650px ;
+         margin-top: 0px;
      }
+     #artigo{
+       
+         border-style: inset;
+         border-color: greenyellow;
+         font-family: monospace;
+         font-size: medium;
+         display: inline-block;
+         
+     }
+     #trybe{
+         color: green;
+         margin-bottom: 50px;
+         margin-left: 300px;
+     }
+     #artigo2{
+         display: inline-block;
+         
+         
+     }
+    
