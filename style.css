@@ -11,8 +11,8 @@ img {
 
 body {
   background: rgb(253, 251, 251);
-  font-family: "Karla", sans-serif;
-  color: #222;
+  font-family: 'Karla', sans-serif;
+  background: rgb(34, 34, 34);
 }
 
 a {
@@ -26,13 +26,13 @@ a {
   left: 0;
   width: 100vw;
   height: auto;
-  background: rgb(22, 22, 22)
+  background: rgb(22, 22, 22);
 }
 
 .cabecalho {
   display: flex;
   flex-wrap: wrap;
-  background: #161616;
+  background: rgb(22, 22, 22);
   margin: 0 auto;
   max-width: 75%;
   padding: 12px;
@@ -44,7 +44,7 @@ a {
   color: rgb(253, 64, 42);
   margin: 0 15px;
   font-size: 1.5em;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #navegacao {
