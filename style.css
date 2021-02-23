@@ -7,10 +7,11 @@ body {
     font-family: fantasy;
     font-size: 18px;
     letter-spacing: 2,5px;
+    line-height: 20px;
 }
 
 #cabecalho {
-    top: px; /* no unit */;
+    top: 0px; /* no unit */;
     position: fixed;
 }
 
