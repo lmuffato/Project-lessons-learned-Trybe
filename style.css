@@ -1,11 +1,12 @@
-*{ margin: 0;
-    padding: 0;
+* { 
+    margin: 0;
+    padding: 0;    
 }
-body{
+body {
     background-color: rgb(253, 251, 251);
     color: black;
 }
-#cabecalho{
+#cabecalho {
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -15,36 +16,43 @@ body{
     width: 100%;
 
 }
-#titulo{
+#titulo {
     display: inline-block;
     margin-left: 100px;
     margin-top: 85px;
     font-size: 45px;
 }
-#minha_foto{
+#minha_foto {
     width: 140px;
     border-radius:60px;
     display: inline-block;
     float: left;
     margin: 20px;
 }
-.secoes{
+.secoes {
     padding-top:30px;
     padding-left: 30px;
     margin-left: 10px;
 }
-#licoes{
+#licoes {
     margin-top: 230px;
 }
-.subtitulos-h2{
+.subtitulos-h2 {
     padding-bottom: 8px;
 }
-footer{
+footer {
     background-color: red;
     width: 100%;
     padding: 20px 10px;
     text-align: right;
 }
-footer p{
+footer p {
     margin-right: 20px;
+}
+a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: underline;
 }
