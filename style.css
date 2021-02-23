@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(253,251,251);
+    font-family: 'VT323', monospace  ;
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+}
+#cabecalho {
+position: fixed;
+top: 0px;
+background-color: rgb(79,26,128);
+}
