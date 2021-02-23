@@ -5,10 +5,54 @@ body , h1 , h2 , ul , li , p , dd , dt , dl {
 
 body {
   background: rgb(253, 251, 251);
+  color: rgb(34, 34, 34);
+  display: grid;
+  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+}
+
+ul {
+  list-style: none;
+}
+
+#navigation {
+  grid-column: 1 / 5;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
   background: rgb(242, 143, 59);
+}
+
+.title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.5rem; 
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  margin: 32px 0 0px 32px;
+  color: rgb(253, 251, 251);
+  max-width: 500px;
+}
+
+#cabecalho ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 32px;
+  max-width: 500px;
+}
+
+#cabecalho li a {
+  display: block;
+  padding: 10px 10px 10px 0;
+  margin-right: 10px;
+  color: rgb(253, 251, 251);
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .1em;
 }
