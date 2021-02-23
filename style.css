@@ -4,17 +4,18 @@ body {
 
 #cabecalho {
   position: absolute;
+  width: 1326px;
+  height: 65px;
   top: 0px;
-  width: 200px;
-  height: 75px;
+  left: 0px;
   background-color: blue;
-  text-align: center;
+  text-align: center; 
 }
 
 #minha_foto {
   width: 350px;
   position: absolute;
-  left: 370px;
+  left: 488px;
   top: 150px;
 }
 
@@ -25,8 +26,9 @@ body {
 
 #rodape {
   position: absolute;
-  width: 1366px;
+  width: 1326px;
   height: 45px;
-  background-color: blue;
+  left: 0px;
   bottom: 0px;
+  background-color: blue;
 }
