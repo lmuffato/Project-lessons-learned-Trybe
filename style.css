@@ -63,3 +63,16 @@ header {
   text-align: center;
   padding: 20px;
 }
+
+.articles {
+  text-align: center;
+}
+
+.articles article {
+  border: 1px solid black;
+  display: inline-block;
+  max-width: 40%;
+  width: 40%;
+  margin: 20px;
+  padding: 5px;
+}
