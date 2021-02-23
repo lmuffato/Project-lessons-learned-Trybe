@@ -24,8 +24,7 @@ main {
 }
 
 #minha_foto {
-  display: block;
-  margin: auto;
+  margin-left: 0;
   width: 15%;
   border-radius: 50%;
   border: 4px solid lightgreen;
@@ -33,4 +32,11 @@ main {
 
 p {
   line-height: 2;
+}
+
+footer {
+  background-color: darkgreen;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
