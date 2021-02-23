@@ -26,6 +26,9 @@ body{
     font-size: 15px;
     background-color: aqua;
 }
+#secao_listas{
+    align-content: center;
+}
 
 #secao_foto{
     margin-top: 100px;
@@ -34,10 +37,12 @@ body{
 
 #secao_licoes_aprendidas{
     display: inline-block;
+    margin: 30px;
 }
 
 #secao_licoes_aprender{
     display: inline-block;
+    margin: 30px;
 }
 
 #licoes_aprender{
