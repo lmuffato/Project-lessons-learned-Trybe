@@ -6,22 +6,21 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  color: #070707;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-
   height: 80px;
   width: 100%;
-
   background-color: #568259;
 }
 
 .navbar {
-  color: #fff;
+  color: white;
   text-align: center;
-
   margin-top: 1.5em;
 }
 
@@ -34,13 +33,65 @@ main {
   margin: 0 auto;
 }
 
+.skills {
+  width: 100%;
+}
+
+.socials {
+  display: inline-block;
+}
+
 #minha_foto {
   width: 300px;
-
   border-bottom: 35px solid #96e6b3;
 }
 
+.name {
+  width: 300px;
+  text-align: center;
+}
+
+.socials a {
+  position: relative;
+  top: -32px;
+  color: #070707;
+}
+
+.lessons {
+  display: inline-block;
+  width: 574px;
+
+  position: relative;
+  bottom: 157.5px;
+}
+
+.licoes {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lista1,
+.lista2 {
+  display: inline-block;
+}
+
+.lista1 h2,
+.lista2 h2 {
+  font-size: 1.2em;
+  color: #568259;
+}
+
+.lista2 {
+  margin-left: 1.5em;
+}
+
 #licoes_aprendidas {
-  float: left;
   margin-right: 5em;
+  list-style: none;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  list-style: none;
+  display: inline-block;
 }
