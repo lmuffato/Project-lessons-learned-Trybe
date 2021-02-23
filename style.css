@@ -4,8 +4,33 @@ header {
 }
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
 }
 #minha_foto {
-  margin-top: 110px;
+  margin-top: 140px;
   width: 400px;
+}
+.listas{
+    background-color: rgba(255, 11, 11, 0);
+    padding: 10px;
+    display: inline-block;
+}
+#artigo{
+    background-color: rgba(87, 87, 87, 0.493);
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    right: 250px;
+}
+#experiencia{
+    background-color: rgba(87, 87, 87, 0.63);
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    left: 500px;
+    bottom: 130px;
+    margin-left: 730px;
+    margin-right: 20px;
 }
