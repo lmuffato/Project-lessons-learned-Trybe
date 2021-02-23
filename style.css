@@ -26,3 +26,13 @@ section, article, aside, nav {
     padding-right: 20px;
     margin-top: 5px;
 }
+
+h1, h2, h3, h4, ul, ol, p, table {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+}
