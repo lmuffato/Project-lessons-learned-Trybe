@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho {
@@ -7,14 +14,51 @@ body {
   top: 0;
   position: fixed;
   width: 100%;
+  padding-bottom: 10px;
 }
 
 #titulo {
+  padding: 20px;
+  text-align: center;
+  color:rgb(253, 251, 251)
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+  background-color: rgb(54, 233, 10);
+  border: 1px solid black;
+  color: rgb(17, 20, 231);
+  display: inline-block;
+  width: 100px;
   text-align: center;
 }
 
+nav a:hover, nav a:active {
+  background-color: rgb(17, 20, 231);
+  color:rgb(54, 233, 10)
+}
+
 main {
-  margin-top: 100px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.listas ol, li {
+  padding: 2px;
+  margin: 2px;
+}
+
+.listas{
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  margin: 30px;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
 }
 
 #minha_foto {
@@ -24,6 +68,16 @@ main {
 article {
   width: 45%;
   margin-left: 20px;
+  display: inline-block;
+  text-align: justify;
+}
+
+aside {
+  width: 45%;
+  text-align: justify;
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: top;
 }
 
 #rodape {
