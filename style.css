@@ -1,27 +1,31 @@
-* { 
+* {
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
+
 body {
     background-color: rgb(253, 251, 251);
     color: black;
 }
+
 #cabecalho {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     position: fixed;
     top: 0px;
     background-color: darkmagenta;
     width: 100%;
 
 }
+
 #titulo {
     display: inline-block;
     margin-left: 100px;
     margin-top: 85px;
     font-size: 45px;
 }
+
 #minha_foto {
     width: 140px;
     border-radius:60px;
@@ -29,30 +33,42 @@ body {
     float: left;
     margin: 20px;
 }
+
 .secoes {
-    padding-top:30px;
+    padding-top: 30px;
     padding-left: 30px;
     margin-left: 10px;
 }
+
 #licoes {
     margin-top: 230px;
 }
+
 .subtitulos-h2 {
     padding-bottom: 8px;
 }
+
 footer {
     background-color: red;
     width: 100%;
     padding: 20px 10px;
     text-align: right;
 }
+
 footer p {
     margin-right: 20px;
 }
+
 a:visited, a:link {
     text-decoration: none;
     color: black;
 }
+
 a:active{
     text-decoration: underline;
+}
+
+p {
+    width: 75%;
+    text-align: justify;
 }
