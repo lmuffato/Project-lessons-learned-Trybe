@@ -10,4 +10,14 @@ body {
 #minha_foto {
   width: 200px;
 }
- 
+
+#table {
+  width: 600px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+}
