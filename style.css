@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(253, 2551, 251);
+    background-color: rgb(253, 251, 251);
+}
+
+#titulo {
+    background-color: rgb(36, 165, 133);
+    text-align: center;
+    padding: 50px;
+}
+
+#minha_foto {
+    max-width: 200px;
 }
