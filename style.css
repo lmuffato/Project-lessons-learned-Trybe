@@ -9,6 +9,7 @@ body {
   width: 100%;
   padding: 20px;
   margin-left: -10px;
+  border-bottom: 2px solid darkslategray;
 }
 
 #titulo-nav ul li {
@@ -17,13 +18,26 @@ body {
 }
 
 #titulo-nav ul li a {
+  color: white;
+  font-weight: 600;
   text-decoration: none;
 }
 
 table {
   width: 500px;
+  border: 1px solid cadetblue;
 }
 
 table tr {
   text-align: left;
+}
+
+table th, td {
+  border: 1px solid cadetblue;
+}
+
+#minha_foto {
+  width: 300px;
+  margin-top: 200px;
+  border-radius: 500px 
 }
