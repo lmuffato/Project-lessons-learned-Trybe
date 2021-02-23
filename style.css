@@ -10,3 +10,13 @@ body {
   position: fixed;
   top: 0;
 }
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 600px;
+}
+
+.lado-direito {
+  float: right;
+  width: 600px;
+}
