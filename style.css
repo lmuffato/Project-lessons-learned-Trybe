@@ -11,7 +11,8 @@ body {
 }
 
 .content {
-  width: 1366px;
+  width: 80%;
+  max-width: 1366px;
   height: 100%;
   margin: 0 auto;
   padding: 0;
