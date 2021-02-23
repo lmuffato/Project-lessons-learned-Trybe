@@ -8,32 +8,19 @@ nav {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
-  
+
 }
 
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(255, 251, 243);
-  text-decoration: none;
-}
-
-a:visited{
-  color: rgb(195, 214, 178);
-}
-
-#cabecalho {
+#cabecalho { 
   position: fixed;
   display: block;
   top: 0px;
   background-color:  rgb(47, 95, 81);
   color: white;
   font-family: 'Roboto', sans-serif;
+  width: 100%;
+  text-align: center;
 }
 
 p, ul, ol {
@@ -69,6 +56,7 @@ h2 , h3 {
   border: 3px solid rgb(237,226, 207);
   margin: 20px;
   padding: 20px;
+  margin-bottom: 80px;
 }
 
 .footer-icon {
@@ -94,4 +82,24 @@ h2 , h3 {
 
 #about {
   margin-top: 150px;
+  background-color: rgb(255, 251, 243) ;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(195, 214, 178);
+  
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 251, 243);
+}
+
+.corpo {
+  padding-left: 50px;
 }
