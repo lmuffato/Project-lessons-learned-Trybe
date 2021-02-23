@@ -8,7 +8,7 @@ body {
   top: 0;
   background-color: rgb(118, 154, 183);
   width: 100vw;
-  height: 100px;
+  height: 120px;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 #perfil {
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 #minha_foto {
@@ -41,19 +41,7 @@ body {
 }
 
 #artigo {
+  width: 600px;
   overflow: auto;
-  padding-bottom: 15px;
-}
-
-#artigos {
   display: inline-flex;
-}
-
-#artigos article, aside {
-  width: 300px;
-  padding-bottom: 15px;
-}
-
-#curiosidade {
-  overflow: auto;
 }
