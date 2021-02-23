@@ -7,20 +7,51 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    border: 1px solid black;
 }
+
+#contato {
+    margin-top: 0px;
+    border: 1px solid darkgreen;
+}
+    
 
 #minha_foto {
     width: 250px;
     top: 50px;
-    position: relative;
-
-
-}
-#licoes_aprendidas {
-    position: relative;
-    top: 100px;
-}
-
-#licoes_a_aprender {
     
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    border: 1px solid black;
+    
+}
+
+.lado-direito {
+    display: inline-block;
+    border: 1px solid black;
+    
+}
+
+#rodape p {
+    bottom: 0px;
+    border: 1px solid black;
+}
+
+.article-esquerdo {
+    display: inline-block;
+    border: 1px solid blue;
+    width: 500px;
+    text-align: justify;
+}
+
+.aside-direito {
+    float: right;
+    border: 1px solid darkblue;
+    width: 500px;
+    text-align: justify;
+    margin-left: 200 px
+    ;
+
 }
