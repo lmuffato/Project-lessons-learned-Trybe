@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Roboto, sans-serif;
+  font-size: 1vw;
+  letter-spacing: 0.5px;
 }
 
 #cabecalho {
@@ -10,6 +12,7 @@ body {
   width: 100vw;
   height: 120px;
   text-align: center;
+  color: rgb(0, 0, 0)
 }
 
 #menu ul li {
