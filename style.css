@@ -58,16 +58,17 @@ img {
   margin: 150px 0 30px 20px;
   box-shadow: 2px 2px 5px -2px rgb(0, 0, 0, 1);}
 
+.side-by-side {
+  width: 25vw;}
+
 .lado-esquerdo {
   display: inline-block;
- 
-  text-align: left;
+  text-align: justify;
   position: relative;
   z-index: -1;}
 
 .lado-direito {
   display: inline-block;
-  
   position: absolute;
   z-index: -1;
-  text-align: right;}
+  text-align: justify;}
