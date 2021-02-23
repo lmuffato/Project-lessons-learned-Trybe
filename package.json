@@ -33,5 +33,10 @@
     "mochawesome-report-generator": "^4.1.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "each-async": "^1.1.1",
+    "indent-string": "^4.0.0"
   }
 }
