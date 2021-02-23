@@ -2,8 +2,11 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(253, 251, 251);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+a{
+  text-decoration: none;
+}
 #cabecalho {
   position: fixed;
   top: 0;
@@ -11,13 +14,18 @@ body {
   width: 100%;
   padding-left: 20px;
 }
-
+#titulo {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight:500;
+  font-size: 40px;
+}
 main {
   margin-top: 100px;
 }
 
-/* #titulo {
-}
+/* 
 #minha_foto{
 }
 #licoes_aprendidas{
