@@ -49,6 +49,10 @@ footer a {
   margin-top: 150px;
 }
 
+ol , ul {
+  margin-top: 0;
+}
+
 .lado-esquerdo {
   display: inline-block;
   width: 500px;
