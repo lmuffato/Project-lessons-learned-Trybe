@@ -1,34 +1,35 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
-    top: 0px;
-    left: 0;
-    right: 0;
-    position: fixed;
-    text-align: center;
-    background-color: rgb(25, 209, 80);
-    display: block;
+  top: 0px;
+  left: 0;
+  right: 0;
+  position: fixed;
+  text-align: center;
+  background-color: rgb(25, 209, 80);
+  display: block;
 }
 
 #minha_foto {
-    width: 20%;
-    margin-top: 30px;
-    border-radius: 100%;
+  width: 20%;
+  margin-top: 30px;
+  border-radius: 100%;
 }
 
 #side-box {
-    float: right;
-    width: 45%;
-    text-align: justify;
-    margin-top: -155px;
+  float: right;
+  width: 45%;
+  text-align: justify;
+  margin-top: -155px;
 }
 
 #artigo {
-    width: 45%;
-    text-align: justify;
+  width: 45%;
+  text-align: justify;
 }
 
 nav {
-    margin-top: 85px;
-}
+  margin-top: 85px;
+};
