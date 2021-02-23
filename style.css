@@ -12,11 +12,16 @@ body {
     padding-top: 100px;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas{
     padding-top: 50px;
     line-height: 30px;
 }
 
-#aulas {
+.aulas {
     padding-top: 50px;
 }
+
+#licoes_a_aprender {
+    padding-top: 50px;
+    line-height: 30px;
+}    
