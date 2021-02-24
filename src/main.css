@@ -6,6 +6,7 @@ body{
     background-color: rgb(253, 251, 251);
 }
 header{
+    top:0px;
     padding-top:40px;
     position: fixed;
     min-width: 100%;
@@ -66,6 +67,7 @@ header{
 #frontend-lessons img{
     width: 100px;
     margin-bottom: 40px;
+
 }
 #unix{
     border-radius: 50%;
@@ -78,7 +80,15 @@ header{
 #softskills-lessons img{
     width: 100px;
     margin-bottom: 40px;
-
+}
+#lista-lessons{
+    margin-top: 10px;
+}
+#lista-lessons h3{
+    margin-top: 30px;
+}
+#lista-lessons ol,ul{
+    margin: 20px 0px 0px 85px
 }
 /* .line{
     content: "";
