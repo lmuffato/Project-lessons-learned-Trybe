@@ -10,6 +10,7 @@ body {
   right: 0.1px;
   position: fixed;
   background-color: rgb(229, 239, 193);
+  z-index: 999;
 }
 
 #titulo {
@@ -60,24 +61,37 @@ body {
 }
 
 #linkedinicon {
-    height: 120px;
-    position: absolute;
-    left: 410px;
-    top: 100px;
-    
+  height: 120px;
+  position: absolute;
+  left: 450px;
+  top: 100px; 
+  filter: grayscale(100%); 
 }
 
 #githubicon {
-    height: 120px;
-    position: absolute;
-    left: 560px;
-    top: 100px;
-    
+  height: 120px;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  filter: opacity(70%);
 }
 
 #trybeicon {
-    height: 120px;
-    position: absolute;
-    left: 710px;
-    top: 100px;
+  height: 120px;
+  position: absolute;
+  left: 750px;
+  top: 100px;
+}
+
+#aprendizado {
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgb(34, 105, 111);
+  width: 380px;
+  padding: 5px;
+}
+
+#aprendizado h1 {
+  border-bottom: 1px solid rgb(34, 105, 111);
+  font-style: oblique;
+  font-size: 20px;
 }
