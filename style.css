@@ -10,10 +10,11 @@ body {
 
 #titulo {
   font-size: 30px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier;
   font-style: italic;
   color: dimgrey;
   text-align: center;
+  line-height: 1px;
 }
 
 .table td {
@@ -32,6 +33,35 @@ img {
 }
 
 article {
-  line-height: 5px;
-  font-family: 'Courier New', Courier, monospace;
+  
+  font-family: 'Courier New', Courier;
+  text-align: justify;
+  text-size-adjust: initial;
+}
+
+aside {
+  font-family: 'Courier New', Courier;
+  text-size-adjust: inherit;
+}
+
+.lado-esquerdo-lista {
+  float: left;
+}
+
+.lado-direito-lista {
+  float: right;
+  margin-right: 800px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float:right
+}
+
+footer {
+  text-align: center;
+  position: static;
 }
