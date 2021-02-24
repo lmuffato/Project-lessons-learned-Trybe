@@ -10,7 +10,7 @@
 }
 
 .green {
-  color: rgb(78,211,96);
+  color: rgb(78, 211, 96);
 }
 
 #cabecalho {
@@ -26,20 +26,18 @@ table , th , td {
   line-height: 35px;
 }
 
-.aprendizados-trybe h2{
-  color: rgb(32,32,36);
+.aprendizados-trybe h2 {
+  color: rgb(32, 32, 36);
   font-size: 30px;
 }
 
-.aprendizados-trybe p{
+.aprendizados-trybe p {
   font-size: 20px;
   text-align: justify;
 }
 
-
-
 .lado-esquerdo {
-  border: 1px solid rgb(32,32,36);
+  border: 1px solid rgb(32, 32, 36);
   border-radius: 4px;
   width: 50%;
   float: left;
@@ -48,7 +46,7 @@ table , th , td {
 }
 
 .lado-direito {
-  border: 1px solid rgb(32,32,36);
+  border: 1px solid rgb(32, 32, 36);
   border-radius: 4px;
   width: 40%;
   max-width: 450px;
