@@ -85,3 +85,8 @@ body {
   font-weight: 900;
   font-size: 20px;
 }
+
+table {
+  font-family: monospace, sans-serif;
+  text-align: center;
+}
