@@ -212,3 +212,13 @@ ul {
   text-align: center;
 }
 
+#rodape {
+  background: rgb(242, 143, 59);
+  padding: 20px 0;
+}
+
+.rodape-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
