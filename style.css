@@ -8,13 +8,60 @@ body {
   font-family: Oswald, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #cabecalho {
   top: 0;
   position: fixed;
+  width: 100%;
+  display: inline-block;
+  z-index: 1;
+  background-color: #036b52;
+}
+
+#cabecalhoEsquerdo {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+
+#cabecalhoDireito {
+  display: inline-block;
+  width: 54%;
+  text-align: center;
+}
+
+.listaCabecalho {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+#titulo {
+  display: inline-block;
+  top: 30px;
+  font-size: 35px;
+
 }
 
 #minha_foto {
   width: 300px;
+  border-radius: 100%;
+  position: relative;
+  margin-top: 90px;
+}
+
+#nomeFoto {
+  font-size: 30px;
+}
+
+#perfil {
+  display: inline-block;
+  text-align: center;
+  margin-left: 70%;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
@@ -25,19 +72,16 @@ body {
 }
 
 #listas {
-  position: relative;
   display: inline-block;
   width: 100%;
 }
 
 #listaEsquerda {
-  position: relative;
   display: inline-block;
   width: 45%;
 }
 
 #listaDireita {
-  position: relative;
   display: inline-block;
   width: 45%;
 }
