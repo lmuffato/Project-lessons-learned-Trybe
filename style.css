@@ -19,12 +19,37 @@ body {
   padding-left: 30px;
 }
 
+#menu {
+  display: inline;
+  padding-top: 5px;
+  border-top: solid 1px rgb(7, 90, 62);
+}
+
+#link {
+  color: rgb(7, 90, 62);
+}
+
+#link:hover {
+  color: rgb(23, 63, 11);
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
 #minha_foto {
   display: block;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 90px;
+  width: 300px;
+  float: right;
+  padding: 9px;
+  border-left: solid 2px rgb(194, 211, 192);
+  border-top: solid 2px rgb(194, 211, 192);
+}
+
+#lessons {
+  margin-top: 150px;
+}
+
+#title {
+  text-align: center;
 }
 
 #esquerdo {
@@ -32,5 +57,6 @@ body {
 }
 
 #direito {
-    float: right;
+  float: right;
+  margin-right: 30px;
 }
