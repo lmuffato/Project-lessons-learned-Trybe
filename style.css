@@ -64,5 +64,44 @@ a {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 112px;
+}
+
+main section aside , main section article {
+  background-color: rgb(20, 33, 61);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+main section aside h2 , main section article h2 {
+  color: rgb(252, 163, 17);
+  padding-bottom: 8px;
+}
+
+main section aside p , main section article p {
+  text-align: justify;
+  line-height: 24px;
+  color: rgb(253, 251, 251);
+}
+
+main section aside #licoes_aprendidas , main section aside #licoes_a_aprender {
+  color: rgb(253, 251, 251);
+  margin-left: 26px;
+  line-height: 24px;
+}
+
+main section aside:not( :last-child ) {
+  margin-bottom: 16px;
+}
+
+main section .lado-esquerdo {
+  width: calc(25% - 16px);
+  margin-right: 16px;
+  float: left;
+}
+
+main section .lado-direito {
+  width: 75%;
+  float: right;
+  background-color: rgb(20, 33, 61);
 }
