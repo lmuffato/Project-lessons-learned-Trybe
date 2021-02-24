@@ -66,10 +66,11 @@ img {
   margin-top: 5%;
 }
 
-img:hover {
+#minha_foto:hover {
   width: 450px;
   height: 450px;
   margin-top: 2%;
+  transition: all 0.4s;
 }
 
 #listas {
@@ -165,6 +166,11 @@ footer {
 .redes-sociais {
   width: 80px;
   height: 80px;
+}
+
+.redes-sociais:hover {
+  width: 100px;
+  height: 100px;
 }
 
 .copyright {
