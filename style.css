@@ -1,42 +1,42 @@
 body {
-background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-    position: fixed;
-    top: 0px;
+	position: fixed;
+	top: 0px;
 }
 
 div#content {
-    margin-top: 100px;
-    padding: 50px;
+	margin-top: 100px;
+	padding: 50px;
 }
 
 nav ul li {
-    list-style: none;
+	list-style: none;
 }
 
 table , caption , td {
-    border: 1px solid white;
-    background-color: #2d4654;
-    color: white;
-    margin: 3px;
-    padding: 5px;
+	border: 1px solid white;
+	background-color: #2d4654;
+	color: white;
+	margin: 3px;
+	padding: 5px;
 }
 
 section , article , aside , nav {
-    border: 1px solid grey;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 5px;
+	border: 1px solid grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 5px;
 }
 
 h1 , h2 , h3 , h4 , ul , ol , p , table {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 20px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 20px;
 }
 
 footer {
-    text-align: center;
-    font-size: 13px;
+	text-align: center;
+	font-size: 13px;
 }
