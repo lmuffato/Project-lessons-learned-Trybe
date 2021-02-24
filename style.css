@@ -1,87 +1,87 @@
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-background-color: rgb(253, 251, 251);
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
-position: fixed;
-top: 0;
-background-color: plum;
-height: 100px;
-width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: plum;
+  height: 100px;
+  width: 100%;
 }
 
 #titulo {
-color: white;
-text-align: center;
-margin-top: 10px;
-margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 nav li {
-list-style: none;
-padding: 5px;
-display: inline-block;
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
 }
 
 #conteiner {
-margin: 120px 20px 20px;    
+  margin: 120px 20px 20px; 
 }
 
 #minha_foto {
-width: 300px;
+  width: 300px;
 }
 
 h2 {
-color: plum;
-margin-bottom: 10px;
+  color: plum;
+  margin-bottom: 10px;
 }
 
 ol , ul {
-margin-left: 20px;
-margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #licoes {
-display: flex;
+  display: flex;
 }
 
 #licoes-box {
-width: 25%;
-border: solid plum 3px;
-padding: 20px;
+  width: 25%;
+  border: solid plum 3px;
+  padding: 20px;
 }
 
 #rodape {
-background-color: plum;
-color: white;
-text-align: center;
-padding: 7px;
-font-size: large;
+  background-color: plum;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  font-size: large;
 }
 
 .artigos-lado-a-lado {
-display: flex;
+  display: flex;
 }
 
 .lado-esquerdo {
-width: 40%;
+  width: 40%;
 }
 
 .lado-direito {
-width: 40%;
+  width: 40%;
 }
 
 .line-height {
-line-height: 25px;
+  line-height: 25px;
 }
 
 #tabela {
-padding: 10px;
-border: solid plum 3px;
+  padding: 10px;
+  border: solid plum 3px;
 }
