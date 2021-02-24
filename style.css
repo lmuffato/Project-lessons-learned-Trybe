@@ -13,11 +13,11 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  bottom: 580px;
-  background-color: royalblue;
+  bottom: 570px;
+  background-color: rgb(200, 224, 233);
   text-align: center;
   vertical-align: middle;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 #minha_foto {
@@ -54,10 +54,10 @@ body {
   height: 40px;
   bottom: 0;
   top: auto;
-  background-color: rgb(196, 225, 65);
+  background-color: rgb(200, 224, 233);
   text-align: center;
   vertical-align: middle;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-top: 50px;
 }
 
@@ -114,4 +114,12 @@ article p {
 #produtos {
   margin-left: 500px;
   margin-top: 40px;
+}
+
+.box {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 1px 1px;
+  padding: 20px;  
 }
