@@ -20,10 +20,14 @@ body {
 #cabecalho h1 {
   display: inline;
   position: absolute;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   left: 20%;
   transform: translateX(-20%);
   color: white;
+}
+
+.top-content img {
+  width: 100px;
 }
 
 #cabecalho img {
@@ -83,10 +87,6 @@ body {
   padding: 75px 0 25px;
 }
 
-.top-content img {
-  width: 100px;
-}
-
 .learning {
   display: inline-block;
   width: 70%;
@@ -117,7 +117,7 @@ body {
   font-size: 20px;
 }
 
-.aside-bar {
+#aside-bar {
   display: inline-block;
   position: relative;
   width: 20%;
@@ -129,7 +129,7 @@ body {
   border-radius: 30px 0 30px 0;
 }
 
-.aside-bar h3 {
+#aside-bar h3 {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: italic;
@@ -143,7 +143,7 @@ body {
   font-size: 16px;
 }
 
-.aside-bar img {
+#aside-bar img {
   width: 100px;
   border-radius: 100%;
 }
@@ -155,6 +155,6 @@ body {
 
 .section-learning-div {
   position: relative;
-  border-bottom: 20px outset rgb(33, 126 , 160);
+  border-bottom: 20px outset rgb(33, 126, 160);
   height: 97vh;
 }
