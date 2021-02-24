@@ -6,12 +6,12 @@ body {
 
 }
 
-article {
+/* article {
     display: block;
     
-}
+} */
 
-article img {
+#bordinha img {
     width: 200px;
 }
 
@@ -59,11 +59,11 @@ aside {
     margin: 14%;
 }
 
-#barra-superior {
+/* #barra-superior {
     max-width: 798px;
     display: block;
     
-}
+} */
 #barra-inferior {
     max-width: 798px;
     display: block;
