@@ -20,18 +20,24 @@ body {
   width: 350px;
   position: absolute;
   left: 488px;
-  top: 150px;
+  top: 190px;
+  border-radius: 100%;
 }
 
 #licoes_aprendidas {
   position: absolute;
   top: 245px;
-  left: 145px;
+  left: 240px;
+  width: 165px;
   background-color: rgb(13, 219, 157);
 }
 
 #licoes_a_aprender {
-
+  position: absolute;
+  top: 245px;
+  left: 25px;
+  width: 165px;
+  background-color: rgb(13, 205, 219);
 }
 
 #rodape {
