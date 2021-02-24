@@ -20,19 +20,15 @@ table {
   display: flex;
 }
 
-article {
+.article-section article , .article-section section {
   width: 400px;
   padding-left: 30px;
   padding-right: 30px;
   border: solid 1px black;
 }
 
-section {
-  width: 400px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: solid 1px black;
-}
+
+
 
 
 
