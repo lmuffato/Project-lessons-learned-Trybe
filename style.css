@@ -35,7 +35,8 @@ h3 {
   margin: auto;}
 
 #legenda {
-  text-align: center;}
+  text-align: center;
+  font-size: 20px;}
 
 #nav li {
   display: inline-block;
@@ -91,7 +92,7 @@ h3 {
   width: 100%;
   background-color: #efd3d7;}
 
-#lado-esquerdo {
+.lado-esquerdo {
   float: left;
   margin-right: 10px;
   margin-top: 10px;
@@ -100,9 +101,10 @@ h3 {
   height: 300px;
   border-style: solid;
   border-width: 2px;
-  background-color: #feeafa;}
+  background-color: #feeafa;
+  padding: 1px;}
 
-#lado-direito {
+.lado-direito {
   width: 500px;
   float:right;
   margin-right: 150px;
@@ -110,7 +112,8 @@ h3 {
   margin-left: 10px;
   border-style: solid;
   border-width: 2px;
-  background-color: #feeafa;}
+  background-color: #feeafa;
+  padding: 1px;}
 
 footer {
   background-color: yellow;}
