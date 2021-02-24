@@ -117,18 +117,18 @@ td {
 }
 
 #centraliza_tabela {
-    margin-left: 100px;
+    margin-left: 285px;
     text-align: center;
     align-items: center;
 }
 
 span {
     font-family: 'Courier New', monospace;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 p {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
