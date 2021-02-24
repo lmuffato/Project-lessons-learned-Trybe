@@ -58,9 +58,3 @@ th {
   color: white;
   width: 100px;
 }
-
-/*- Linha **31**: Expected empty line before comment (comment-empty-line-before)
-- Linha **38**: Expected empty line before comment (comment-empty-line-before)
-- Linha **27**: Expected single space after ":" (declaration-colon-space-after)
-- Linha **50**: Expected line length to be no more than 90 characters (max-line-length)
-- Linha **50**: Unexpected missing end-of-source newline (no-missing-end-of-source-newline)*/
