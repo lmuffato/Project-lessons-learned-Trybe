@@ -94,3 +94,11 @@ body {
     vertical-align: top;
     text-align: justify;
 }
+
+.lado-direito {
+    padding-left: 10px;
+}
+
+.lado-esquerdo {
+    padding-right: 10px;
+}
