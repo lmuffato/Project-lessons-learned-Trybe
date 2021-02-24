@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 15px;
   color: rgb(2, 2, 2);
   margin: 2px;
@@ -21,14 +21,19 @@ body {
   padding: 5px 10px;
 }
 
-#menu a:hover {
-  color: teal;
+#rodape a {
+  color: white;
+  text-decoration: none;
 }
 
 #menu li a {
   text-decoration: none;
   font-weight: 500;
   color: white;
+}
+
+#menu a:hover {
+  color: teal;
 }
 
 #cabecalho {
@@ -129,9 +134,4 @@ th , td {
 
 #rodape a:hover {
   color: teal;
-}
-
-#rodape a {
-  color: white;
-  text-decoration: none;
 }
