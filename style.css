@@ -1,12 +1,15 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(39, 39, 39);
+  font-size: 19pt;
+  line-height: 20pt;
 }
 
 header {
   position: fixed;
   top: 0;
-  background-color: red; 
+  background-color: red;
   width: 98.8%;
   height: 45pt;
   display: flex;
@@ -66,13 +69,64 @@ img {
   display: flex;
   justify-content: space-around;
   width: 50%;
-  font-size: 18pt;
+  font-size: 15pt;
   padding-top: 1%;
 }
 
-#licoes_aprendidas li, #licoes_a_aprender li {
+#licoes_aprendidas li , #licoes_a_aprender li {
   margin: 1%;
   padding: 1%;
+}
+
+#artigos {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10pt;
+  align-items: flex-start;
+  
+}
+
+article , aside {
+  width: 45%;
+  margin-top: 1%;
+  padding: 1%;
+  font-size: 14pt;
+  border: 2px solid black;
+  height: auto;
+}
+
+#tabela_conhecimentos {
+  display: inline-block;
+  width: 29%;
+  margin-left: 61%;
+  margin-top: -6%
+}
+
+
+table { /*Formatação da tabela*/
+  margin: 20px 0 40px;
+  text-align: center;
+  width: 100%;
+  height: 200px;  
+  margin-top: -5%;
+  
+}
+
+thead{ /*Formatação do cabeção da tabela*/
+  background: rgba(179, 115, 20, 0.884);
+  color: white;
+  font-weight: bold;
+}
+
+td, th { /*Formatação das linhas da tabela*/
+  border: 1px solid black;
+  padding: 8px 15px;
+  color: white;
+  
+}
+
+td {
+background-color: rgba(128, 128, 128, 0.863);
 }
 
 footer {
