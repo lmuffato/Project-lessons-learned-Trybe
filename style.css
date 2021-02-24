@@ -32,7 +32,7 @@ body {
 }
 
 #licoes_aprendidas {
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 100px;
   font-size: 20px;
   font-family: monospace;
@@ -41,7 +41,7 @@ body {
 }
 
 #licoes_a_aprender {
-  margin-top: 70px;
+  margin-top: 20px;
   margin-left: 100px;
   font-size: 20px;
   font-family: monospace;
@@ -87,4 +87,31 @@ article p {
   font-family: cursive;
   margin-left: 400px;
   margin-bottom: 20px;
+}
+
+#titulo {
+  margin-top: 17px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#habilidadesaprendidas {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+#habilidadesaprender {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+#tabela {
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+#produtos {
+  margin-left: 500px;
+  margin-top: 40px;
 }
