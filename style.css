@@ -5,10 +5,11 @@ body {
 
 h1 {
   text-align: center;
+  font-weight: bold;
 }
 
 #cabecalho {
-  position: fixed;
+  position: absolute;
   background-color: rgb(46, 46, 46);
   margin-top: 0;
   padding: 20px;
@@ -16,7 +17,7 @@ h1 {
 }
 
 #minha_foto {
-  position: fixed;
+  position: absolute;
   margin-top: 10vw;
   margin-left: 36vw;
   width: 400px;
@@ -30,4 +31,26 @@ h1 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#licoes_aprendidas{
+  font-weight: bold;
+}
+
+#licoes_a_aprender{
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 27vw;
+  border: 0;
+}
+
+#meunome{
+  position: absolute;
+  color: rgb(53, 238, 16);
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#lista_de_licoes{
+  margin-left: 40vw;
 }
