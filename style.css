@@ -171,3 +171,18 @@ body {
   font-size: 20px;
   padding: 20px;
 }
+
+#div_table {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#title_checklist {
+  text-align: center;
+  font-size: 72px;
+  color: rgb(125, 199, 125);
+  margin-top: 70px;
+}
