@@ -78,6 +78,10 @@ nav a {
   line-height: 29px;
 }
 
+p {
+  line-height: 25px;
+}
+
 #rodape {
   background-color: rgb(142, 0, 28);
   padding: 20px;
