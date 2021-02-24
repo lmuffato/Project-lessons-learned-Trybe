@@ -69,19 +69,18 @@ ol, ul{
     font-size: large;
 }
 
-#lado-direito {
+article{
     width: 40%;
 }
 
-#lado-esquerdo {
+aside {
     width: 40%;
+    position: absolute;
+    left: 600px;
+    bottom: 10px;
 }
 
 .line-height {
     line-height: 25px;
-}
-
-#conteiner-artigos {
-    display: flex;
 }
 
