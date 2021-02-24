@@ -4,8 +4,48 @@ body {
 
 #cabecalho {
   top: 0;
+  background-color: #52b788;
+  text-align: center;
+  padding: 20px;
 }
 
 ol , ul {
   display: inline-block;
+  margin-left: 200px;
+}
+
+#minha_foto {
+  width: 200px;
+  border-radius: 250px;
+  padding: 8px;
+  background-color: #1b4332;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+
+#rodape {
+  text-align: center;
+  background-color: #52b788;
+}
+
+.tamanho {
+  text-align: center;
+  max-width: 600px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  background-color: #52b788;
+}
+
+nav {
+  text-align: center;
+}
+
+#licoes {
+  margin-top: 125px;
 }
