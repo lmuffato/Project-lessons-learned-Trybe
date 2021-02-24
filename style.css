@@ -90,17 +90,16 @@ main {
   margin-bottom: 10px;
 }
 
-aside.artigo {
+aside .artigo {
   width: 30vw;
 }
 
 .lado-esquerdo {
-  display: inline-block;
   float: left;
+  
 }
 
 .lado-direito {
-  display: inline-block;
   float: right;
 }
 
