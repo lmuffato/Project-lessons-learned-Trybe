@@ -146,6 +146,7 @@ a {
   display: block;
   margin-top: 2%;
   margin-left: 22%;
+  margin-bottom: 5%;
   color: rgb(238, 148, 12);
 }
 
@@ -161,8 +162,7 @@ table , th , td {
   display: inline-block;
   width: 100%;
   background-color: blue;
-  height: 97px;
-  margin-top: 4%;
+  height: 96px;
 }
 
 #logolinkedin {
@@ -171,5 +171,6 @@ table , th , td {
 }
 
 #linkperfil {
-  font-size: 35px;
+  font-size: 32px;
+  font-weight: 600;
 }
