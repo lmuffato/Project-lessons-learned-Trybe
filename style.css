@@ -17,11 +17,20 @@ body {
   background: rgb(253, 251, 251);
   font-family: Karla, sans-serif;
   line-height: 1.4;
+  color: rgb(22, 22, 22);
 }
 
 a {
-  color: black;
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  color: rgb(253, 64, 42);
 }
 
 .container {
@@ -39,13 +48,11 @@ a {
 }
 
 .main-title {
-  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
 }
 
 .main-title-lessons {
   font-size: 4em;
-  color: rgb(253, 64, 42);
   font-style: italic;
 }
 
@@ -129,12 +136,44 @@ a {
 .licoes {
   max-width: 66.6%;
   margin: 0 auto;
-  margin-top: 80px;
+  padding-top: 15px;
+}
+
+#licoes-title {
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #minha_foto {
-  max-width: 20%;
-  border-radius: 30%;
+  max-width: 164px;
+  border-radius: 20%;
   border: 3px solid rgb(253, 64, 42);
   margin: 0 auto;
+  margin-top: 25px;
+}
+
+.licoes-table {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 16px;
+  justify-content: space-evenly;
+}
+
+.licoes-lista {
+  background: rgb(173, 129, 116);
+  text-align: center;
+  padding: 16px;
+  font-size: 1.3em;
+  line-height: 1.5;
+  border-radius: 3%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.licoes-lista p {
+  font-size: 1.2em;
+  padding: 4px;
+  color: rgb(253, 251, 251);
 }
