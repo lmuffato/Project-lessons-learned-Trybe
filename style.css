@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(253, 251, 251);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
@@ -30,11 +30,8 @@ nav li {
 }
 
 
-#conteiner{
-    margin-top: 120px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+#conteiner {
+    margin: 120px 20px 20px;
 }
 
 #minha_foto {
@@ -46,7 +43,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-ol, ul{
+ol, ul {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -69,10 +66,11 @@ ol, ul{
     font-size: large;
 }
 
-.artigos-lado-a-lado{
+.artigos-lado-a-lado {
     display: flex;
 }
-.lado-esquerdo{
+
+.lado-esquerdo {
     width: 40%;
 }
 
@@ -88,5 +86,3 @@ ol, ul{
     padding: 10px;
     border: solid plum 3px;
 }
-
-
