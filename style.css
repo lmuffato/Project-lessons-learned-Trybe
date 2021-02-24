@@ -4,7 +4,7 @@ body {
 }
 
 #cabecalho {
-  left: 30%;
+  left: 35%;
   border: 2px solid lightgray;
   position: fixed;
   top: 0px;
@@ -19,9 +19,14 @@ body {
   width: 250px;
 }
 
+#licoestitle {
+  margin-top: 200px;
+}
+
 #licoes_aprendidas {
   font-family: monospace , sans-serif;
   font-weight: 300;
+  margin-top: 50px;
 }
 
 #githubimage {
@@ -67,4 +72,16 @@ body {
 
 #invisible {
   color: rgb(253, 251, 251);
+}
+
+#nav {
+  text-align: center;
+  letter-spacing: 1.2px;
+  margin-top: -200px;
+}
+
+.navlinks:hover {
+  color: darkslategray;
+  font-weight: 900;
+  font-size: 20px;
 }
