@@ -17,7 +17,7 @@ header {
   align-items: center;
   justify-content: space-around;
   background-color: rgba(19, 18, 18, 0.911);
-  background-image: url(/bg.jpg);
+  background-image: url('/bg.jpg');
   color: whitesmoke;
 }
 
@@ -33,12 +33,11 @@ nav ul {
   justify-content: space-around;
   font-size: 18pt;
   list-style-type: none;
-  
 }
 
 a {
   text-decoration: none;
-  color: rgb(253, 251, 251);  
+  color: rgb(253, 251, 251);
 }
 
 .navegacao:hover {
@@ -74,7 +73,6 @@ img:hover {
 }
 
 #listas {
-  /* background-color: darkgoldenrod; */
   display: flex;
   justify-content: space-around;
   width: 50%;
@@ -84,7 +82,6 @@ img:hover {
 
 #licoes_aprendidas li , #licoes_a_aprender li {
   margin: 1%;
-  padding: 1%;
   width: 64%;
   border: 1px solid black;
   border-radius: 5%;
@@ -92,7 +89,7 @@ img:hover {
 }
 
 #licoes_aprendidas li:hover , #licoes_a_aprender li:hover {
-  transition: all .4s;
+  transition: all 0.4s;
   border: 2px solid black;
   font-size: 20pt;
   text-align: center;
@@ -120,47 +117,47 @@ article , aside {
   display: inline-block;
   width: 29%;
   margin-left: 61%;
-  margin-top: -6%
+  margin-top: -6%;
 }
 
 table {
   margin: 20px 0 40px;
   text-align: center;
   width: 100%;
-  height: 200px;  
+  height: 200px;
   margin-top: -5%;
 }
 
-thead{
+thead {
   background: rgba(179, 115, 20, 0.884);
   color: white;
-  font-weight: bold;
+  font-weight: 900;
 }
 
-td, th {
+td , th {
   border: 1px solid black;
   padding: 8px 15px;
   color: white;
 }
 
 td {
-background-color: rgba(128, 128, 128, 0.863);
+  background-color: rgba(128, 128, 128, 0.863);
 }
 
 td:hover {
   border: 2px solid black;
   font-size: 30pt;
   text-align: center;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
-footer { 
+footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: rgba(240, 240, 240, 0.89);
-  background: url("bg-claro.jpg");
-  background-repeat:inherit;
+  background-image: url('bg-claro.jpg');
+  background-repeat: inherit;
   padding: 5px;
   font-size: 15pt;
 }
@@ -171,6 +168,6 @@ footer {
 }
 
 .copyright {
-  color: #000;
+  color: black;
   font-size: 18px;
 }
