@@ -23,3 +23,8 @@ body {
 .listas {
   display: inline-block;
 }
+
+.meuaprendizado {
+  width: 600px;
+  text-align: justify;
+}
