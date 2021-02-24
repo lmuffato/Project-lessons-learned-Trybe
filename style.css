@@ -1,3 +1,9 @@
+* {
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+} 
+
+
 body {
     background-color: rgb(253,251,251); 
     font-size: 1em;
@@ -76,4 +82,3 @@ p {
     width: 250px;
     background: #fff;
     margin-right: 20px;
-}
