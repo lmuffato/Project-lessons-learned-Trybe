@@ -6,6 +6,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Oswald, sans-serif;
+  margin-top: 55px;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
   width: 100%;
   display: inline-block;
   z-index: 1;
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
 }
 
 #cabecalhoEsquerdo {
@@ -51,7 +52,6 @@ a {
   width: 300px;
   border-radius: 100%;
   position: relative;
-  margin-top: 90px;
 }
 
 #nomeFoto {
@@ -61,10 +61,13 @@ a {
 #perfil {
   display: inline-block;
   text-align: center;
-  margin-left: 70%;
+  margin-left: 79%;
+  margin-top: 4%;
+  position: absolute;
+  width: 300px;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+.lado-esquerdo , .lado-direito {
   font-size: 25px;
   color: blue;
   line-height: 40px;
@@ -76,14 +79,38 @@ a {
   width: 100%;
 }
 
+#aprendi {
+  width: 40%;
+  display: inline-block;
+  font-size: 55px;
+  background: -webkit-linear-gradient(rgb(11, 100, 3), rgb(42, 179, 8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#devoAprender {
+  width: 40%;
+  display: inline-block;
+  font-size: 55px;
+  background: -webkit-linear-gradient(rgb(100, 2, 2), rgb(243, 84, 84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #listaEsquerda {
   display: inline-block;
-  width: 45%;
+  width: 40%;
+  background: -webkit-linear-gradient(rgb(11, 100, 3), rgb(42, 179, 8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #listaDireita {
   display: inline-block;
-  width: 45%;
+  width: 40%;
+  background: -webkit-linear-gradient(rgb(100, 2, 2), rgb(243, 84, 84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 table , th , td {
