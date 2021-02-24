@@ -7,9 +7,9 @@ body {
 }
 
 #cabecalho {
-  top: 0.1px;
-  left: 0.1px;
-  right: 0.1px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   position: fixed;
   background-color: rgb(229, 239, 193);
   z-index: 999;
@@ -59,7 +59,7 @@ body {
 }
 
 #content {
-  margin-bottom: 30%;
+  margin-bottom: 10%;
 }
 
 #linkedinicon {
@@ -107,7 +107,7 @@ body {
   display: inline-block;
 }
 
-#nav ul{
+#nav ul {
   position: fixed;
   right: 30px;
   top: 0;
@@ -115,8 +115,9 @@ body {
   z-index: 9999;
   border-left: 1px solid rgb(34, 105, 111);
 }
-a:link, a:visited {
+
+a:link , a:visited {
   text-decoration: none;
   color: rgb(34, 105, 111);
-  font-weight: bold;
+  font-weight: 900;
 }
