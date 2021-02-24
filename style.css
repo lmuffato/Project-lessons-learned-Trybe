@@ -4,8 +4,8 @@ body {
 
 #cabecalho {
   background-color: darkgreen;
-  margin-top: 0px;
-  padding: 30px;
+  top: 0px;
+  padding: 10px;
 }
 
 #titulo {
@@ -22,4 +22,8 @@ body {
 #legend {
   text-decoration: underline;
   font-size: 20px;
+}
+
+#rodape {
+
 }
