@@ -26,10 +26,7 @@ body {
   display: inline-block;
   position: absolute;
   top: 35%;
-}
-
-#menu li {
-  display: inline-block;
+  left: 400px;
 }
 
 a {
