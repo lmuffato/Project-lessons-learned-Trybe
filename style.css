@@ -56,10 +56,21 @@ img {
   width: 250px;
   border-radius: 50%;
   border: 1px solid black;
-  margin: 150px 0 30px 150px;
+  margin: 150px 0 30px 110px;
   box-shadow: 2px 2px 5px -2px rgb(0, 0, 0, 1);}
 
+.lessons-learned {
+  display: inline-block;
+  text-align: justify;
+  width: 350px;}
+
+.lessons-to-learn {
+  display: inline-block;
+  text-align: justify;
+  width: 350px;}
+
 .lado-esquerdo {
+  margin-top: 30px;
   display: inline-block;
   text-align: justify;
   width: 350px;}
@@ -70,7 +81,24 @@ img {
   width: 350px;
   text-align: justify;}
 
+table {
+  margin-left: 110px;}
+
+.table {
+  margin-left: 110px;}
+
 th , td {
   border: 1px solid rgb(0, 0, 0, 0.5);
+  text-align: center;}
+
+th {
+  background-color: rgb(126, 255, 112);
+  color: rgb(39, 39, 39);}
+
+tr:hover {
+  background-color: rgb(126, 255, 112);}
+
+footer {
+  background-color: rgb(126, 255, 112);
   text-align: center;
-  display: block;}
+  height: 10vh;}
