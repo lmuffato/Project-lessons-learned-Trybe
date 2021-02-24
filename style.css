@@ -3,7 +3,8 @@
 * {
   margin: 0;
   font-family: Poppins, sans-serif;
-  color: rgb(39, 39, 39);}
+  color: rgb(39, 39, 39);
+  box-sizing: border-box;}
 
 body {
   background-color : rgb(253, 251, 251);}
@@ -61,11 +62,12 @@ img {
 .lado-esquerdo {
   display: inline-block;
   text-align: justify;
-  width: 25vw;}
+  width: 350px;}
 
 .lado-direito {
   display: inline-block;
-  width: 25vw;
+  background-color: rgb(126, 255, 112);
+  width: 350px;
   text-align: justify;}
 
 th , td {
