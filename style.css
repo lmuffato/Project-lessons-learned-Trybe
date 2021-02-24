@@ -15,10 +15,12 @@ body {
 #licoes_aprendidas{
     padding-top: 50px;
     line-height: 30px;
+    margin-left: 100px;
 }
 
 .aulas {
     padding-top: 50px;
+    margin-left: 110px;
 }
 
 #licoes_a_aprender {
@@ -26,10 +28,6 @@ body {
     line-height: 30px;
     margin-left: 300px;
 }    
-
-#titulo {
-    margin-left: 300px;
-}
 
 #licoes {
     margin-left: 300px;
@@ -40,9 +38,22 @@ body {
 }
 
 #artigo {
-    width: 50%;
+    width: 40%;
     text-align: justify;
     line-height: 25px;
     padding-top: 50px;
     
 }
+
+#barra {
+    float: right;
+    width: 40%;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: -178px;
+    margin-right: 30px;
+  }
+
+  #secao {
+    margin-top: 100px;
+  }
