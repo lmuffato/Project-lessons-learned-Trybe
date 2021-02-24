@@ -46,7 +46,7 @@ body {
 
 #minha_foto {
   width: 100px;
-  margin-top: 100px;
+  margin-top: 120px;
   border-radius: 40%;
   border: 10px solid black;
   padding: 5px;
@@ -72,7 +72,7 @@ body {
 }
 
 section {
-  background-image: url('https://wallpaperaccess.com/full/796835.jpg');
+  background-color: rgb(196, 152, 236);
   margin-right: -8px;
   margin-left: -8px;
   background-size: cover;
@@ -80,7 +80,7 @@ section {
 
 #licoes_aprendidas {
   font-size: 20px;
-  color: rgb(248, 197, 204);
+  color: rgb(47, 10, 15);
   font-weight: 900;
   display: inline-block;
 }
@@ -88,10 +88,10 @@ section {
 #licoes_a_aprender {
   font-size: 20px;
   font-weight: 900;
-  color: rgb(248, 197, 204);
+  color: rgb(80, 27, 34);
   display: inline-block;
   margin-bottom: 80px;
-  margin-top: 100px; 
+  margin-top: 100px;
 }
 
 h2 {
@@ -107,7 +107,8 @@ h2 {
 
 p {
   margin-left: -22px;
-  color: rgb(130, 130, 202);
+  color: rgb(1, 1, 17);
+  font-weight: 900;
 }
 
 #footer {
@@ -173,13 +174,14 @@ aside {
 #favoritos {
   text-align: center;
   padding: 10px;
+  margin-top: 35px;
 }
 
 .tabela {
   color: rgb(196, 209, 219);
   margin-top: -25px;
   margin-bottom: -15px;
-  background-color: rgb(196, 209, 219);
+  background-color: rgb(153, 111, 192);
 }
 
 table {
