@@ -10,10 +10,11 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #b2dbbf;
+  background-color: rgb(36, 123, 160);
   width: 100%;
   height: 50px;
   max-height: 50px;
+  z-index: 1;
 }
 
 #cabecalho h1 {
@@ -35,6 +36,7 @@ body {
 }
 
 .links {
+  height: 50px;
   display: flex;
   position: relative;
   float: right;
@@ -61,9 +63,99 @@ body {
   font-size: 100%;
   color: #fff;
   width: 100px;
-  padding: 25px 0;
+  padding: 15px 0;
 }
 
 .links label:hover {
-  background-color: rgba(255, 255, 255, .2);
+  background-color: rgba(253, 251, 251, 0.2);
+}
+
+.main-content {
+  position: relative;
+}
+
+.top-content {
+  position: relative;
+  width: 80%;
+  text-align: center;
+  border-bottom: 5px outset rgb(36, 123, 160);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 75px 0 25px;
+}
+
+.top-content img {
+  width: 100px;
+}
+
+.learning {
+  display: inline-block;
+  width: 70%;
+}
+
+.learning h2 {
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 0 10px;
+}
+
+.learning p {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  border-left: 3px outset rgb(36, 123, 160);
+  border-right: 3px outset rgb(36, 123, 160);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.aside-bar {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 50%;
+  background-color: rgb(148, 148, 148);
+  top: 40px;
+  margin-left: 50px;
+  text-align: center;
+  border-radius: 30px 0 30px 0;
+}
+
+.aside-bar h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(173, 255, 177);
+  padding: 15px 0;
+}
+
+#aside-name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.aside-bar img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.section-learning {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-learning-div {
+  position: relative;
+  border-bottom: 20px outset rgb(33, 126 , 160);
+  height: 97vh;
 }
