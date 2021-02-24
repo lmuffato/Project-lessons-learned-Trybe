@@ -4,19 +4,19 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Noto Sans JP;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #8E001C;
+  background-color: rgb(142,0,28);
   padding: 20px;
 }
 
 #titulo {
-  color: #FFB300;
+  color: rgb(255,179,0);
 }
 
 #minha_foto {
@@ -34,7 +34,7 @@ nav {
   top: 58%;
   left: 23%;
   display: flex;
-  background-color: #8E001C;
+  background-color: rgb(142,0,28);
   padding: 25px;
   width: 500px;
 }
@@ -42,8 +42,8 @@ nav {
 nav a {
   margin-right: 20px;
   text-decoration: none;
-  color: #FFB300;
-  font-weight: bold;
+  color: rgb(255,179,0);
+  font-weight: 600;
 }
 
 .listas {
@@ -75,8 +75,8 @@ nav a {
 }
 
 #rodape {
-  background-color: #8E001C;
+  background-color: rgb(142,0,28);
   padding: 20px;
-  color: #FFB300;
+  color: rgb(255,179,0);
 }
 
