@@ -9,13 +9,15 @@
 
 }
 
-nav li{
+nav ul li{
     display: inline;
-    margin-left: 32px
+    margin-left: 32px;
+    padding: 8px;
+
 }
 
 body { 
-    background-color: white;
+    background-color: var(--main);
     text-align: center; 
 }
 
@@ -28,6 +30,9 @@ h3 {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+}
 
 header, footer {
     background-color: var(--blue);
@@ -51,14 +56,37 @@ header {
     width: 75px;
     height: 75px;
     border-radius: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: var(--main);
 }
 
-ol li {
-    list-style-type: upper-roman;
+#footer {
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+.links li{
+    margin: 20px;
+    display: inline;
+}
+
+.links a:visited {
+    color: black
+}
+
+.links a:hover{
+    color: var(--blue)
+}
+
+#experiencia {
+    padding:8px
+}
+
+#experiencia p {
+    text-align:left;
+    margin-top: 2px
 }
