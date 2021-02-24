@@ -77,9 +77,9 @@ body {
 .header__container {
   max-width: 1366px;
   margin: 0 auto;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 .header__nav {
   display: flex;
@@ -92,6 +92,9 @@ body {
 .header__title {
   font-size: 2em;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .header__link { 
   text-transform: uppercase;
@@ -129,10 +132,60 @@ body {
   align-self: center;
   margin-bottom: 20px;
 }
-
-
-
 /* lessons */
+.lessons {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.wrap-lessons {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 60px;
+}
+.lessons__title{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.lessons-learned__title, .lessons-to-learned__title {
+  margin-bottom: 5px;
+  font-size: 1em;
+  line-height: 1.5;
+}
+.lessons-learned__list {
+  list-style: decimal;
+}
+
+.lessons-to-learned__list {
+  list-style: disc;
+}
 /* self-evaluation */
+.self-evaluation {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.self-evaluation__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.self-evaluation__paragraph {
+  line-height: 1.5;
+  max-width: 680px;
+  align-self: center;
+  margin-bottom: 20px;
+}
 /* story */
+.story {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.story__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.story__paragraph {
+  line-height: 1.5;
+  max-width: 680px;
+  align-self: center;
+  margin-bottom: 20px;
+}
 /* footer */
