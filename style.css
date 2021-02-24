@@ -121,3 +121,42 @@ ul {
   margin-top: 100px;
 }
 
+.licoes {
+  background: rgb(242, 194, 94);
+  padding: 60px 0;
+  border-top: 3px solid rgb(242, 143, 59);
+  border-bottom: 3px solid rgb(242, 143, 59);
+}
+
+.licoes-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.licoes-container:before , .licoes-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.licoes-item {
+  width: 450px;
+  float: left;
+  margin: 0 10px 20px;
+}
+
+.licoes-item h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+
+#licoes_aprendidas li {
+  padding-bottom: 5px;
+}
+
+#licoes_a_aprender li {
+  padding-bottom: 5px;
+  list-style: disc;
+}
+
