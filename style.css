@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 img {
   max-width: 100%;
@@ -23,14 +26,15 @@ a {
 .container {
   min-height: 100vh;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center
 }
 
 #principal {
-  background: rgb(104, 151, 117)
+  background: rgb(104, 151, 117);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 .main-title {
@@ -38,16 +42,52 @@ a {
   text-transform: uppercase;
 }
 
-.main-title-lesson {
-  font-size: 4.5em;
+.main-title-lessons {
+  font-size: 4em;
   color: rgb(253, 64, 42);
-  letter-spacing: 5px;
   font-style: italic;
 }
 
 .main-title-renzo {
-  font-size: 4.5em;
+  font-size: 4em;
   color: rgb(146, 43, 34);
+}
+
+.arrow {
+  font-size: 28px;
+  color: rgb(22, 22, 22);
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 15px;
+  animation: bounce 2s ease infinite;
+  transition: all 0.3s;
+}
+
+.arrow:hover {
+    color: rgb(54, 54, 54);
+}
+
+@keyframes bounce {
+
+  0%,
+  25%,
+  55%,
+  75%,
+  100% {
+    transform: translateY(0);
+  }
+
+  45% {
+    transform: translateY(-20px);
+  }
+
+  65% {
+    transform: translateY(-10px);
+  }
+
+  85% {
+    transform: translateY(-5px);
+  }
 }
 
 #cabecalho {
@@ -64,10 +104,11 @@ a {
   flex-wrap: wrap;
   background: rgb(22, 22, 22);
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 960px;
   padding: 12px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 16px 0;
 }
 
 #titulo {
