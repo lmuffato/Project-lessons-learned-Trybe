@@ -32,7 +32,7 @@ body {
   width: 50px;
   left: 50%;
   transform: translateX(-50%);
-  filter: invert(100%)
+  filter: invert(100%);
 }
 
 .links {
@@ -41,9 +41,8 @@ body {
   position: relative;
   float: right;
   right: 20%;
-  transform: translateX(-20%);
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateX(-20%) translateY(-50%);
 }
 
 /* .links li {
@@ -56,12 +55,12 @@ body {
 .links label {
   flex-grow: 1;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 100%;
-  color: #fff;
+  color: rgb(255, 255, 255);
   width: 100px;
   padding: 15px 0;
 }
