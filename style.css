@@ -68,13 +68,20 @@ body {
 }
 
 article p {
+  font-weight: 200;
+  font-family: cursive;
+  font-style: italic;
   margin-left: 100px;
   margin-right: 40px;
+  word-spacing: 1px;
 }
 
 #secao {
-  margin-top: 20px;
+  font-weight: 200;
+  font-family: cursive;
+  font-style: italic;
   margin-left: 100px;
+  word-spacing: 1px;
 }
 
 #subtitulo_artigo {
@@ -91,7 +98,7 @@ article p {
 
 #titulo {
   margin-top: 17px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family: cursive;
 }
 
 #habilidadesaprendidas {
@@ -120,6 +127,6 @@ article p {
   width: auto;
   height: auto;
   border: 1px solid black;
-  margin: 1px 1px;
-  padding: 20px;  
+  margin: 1px;
+  padding: 20px;
 }
