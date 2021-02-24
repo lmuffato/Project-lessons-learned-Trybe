@@ -9,15 +9,22 @@ body {  background-color: rgb(253, 251, 251);
 
 #cabecalho {  position: fixed;
   top: 0;
-  background-color: green;
+  background-color: rgba(156, 197, 161, 0.5);
   width: 100%;
+  display: flex;
+  border-bottom: 3px dotted white;
 }
 
 
-#titulo {  color: white;
+#titulo , #subtitulo , #titutlo-artigo {  color: rgb(31, 36, 33);
   padding-left: 30px;
   text-align: center;
 }
+
+
+#subtitulo { font-family: Dancing Script, cursive;
+}
+
 
 #nav-bar ul li { display: inline-block;
   padding: 15px;
@@ -29,11 +36,82 @@ body {  background-color: rgb(253, 251, 251);
 }
 
 
-#minha_foto {  margin-top: 80px;
-  padding-top: 120px;
+#minha_foto { padding-top: 20px;
+  justify-content: center;
+}
+
+#principal {  width: 50%;
+  display: flex;
+  flex: 2;
+  padding: 20px;
+}
+
+#main-features { flex: 1;
+}
+
+article { width: 60%;
+  text-align: center;
+  margin-left: 18%;
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+#side-bar { background-color: lightblue;
+  width: 40%;
+  flex: 1;
+  padding-top: 40px;
 }
 
 
-#hard-skills {  padding: 20px;
+p a { text-decoration: none;
+  color: black;
+  font-weight: 800;
 }
 
+p a:hover {  color: green;
+}
+
+#nav-bar ul li a { text-decoration: none;
+  color: rgb(31, 36, 33);
+}
+
+#nav-bar ul li a:hover {  color: green;
+}
+
+
+#rodape { background-color: rgb(220, 225, 222);
+}
+
+#social-media { color: green;
+  text-align: center;
+}
+
+
+#contents , #additional-content { display: flex;
+  padding: 30px;
+  width: 100vw;
+}
+
+#contents { margin-top: 6%;
+}
+
+#additional-content {  background-color: rgb(73, 160, 120);
+}
+
+#texto-rodape { padding: 20px;
+}
+
+header #titulo-artigo , #hard-skills h3 { font-family: Courier New, Courier, monospace;
+  text-align: center;
+}
+
+#hard-skills h3 { max-width: 80%;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {  padding-left: 80px;
+  max-width: 80%;
+}
+
+img { display: inline-block;
+  margin-left: 18%;
+}
