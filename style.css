@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
 body {
   background-color: rgb(253, 251, 251);
+}
+h1 h2 {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  color: blueviolet;
+}
+#cabecalho {
+  border-bottom: 1px #606060 solid;
+  background-color: rgb(199, 186, 186);
+  position: fixed;
+  padding: 10px 42% 10px 43%;
+  margin: 0px auto 10px auto;
+  top: 0;
+}
+#titulo{
+text-align: center;
+color: blueviolet;
+}
+img{
+  width: 200px;
+  border-radius: 35%;
+  border: 1px solid rbga(0, 0, 0,);
+}
+#nome{
+  margin-top: 60%;
 }
