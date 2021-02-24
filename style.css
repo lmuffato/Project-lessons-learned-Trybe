@@ -6,19 +6,26 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    color: rgb(71, 45, 48);
-    background-color: rgb(255, 225, 168);
+    color: rgb(252,202,70);
+    background-color: rgb(35,71,77);
     width: 100%;
 
 } 
 
 .navegacao {
-    top:70px;
-    position: relative;
-    display: flex;
-    margin: 5px;
-    padding: 5px;
+    color: rgb(252, 202, 70);
+    top:20px;
+    position: fixed;
+    left: 70%;
+    font-size: 14px;
     
+
+}
+
+.navs {
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
 }
 
 #minha_foto {
@@ -30,10 +37,31 @@ body {
 
 }
 
-.foto {
-    padding: 5px;
-    margin: 20px;
+#minha_foto {
+    position:absolute;
+    width: 150px;
+    height: 151px;
+    left: 454px;
+    top:160px;
+    
+}
 
+#dep {
+    position: absolute;
+    font-size: 30px;
+    top: 160px;
+    left: 200px;
+}
+
+#depoimento {
+    font-style: italic;
+    text-align: justify;
+    font-size: 12px;
+    width: 200px;
+    height: 129px;
+    top: 200px;
+    left: 646px;
+    position: relative;
 }
 
 .licoes {
@@ -44,10 +72,18 @@ body {
 }
 
 #rodape {
-    background-color: rgb(71, 45, 48);
+    background-color: rgb(35,71,77);
     position: fixed;
     width: 100%;
     display: flex;
     bottom: 0;
+    color: rgb(252, 202, 70);
+    font-size: 12px;
+    padding: 10px;
 
+}
+
+#titulo {
+    left:100px;
+    position: relative;
 }
