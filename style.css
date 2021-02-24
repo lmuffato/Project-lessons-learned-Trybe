@@ -79,7 +79,7 @@ main section aside h2 , main section article h2 {
 }
 
 main section aside p , main section article p {
-  text-align: justify;
+  text-align: left;
   line-height: 24px;
   color: rgb(253, 251, 251);
 }
