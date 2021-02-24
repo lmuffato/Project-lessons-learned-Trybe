@@ -41,6 +41,7 @@ table th , td {
   width: 300px;
   margin-top: 200px;
   border-radius: 500px;
+  display: inline-block;
 }
 
 ol , ul {
@@ -90,4 +91,16 @@ ul {
   margin-right: -10px;
   padding-bottom: 70px;
   margin-bottom: 20px;
+}
+
+#apresenta-section {
+  background-color: rgb(214, 214, 214);
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 20px;
+}
+
+
+.container-tabela-apresenta {
+  display: inline-block;
 }
