@@ -84,8 +84,7 @@ p a:hover {  color: green;
 #nav-bar ul li a:hover {  color: green;
 }
 
-#logo { width: 7%;
-  height: 7%;
+#logo { height: 3%;
   display: inline-block;
   padding-left: 20px;
   margin-left: 20px;
