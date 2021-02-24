@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
@@ -42,14 +43,22 @@ nav li {
 
 h2 {
     color: plum;
+    margin-bottom: 10px;
 }
 
 ol, ul{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 #licoes {
     display: flex;
+}
+
+#licoes-box {
+    width: 25%;
+    border: solid plum 3px;
+    padding: 20px;
 }
 
 #rodape {
@@ -57,6 +66,7 @@ ol, ul{
     color: white;
     text-align: center;
     padding: 7px;
+    font-size: large;
 }
 
 article {
@@ -66,3 +76,8 @@ article {
 aside {
     width: 40%;
 }
+
+.line-height {
+    line-height: 25px;
+}
+
