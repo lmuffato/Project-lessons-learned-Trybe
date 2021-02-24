@@ -28,6 +28,10 @@ body {
   top: 35%;
 }
 
+#menu li {
+  display: inline-block;
+}
+
 a {
   color: black;
 }
