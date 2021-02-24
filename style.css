@@ -6,58 +6,70 @@ body {
     color: rgb(24, 22, 22);
     text-align: justify;
 }
+
 #cabecalho {
     position:fixed;
     top:0px;
     background-color: #386D52;
     width:100%;
 }
+
 #titulo {
     text-align:center;
     color: rgb(245, 240, 240);
     font-size: 40px;
     margin-right: 70px;
 }
+
 #minha_foto {
     width:200px;
     border-radius:100px;
     border: solid 2px rgb(92, 92, 92); 
     margin-left: 330px;
 }
+
 .ap{
     display: inline-block;
 }
+
 #apresentacao {
     margin-bottom: 40px;
     margin-top: 150px;
     padding: 20px;
     background-color: rgb(95, 79, 79);
 }
+
 #lucas {
     width: 230px;
     text-align: center;
     color: white;
 }
+
 #trybe {
     color: #386D52;
     text-decoration: underline;
 }
+
 #trybe:hover {
     color: rgb(1, 77, 1);
 }
+
 th, td{
     border: solid 1px rgb(0, 0, 0);
     background-color: rgb(90, 90, 90);
     color: rgb(234, 237, 240);
 }
+
 ol, ul {
     line-height: 25px;
 }
+
 #artigo {
     width: 45%;
     /* margin-left: 208px; */
     margin-left: 308px;
 }
+
 aside {
     width: 20%;
     margin-left: 60px;
@@ -66,9 +78,11 @@ aside {
     padding: 15px;
     color: aliceblue;
 }
+
 .content {
     display: inline-block
 }
+
 #tabela{
     margin-left: 358px;
     margin-top: 40px;
@@ -77,6 +91,7 @@ aside {
     border-radius: 3px;
     background-color: rgb(97, 97, 97);
 }
+
 footer {
     text-align: center;
     background-color: gray;
