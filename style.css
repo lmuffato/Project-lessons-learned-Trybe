@@ -69,15 +69,15 @@ ol, ul{
     font-size: large;
 }
 
-article{
+.artigos-lado-a-lado{
+    display: flex;
+}
+#lado-esquerdo{
     width: 40%;
 }
 
-aside {
+#lado-direito {
     width: 40%;
-    position: absolute;
-    left: 600px;
-    bottom: 10px;
 }
 
 .line-height {
