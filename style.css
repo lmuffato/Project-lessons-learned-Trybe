@@ -32,7 +32,6 @@ body {
   padding: 10px;
   margin: 10px;
   border: 5px solid black;
-  width: 50%;
 }
 
 li {
@@ -44,9 +43,10 @@ li {
 
 .lado-esquerdo {
   float: left;
-  width: 30%;
+  width: 40%;
 }
 
 .lado-direito {
   float: right;
+  width: 40%;
 }
