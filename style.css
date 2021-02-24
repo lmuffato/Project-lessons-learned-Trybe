@@ -140,13 +140,19 @@ ul {
   clear: both;
 }
 
-.licoes-item {
+.lado-direito , .lado-esquerdo {
   width: 450px;
   float: left;
   margin: 0 10px 20px;
 }
 
-.licoes-item h2 {
+.lado-direito h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+
+.lado-esquerdo h2 {
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 16px;
