@@ -1,74 +1,76 @@
 /* reset  */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+html , body , div , span , applet , object , iframe , h1 , h2 , h3 , h4 , h5 , h6 , p , blockquote , pre , a abbr , acronym , address , big , cite , code , del , dfn , em , img , ins , kbd , q , s , samp , small , strike , strong , sub , sup , tt , var , b , u , i , center , dl , dt , dd , ol , ul , li , fieldset , form , label , legend , table , caption , tbody , tfoot , thead , tr , th , td , article , aside , canvas , details , embed , figure , figcaption , footer , header , hgroup , menu , nav , output , ruby , section , summary , time , mark , audio , video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+
+  /* font: inherit; */
+  vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article , aside , details , figcaption , figure , footer , header , hgroup , menu , nav , section {
+  display: block;
 }
-body {
-	line-height: 1;
+
+ol , ul {
+  list-style: none;
 }
-ol, ul {
-	list-style: none;
+
+blockquote , q {
+  quotes: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote:before , blockquote:after , q:before , q:after {
+  content: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 /* geral  */
 :root {
+
   --font-title: 'Roboto Mono', monospace;
+
   --font-paragraph: 'Roboto', sans-serif;
+
   --bg: rgb(253, 251, 251);
-  --green: #419b94;
-  --white: #fbfdfc;
-  --orange: #ec702b;
-  --green-gradient: linear-gradient(to top, #419b94, #6bb2ad);
+
+  --green: rgb(65, 155, 148);
+
+  --white: rgb(251, 253, 252);
+
+  --orange: rgb(236, 112, 43);
+
+  --green-gradient: linear-gradient(to top, rgb(65, 155, 148), rgb(107, 178, 173));
 }
+
 body {
   background-color: var(--bg);
   font-family: var(--font-paragraph);
   font-size: 1em;
+  line-height: 1;
 }
+
 .title {
   font-family: var(--font-title);
   text-transform: uppercase;
   font-size: 1.125em;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.06em;
 }
+
 /* header */
 .header {
   background: var(--green-gradient);
@@ -77,21 +79,22 @@ body {
   top: 0;
   width: 100%;
 }
+
 .header__container {
   max-width: 960px;
   margin: 0 auto;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
 }
+
 .header__nav {
   display: flex;
   align-items: center;
 }
-.header__title, .header__link {
+
+.header__title , .header__link {
   font-family: var(--font-title);
   color: var(--white);
 }
+
 .header__title {
   font-size: 2em;
   text-transform: capitalize;
@@ -99,42 +102,57 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.header__link { 
+
+.header__link {
   text-transform: uppercase;
   font-size: 1.125em;
   padding: 10px;
   letter-spacing: 0.165em;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   line-height: 1.4;
 }
+
 .header__link:hover {
   text-decoration: underline;
   transition: linear 1s;
   color: white;
+
   /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05); */
 }
+
 /* person  */
 .person {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .person__img {
   max-width: 300px;
-  margin-top: 40px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   border-radius: 10px;
   margin-top: 150px;
 }
+
 .person__link {
   color: var(--green);
   text-decoration: none;
 }
+
 .person__link:hover {
   transition: linear 1s;
   color: var(--orange);
 }
+
+.person__paragraph {
+  line-height: 1.5;
+  max-width: 680px;
+  align-self: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
 /* intro  */
 .intro {
   max-width: 680px;
@@ -142,36 +160,44 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .intro__title {
   align-self: flex-start;
   margin-bottom: 10px;
   margin-top: 30px;
 }
+
 .intro__paragraph {
   line-height: 1.5;
   max-width: 680px;
   align-self: center;
-  margin-bottom: 20px;
+
+  /* margin-bottom: 20px; */
 }
+
 /* lessons */
 .lessons {
   max-width: 680px;
   margin: 0 auto;
 }
+
 .wrap-lessons {
   display: grid;
   grid-template-columns: max-content max-content;
   gap: 60px;
 }
-.lessons__title{
+
+.lessons__title {
   margin-bottom: 10px;
   margin-top: 20px;
 }
-.lessons-learned__title, .lessons-to-learned__title {
+
+.lessons-learned__title , .lessons-to-learned__title {
   margin-bottom: 5px;
   font-size: 1em;
   line-height: 1.5;
 }
+
 .lessons-learned__list {
   list-style: decimal;
 }
@@ -179,42 +205,50 @@ body {
 .lessons-to-learned__list {
   list-style: disc;
 }
+
 /* self-evaluation */
 .self-evaluation {
   max-width: 680px;
   margin: 0 auto;
 }
+
 .self-evaluation__title {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
 .self-evaluation__paragraph {
   line-height: 1.5;
   max-width: 680px;
   align-self: center;
   margin-bottom: 20px;
 }
+
 /* story */
 .story {
   max-width: 680px;
   margin: 0 auto;
 }
+
 .story__title {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
 .story__paragraph {
   line-height: 1.5;
   max-width: 680px;
   align-self: center;
   margin-bottom: 20px;
 }
+
 /* footer */
 .footer {
   background: var(--green-gradient);
   padding: 20px;
   color: var(--white);
 }
+
 .footer__paragraph {
   text-align: center;
   text-transform: capitalize;
