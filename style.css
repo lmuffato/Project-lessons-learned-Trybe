@@ -24,4 +24,13 @@ body {
 #licoes_a_aprender {
     padding-top: 50px;
     line-height: 30px;
+    margin-left: 300px;
 }    
+
+#titulo {
+    margin-left: 300px;
+}
+
+.ordem {
+    display: inline-block;
+}
