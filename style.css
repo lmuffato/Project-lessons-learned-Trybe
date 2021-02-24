@@ -72,11 +72,11 @@ ol, ul{
 .artigos-lado-a-lado{
     display: flex;
 }
-#lado-esquerdo{
+.lado-esquerdo{
     width: 40%;
 }
 
-#lado-direito {
+.lado-direito {
     width: 40%;
 }
 
