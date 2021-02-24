@@ -9,8 +9,9 @@ body {
   width: 500px;
 }
 
-img {
+#minha_foto {
   width: 250px;
   top: 50px;
   border-radius: 50%;
 }
+
