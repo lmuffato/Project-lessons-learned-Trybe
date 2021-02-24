@@ -48,6 +48,7 @@ div{
     margin-left: 20px;
     margin-right: 20px;
     display: inline-block;
+    width: 600px;
 }
 
 #secao_licoes_aprendidas{
@@ -82,4 +83,5 @@ main{
 
 aside{
     display: inline-block;
+    width: 600px;
 }
