@@ -7,7 +7,7 @@ body {
   left: 35%;
   border: 2px solid lightgray;
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 #titulo {
@@ -23,10 +23,18 @@ body {
   margin-top: 200px;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas , #licoes_a_aprender {
   font-family: monospace , sans-serif;
   font-weight: 300;
   margin-top: 50px;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+}
+
+.lado-direito {
+  margin-right: 250px;
 }
 
 #githubimage {
