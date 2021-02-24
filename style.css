@@ -1,82 +1,82 @@
-*{
-    display:flexbox;
-    margin:0;
-    padding:0;
-    border:0;
-    font-family:monospace;
-    font-size:100%;
-    color:rgb(43, 43, 43);
+* {
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: monospace;
+    font-size: 100%;
+    color: rgb(43, 43, 43);
 }
-body{
-    background-color:rgb(253,251,251);
+body {
+    background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-    top:0;
-    padding-top:20px;
-    display:flex;
-    background-color:rgb(43, 226, 119);
-    width:100vw;
-    height:50px;
-    justify-content:center;
+#cabecalho {
+    top: 0;
+    padding-top: 20px;
+    display: flex;
+    background-color: rgb(43, 226, 119);
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
 }
-.navegacao{
-    padding-left:100px;
-    padding-bottom:10px;
-    padding-right:100vmax;
-    font-family:monospace;
-    width:300px;
-    display:flex;
-    justify-content:space-evenly;
-    background-color:rgb(43, 226, 119);
+.navegacao {
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100vmax;
+    font-family: monospace;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43, 226, 119);
 }
-#titulo{
-    font-size:30px;
-    text-decoration:underline;
+#titulo {
+    font-size: 30px;
+    text-decoration: underline;
 }
-#minha_foto{
-    position:absolute;
-    top:130px;
-    left:35px;
-    width:100px;
-    border-radius:30%;
+#minha_foto {
+    position: absolute;
+    top: 130px;
+    left: 35px;
+    width: 100px;
+    border-radius: 30%;
 }
-#licoes_aprendidas{
-    position:absolute;
-    top:320px;
-    left:90px;
+#licoes_aprendidas {
+    position: absolute;
+    top: 320px;
+    left: 90px;
 }
-li:hover{
-    text-decoration:underline ;
+li:hover {
+    text-decoration: underline;
 }
-#licoes_a_aprender{
-    position:absolute;
-    top:320px;
-    left:230px;
+#licoes_a_aprender {
+    position: absolute;
+    top: 320px;
+    left: 230px;
 }
-#rodape{
-    display:flex;
-    background-color:rgb(43, 226, 119);
-    position:absolute;
-    bottom:0;
-    width:100vw;
-    height:100px;
-    align-items:center;
-    justify-content:center;
+#rodape {
+    display: flex;
+    background-color: rgb(43, 226, 119);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
 }
-article{
-    text-align:left;
-    position:absolute;
-    top:120px;
-    left:170px;
-    width:800px;
+article {
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    left: 170px;
+    width: 800px;
 }
-aside{
-    text-align:right;
-    position:absolute;
-    top:320px;
-    left:950px;
-    width:300px;
+aside {
+    text-align: right;
+    position: absolute;
+    top: 320px;
+    left: 950px;
+    width: 300px;
 }
-.nome{
-    font-size:20px;
+.nome {
+    font-size: 20px;
 }
