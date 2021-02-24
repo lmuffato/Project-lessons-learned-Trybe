@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -69,7 +70,11 @@ a {
 
 @keyframes bounce {
 
-  0%, 25%, 55%, 75%, 100% {
+  0%,
+  25%,
+  55%,
+  75%,
+  100% {
     transform: translateY(0);
   }
 
