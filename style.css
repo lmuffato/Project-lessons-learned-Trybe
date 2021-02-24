@@ -2,30 +2,75 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho ul {
+header {
+  position: fixed;
   top: 0;
+  background-color: red; 
   width: 100%;
+  height: 45pt;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
-img {
-  width: 350px;
-  height: 350px;
-  border-radius: 100%;
+h1 {
+  font-size: 25pt;
+  font-weight: bold;
 }
 
 nav ul {
+  background-color: greenyellow;
+  top: 0;
+  width: 300px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  font-size: 18pt;
 }
 
 a {
   text-decoration: none;
+  color: black;
+} 
+
+.navegacao:hover {
+  font-size: larger;
+  text-decoration: underline;
+  color: rgb(223, 120, 24); 
+}
+
+main {
+  background-color: orange;
+  margin-top: 4%;
+  padding: 2%;
+}
+
+#inicio {
+  display: flex;
+  justify-content: space-around;
+  background-color: purple;
+  padding: 1%;
+}
+
+img {
+  background-color: green;
+  width: 350px;
+  height: 350px;
+  padding: 1%;
+  border-radius: 100%;
+}
+
+#listas {
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-size: 18pt;
+  padding-top: 1%;
 }
 
 footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: grey;
 }
