@@ -4,10 +4,17 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    top: 0;
     background-color: rgb(54,54,50);
-    margin-left: 0px;
+    margin-left: 0;
     width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(20, 20, 20)
 }
 #titulo {
     
@@ -17,13 +24,23 @@ body {
 }
 #minha_foto {
     width: 400px;
+    border-radius: 50px;
 }
 #licoes_aprendidas {
     display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 #licoes_a_aprender {
     display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#Artigo1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 #Artigo2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#rodape {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
