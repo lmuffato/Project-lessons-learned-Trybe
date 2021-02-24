@@ -55,7 +55,7 @@ img {
   width: 250px;
   border-radius: 50%;
   border: 1px solid black;
-  margin: 150px 0 30px 20px;
+  margin: 150px 0 30px 150px;
   box-shadow: 2px 2px 5px -2px rgb(0, 0, 0, 1);}
 
 .lessons-learned {
@@ -71,19 +71,7 @@ img {
   text-align: justify;
   left: 350px;}
 
-.side-by-side {
-  width: 25vw;}
-
-.lado-esquerdo {
-  display: inline-block;
-  text-align: justify;
-  width: 25vw;
-  position: relative;
-  z-index: -1;}
-
-.lado-direito {
-  display: inline-block;
-  width: 25vw;
-  text-align: justify;
-  position: absolute;
-  z-index: -1;}
+th , td {
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  text-align: center;
+  display: block;}
