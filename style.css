@@ -22,6 +22,7 @@ ul {
   width: 100%;
   padding: 20px 0;
   background: rgb(242, 143, 59);
+  z-index: 999;
 }
 
 .menu-container {
@@ -153,10 +154,12 @@ ul {
 
 #licoes_aprendidas li {
   padding-bottom: 5px;
+  text-align: center;
+  list-style: none;
 }
 
 #licoes_a_aprender li {
   padding-bottom: 5px;
-  list-style: disc;
+  text-align: center;
 }
 
