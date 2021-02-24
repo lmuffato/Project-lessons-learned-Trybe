@@ -1,8 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  background-color: rgb(49, 108, 82);
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid black;
+}
+
+#menu {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  float: right;
+  margin-right: 6%;
+  margin-top: 1.5%;
+  padding: 0.8em;
+}
+
+#menu li {
+  display: inline-block;
+  text-align: center;
+  padding: 0.6em;
+  margin-left: 1em;
+}
+
+#menu li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#titulo {
+  text-align: center;
+  display: inline-block;
+  margin-left: 2%;
+  padding: 2.9%;
+  font-size: 1.5em;
+}
+
+figure {
+  padding: 1% 1% 2% 2%;
+  background-color: lightgray;
+  max-width: 30%;
+  float: left;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: small;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#lado_esquerdo {
+  display: inline-block;
+  max-width: 80%;
+  background-color: lightgrey;
+  text-align: center;
+  padding-top: 8%;
+}
+
+article {
+  display: inline;
+  max-width: 67%;
+  float: right;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#article_title {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.texto_simples {
+  line-height: 2em;
+  text-align: justify;
+  padding: 2em;
+}
+
+#lado_direito {
+  display: inline;
+  box-sizing: border-box;
+  box-shadow: inset;
+  float: right;
+  max-width: 20%;
+  padding-top: 8%;
+  text-align: justify;
+  line-height: 2em;
+  font-size: 2em;
+  border: 1px solid black;
+  background-color: rgb(95, 194, 140);
+}
+
+#titulo_aside {
+  padding: 1%;
+  font-size: 16px;
+  text-align: center;
+}
+
+aside div {
+  border: 2px solid rgb(95, 194, 140);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.subtitulo_aside {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 3%;
+}
+
+.p_aside {
+  padding: 4%;
+  line-height: 1.7em;
+  font-size: 12px;
+  margin-top: 1px solid black;
 }

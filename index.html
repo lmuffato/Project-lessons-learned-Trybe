@@ -6,53 +6,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Lições Aprendidas - Trybe</title>
 </head>
 
 <body>
   <header id="cabecalho">
     <nav>
-      <ul>
+      <ul id="menu">
         <li>Aprendendo a Aprender</li>
-        <li>Licões aprendidas</li>
+        <li>Lições aprendidas</li>
         <li>Lições a aprender</li>
         <li>Sobre o autor</li>
       </ul>
     </nav>
-    <h1 id="titulo">Lições Aprendidas - Trybe</h1>
+      <h1 id="titulo">Lições Aprendidas - Trybe</h1>
   </header>
-
-  <main>
+  <main id="lado_esquerdo">
+    <figure>
+      <img src="/images/my_photo.png" id="minha_foto" alt="Foto do Marcus, desenvolvedor desse projeto." />
+      <figcaption>Marcus Cesar Hüsemann Filho, aluno Trybe.</figcaption>
+    </figure>
     <article>
       <header>
-        <h2 id="subtitle">Aprendendo a aprender</h2>
+        <h2 id="article_title">O Aprendizado na Trybe</h2>
       </header>
-      <p>
-        Em duas semanas de curso na Trybe, adquiri conhecimentos sólidos de Unix, Bash, Git, GitHub, bem como, funcionamento da Internet, HTML e CSS, aprendendendo as suas funcionalidades e finalidades de maneira bem interativa. Outro aprendizado que venho desenvolvendo através do curso são as soft skills, essas que são primordiais para a entrada no mercado de trabalho.
-        
-        Em duas semanas de Trybe o maior conhecimento adquirido é um falado
-        bastante por aqui: "Aprender a aprender". Somos incentivados a buscar
-        conteúdos além do que nos foi dado durante os dias de aula e possui um
-        sistema que nos oferece um cenário parecido com o mercado de trabalho
-        fornecendo projetos e uma interação muito rica com alunos e
-        especialistas de todas as turmas da Trybe através do Slack, gerando um
-        conhecimento compartilhado entre todos.
+      <p class="texto_simples">
+        Em duas semanas de curso na Trybe, adquiri conhecimentos sólidos de Unix, Bash, Git, GitHub, bem como, funcionamento da Internet, HTML e CSS, aprendendendo as suas funcionalidades e finalidades de maneira bem interativa. <br>Outro aprendizado que venho desenvolvendo através do curso são as soft skills, essas que são primordiais para a entrada no mercado de trabalho.
       </p>
     </article>
   </main>
-  <section>
+  <section id="lado_direito">
     <header>
       <h3 id="titulo_aside">Passagens de aprendizado</h3>
     </header>
     <aside>
-      <header>
-        <h4>Aprendendo a aprender</h4>
-      </header>
-      <p>
-        Somos incentivados a buscar
-        conteúdos além do que nos foi dado durante as aulas e possui uma interação muito rica com alunos e
-        especialistas de todas as turmas da Trybe através do Slack, gerando uma troca de conhecimento e experiências entre todos.
-      </p>
+      <div>
+        <header>
+          <h4 class="subtitulo_aside">Aprendendo a aprender</h4>
+        </header>
+        <p class="p_aside">
+          Somos incentivados a buscar
+          conteúdos além do que nos foi dado durante as aulas e possui uma interação muito rica com alunos e
+          especialistas de todas as turmas da Trybe através do Slack, gerando uma troca de conhecimento e experiências entre todos.
+        </p>
+        <header>
+          <h4 class="subtitulo_aside">Lorem Ipsum</h4>
+        </header>
+        <p class="p_aside">
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, distinctio numquam ex at accusamus porro? Delectus magnam blanditiis amet ipsa nulla corrupti reprehenderit reiciendis dolore eligendi explicabo, labore beatae?
+        </p>
+    </div>
     </aside>
   </section>
   <section>
@@ -112,13 +117,6 @@
         <li>Estrutura de Dados</li>
       </ul>
     </ul>
-  </section>
-  <section>
-    <header>
-      <h3>Sobre o autor</h3>
-    </header>
-    <p>Sou Marcus, brasileiro, natural de Campinas, São Paulo e atual estudante da Trybe.</p>
-    <img src="/images/my_photo.png" id="minha_foto" alt="Foto do Marcus, desenvolvedor desse projeto." />
   </section>
   <footer id="rodape">
     <a href="https://www.github.com/Marcuscps19" target="_blank">GitHub</a>
