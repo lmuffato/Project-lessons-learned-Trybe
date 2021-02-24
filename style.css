@@ -46,6 +46,8 @@ body {
   font-family: monospace, sans-serif;
   max-width: 45%;
   display: inline-block;
+  letter-spacing: 0.3px;
+  line-height: 20px;
 }
 
 #rightside {
@@ -60,6 +62,8 @@ body {
   margin-left: 650px;
   margin-top: -500px;
   padding-top: 100px;
+  letter-spacing: 2px;
+  line-height: 20px;
 }
 
 .completearticle {
