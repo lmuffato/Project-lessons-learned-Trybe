@@ -7,14 +7,15 @@ body {
   top: 0;
 }
 
-h1 {
+#titulo {
   font-family: cursive;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 table {
   border: black solid 1px;
 }
+
 
 
 
