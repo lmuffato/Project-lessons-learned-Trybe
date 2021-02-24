@@ -1,9 +1,35 @@
-body {
+body{
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
-  position: fixed;
+h1{
+  text-align: center;
+}
+
+#cabecalho{
+  position: absolute;
+  background-color: rgb(46, 46, 46);
   margin-top: 0;
-  top: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+body{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#minha_foto{
+  position: fixed;
+  margin-top: 10vw;
+  margin-left: 36vw;
+  width: 400px;
+}
+
+#titulo{
+  color: greenyellow;
+}
+
+*{
+  margin: 0;
+  padding: 0;
 }
