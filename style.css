@@ -12,6 +12,7 @@ body{
 
 #titulo{
     color: white;
+    display: inline-block;
 }
 
 #minha_foto{
