@@ -1,62 +1,79 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253,251,251); 
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-align: justify;
 }
 
 #cabecalho {
-    position: fixed;
     top: 0;
-    left: 0;
+    position: fixed;
     width: 100%;
-    background-color: #C2B6DB;
-    height: 10%;
-    text-align: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 500;
-}
-
-#minha_foto {
-    position: relative;
-    float: right;
-    padding: 10%;
-    border: 1px;
-    height: 250px;
-    margin-top: 5;
-    margin-left: 10px;
-}
-
-.minha_foto {
-    text-align: center;
 }
 
 #titulo {
-    margin: 0;
-    position: relative;
-    display: inline-block;
-    color: #DB17EB;
-    text-shadow: 1.5px 1.5px white; /*sombra nas letras***/
+    text-align: center;
+    color: #E8091B;
+    margin-right: 20px;
 }
 
-main {
-    position:absolute;
-    background-color: #E7D6F2;
-    width: 95%;
-    top: 12%;
-    margin-left: 20px;
-    margin-right: 50px;    
+#menu-nav {  
+    text-align: center;
 }
 
-.aprendidas {
-    position: relative;
-    color: #DED8D7;
-}
+#menu-nav ul {
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+}   
 
-ul li {
-    list-style-type: none;
-    color: #5988E0;
-   font-weight: bolder;
-}
-
-h2 {
-    color: violet;
+#mmenu-nav ul li {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline;
+    margin-right: 15px;
+    
    
+}
+
+#menu-nav {
+    color:#D1D3EB;
+    padding: 5px 10px;
+    border-radius: 100px;
+
+}
+
+#menu-nav a:hover {
+    background: white;
+    color: black;
+    box-shadow: 3px 3px 3px gray;
+
+}
+
+}
+#foto-perfil {
+    margin-top: 140px;
+}
+
+.minha-foto img {
+    border-left-width: 20%;
+    padding: 10px;
+    width: 250px;
+    background: #fff;
+    margin-right: 20px;
 }
