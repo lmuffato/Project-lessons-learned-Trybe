@@ -6,16 +6,10 @@ body , h1 , h2 , ul , li , p , dd , dt , dl {
 body {
   background: rgb(253, 251, 251);
   color: rgb(34, 34, 34);
-  display: grid;
-  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
 
 ul {
   list-style: none;
-}
-
-#navigation {
-  grid-column: 1 / 5;
 }
 
 #cabecalho {
@@ -26,13 +20,12 @@ ul {
 }
 
 .title {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 1.5rem; 
+  font-family: Playfair Display SC, serif;
+  font-size: 1.5rem;
   line-height: 1;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  font-weight: 700;
   text-transform: uppercase;
-  margin: 32px 0 0px 32px;
+  margin: 32px 0 0 32px;
   color: rgb(253, 251, 251);
   max-width: 500px;
 }
@@ -51,8 +44,8 @@ ul {
   color: rgb(253, 251, 251);
   text-decoration: none;
   font-family: monospace;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 1rem;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
