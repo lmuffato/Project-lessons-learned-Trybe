@@ -1,12 +1,12 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
-div{
+div {
     float: right;
     margin-block-start: 2em;
     margin-block-end: auto;
 }
-#cabecalho{
+#cabecalho {
     background-color: rgb(68, 197, 75);
     border: 1px solid #000;
     position: fixed;
@@ -15,36 +15,35 @@ div{
     width: 1278px;
 }
 
-#titulo{
+#titulo {
     color: white;
     display: inline-block;
 }
 
-#minha_foto{
+#minha_foto {
     border-radius: 10px 20px 10px 40px;
     border-style: solid;
     border-color: #000;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 20px;
     font-size: 15px;
     background-color: aqua;
 }
-#secao_listas{
+#secao_listas {
     align-content: center;
     text-align: center;
 }
 
-#secao_foto{
-    
+#secao_foto {
     margin-left: 50px;
     display: inline-block;
 }
 
-#secao_artigo{
+#secao_artigo {
     margin-left: 20px;
     margin-right: 20px;
     display: inline-block;
@@ -53,19 +52,19 @@ div{
     text-align: justify;
 }
 
-#secao_licoes_aprendidas{
+#secao_licoes_aprendidas {
     display: inline-block;
     margin: 30px;
     width: 300px;
 }
 
-#secao_licoes_aprender{
+#secao_licoes_aprender {
     display: inline-block;
     margin: 30px;
     width: 300px;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 20px;
@@ -73,18 +72,18 @@ div{
     background-color: aqua;
 }
 
-#rodape{
+#rodape {
     background-color: blueviolet;
     text-align: center;
     align-content: center;
 }
 
-#principal{
+#principal {
     display: inline-block;
     margin-top: 100px;
 }
 
-#aolado{
+#aolado {
     display: inline-block;
     width: 300px;
     vertical-align: top;
