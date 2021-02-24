@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -12,12 +14,14 @@ body {
     height: 100px;
     width: 100%;
 }
+
 #titulo {
     color: white;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 nav li {
     list-style: none;
     padding: 5px;
@@ -28,30 +32,35 @@ main {
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    display: flex;
 }
+
 #minha_foto {
     width: 300px;
 }
+
 h2 {
     color: plum;
 }
+
 ol, ul{
     margin-left: 20px;
 }
+
 #licoes {
     display: flex;
 }
+
 #rodape {
     background-color: plum;
     color: white;
     text-align: center;
     padding: 7px;
 }
+
 article {
     width: 40%;
 }
+
 aside {
     width: 40%;
-    position: relative;
 }
