@@ -16,20 +16,22 @@ table {
   width: 400px;
 }
 
+.article-section {
+  display: flex;
+}
+
 article {
   width: 400px;
   padding-left: 30px;
   padding-right: 30px;
-  display: inline block;
-  float: left;
+  border: solid 1px black;
 }
 
 section {
   width: 400px;
   padding-left: 30px;
   padding-right: 30px;
-  display: inline block;
-  float: right;
+  border: solid 1px black;
 }
 
 
