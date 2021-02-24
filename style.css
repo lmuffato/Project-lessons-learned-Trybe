@@ -12,35 +12,54 @@ ul {
   list-style: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 20px 0;
   background: rgb(242, 143, 59);
 }
 
+.menu-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-container:after , .menu-container:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .title {
+  display: block;
+  float: left;
   font-family: Playfair Display SC, serif;
   font-size: 1.5rem;
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 32px 0 0 32px;
+  margin-left: 10px;
   color: rgb(253, 251, 251);
   max-width: 500px;
 }
 
-#cabecalho ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px 32px;
-  max-width: 500px;
+#navigation {
+  float: right;
+  margin-right: 10px;
 }
 
-#cabecalho li a {
+#navigation li {
+  display: inline-block;
+}
+
+#navigation a {
   display: block;
-  padding: 10px 10px 10px 0;
-  margin-right: 10px;
+  padding: 10px;
   color: rgb(253, 251, 251);
   text-decoration: none;
   font-family: monospace;
@@ -49,3 +68,4 @@ ul {
   font-size: 1rem;
   letter-spacing: 0.1em;
 }
+
