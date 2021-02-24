@@ -66,3 +66,25 @@ body {
   margin-top: 20px;
   font-size: 20px;
 }
+
+article p {
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
+#secao {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+#subtitulo_artigo {
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#subtitulo_secao {
+  font-family: cursive;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
