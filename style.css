@@ -73,3 +73,7 @@ aside {
     width: 200px;
     padding: 10px;
 }
+
+nav {
+    background-color: chartreuse;
+}
