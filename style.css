@@ -3,10 +3,7 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
-  background-color: slategray;
-  font-size: 10px;
-  text-align: center;
+  top: 0;
 }
 
 .table td {
