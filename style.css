@@ -82,3 +82,16 @@ p {
     width: 250px;
     background: #fff;
     margin-right: 20px;
+}
+
+.lado-direito{
+    position: right;
+    top: 30px;
+    width: 200px;
+}
+
+.lado-esquerdo {
+    position: left;
+    top: 30px;
+    width: 200px;
+}
