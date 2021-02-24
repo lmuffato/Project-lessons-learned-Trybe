@@ -18,6 +18,7 @@
 }
 
 body {
+  line-height: 25px;
   background-color: rgb(253, 251, 251);
 }
 
@@ -64,6 +65,31 @@ body {
   padding: 50px;
   margin-left: 100px;
   border-radius: 20px;
+}
+
+#aprendizado {
+  position: relative;
+  top: 25px;
+  background-color: var(--color-3);
+  margin-top: 100px;
+  padding: 25px;
+}
+
+#aprendizado h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#aprendizado div , aside {
+  display: inline-block;
+  margin-left: 300px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+
+#aprendizado div {
+  position: relative;
+  bottom: 45px;
 }
 
 #rodape {
