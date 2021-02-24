@@ -6,7 +6,3 @@ body {
   position: fixed;
   top: 0;
 }
-
-#minha_foto {
-  background-image: url('/images/my_photo.png');
-}
