@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 header {
   position: fixed;
   top: 0px;
@@ -8,19 +9,23 @@ header {
   text-align: center;
   background-color: rgba(172, 68, 68, 0.4);
 }
+
 #minha_foto {
   margin-top: 105px;
   width: 160px;
   border-radius: 10%;
 }
+
 .foto, .learned, .unlearned {
   display: inline-block;
   margin-left: 15px;
   margin-right: auto;
 }
+
 h3, h2, h4 {
   text-align: center;
 }
+
 .learned, .unlearned, .text {
   border-style: dotted;
   border-radius: 15%;
@@ -28,18 +33,21 @@ h3, h2, h4 {
   width: 34%;
   background-color: rgba(172, 68, 68, 0.1)
 }
+
 .text {
   margin-top: 16px;
   margin-left: 40px;
   margin-right: auto;
   width: 75%;
 }
+
 div p {
   padding-left: 20px;
   text-align: justify;
   padding-right: 20px;
   padding-bottom: 20px;
 }
+
 aside {
   float: right;
   display: inline-block;
@@ -53,9 +61,11 @@ aside {
   padding-bottom: 20.5%;
   border-radius: 5%;
 }
+
 footer, aside {
   background-color: rgba(172, 68, 68, 0.3);
 }
+
 footer {
   width: 100;
   margin-right: auto;
