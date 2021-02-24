@@ -1,11 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
+
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(253, 251, 251);
+  width: 600px;
 }
 
 #minha_foto {
@@ -14,16 +16,10 @@ body {
   margin-top: 80px;
 }
 
-#licoes_a_aprender {
-  position: absolute;
-  margin-left: 280px;
-}
-
-#licoes_aprendidas {
-  position: absolute;
-}
-
 #rodape {
-  margin-top: 500px;
+  margin-top: 200px;
+}
 
+.listas {
+  display: inline-block;
 }
