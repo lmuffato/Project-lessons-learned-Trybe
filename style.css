@@ -7,6 +7,7 @@ body {
 }
 
 #cabecalho {
+    background-color: green;
   position: fixed;
   top: 0px;
   font-family: sans-serif;
@@ -28,8 +29,9 @@ aside > p {
     margin: .5rem;
 }
 img{
+    margin-top: 40px;
     width: 400px;
 }
-p{
-    font-size: 30px;
+p, li{
+    font-size: 20px;
 }
