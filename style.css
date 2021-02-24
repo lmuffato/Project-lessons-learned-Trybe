@@ -9,43 +9,51 @@ body {
   padding: 20px;
 }
 
-ol , ul {
-  display: inline-block;
-  margin-left: 200px;
-}
-
-#minha_foto {
+  #minha_foto {
   width: 200px;
   border-radius: 250px;
   padding: 8px;
   background-color: rgb(27, 67, 50);
   margin-top: 5px;
   margin-left: 5px;
+  margin-bottom: 15px;
   float: left;
 }
 
 #rodape {
   text-align: center;
   background-color: rgb(82, 183, 136);
+  clear: both;
 }
 
 .tamanho {
   text-align: center;
-  max-width: 600px;
-  display: inline-block;
-  margin-left: 50px;
+  max-width: 580px;
+  margin-left: 10px;
   margin-top: 30px;
-}
-
-h2 {
-  text-align: center;
-  background-color: rgb(82, 183, 136);
+  float: left; 
 }
 
 nav {
   text-align: center;
 }
 
-#licoes {
-  margin-top: 125px;
+h2 {
+  background-color: rgb(82, 183, 136);
+  text-align: center;
+}
+
+aside {
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+section {
+  float: left;
+}
+
+ol , ul {
+  display: inline-block;
 }
