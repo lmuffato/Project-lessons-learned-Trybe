@@ -4,7 +4,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: Noto Sans JP, sans-serif;
 }
 
 #cabecalho {
@@ -17,6 +17,10 @@ body {
 
 #titulo {
   color: rgb(255, 179, 0);
+}
+
+#menu-foto {
+  background-color: teal;
 }
 
 #minha_foto {
