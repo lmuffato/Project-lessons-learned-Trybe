@@ -10,19 +10,21 @@ body {  background-color: rgb(253, 251, 251);
 #cabecalho {  position: fixed;
   top: 0;
   background-color: rgba(156, 197, 161, 0.5);
-  width: 100%;
+  width: 98%;
   display: flex;
-  border-bottom: 3px dotted white;
+  border-bottom: 5px dotted white;
 }
 
 
-#titulo , #subtitulo , #titutlo-artigo {  color: rgb(31, 36, 33);
+#subtitulo , #titutlo-artigo {  color: black;
   padding-left: 30px;
   text-align: center;
 }
 
-
-#subtitulo { font-family: Dancing Script, cursive;
+#titulo { padding-left: 10px;
+  font-family: Londrina Solid, cursive;
+  color: black;
+  letter-spacing: 2px;
 }
 
 
@@ -33,11 +35,14 @@ body {  background-color: rgb(253, 251, 251);
 
 
 #nav-bar {  justify-content: center;
+  font-family: Raleway, sans-serif;
 }
 
 
 #minha_foto { padding-top: 20px;
   justify-content: center;
+  display: inline-block;
+  margin-left: 18%;
 }
 
 #principal {  width: 50%;
@@ -56,16 +61,17 @@ article { width: 60%;
   line-height: 1.25;
 }
 
-#side-bar { background-color: lightblue;
+#side-bar {
   width: 40%;
   flex: 1;
   padding-top: 40px;
+  background-color: rgb(0, 184, 212);
 }
 
 
 p a { text-decoration: none;
   color: black;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 p a:hover {  color: green;
@@ -78,8 +84,17 @@ p a:hover {  color: green;
 #nav-bar ul li a:hover {  color: green;
 }
 
+#logo { width: 7%;
+  height: 7%;
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: 20px;
+  top: 0;
+  border-radius: 100%;
+}
 
 #rodape { background-color: rgb(220, 225, 222);
+  width: 99%;
 }
 
 #social-media { color: green;
@@ -87,7 +102,7 @@ p a:hover {  color: green;
 }
 
 
-#contents , #additional-content { display: flex;
+#contents , .additional-content { display: flex;
   padding: 30px;
   width: 100vw;
 }
@@ -95,10 +110,21 @@ p a:hover {  color: green;
 #contents { margin-top: 6%;
 }
 
-#additional-content {  background-color: rgb(73, 160, 120);
+.additional-content {  padding-left: 20px;
+  background-color: rgb(73, 160, 120);
+  display: flex;
+  font-family: Raleway, sans-serif;
+  margin-right: 10px;
+  width: 99%;
+}
+
+.additional-content h3 , #social-media { font-family: Courier New, Courier, monospace;
+
 }
 
 #texto-rodape { padding: 20px;
+  display: inline-block;
+  margin-left: 30%;
 }
 
 header #titulo-artigo , #hard-skills h3 { font-family: Courier New, Courier, monospace;
@@ -112,6 +138,70 @@ header #titulo-artigo , #hard-skills h3 { font-family: Courier New, Courier, mon
   max-width: 80%;
 }
 
-img { display: inline-block;
-  margin-left: 18%;
+article p , #licoes_aprendidas , #licoes_a_aprender { font-family: Raleway, sans-serif;
+}
+
+.icones { width: 60px;
+  height: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+  border-radius: 100%;
+}
+
+#caminho { margin-bottom: 5px;
+  background-color: rgb(220, 225, 222);
+  padding-bottom: 10px;
+}
+
+#caminho , #meu_aprendizado { padding-left: 10px;
+}
+
+.soft-skills { background-color: rgba(156, 197, 161, 0.5);
+}
+
+#secao-soft-skills { display: flex;
+  flex-wrap: wrap;
+}
+
+
+.skills { flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 40px;
+  border-left: 2px dotted white;
+}
+
+.skill-first { flex: 1;
+}
+
+
+#cabecalho-secao-skills {
+  display: block;
+  padding-left: 20px;
+  text-align: center;
+  margin-left: 25%;
+}
+
+#secao-soft-skills p { padding-left: 20px;
+  padding-right: 20px;
+}
+
+#container-texto-cabecalho { border-radius: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#meu_aprendizado p { padding-left: 40px;
+  padding-right: 40px;
+}
+
+#container-skills { display: flex;
+  background-color: rgb(0, 184, 212);
+}
+
+#skill-last { border-left: none;
 }
