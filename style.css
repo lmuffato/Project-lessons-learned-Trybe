@@ -2,7 +2,8 @@ body {
     background-color: rgb(253, 251, 251);
     max-width: 1366px;
     max-height: 768px;
- 
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 article {
@@ -30,7 +31,7 @@ header {
 }
 #titulo {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 aside {
@@ -39,11 +40,12 @@ aside {
     border-radius: 4px;
     padding: 5px;
     width: auto;
+
 }
 
 
-#minha-foto {
-    
+#minha_foto {
+    border-radius: 5px   
 }
 
 .coluna {
@@ -67,6 +69,9 @@ aside {
     display: block;
     background-color:;
     margin-left: 3%;
+    clear: both;
+
+    
     
 }
 
@@ -75,7 +80,7 @@ aside {
 }
 h2 {
     font-style: italic;
-    color: cadetblue;
+    color: seagreen;
     padding-left: 40px;
 }
 
@@ -99,6 +104,7 @@ h2 {
     width: 60%;
     border: 1px solid gray;
     height: 350px;
+
     
 }
 
@@ -108,7 +114,8 @@ h2 {
     text-align: justify;
     border: 1px solid gray;
     height: 350px;
-    
+    display: table;
+
     
 }
 nav {
