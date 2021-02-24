@@ -8,7 +8,7 @@ body {
 
 #cabecalho {
   top: 0;
-  background-color: #72efdd;
+  background-color: rgb(114, 239, 221);
   position: fixed;
   width: 100%;}
 
@@ -18,7 +18,7 @@ header h1 {
 header h2 {
   font-size: 35px;}
 
-header h1, header h2 {
+header h1 , header h2 {
   line-height: 10px;}
 
 h3 {
@@ -45,16 +45,16 @@ h3 {
 
 #nav {
   text-align: center;}
- 
-#supernatural, .li-nav {
-  font-weight: bold;}
+
+#supernatural , .li-nav {
+  font-weight: 600;}
 
 .li-nav {
-  color: #7400b8;
+  color: rgb(116, 0, 184);
   font-size: 25px;}
 
 #lessons {
-  background-color: #dee2ff;
+  background-color: rgb(222, 226, 255);
   height: 250px;}
 
 #licoes_aprendidas {
@@ -63,10 +63,9 @@ h3 {
   margin-top: 10px;
   margin-left: 200px;
   width: 200px;
-  background-color: #feeafa;
+  background-color: rgb(254, 234, 250);
   border-style: solid;
-  border-width: 2px;
-  background-color: #feeafa;}
+  border-width: 2px;}
 
 #licoes_a_aprender {
   float: right;
@@ -74,10 +73,9 @@ h3 {
   margin-left: 10px;
   margin-top: 10px;
   width: 250px;
-  background-color: #feeafa;
+  background-color: rgb(254, 234, 250);
   border-style: solid;
-  border-width: 2px;
-  background-color: #feeafa;}
+  border-width: 2px;}
 
 #licoes_aprendidas li:hover {
   color: blue;
@@ -90,7 +88,7 @@ h3 {
 #articles {
   height: 370px;
   width: 100%;
-  background-color: #efd3d7;}
+  background-color: rgb(239, 211, 215);}
 
 .lado-esquerdo {
   float: left;
@@ -101,18 +99,18 @@ h3 {
   height: 300px;
   border-style: solid;
   border-width: 2px;
-  background-color: #feeafa;
+  background-color: rgb(254, 234, 250);
   padding: 1px;}
 
 .lado-direito {
   width: 500px;
-  float:right;
+  float: right;
   margin-right: 150px;
   margin-top: 10px;
   margin-left: 10px;
   border-style: solid;
   border-width: 2px;
-  background-color: #feeafa;
+  background-color: rgb(254, 234, 250);
   padding: 1px;}
 
 footer {
