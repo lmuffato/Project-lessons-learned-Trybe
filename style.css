@@ -17,15 +17,19 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1366px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
   padding: 8px 32px;
   background-color: rgb(20, 33, 61);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #cabecalho #titulo {
@@ -33,12 +37,12 @@ a {
   color: rgb(252, 163, 17);
 }
 
-#cabecalho .social-icons i {
+#cabecalho .social-icons span {
   margin: 4px;
   color: rgb(252, 163, 17);
   font-size: 2rem;
 }
 
-#cabecalho .social-icons i:hover {
+#cabecalho .social-icons span:hover {
   color: rgb(255, 188, 31);
 }
