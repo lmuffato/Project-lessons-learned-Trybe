@@ -3,7 +3,8 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
+  position: fixed;
   background-color: rgb(82, 183, 136);
   text-align: center;
   padding: 20px;
