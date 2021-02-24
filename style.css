@@ -68,7 +68,7 @@
          font-family: monospace;
          font-size: medium;
          
-         float: left;
+        
          
      }
      .trybe{
@@ -81,8 +81,17 @@
      
      #artigo-principal  {
          display: inline-block;
-         
+         width: 1500px;
+     }
+     #passagem{
+         float: right ;
      }  
+     #jornada{
+         float: left;
+     }
+     #passagem-margem{
+         padding-bottom: 30px;
+     }
  
    
     
