@@ -14,34 +14,34 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   position: fixed;
   padding: 0 15px;
   width: 100vw;
-  height: 75px;  
+  height: 75px;
   background-color: rgb(67, 153, 67);
   border-bottom: solid 4px rgb(125, 199, 125);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: white;
 }
 
 #lista_menu {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-right: 20px;
-    color: #fff;
-    gap: 10px;
-    font-size: 18px;
-    font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 20px;
+  color: white;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .item_menu:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all 0.5s;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 #hero {
@@ -60,7 +60,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 15px 50px;
-  color: #000;
+  color: black;
   justify-content: center;
 }
 
@@ -71,15 +71,19 @@ body {
   flex-direction: column;
 }
 
+.block_licoes h2 {
+  margin-bottom: 15px;
+}
+
 #perfil #introducao h2 {
   margin-top: 2px;
-  color: #646262;
+  color: rgb(100, 98, 98);
   text-align: center;
 }
 
 #minha_foto {
   border-radius: 50%;
-  box-shadow: 0 0 1em #000;
+  box-shadow: 0 0 1em black;
 }
 
 #links_perfil {
@@ -99,7 +103,7 @@ body {
 .rede_social a {
   cursor: pointer;
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 
 .redes_sociais_logos {
@@ -138,10 +142,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.block_licoes h2{
-  margin-bottom: 15px;
 }
 
 #aprendizado article {
