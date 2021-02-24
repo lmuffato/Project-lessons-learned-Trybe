@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -28,12 +28,12 @@ main {
   vertical-align: top;
 }
 
-#lists {
+.lado-esquerdo {
   width: 50%;
   padding-left: 5%;
 }
 
-#text {
+.lado-direito {
   width: 50%;
   padding-left: 5%;
   padding-right: 5%;
@@ -41,10 +41,14 @@ main {
 }
 
 footer {
+  vertical-align: bottom;
   text-align: center;
+  line-height: 30px;
   background-color: rgb(144, 175, 197);
+  font-size: 15px;
 }
 
 nav li {
   display: inline;
+  color: darkmagenta;
 }
