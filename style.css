@@ -11,3 +11,12 @@ header {
     width: 120px;
     height: 120px;
 }
+
+.trybe {
+    font-weight: 800;
+    color: green;
+}
+
+#articles p {
+    display: inline;
+}
