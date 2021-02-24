@@ -40,12 +40,13 @@ header{
 #photo-name h3{
     text-align: center;
 }
-.photo-index{
+.content{
     display: flex;
     justify-content: space-around;
+  
 }
 #lesson{
-    margin-top:300px;
+    margin-top:150px;
     min-width: 60%; 
 }
 #lesson h2{
@@ -60,26 +61,32 @@ header{
     width: 200px;
 }
 #FrontEnd{
-    max-width: 20%;
-    display: grid ;
-    justify-items: center;
+    max-width: auto;
+    display: block;
+    align-items: center;
+}
+#FrontEnd h3{
+    text-align: center;
 }
 #frontend-lessons img{
-    width: 100px;
-    margin-bottom: 40px;
+    width: 60px;
+    margin:0px 0px 10px 65px;
+
 
 }
 #unix{
+    object-fit: cover;
+    height: 40px;
     border-radius: 50%;
 }
 #Softskills{
-    max-width: 20%;
-    display: grid ;
-    justify-items: center;
+    max-width: auto;
+    display: block;
+    align-items: center;
 }
 #softskills-lessons img{
-    width: 100px;
-    margin-bottom: 40px;
+    width: 60px;
+    margin:0px 0px 10px 65px;
 }
 #lista-lessons{
     margin-top: 10px;
@@ -88,14 +95,35 @@ header{
     margin-top: 30px;
 }
 #lista-lessons ol,ul{
-    margin: 20px 0px 0px 85px
+    margin: 20px 0px 0px 85px;
 }
-/* .line{
-    content: "";
-    position:absolute;
-    z-index: -1;
-    top:0;
-    bottom:0;
-    left:50%;
-    border-left:2px dotted #444;
-} */
+#art_ap{
+    margin:0px 0px 10px 10px;
+    max-width:30%;
+    line-height: 25px;
+}
+#art_ap h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#art_ap p{
+    margin-left:10px;
+    text-align:justify;
+    word-spacing: 2px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+footer p{
+    margin:15px 0px;
+    color: white;
+
+}
+footer img{
+    border-radius: 50%;
+    width:50px;
+    filter: invert(100%);
+}
