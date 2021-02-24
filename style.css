@@ -1,5 +1,6 @@
 body {
   background: rgb(253, 251, 251);
+  margin: 20px;
 }
 
 #cabecalho {
@@ -27,12 +28,42 @@ body {
   width: 100px;
 }
 
-#trybe {
+.trybe {
   color: rgb(39, 167, 137);
   font-weight: 900;
 }
 
+#tituloauxiliar {
+  display: inline-block;
+}
+
 #artigo {
   font-family: monospace, sans-serif;
-  max-width: 50%;
+  max-width: 45%;
+  display: inline-block;
+}
+#rightside {
+  font-family: monospace, sans-serif;
+  max-width: 45%;
+  display: inline-block;
+}
+
+#aside {
+  max-width: 70%;
+  display: inline-block;
+  margin-left: 650px;
+  margin-top: -500px;
+  padding-top: 100px;
+}
+
+.completearticle {
+    display: inline-block;
+}
+
+#padding {
+    padding-left: 380px;
+}
+
+#invisible {
+  color: rgb(253, 251, 251);
 }
