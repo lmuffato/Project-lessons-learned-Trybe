@@ -28,12 +28,11 @@ body {
   top: 35%;
 }
 
-footer a {
+a {
   color: black;
 }
 
 #cabecalho nav a {
-  color: black;
   font-weight: 600;
   margin-right: 20px;
 }
