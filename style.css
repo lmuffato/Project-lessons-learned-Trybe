@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald' , sans-serif;
 }
 
 #cabecalho {
@@ -17,7 +17,7 @@ body {
   width: 300px;
 }
 
-#licoes_aprendidas ,#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   font-size: 25px;
   color: blue;
   line-height: 40px;
@@ -42,7 +42,7 @@ body {
   width: 45%;
 }
 
-table ,th ,td {
+table , th , td {
   border: 1px solid black;
   border-collapse: collapse;
 }
