@@ -1,12 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Roboto Mono', monospace;
 }
 
 header {
   position: fixed;
   top: 0;
   background-color: red; 
-  width: 100%;
+  width: 98.8%;
   height: 45pt;
   display: flex;
   align-items: center;
@@ -15,7 +16,7 @@ header {
 
 h1 {
   font-size: 25pt;
-  font-weight: bold;
+  font-weight: 650;
 }
 
 nav ul {
@@ -25,17 +26,18 @@ nav ul {
   display: flex;
   justify-content: space-around;
   font-size: 18pt;
+  list-style-type: none ;
 }
 
 a {
   text-decoration: none;
   color: black;
-} 
+}
 
 .navegacao:hover {
   font-size: larger;
   text-decoration: underline;
-  color: rgb(223, 120, 24); 
+  color: rgb(223, 120, 24);
 }
 
 main {
@@ -66,6 +68,11 @@ img {
   width: 50%;
   font-size: 18pt;
   padding-top: 1%;
+}
+
+#licoes_aprendidas li, #licoes_a_aprender li {
+  margin: 1%;
+  padding: 1%;
 }
 
 footer {
