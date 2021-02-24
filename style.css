@@ -46,6 +46,9 @@ footer {
   line-height: 30px;
   background-color: rgb(144, 175, 197);
   font-size: 15px;
+  position: relative;
+  margin-top: 130px;
+  height: 100px;
 }
 
 nav li {
