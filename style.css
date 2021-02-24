@@ -25,3 +25,12 @@ main {
   margin-top: 215px;
 }
 
+#lists {
+  display: inline-block;
+  width: 50%;
+}
+
+article {
+  display: inline-block;
+  width: 50%;
+}
