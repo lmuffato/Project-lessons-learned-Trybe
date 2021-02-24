@@ -7,7 +7,7 @@ header {
   top: 0;
   width: 100%;
   text-align: center;
-  background-color: #763626;
+  background-color:rgb(118, 54, 38);
 }
 
 #title {
@@ -17,7 +17,7 @@ header {
 
 #minha_foto {
   border-radius: 100%;
-  background-color: #336b87;
+  background-color: rgb(51, 107, 135);
   padding: 6px;
 }
 
@@ -40,5 +40,10 @@ main {
 }
 
 footer {
-  background-color: #90afc5;
+  text-align: center;
+  background-color: rgb(144, 175, 197);
+}
+
+nav li {
+  display: inline;
 }
