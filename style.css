@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   background-color: rgb(253, 251, 251);
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -19,6 +20,8 @@ a {
 
 .container {
   max-width: 1366px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin: 0 auto;
 }
 
@@ -26,11 +29,12 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 8px 32px;
+  height: 80px;
   background-color: rgb(20, 33, 61);
 }
 
 #cabecalho .container {
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,4 +61,8 @@ a {
 
 #cabecalho .social-icons span:hover {
   color: rgb(255, 188, 31);
+}
+
+main {
+  padding-top: 80px;
 }
