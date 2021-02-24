@@ -89,12 +89,15 @@ main {
   top: 50px;
   text-align: left;
   line-height: 1.6;
-  display: none;
+  /* display: none; */
+  transform: translateY(-50%);
+  opacity: 0;
   transition: 0.3s;
 }
 
 .licoes-sections:hover .licoes-list {
-  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #artigos {
