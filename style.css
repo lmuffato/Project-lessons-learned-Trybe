@@ -9,7 +9,8 @@ body {
 
 #titulo {
   font-size: 2em;
-  font-family: Impact, Haettenschweiler, sans-serif;
+  font-family: Impact;
+  font-style: italic;
 }
 
 table {
