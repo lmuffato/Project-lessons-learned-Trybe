@@ -141,11 +141,7 @@ header #titulo-artigo , #hard-skills h3 { font-family: Courier New, Courier, mon
 article p , #licoes_aprendidas , #licoes_a_aprender { font-family: Raleway, sans-serif;
 }
 
-.icones { margin-left: 5%;
-  margin-right: auto;
-  align-items: center;
-  border-radius: 100%;
-  padding-left: 10%;
+.icones { border-radius: 100%;
 }
 
 #caminho { margin-bottom: 5px;
@@ -207,3 +203,11 @@ article p , #licoes_aprendidas , #licoes_a_aprender { font-family: Raleway, sans
 
 #skill-last { border-left: none;
 }
+
+#icone-esquerdo { margin-right: 15%;
+}
+
+#icones-social-media { width: 60%;
+  margin-left: 35%;
+}
+
