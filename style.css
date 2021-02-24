@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   margin: 0;
 }
 
@@ -8,29 +8,29 @@ nav {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
 
 }
 
-#cabecalho { 
+#cabecalho {
   position: fixed;
   display: block;
-  top: 0px;
-  background-color:  rgb(47, 95, 81);
+  top: 0;
+  background-color: rgb(47, 95, 81);
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   width: 100%;
   text-align: center;
 }
 
-p, ul, ol {
-  font-family: 'Open Sans', sans-serif;
+p , ul , ol {
+  font-family: Open Sans, sans-serif;
   font-size: 16px;
-  line-height: 1,2rem;
+  line-height: 1.2rem;
 }
 
 h2 , h3 {
-  font-family: 'Roboto' , sans-serif;
+  font-family: Roboto, sans-serif;
   color: rgb(40, 85, 72);
 }
 
@@ -47,15 +47,14 @@ h2 , h3 {
 }
 
 .lado-direito {
-  display: inline-block; 
+  display: inline-block;
   width: 300px;
-
 }
 
 #aprendizado {
   background-color: rgb(255, 251, 243);
-  border-top: 3px solid rgb(237,226, 207);
-  border-bottom: 3px solid rgb(237,226, 207);
+  border-top: 3px solid rgb(237, 226, 207);
+  border-bottom: 3px solid rgb(237, 226, 207);
   padding: 20px;
 }
 
@@ -77,12 +76,11 @@ h2 , h3 {
 #quem_sou {
   display: inline-block;
   width: 500px;
-
 }
 
 #about {
   margin-top: 150px;
-  background-color: rgb(255, 251, 243) ;
+  background-color: rgb(255, 251, 243);
 }
 
 a:link {
@@ -92,7 +90,6 @@ a:link {
 
 a:hover {
   color: rgb(195, 214, 178);
-  
   text-decoration: none;
 }
 
