@@ -42,13 +42,11 @@ li {
 }
 
 .lado-esquerdo {
-  margin-left: 0;
   width: 40%;
   float: left;
 }
 
 .lado-direito {
-  margin-right: 0px;
   width: 40%;
   float: right;
 }
