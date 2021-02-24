@@ -11,6 +11,26 @@ body {
   padding: 0;
 }
 
+#menu {
+    text-align: center;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-top: 7px;
+  padding: 5px 10px;
+}
+
+#menu li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+#menu a:hover {
+  color: teal;
+}
+
 #cabecalho {
   position: fixed;
   width: 100%;
@@ -21,7 +41,7 @@ body {
 
 #titulo {
   color: white;
-  padding: 20px 0 0 15px;
+  padding: 10px 0 0 15px;
   text-align: center;
 }
 
