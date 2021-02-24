@@ -31,6 +31,18 @@ body {
     margin-left: 300px;
 }
 
+#licoes {
+    margin-left: 300px;
+}
+
 .ordem {
     display: inline-block;
+}
+
+#artigo {
+    width: 50%;
+    text-align: justify;
+    line-height: 25px;
+    padding-top: 50px;
+    
 }
