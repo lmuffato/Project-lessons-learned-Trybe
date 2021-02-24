@@ -1,13 +1,11 @@
-
-
-
-body {background-color: rgb(253, 251, 251);}
-#cabecalho {
-    position: fixed;
-    top: 0px;
+body{
+  background-color:rgb(253, 251, 251);
 }
-
-#minha_foto {
-    margin-top: 100px;
+#cabecalho{
+position:fixed;
+  top:0px;
+}
+#minha_foto{
+        margin-top: 100px;
     padding-right: 5px;
 }
