@@ -1,92 +1,109 @@
-* {
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-    font-size: 4px;
-    font-family: monospace, sans-serif;
-    --main: rgb(253, 251, 251);
-    --blue: rgb(95, 135, 148)
-
-}
-
-nav ul li{
-    display: inline;
-    margin-left: 32px;
-    padding: 8px;
-
-}
-
-body { 
-    background-color: var(--main);
-    text-align: center; 
-}
-
-h3, ul, ol {
-    margin-top: 10px;
-}
-
-h3 {
-    color: var(--blue);
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-}
-
-header, footer {
-    background-color: var(--blue);
-    height: 16px;
-    justify-content: center;
-    text-align: center; 
-    color: var(--main);  
-}
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
+*{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-size: 4px;
+  font-family: monospace, sans-serif;
+  --main: rgb(253, 251, 251);
+  --blue: rgb(95, 135, 148)
 }
 
 #titulo {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-#minha_foto {
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    margin-top: 10px;
+#minha_foto{
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  margin-top: 40px;
 }
 
-nav a {
-    text-decoration: none;
-    color: var(--main);
+#rodape{
+  margin-top: 10px;
+  padding-top: 8px;
+  height: 10px;
 }
 
-#footer {
-    margin-top: 10px;
-    padding-top: 8px;
+#links li{
+  margin: 20px;
+  display: inline;
 }
 
-.links li{
-    margin: 20px;
-    display: inline;
+#links a:visited{
+  color: black
 }
 
-.links a:visited {
-    color: black
+#links a:hover{
+  color: var(--blue)
 }
 
-.links a:hover{
-    color: var(--blue)
+#experiencia, aside{
+  padding:8px;
+  line-height: 6px;
+  width: 40%;
+  display: inline-block;
 }
 
-#experiencia {
-    padding:8px
+#experiencia p, aside{
+  text-align:left;
 }
 
-#experiencia p {
-    text-align:left;
-    margin-top: 2px
+nav ul li{
+  display: inline;
+  margin-left: 32px;
+  padding: 8px;
 }
+
+body{ 
+  background-color: var(--main);
+  text-align: center; 
+}
+
+h3, ul, ol{
+  margin-top: 10px;
+}
+
+h3{
+  color: var(--blue);
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+header, footer{
+  background-color: var(--blue);
+  height: 30px;
+  justify-content: center;
+  text-align: center; 
+  color: var(--main);  
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--main);
+}
+
+.lado-esquerdo p{
+  margin-top: 2px;
+}
+
+.lado-direito{
+  margin-top: 0px;
+  background-color: rgb(238, 227, 217);
+  font-style: italic;
+  vertical-align: top ;
+  padding-top: 6px;
+  margin-top: 10px;
+}
+.lado-direito p{
+  font-size: 3px;
+}
+
