@@ -20,31 +20,47 @@ body {
   font-size: 30px;
 }
 
+p {
+  line-height: 30px;
+}
+
+li {
+  line-height: 30px;
+}
+
 .titulos_secundarios {
   color: darkolivegreen;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight:100;
+  font-weight: 100;
 }
 
 .lado-esquerdo {
-  /* display: inline-block; */
+  display: inline-block;
   float: left;
   width: 600px;
   height: 500px;
 }
 
 .lado-direito {
-  /* display: inline-block; */
+  display: inline-block;
   float: right;
   width: 600px;
   height: 500px;
 }
 
 #tabela {
-  border: green solid 3px;
+  border: black solid 1px;
 }
 
-/* - Linha **19**: Unexpected quotes around "Courier New" (font-family-name-quotes)
-- Linha **27**: Expected numeric font-weight notation (font-weight-notation)
-- Linha **40**: Unexpected missing end-of-source newline (no-missing-end-of-source-newline) */
+th {
+  background-color: darkslategrey;
+  color: white;
+  width: 100px;
+}
+
+/*- Linha **31**: Expected empty line before comment (comment-empty-line-before)
+- Linha **38**: Expected empty line before comment (comment-empty-line-before)
+- Linha **27**: Expected single space after ":" (declaration-colon-space-after)
+- Linha **50**: Expected line length to be no more than 90 characters (max-line-length)
+- Linha **50**: Unexpected missing end-of-source newline (no-missing-end-of-source-newline)*/
