@@ -29,8 +29,6 @@ body {
 }
 #apresentacao {
     margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 150px;
     padding: 20px;
     background-color: rgb(95, 79, 79);
@@ -69,7 +67,7 @@ aside {
     color: aliceblue;
 }
 .content {
-    display: inline-block;
+    display: inline-block
 }
 #tabela{
     margin-left: 358px;
@@ -85,12 +83,8 @@ footer {
     margin-bottom: 0px;
     margin-top: 40px;
     color: rgb(255, 255, 255);
-        bottom: 0px;
+    bottom: 0px;
     width: 100%;
-}
-.foot {
-    display: inline-block;
-}
-#lkd a{
-    color: blue;
+    padding: 5px;
+    font-size: 13px;
 }
