@@ -105,3 +105,11 @@ footer {
   padding: 5px;
   font-size: 13px;
 }
+
+#lkd {
+    color: rgb(10, 2, 46);
+}
+
+#lkd:hover {
+    color: rgb(22, 4, 121);
+}
