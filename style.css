@@ -4,10 +4,10 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   border: 1px solid black;
-  background-color: #1e3231; opacity: 0.2;
-  margin: 10px
+  background-color: #1e3231;
+  margin: 10px;
 }
 
 #contato {
@@ -58,7 +58,7 @@ body {
 }
 
 #rodape a {
-  margin-bottom: -10px
+  margin-bottom: -10px;
 }
 
 .article-esquerdo {
@@ -82,6 +82,5 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #1e3231;
-  min-height: 0px;
   height: -100px;
 }
