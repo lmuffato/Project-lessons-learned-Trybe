@@ -7,9 +7,9 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
   position: fixed;
   background-color: rgb(229, 239, 193);
   z-index: 999;
