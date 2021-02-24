@@ -31,7 +31,7 @@ div {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 20px;
     font-size: 15px;
-    background-color: aqua;
+    vertical-align: top;
 }
 #secao_listas {
     align-content: center;
@@ -69,7 +69,7 @@ div {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 20px;
     font-size: 15px;
-    background-color: aqua;
+    vertical-align: top;
 }
 
 #rodape {
