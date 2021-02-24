@@ -5,15 +5,35 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
-  background-color: rgb(91, 199, 91);
+  background-color: rgb(9, 121, 118);
   color: white;
   width: 100%;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 300;
 }
 
 #minha_foto {
   width: 200px;
-  margin-left: auto;
+  margin-left: 500px;
   margin-right: auto;
   border-radius: 50%;
   margin-top: 100px;
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgb(9, 121, 118);
+}
+
+h2 {
+  font-family: monospace;
+  color: rgb(9, 121, 118);
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  color: rgb(75, 73, 73);
+}
+
+#licoes_a_aprender {
+  color: rgb(75, 73, 73);
 }
