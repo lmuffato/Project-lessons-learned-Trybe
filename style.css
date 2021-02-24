@@ -7,13 +7,12 @@ body {
 
 article {
     display: block;
-
+    
 }
 
 article img {
     width: 200px;
 }
-
 
 main {
     margin-top: 15%;
@@ -21,15 +20,17 @@ main {
 
 header {
     background-color: seagreen;
-
+    
 }
-
-footer {
-    background-color: sienna;
-    border: 1px solid rgb(253, 251, 251);
-    border-radius: 4px;
-    padding: 5px;
-    width: auto;
+#cabecalho { 
+    top: 0;
+    position: fixed;
+    width: 796px;
+    
+}
+#titulo {
+    text-align: center;
+    color: black;
 }
 
 aside {
@@ -40,19 +41,9 @@ aside {
     width: auto;
 }
 
-#cabecalho { 
-    top: 0;
-    position: fixed;
-    width: 796px;
-    
-}
-#titulo {
-    text-align: center;
-    color: blue;
-}
 
 #minha-foto {
-
+    
 }
 
 .coluna {
@@ -60,53 +51,81 @@ aside {
     float: left;
     width: 50%;
     height: 300px;
-
+    
 }
 .coluna ol {
     margin: 14%;
 }
 
+#barra-superior {
+    max-width: 798px;
+    display: block;
+    
+}
 #barra-inferior {
     max-width: 798px;
     display: block;
     background-color:;
-   
-        
+    margin-left: 3%;
+    
 }
 
-#barra-superior {
-    display: inline;
-    max-height: 280px;
-
+#barra-inferior h2 {
+    padding: 15px;
 }
+h2 {
+    font-style: italic;
+    color: cadetblue;
+    padding-left: 40px;
+}
+
 
 #foto-titulo {
     text-align: center;
-
+    
 }
 #bordinha {
-    border: 1px solid black;
+    margin-top: 40px;
+    border: 1px solid gray;
     width: 200px;
     padding: 10px;
     object-fit: cover;
     
 }
 
-nav {
-    background-color:cyan;
-    display: inline-block;
-}
-
 .lado-esquerdo {
-
+    padding-left: 5%;
     float: left; 
-    width: 70%;
-
+    width: 60%;
+    border: 1px solid gray;
+    height: 350px;
+    
 }
 
 .lado-direito {
     float: right;
     width: 30%;
-
+    text-align: justify;
+    border: 1px solid gray;
+    height: 350px;
+    
+    
+}
+nav {
+    margin-top: 10px;
+    background-color:cyan;
+    display: inline-block;
+    width: 798px;
+    padding-left: 5%;
+    border: 1px solid gray;
+    
+}
+footer {
+    margin-top: 10px;
+    background-color: sienna;
+    border: 1px solid rgb(253, 251, 251);
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
 }
 
