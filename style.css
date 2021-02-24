@@ -88,7 +88,7 @@ ul {
 .title-2 {
   text-align: center;
   font-size: 2.25em;
-  margin-bottom: 60px;
+  margin: 32px;
 }
 
 .img-01 {
@@ -160,6 +160,49 @@ ul {
 
 #licoes_a_aprender li {
   padding-bottom: 5px;
+  text-align: center;
+}
+
+.articles {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.title-3 {
+  text-align: center;
+  font-size: 1.25em;
+  margin: 32px;
+}
+
+.articles-section {
+  margin: 60px auto;
+  clear: both;
+}
+
+.articles-section:after , .articles-section:before {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.articles-section > div {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.articles-section img {
+  width: 460px;
+  display: block;
+  float: left;
+  margin: 0 10px;
+}
+
+#articles p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin-bottom: 40px;
   text-align: center;
 }
 
