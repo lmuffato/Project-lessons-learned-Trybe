@@ -46,12 +46,23 @@ body {
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
 }
 
-p{
+p {
   font-size: 18px;
   color: rgb(19, 17, 17);
   line-height: 20px;
 }
 
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+article, aside {
+  width: 500px;
+}
