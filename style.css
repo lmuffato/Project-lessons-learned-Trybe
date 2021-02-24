@@ -45,14 +45,8 @@ main {
   font-size: 14px;
 }
 
-p {
-  line-height: 2;
-}
-
 footer {
   background-color: darkgreen;
-  padding: 10px;
   text-align: center;
   color: white;
-  bottom: 0;
 }
