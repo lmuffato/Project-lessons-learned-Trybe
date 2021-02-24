@@ -9,15 +9,19 @@ body {
 #minha_foto {
     width: 200px;
     position: absolute;
-    top: 100px;
+    top: 10%;
     
 }
 #licoes_aprendidas {
     position: absolute;
-    top: 400px;
+    top: 50%;
 }
 #licoes_a_aprender {
     position: absolute;
-    top: 400px;
+    top: 50%;
     left: 300px;
+}
+#rodape {
+    position: absolute;
+    top: 90%;
 }
