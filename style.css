@@ -3,5 +3,10 @@ body {
 }
 
 #cabecalho {
+  background-color: aquamarine;
   top: 0;
+}
+
+#titulo {
+  padding: 10px;
 }
