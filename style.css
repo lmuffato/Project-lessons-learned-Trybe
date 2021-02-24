@@ -27,9 +27,24 @@
   height: 10px;
 }
 
+nav ul li {
+  display: inline;
+  margin-left: 32px;
+  padding: 8px;
+}
+
 #links li {
   margin: 20px;
   display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--main);
 }
 
 #links a:visited {
@@ -47,14 +62,16 @@
   display: inline-block;
 }
 
-#experiencia p , aside {
-  text-align: left;
+.lado-esquerdo p {
+  margin-top: 2px;
 }
 
-nav ul li {
-  display: inline;
-  margin-left: 32px;
-  padding: 8px;
+.lado-direito p {
+  font-size: 3px;
+}
+
+#experiencia p , aside {
+  text-align: left;
 }
 
 body {
@@ -71,16 +88,11 @@ h2 {
   font-weight: 700;
 }
 
-a {
-  text-decoration: none;
-}
-
 header , footer {
   background-color: var(--blue);
   height: 30px;
   justify-content: center;
   text-align: center;
-
   color: var(--main);
 }
 
@@ -90,25 +102,12 @@ header {
   width: 100%;
 }
 
-nav a {
-  text-decoration: none;
-  color: var(--main);
-}
-
-.lado-esquerdo p {
-  margin-top: 2px;
-}
-
 .lado-direito {
   background-color: rgb(238, 227, 217);
   font-style: italic;
   vertical-align: top;
   padding-top: 6px;
   margin-top: 10px;
-}
-
-.lado-direito p {
-  font-size: 3px;
 }
 
 table {
