@@ -8,14 +8,34 @@ body {
 }
 
 #titulo {
-  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
 }
 
 table {
   border: black solid 1px;
+  width: 400px;
 }
-/**
+
+.article-section {
+  display: flex; 
+  border: black solid 1px;
+  text-align: justify; 
+  padding: 20px;
+}
+
+article {
+  width: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+section {
+  width: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 
 
 
