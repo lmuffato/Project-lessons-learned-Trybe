@@ -52,3 +52,27 @@ ul {
   font-weight: 600;
   color: cadetblue;
 }
+
+.container-artigo {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 10%;
+  text-align: right;
+  font-size: 12px;
+  position: absolute;
+}
+
+.rodape {
+  display: inline-block;
+}
