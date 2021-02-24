@@ -46,6 +46,8 @@ table th , td {
 ol , ul {
   font-family: Roboto, sans-serif;
   line-height: 25px;
+  display: inline-block;
+  text-align: left;
 }
 
 ul {
@@ -55,7 +57,7 @@ ul {
 
 .container-artigo {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
 }
 
@@ -68,11 +70,20 @@ ul {
 .lado-direito {
   display: inline-block;
   width: 10%;
-  text-align: right;
   font-size: 12px;
-  position: absolute;
 }
 
 .rodape {
   display: inline-block;
+}
+
+.container-lista {
+  text-align: center;
+}
+
+.artigo-section {
+  background-color: rgb(214, 214, 214);
+  width: auto;
+  margin-left: -10px;
+  margin-right: -10px;
 }
