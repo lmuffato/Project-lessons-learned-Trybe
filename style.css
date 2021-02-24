@@ -5,6 +5,13 @@ body {
   width: 100vw;
 }
 
+* {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
 header {
   position: fixed;
   top: 0;
