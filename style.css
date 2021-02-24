@@ -1,13 +1,18 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+div{
+    float: right;
+    margin-block-start: 2em;
+    margin-block-end: auto;
+}
 #cabecalho{
-    background-color: blue;
+    background-color: rgb(68, 197, 75);
     border: 1px solid #000;
     position: fixed;
     top: 0px;
     display:block;
-    width: 100%;
+    width: 1278px;
 }
 
 #titulo{
