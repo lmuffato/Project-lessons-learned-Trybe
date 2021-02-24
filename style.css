@@ -1,7 +1,14 @@
+:root {
+  --color-1: #22577a;
+  --color-2: #38a3a5;
+  --color-3: #57cc99;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -9,11 +16,27 @@ body {
 }
 
 #cabecalho {
+  display: inline-block;
+  background-color: var(--color-1);
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
   position: fixed;
   top: 0;
 }
 
+#barra_de_navegacao {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-2);
+  border-radius: 0 0 10px 10px;
+  margin-top: 100px;
+}
+
 #minha_foto {
-  width: 300px;
+  margin-top: 200px;
+  width: 200px;
   border-radius: 100%;
 }
