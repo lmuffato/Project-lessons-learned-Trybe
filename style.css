@@ -61,23 +61,30 @@
          padding-left:650px ;
          margin-top: 0px;
      }
-     #artigo{
+     .artigo{
        
          border-style: inset;
-         border-color: greenyellow;
+         border-color:green;
          font-family: monospace;
          font-size: medium;
-         display: inline-block;
+         
+         float: left;
          
      }
-     #trybe{
+     .trybe{
          color: green;
-         margin-bottom: 50px;
-         margin-left: 300px;
+        
+        
      }
-     #artigo2{
+   
+
+     
+     #artigo-principal  {
          display: inline-block;
          
-         
-     }
+     }  
+ 
+   
     
+        
+
