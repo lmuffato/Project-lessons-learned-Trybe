@@ -1,6 +1,9 @@
 * {
-  background-color: rgb(253, 251, 251);
   font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
 }
 
 .container {
@@ -16,6 +19,42 @@
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: rgb(32, 32, 36);
+
+}
+
+h1 {
+  text-align: center;
+}
+
+#nav-bar {
+  list-style-type: none;
+}
+
+#nav-bar li {
+  display: inline-block;
+  margin-left: 40px;
+
+}
+
+.green-transition a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.green-transition a:hover {
+  color: rgb(78, 211, 96);
+}
+
+#minha_foto {
+  margin-top: 200px;
+  border-radius: 50%;
+}
+
+.minhas-habilidades h2 {
+  margin-left: 23px;
 }
 
 table , th , td {
@@ -57,5 +96,30 @@ table , th , td {
 }
 
 #table {
+  margin-top: 30px;
+}
+
+table {
   width: 100%;
+}
+
+#blog {
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+  margin-top: 20px;
+  background-color: rgb(32, 32, 36);
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+
+#rodape {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(32, 32, 36);
+  color: white;
+  text-align: center;
 }

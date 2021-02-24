@@ -11,21 +11,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header id="cabecalho">
-    <h1 id="titulo">Mateus Alencar</h1>
-    <ul>
-      <li><a href="">Introdução</a></li>
-      <li><a href="">Minhas Habilidades</a></li>
-      <li><a href="">Meus Artigos</a></li>
-    </ul>
-  </nav>
-  </header>
-  <nav>
 
-  <main class="container">
+    <header id="cabecalho">
+      <h1 id="titulo" class="green">Mateus Alencar</h1>
+      <ul id="nav-bar" class="green-transition">
+        <li><a href="#minha_foto">Introdução</a></li>
+        <li><a href="#minhas-habilidade">Minhas Habilidades</a></li>
+        <li><a href="#aprendizados-trybe">Meus Artigos</a></li>
+      </ul>
+    </nav>
+    </header>
+    <nav>
+
+    <main class="container">
     <img id="minha_foto" src="images/minha_foto.png" alt="Uma foto de Mateus">
 
     <section class="minhas-habilidades">
+      <h2>Minhas Habilidades</h2>
       <ol id="licoes_aprendidas">
         <li>Unix</li>
         <li>Shell</li>
@@ -58,7 +60,7 @@
       pois acho que fica mais interessante para o projeto como um todo, segue o
       link do repositório dele: https://github.com/tryber/sd-010-a-project-lessons-learned/tree/patrick-morais-lessons-learned-project
     -->
-    <div class="aprendizados-trybe">
+    <div id="aprendizados-trybe" class="aprendizados-trybe">
       <article class="lado-esquerdo">
         <h2>Meus aprendizados na <span class="green">Trybe</span></h2>
         <p>
@@ -78,29 +80,36 @@
       </aside>
     </div>
 
-    <table id="table">
-      <tr>
-        <th>Formação Acadêmica</th>
-        <th>Ano</th>
-      </tr>
-      <tr>
-        <td>EEM GOV Adauto Bezerra</td>
-        <td>2014 - 2017</td>
-      </tr>
-      <tr>
-        <td>UniJuazeiro</td>
-        <td>2017 - 2021</td>
-      </tr>
-      <tr>
-        <td>Trybe</td>
-        <td>2021 - 2022</td>
-      </tr>
-    </table>
+    <div id="table">
+      <table >
+        <tr>
+          <th>Formação Acadêmica</th>
+          <th>Ano</th>
+        </tr>
+        <tr>
+          <td>EEM GOV Adauto Bezerra</td>
+          <td>2014 - 2017</td>
+        </tr>
+        <tr>
+          <td>UniJuazeiro</td>
+          <td>2017 - 2021</td>
+        </tr>
+        <tr>
+          <td>Trybe</td>
+          <td>2021 - 2022</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="blog" class="green-transition">
+      <a  href="https://blog.betrybe.com/" target="_blank">Meu blog favorito</a>
+    </div>
+
   </main>
 
-  <a href="https://blog.betrybe.com/" target="_blank">Meu blog favorito</a>
   <footer id="rodape">
-    <p>Portifólio criado por Mateus Alencar, 2021</p>
+    <p>Portifólio criado por <span class="green">Mateus Alencar</span>, 2021</p>
   </footer>
+
 </body>
 </html>
