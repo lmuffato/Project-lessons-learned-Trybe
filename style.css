@@ -65,7 +65,7 @@ figcaption {
   padding-top: 2%;
 }
 
-#lado_esquerdo {
+#lado-esquerdo {
   display: inline-block;
   max-width: 80%;
   background-color: lightgrey;
@@ -92,7 +92,7 @@ article {
   padding: 2em;
 }
 
-#lado_direito {
+#lado-direito {
   display: inline;
   box-sizing: border-box;
   box-shadow: inset;
