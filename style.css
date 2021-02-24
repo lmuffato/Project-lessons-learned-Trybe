@@ -42,6 +42,7 @@ body {
   max-width: 45%;
   display: inline-block;
 }
+
 #rightside {
   font-family: monospace, sans-serif;
   max-width: 45%;
@@ -57,11 +58,11 @@ body {
 }
 
 .completearticle {
-    display: inline-block;
+  display: inline-block;
 }
 
 #padding {
-    padding-left: 380px;
+  padding-left: 380px;
 }
 
 #invisible {
