@@ -28,3 +28,7 @@ body {
   width: 600px;
   text-align: justify;
 }
+
+.navegacao {
+  display: block;
+}
