@@ -1,5 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
+    max-width: 1366px;
+    max-height: 768px;
  
 }
 
@@ -54,14 +56,28 @@ aside {
 }
 
 .coluna {
+    background-color: ;
     float: left;
     width: 50%;
-    min-width: 50%;
+    height: 300px;
+
+}
+.coluna ol {
+    margin: 14%;
 }
 
 #barra-inferior {
-    max-width: 400px;
-    
+    max-width: 798px;
+    display: block;
+    background-color:;
+   
+        
+}
+
+#barra-superior {
+    display: inline;
+    max-height: 280px;
+
 }
 
 #foto-titulo {
@@ -69,11 +85,28 @@ aside {
 
 }
 #bordinha {
-    border: 4px solid black;
+    border: 1px solid black;
     width: 200px;
     padding: 10px;
+    object-fit: cover;
+    
 }
 
 nav {
-    background-color: chartreuse;
+    background-color:cyan;
+    display: inline-block;
 }
+
+.lado-esquerdo {
+
+    float: left; 
+    width: 70%;
+
+}
+
+.lado-direito {
+    float: right;
+    width: 30%;
+
+}
+
