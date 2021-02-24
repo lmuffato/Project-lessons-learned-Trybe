@@ -1,28 +1,34 @@
 body {
     background-color: rgb(253,251,251);
-    
 }
-#cabecalho {
+header#cabecalho {
     position: fixed;
     top: 0px;
-    left: 40px;
-        
+}
+#titulo {
+    position: relative;
+    top: 10px;
+    left: 500px;
+}
+.headerCabeçalho{
+    border: 1px solid black;
+    height: 200px;
 }
 #minha_foto {
     width: 150px;
     position: absolute;
-    top: 12%;
+    top: 45%;
     left: 40px;
 }
 #licoes_aprendidas {
     position: absolute;
-    top: 45%;
-    left: 40px;
+    top: 40%;
+    left: 250px;
 }
 #licoes_a_aprender {
     position: absolute;
-    top: 45%;
-    left: 300px;
+    top: 40%;
+    left: 480px;
 }
 #rodape {
     position: absolute;
