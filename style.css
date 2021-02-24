@@ -11,7 +11,6 @@ body {
 }
 
 #cabecalho {
-  position: fixed;
   top: 0;
   bottom: 570px;
   background-color: rgb(200, 224, 233);
@@ -68,20 +67,19 @@ body {
 }
 
 article p {
-  font-weight: 200;
+  font-variant: normal;
+  font-weight: 800;
   font-family: cursive;
   font-style: italic;
-  margin-left: 1  00px;
   margin-right: 40px;
   word-spacing: 1px;
 }
 
 #secao {
-  position: relative;
-  font-weight: 200;
+  font-variant: normal;
+  font-weight: 800;
   font-family: cursive;
   font-style: italic;
-  margin-left: 600px;
   word-spacing: 1px;
 }
 
@@ -99,9 +97,8 @@ article p {
 
 #titulo {
   margin-top: 17px;
-  font-family:fantasy;
+  font-family: fantasy;
   font-size: 25px;
-  font
 }
 
 #habilidadesaprendidas {
@@ -127,8 +124,9 @@ article p {
 }
 
 .box {
+  display: inline-block;
   width: 500px;
-  height: 200px;
+  height: auto;
   border: 1px solid black;
   margin: 30px;
   padding: 20px;
