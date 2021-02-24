@@ -37,9 +37,7 @@ a {
 .content {
   width: 100%;
   height: 100vh;
-  position: absolute;
-  top: 70px;
-  z-index: 1;
+  margin-top: 70px;
 }
 
 main {
@@ -51,6 +49,10 @@ main {
   flex-direction: column;
 }
 
+#home {
+  text-align: center;
+}
+
 #minha_foto {
   width: 300px;
   margin-top: 50px;
@@ -59,21 +61,21 @@ main {
   border: 10px solid rgb(10, 138, 189);
 }
 
-.licoes {
+.licoes-container {
   width: 50vw;
   display: flex;
   justify-content: space-between;
 }
 
-.licoes h2 {
+.licoes-container h2 {
   text-align: center;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+.licoes-list {
   display: none;
 }
 
-.aprendidas:hover #licoes_aprendidas , .aprender:hover #licoes_a_aprender {
+.licoes-sections:hover .licoes-list {
   display: block;
 }
 
@@ -96,15 +98,8 @@ aside .artigo {
 
 .lado-esquerdo {
   float: left;
-  
 }
 
 .lado-direito {
   float: right;
-}
-
-#rodape {
-  position: absolute;
-  bottom: 0;
-  z-index: 20;
 }
