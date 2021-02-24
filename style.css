@@ -1,28 +1,24 @@
 body {
   background-color: rgb(253, 251, 251);
-
-  margin:0;
-  padding:0;
-
+  margin: 0;
+  padding: 0;
   width: 100vw;
 }
 
 header {
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 #cabecalho {
   background-color: green;
-  width:100%;
+  width: 100%;
   height: 80px;
-
 }
 
 #cabecalho h1 {
   color: white;
   padding-left: 30px;
-
   font-size: 20px;
 }
 
@@ -32,8 +28,7 @@ header {
 
 #cabecalho ul {
   display: flex;
-  width:100%;
-
+  width: 100%;
   list-style: none;
 }
 
@@ -44,14 +39,12 @@ header {
 #about-me {
   margin-top: 100px;
   margin-left: 10px;
-
   display: flex;
   flex-direction: column;
 }
 
 #about-me img {
   border-radius: 50%;
-
   width: 200px;
 }
 
@@ -79,17 +72,15 @@ header {
 #article article {
   margin: 40px;
   width: 300px;
-
   text-align: justify;
 }
 
 #article aside {
   margin: 40px;
   width: 300px;
-
   text-align: justify;
 }
 
 #rodape {
-  margin: 0px 30px 20px 40px;
+  margin: 0 30px 20px 40px;
 }
