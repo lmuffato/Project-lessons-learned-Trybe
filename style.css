@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253, 251, 251);
 }
 
 header {
@@ -16,7 +16,7 @@ nav ul li {
     list-style: none;
 }
 
-table, caption, td {
+table , caption , td {
     border: 1px solid white;
     background-color: #2d4654;
     color: white;
@@ -24,14 +24,14 @@ table, caption, td {
     padding: 5px;
 }
 
-section, article, aside, nav {
+section , article , aside , nav {
     border: 1px solid grey;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 5px;
 }
 
-h1, h2, h3, h4, ul, ol, p, table {
+h1 , h2 , h3 , h4 , ul , ol , p , table {
     font-family: 'Montserrat', sans-serif;
     line-height: 20px;
 }
