@@ -84,3 +84,9 @@ ol, ul{
     line-height: 25px;
 }
 
+#tabela{
+    padding: 10px;
+    border: solid plum 3px;
+}
+
+
