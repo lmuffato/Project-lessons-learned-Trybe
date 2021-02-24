@@ -61,17 +61,14 @@ p {
     color:#D1D3EB;
     padding: 5px 10px;
     border-radius: 100px;
-
 }
 
 #menu-nav a:hover {
     background: white;
     color: black;
     box-shadow: 3px 3px 3px gray;
-
 }
 
-}
 #foto-perfil {
     margin-top: 140px;
 }
