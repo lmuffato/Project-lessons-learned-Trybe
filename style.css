@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -35,6 +34,7 @@ main {
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
+    display: flex;
 }
 
 #minha_foto {
@@ -53,9 +53,24 @@ ol, ul{
     display: flex;
 }
 
+
 #rodape {
     background-color: plum;
     color: white;
     text-align: center;
     padding: 7px;
+}
+
+
+
+#aprendizado {
+    display: flex;
+}
+
+article {
+    width: 40%;
+}
+aside {
+    width: 40%;
+    position: relative;
 }
