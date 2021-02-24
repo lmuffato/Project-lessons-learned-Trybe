@@ -7,20 +7,45 @@ body {
   top: 0;
   width: 100%;
   background-color: rgb(7, 7, 7);
-  display: flex;
   margin-left: -8px;
-  justify-content: center;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 900;
+  margin-top: -15px;
 }
 
 #titulo {
   color: rgb(195, 216, 216);
+  position: relative;
+  top: 15px;
+  font-size: 30px;
+}
+
+
+.nav-header {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 20px;
+}
+
+.nav-header li {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 13px;
+}
+
+.nav-header a {
+  text-decoration: none;
+  color: blueviolet;
 }
 
 #minha_foto {
   width: 300px;
   margin-top: 100px;
   border-radius: 40%;
-  border: 5px solid black;
+  border: 10px solid black;
+
 }
 
 .centralizando_foto {
@@ -62,6 +87,7 @@ section {
 h2 {
   background-color: rgb(45, 32, 56);
   color: aliceblue;
+  font-size: 30px;
 }
 
 p {
@@ -70,33 +96,31 @@ p {
 }
 
 #footer {
-  text-align: center;
   color: aliceblue;
-  font-size: 12px;
+  font-size: 13px;
   margin-left: 10px;
-  margin-top: 30px;
+  position: relative;
+  top: 40px;
 }
 
 
 #rodape {
   background-color: rgb(3, 3, 3);
   margin-left: -10px;
-  display: flex;
-  justify-content: flex-start;
+  margin-bottom: -10px;
 }
 
 #colocando_linha {
   list-style: none;
   margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 10px;
 }
 
 #colocando_linha li {
   display: inline-block;
-}
-
-#trybe {
-  width: 50px;
-  margin-top: 10px;
 }
 
 li a img {
@@ -104,7 +128,14 @@ li a img {
   margin-left: 25px;
 }
 
-#colocando_linha > :nth-child( 3 ) img {
-  width: 60px;
+article {
+  margin-left: -8px;
+  margin-top: -25px;
+}
+
+.paragrafo {
+  margin-left: 20px;
+  font-size: 25px;
+  color: rgb(126, 126, 126);
 }
 
