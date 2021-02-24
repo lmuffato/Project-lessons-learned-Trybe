@@ -1,61 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header id="cabecalho">
-        <h1 id="titulo"></h1>
-    </header> 
-    <main>
-        <img src="/images/my_photo.png" id="minha_foto" alt="Foto do Marcus, desenvolvedor desse projeto.">
-        <article>
-            <header id="titulo_artigo">
-                <h2>O aprendizado mais importante</h2>
-            </header>
-                <p>Em duas semanas de Trybe o maior conhecimento adquirido é um falado bastante por aqui: "Aprender a aprender".
-                Somos incentivados a buscar conteúdos além do que nos foi dado durante os dias de aula e possui um sistema que nos oferece um cenário parecido com o mercado de trabalho fornecendo projetos e uma interação muito rica com alunos e especialistas de todas as turmas da Trybe através do Slack, gerando um conhecimento compartilhado entre todos.</p>
-        </article>
-        <aside>
-            <header>
-                    <h3>Desenvolvendo minhas soft-skills</h3>
-            </header>
-            <p>Na Trybe constantemente sou direcionado para salas online com pessoas que nunca conversei antes, dessa maneira, eu consigo desenvolver as minhas soft-skills cada vez mais.</p>
-        </aside>
+<html lang="pt">
 
-        <ol id="licoes_aprendidas">
-            <li>Unix & Bash - Parte 1</li>
-            <li>Unix & bash - Parte 2</li>
-            <li>Git & Github -  O que é e para que serve</li>
-            <li>Git & Github - Entendendo os comandos</li>
-            <li>Internet - Entendendo como ela funciona</li>
-            <li>HTML & CSS - Introdução</li>
-            <li>HTML & CSS - Estruturas de páginas</li>
-            <li>HTML & CSS - Primeiros passos em CSS</li>
-            <li>HTML & CSS - Seletores e Posicionamento</li>
-            <li>HTML Semântico</li>
-        </ol>
-        <ul id="licoes_a_aprender">
-            <ul>
-                <li>Javascript </li>
-                <li>Biblioteca Javascript & Frameworks CSS</li>
-                <li>Testes automatizados com Jest</li>
-                <li>React</li>
-                <li>Metodologias Ágeis</li>
-                <li>Gerenciamento de Estados com Redux</li>
-                <li>SQL</li>
-                <li>MongoDB</li>
-                <li>NodeJS</li>
-                <li>Estrutura de Dados</li>
-            </ul>
-        </ul>
-    </main>
-    <footer id="rodape">
-        <a href="https://www.github.com/Marcuscps19" target="_blank">GitHub</a>
-    </footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="cabecalho">
+    <nav>
+      <ul>
+        <li>Aprendendo a Aprender</li>
+        <li>Licões aprendidas</li>
+        <li>Lições a aprender</li>
+        <li>Sobre o autor</li>
+      </ul>
+    </nav>
+    <h1 id="titulo">Lições Aprendidas - Trybe</h1>
+  </header>
+
+  <main>
+    <article>
+      <header>
+        <h2>Aprendendo a aprender</h2>
+      </header>
+      <p>
+        Em duas semanas de Trybe o maior conhecimento adquirido é um falado
+        bastante por aqui: "Aprender a aprender". Somos incentivados a buscar
+        conteúdos além do que nos foi dado durante os dias de aula e possui um
+        sistema que nos oferece um cenário parecido com o mercado de trabalho
+        fornecendo projetos e uma interação muito rica com alunos e
+        especialistas de todas as turmas da Trybe através do Slack, gerando um
+        conhecimento compartilhado entre todos.
+      </p>
+    </article>
+  </main>
+  <section>
+    <header>
+      <h3>Passagens de aprendizado</h3>
+    </header>
+    <aside>
+      <header>
+        <h4>Soft skills</h4>
+      </header>
+      <p>
+        Na Trybe constantemente sou direcionado para salas online com
+        pessoas que nunca conversei antes, dessa maneira, eu consigo
+        desenvolver as minhas soft skills cada vez mais.
+      </p>
+    </aside>
+  </section>
+  <section>
+    <header>
+      <h3>Lições aprendidas</h3>
+    </header>
+    <ol id="licoes_aprendidas">
+      <li>Unix & Bash - Parte 1</li>
+      <li>Unix & bash - Parte 2</li>
+      <li>Git & Github - O que é e para que serve</li>
+      <li>Git & Github - Entendendo os comandos</li>
+      <li>Internet - Entendendo como ela funciona</li>
+      <li>HTML & CSS - Introdução</li>
+      <li>HTML & CSS - Estruturas de páginas</li>
+      <li>HTML & CSS - Primeiros passos em CSS</li>
+      <li>HTML & CSS - Seletores e Posicionamento</li>
+      <li>HTML Semântico</li>
+    </ol>
+  </section>
+  <section>
+    <header>
+      <h3>Lições a aprender</h3>
+    </header>
+    <ul id="licoes_a_aprender">
+      <ul>
+        <li>Javascript</li>
+        <li>Biblioteca Javascript & Frameworks CSS</li>
+        <li>Testes automatizados com Jest</li>
+        <li>React</li>
+        <li>Metodologias Ágeis</li>
+        <li>Gerenciamento de Estados com Redux</li>
+        <li>SQL</li>
+        <li>MongoDB</li>
+        <li>NodeJS</li>
+        <li>Estrutura de Dados</li>
+      </ul>
+    </ul>
+  </section>
+  <section>
+    <header>
+      <h3>Sobre o autor</h3>
+    </header>
+    <p>Sou Marcus, brasileiro, natural de Campinas, São Paulo e atual estudante da Trybe.</p>
+    <img src="/images/my_photo.png" id="minha_foto" alt="Foto do Marcus, desenvolvedor desse projeto." />
+  </section>
+  <footer id="rodape">
+    <a href="https://www.github.com/Marcuscps19" target="_blank">GitHub</a>
+  </footer>
 </body>
+
 </html>
