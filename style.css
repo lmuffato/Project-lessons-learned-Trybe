@@ -1,15 +1,29 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: rgb(253, 251, 251);
 }
-
-#cabecalho {
+h2{
+  size: 14px;
+}
+.section-list {
+  padding: 25px;
+  text-align: center;
+  margin: 40px 40px;
+  display: inline-block;
+}
+.section-list-left, .section-list-right{
+  border: 15px solid green;
+}
+#titulo {
   background-color: green;
   position: fixed;
   top: 0px;
   font-family: sans-serif;
-
+  text-align: center;
 }
 
 aside {
