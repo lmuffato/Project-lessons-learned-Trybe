@@ -1,13 +1,13 @@
 * {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
+  margin: 0;
+  border: 0;
+  padding: 0;
   font-size: 4px;
   font-family: monospace, sans-serif;
 
   --main: rgb(253, 251, 251);
 
-  --blue: rgb(95, 135, 148)
+  --blue: rgb(95, 135, 148);
 }
 
 #titulo {
@@ -33,22 +33,22 @@
 }
 
 #links a:visited {
-  color: black
+  color: black;
 }
 
 #links a:hover {
-  color: var(--blue)
+  color: var(--blue);
 }
 
-#experiencia, aside {
-  padding:8px;
+#experiencia , aside {
+  padding: 8px;
   line-height: 6px;
   width: 40%;
   display: inline-block;
 }
 
-#experiencia p, aside {
-  text-align:left;
+#experiencia p , aside {
+  text-align: left;
 }
 
 nav ul li {
@@ -57,31 +57,31 @@ nav ul li {
   padding: 8px;
 }
 
-body { 
+body {
   background-color: var(--main);
-  text-align: center; 
+  text-align: center;
 }
 
-h2, ul, ol {
+h2 , ul , ol {
   margin-top: 10px;
 }
 
 h2 {
   color: var(--blue);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 a {
   text-decoration: none;
 }
 
-header, footer { 
+header , footer {
   background-color: var(--blue);
-  
   height: 30px;
   justify-content: center;
-  text-align: center; 
-  color: var(--main);  
+  text-align: center;
+
+  color: var(--main);
 }
 
 header {
@@ -101,9 +101,8 @@ nav a {
 
 .lado-direito {
   background-color: rgb(238, 227, 217);
-
   font-style: italic;
-  vertical-align: top ;
+  vertical-align: top;
   padding-top: 6px;
   margin-top: 10px;
 }
@@ -112,7 +111,7 @@ nav a {
   font-size: 3px;
 }
 
-table{
+table {
   text-align: left;
   display: inline-block;
 }
