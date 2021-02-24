@@ -70,11 +70,7 @@ a {
 
 @keyframes bounce {
 
-  0%,
-  25%,
-  55%,
-  75%,
-  100% {
+  0%, 25%, 55%, 75%, 100% {
     transform: translateY(0);
   }
 
