@@ -76,9 +76,6 @@
         
         
      }
-   
-
-     
      #artigo-principal  {
          display: inline-block;
          width: 1500px;
@@ -92,8 +89,13 @@
      #passagem-margem{
          padding-bottom: 30px;
      }
+     nav{
+         display: inline;
+     }
  
-   
+    #trybe-link{
+        padding-left: 50px;
+   }
     
         
 
