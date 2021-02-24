@@ -130,13 +130,46 @@ a {
 }
 
 #outraHistoria {
-  margin: 2%;
+  margin-left: 2%;
+  margin-top: 5%;
   font-size: 26px;
   text-align: center;
   font-weight: 600;
 }
 
+#textTable {
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+#tableDiv {
+  display: block;
+  margin-top: 2%;
+  margin-left: 22%;
+  color: rgb(238, 148, 12);
+}
+
 table , th , td {
-  border: 1px solid black;
-  border-collapse: collapse;
+  border: 1px solid rgb(7, 23, 236);
+  border-collapse: separate;
+  width: 80%;
+  font-size: 25px;
+  text-align: center;
+}
+
+#rodape {
+  display: inline-block;
+  width: 100%;
+  background-color: blue;
+  height: 97px;
+  margin-top: 4%;
+}
+
+#logolinkedin {
+  width: 200px;
+  position: relative;
+}
+
+#linkperfil {
+ font-size: 35px;
 }
