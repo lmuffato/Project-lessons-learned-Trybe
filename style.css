@@ -56,6 +56,11 @@ h2 , h3 {
   border-top: 3px solid rgb(237, 226, 207);
   border-bottom: 3px solid rgb(237, 226, 207);
   padding: 20px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
 
 .footer-icon {
@@ -81,6 +86,11 @@ h2 , h3 {
 #about {
   margin-top: 150px;
   background-color: rgb(255, 251, 243);
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
 
 a:link {
@@ -99,4 +109,15 @@ a:visited {
 
 .corpo {
   padding-left: 50px;
+  
+}
+
+#lista {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
