@@ -4,30 +4,17 @@ body {
 }
 
 article {
-    height: auto;
-    background-image: url("/young-successful-businessman-correcting-tie.jpg");
-    width: 100%;
-    height: 20%;
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat
-
+    display: block;
 
 }
 
 article img {
-    width: 10%;
-    height: auto;
-    float: right;
-    position: relative;
-    opacity: 0;
+    width: 200px;
 }
 
 
 main {
-    background-color: black;
     margin-top: 15%;
-    color: rgb(253, 251, 251);
 }
 
 header {
@@ -63,6 +50,26 @@ aside {
 }
 
 #minha-foto {
-    float: right;
+
 }
 
+.coluna {
+    float: left;
+    width: 50%;
+    min-width: 50%;
+}
+
+#barra-inferior {
+    max-width: 400px;
+    
+}
+
+#foto-titulo {
+    text-align: center;
+
+}
+#bordinha {
+    border: 4px solid black;
+    width: 200px;
+    padding: 10px;
+}
