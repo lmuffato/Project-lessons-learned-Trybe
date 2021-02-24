@@ -1,28 +1,38 @@
 body {
-  background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
+    font-family: 'Poppins', sans-serif;
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0px;
-  color: rgb(71, 45, 48);
-  background-color: rgb(255, 225, 168);
-  width: 100%;
-  
+    position: fixed;
+    top: 0;
+    color: rgb(71, 45, 48);
+    background-color: rgb(255, 225, 168);
+    width: 100%;
+
+} 
+
+.navegacao {
+    top:70px;
+    position: relative;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    
 }
 
 #minha_foto {
-  position: relative;
-  display: inline-block;
-  margin: 20px;
-  top: 60px;
-  padding: 5px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    top: 60px;
+    padding: 5px;
 
 }
 
 .foto {
     padding: 5px;
-    margin:20px;
+    margin: 20px;
 
 }
 
@@ -34,10 +44,10 @@ body {
 }
 
 #rodape {
-    background-color:rgb(71, 45, 48);
+    background-color: rgb(71, 45, 48);
     position: fixed;
     width: 100%;
     display: flex;
-    bottom: 0px;
+    bottom: 0;
 
 }
