@@ -1,129 +1,158 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
-header{
-    top:0px;
-    padding-top:40px;
-    position: fixed;
-    min-width: 100%;
-    background-color:#32a791;
-    color: white;
-    z-index: 10;
+h2 {
+  font-family: "Noto Sans JP", sans-serif;
 }
-#headerbox nav{
-    float:right;
-    margin:0px 40px 20px 0px;
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
-#headerbox h1{
-    text-align: center;
-    margin-bottom: 20px;
+p,
+a {
+  font-family: "Nunito Sans", sans-serif;
 }
-#headerbox a{
-    color:white;
+a {
+  text-decoration: none;
 }
-#photo-name{
-    float: left;
-    display: flex block;
-    width:300px;
-    z-index: 1;
+header {
+  top: 0px;
+  padding-top: 40px;
+  position: fixed;
+  min-width: 100%;
+  background-color: #32a791;
+  color: white;
+  z-index: 10;
 }
-#photo-name img{
-    width:300px;
-    object-fit: cover;
-    height: 600px;
-    border-radius: 15rem;    
+#headerbox nav {
+  float: right;
+  margin: 0px 40px 20px 0px;
 }
-#photo-name h3{
-    text-align: center;
+#headerbox h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-.content{
-    display: flex;
-    justify-content: space-around;
-  
+#headerbox a {
+  color: white;
 }
-#lesson{
-    margin-top:150px;
-    min-width: 60%; 
+#photo-name {
+  float: left;
+  display: flex block;
+  width: 300px;
+  z-index: 1;
 }
-#lesson h2{
-    text-align: center;
+#photo-name img {
+  width: 300px;
+  object-fit: cover;
+  height: 600px;
+  border-radius: 15rem;
 }
-#trilhas{
-    min-width: 100%;
-    display:flex;
-    justify-content: space-between;
+#photo-name h3 {
+  text-align: center;
 }
-#trilhas img{
-    width: 200px;
+.content {
+  display: flex;
+  justify-content: space-around;
 }
-#FrontEnd{
-    max-width: auto;
-    display: block;
-    align-items: center;
+#lesson {
+  margin-top: 150px;
+  min-width: 60%;
 }
-#FrontEnd h3{
-    text-align: center;
+#lesson h2 {
+  text-align: center;
 }
-#frontend-lessons img{
-    width: 60px;
-    margin:0px 0px 10px 65px;
-
-
+#trilhas {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-#unix{
-    object-fit: cover;
-    height: 40px;
-    border-radius: 50%;
+#trilhas img {
+  width: 200px;
 }
-#Softskills{
-    max-width: auto;
-    display: block;
-    align-items: center;
+#FrontEnd {
+  max-width: auto;
+  display: block;
+  align-items: center;
 }
-#softskills-lessons img{
-    width: 60px;
-    margin:0px 0px 10px 65px;
+#FrontEnd h3 {
+  text-align: center;
 }
-#lista-lessons{
-    margin-top: 10px;
+#frontend-lessons img {
+  width: 60px;
+  margin: 0px 0px 10px 65px;
 }
-#lista-lessons h3{
-    margin-top: 30px;
+#unix {
+  object-fit: cover;
+  height: 40px;
+  border-radius: 50%;
 }
-#lista-lessons ol,ul{
-    margin: 20px 0px 0px 85px;
+#Softskills {
+  max-width: auto;
+  display: block;
+  align-items: center;
 }
-#art_ap{
-    margin:0px 0px 10px 10px;
-    max-width:30%;
-    line-height: 25px;
+#softskills-lessons img {
+  width: 60px;
+  margin: 0px 0px 10px 65px;
 }
-#art_ap h1{
-    text-align: center;
-    margin-bottom: 10px;
+#lista-lessons {
+  margin-top: 10px;
 }
-#art_ap p{
-    margin-left:10px;
-    text-align:justify;
-    word-spacing: 2px;
+#lista-lessons h3 {
+  margin-top: 30px;
 }
-footer{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
+#lista-lessons ol,
+ul {
+  margin: 20px 0px 0px 85px;
 }
-footer p{
-    margin:15px 0px;
-    color: white;
-
+#art_ap {
+  margin: 0px 0px 10px 10px;
+  max-width: 30%;
+  line-height: 25px;
 }
-footer img{
-    border-radius: 50%;
-    width:50px;
-    filter: invert(100%);
+#art_ap h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#art_ap p {
+  margin-left: 10px;
+  text-align: justify;
+  word-spacing: 2px;
+}
+#last {
+  display: flex;
+  justify-content: space-between;
+}
+#passage {
+  width: 10%;
+  margin: 10px 100px 0px 0px;
+}
+#passage h3 {
+  font-size: 17px;
+  text-align: center;
+}
+#passage p {
+  margin-top: 5px;
+  font-size: 13px;
+  text-align: initial;
+  margin-left: 25px;
+}
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+footer p {
+  margin: 15px 0px 0px 15px;
+  color: white;
+}
+footer img {
+  width: 50px;
+  border-radius: 12rem;
+  filter: invert(100%);
 }
