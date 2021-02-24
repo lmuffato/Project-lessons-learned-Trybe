@@ -6,19 +6,26 @@
 body {
   background-color: rgb(253, 251, 251);
 }
-h2{
+
+h2 {
   size: 14px;
 }
+
 .section-list {
   padding: 25px;
   text-align: center;
   margin: 40px 40px;
   display: inline-block;
 }
-.section-list-left, .section-list-right{
-  border: 15px solid green;
+
+.section-list-left,
+.section-list-right {
+  color: aqua;
+background-color: blueviolet;
+  border: 12px solid blue;
 }
-#titulo {
+
+#cabecalho {
   background-color: green;
   position: fixed;
   top: 0px;
