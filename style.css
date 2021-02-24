@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253, 251, 251);
 }
 #nav1 {
     float: right;
@@ -12,7 +12,7 @@ body {
     border: 1px solid black;
     position: fixed;
     top: 0px;
-    display:block;
+    display: block;
     width: 1278px;
 }
 
@@ -30,7 +30,7 @@ body {
 
 #licoes_aprendidas {
     font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
     line-height: 20px;
     font-size: 15px;
     vertical-align: top;
