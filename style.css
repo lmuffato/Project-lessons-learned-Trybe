@@ -69,3 +69,55 @@ ul {
   letter-spacing: 0.1em;
 }
 
+#about {
+  margin-top: 120px;
+}
+
+.img-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.img-container:after , .img-container:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.title-2 {
+  text-align: center;
+  font-size: 2.25em;
+  margin-bottom: 60px;
+}
+
+.img-01 {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.img-01 img {
+  display: block;
+  width: 300px;
+}
+
+.img-01 h3 {
+  font-size: 2.25em;
+  line-height: 1em;
+  background: rgb(242, 143, 59);
+  width: 220px;
+  color: rgb(253, 251, 251);
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 0 10px;
+  top: -65px;
+  position: relative;
+}
+
+#about p {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 100px;
+}
+
