@@ -48,13 +48,13 @@ main {
   padding-right: 10px;
 }
 
-#minha_foto{
+#minha_foto {
   width: 250px;
-  height: 250px;  
+  height: 250px;
 }
 
-img{
-  border: 1px solid #ddd;
+img {
+  border: 1px solid #fafafa;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
