@@ -71,6 +71,19 @@ img {
   text-align: justify;
   left: 350px;}
 
+.side-by-side {
+  width: 25vw;}
+
+.lado-esquerdo {
+  display: inline-block;
+  text-align: justify;
+  width: 25vw;}
+
+.lado-direito {
+  display: inline-block;
+  width: 25vw;
+  text-align: justify;}
+
 th , td {
   border: 1px solid rgb(0, 0, 0, 0.5);
   text-align: center;
