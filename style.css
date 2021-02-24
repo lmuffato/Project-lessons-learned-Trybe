@@ -21,6 +21,10 @@ body {
 
 #rodape {
   color: brown;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  
 }
 
 #table {
@@ -42,11 +46,17 @@ li {
 }
 
 .lado-esquerdo {
-  float: left;
-  width: 40%;
+  /*float: left;
+  width: 40%;*/
+  position: absolute;
+  left: 0px;
+  width: 40%
 }
 
 .lado-direito {
-  float: right;
-  width: 40%;
+  /*float: right;
+  width: 40%;*/
+  position: absolute;
+  right: 0px;
+  width: 40%
 }
