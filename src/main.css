@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(253, 251, 251);
+}
+header{
+    padding-top:40px;
+    position: fixed;
+    min-width: 100%;
+    background-color:#32a791;
+    color: white;
+    z-index: 10;
+}
+#headerbox nav{
+    float:right;
+    margin:0px 40px 20px 0px;
+}
+#headerbox h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#headerbox a{
+    color:white;
+}
+#photo-name{
+    float: left;
+    display: flex block;
+    width:300px;
+    z-index: 1;
+}
+#photo-name img{
+    width:300px;
+    object-fit: cover;
+    height: 600px;
+    border-radius: 15rem;    
+}
+#photo-name h3{
+    text-align: center;
+}
+.photo-index{
+    display: flex;
+    justify-content: space-around;
+}
+#lesson{
+    margin-top:300px;
+    min-width: 60%; 
+}
+#lesson h2{
+    text-align: center;
+}
+#trilhas{
+    min-width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+#trilhas img{
+    width: 200px;
+}
+#FrontEnd{
+    max-width: 20%;
+    display: grid ;
+    justify-items: center;
+}
+
+#frontend-lessons img{
+    width: 100px;
+    margin-bottom: 40px;
+}
+#unix{
+    border-radius: 50%;
+}
+#Softskills{
+    max-width: 20%;
+    display: grid ;
+    justify-items: center;
+}
+#softskills-lessons img{
+    width: 100px;
+    margin-bottom: 40px;
+
+}
+/* .line{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    top:0;
+    bottom:0;
+    left:50%;
+    border-left:2px dotted #444;
+} */
