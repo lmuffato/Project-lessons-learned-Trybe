@@ -76,8 +76,15 @@ ul {
   position: absolute;
 }
 
-.rodape {
+#rodape {
   display: inline-block;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(41, 85, 87);
+  width: 100%;
+  padding: 20px;
+  margin-left: -10px;
+  border-bottom: 2px solid darkslategray;
 }
 
 .container-lista {
@@ -100,7 +107,10 @@ ul {
   padding: 20px;
 }
 
-
 .container-tabela-apresenta {
+  display: inline-block;
+}
+
+.container-foto {
   display: inline-block;
 }
