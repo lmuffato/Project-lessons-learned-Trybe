@@ -7,6 +7,7 @@
 body {
   background-color: rgb(253, 251, 251);
   position: relative;
+  font-family: Lato, sans-serif;
 }
 
 
@@ -21,7 +22,7 @@ header {
 }
 
 header nav {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 a {
@@ -87,6 +88,10 @@ main {
 
 .artigo h2 , p {
   margin-bottom: 10px;
+}
+
+.artigo p {
+  line-height: 25px;
 }
 
 aside .artigo {
