@@ -1,25 +1,26 @@
 body {
     background-color: rgb(253,251,251);
-    font-family: 'VT323', monospace;
+    font-family:'Spartan', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
 #cabecalho {
     position: fixed;
     top: 0px;
     background-color: rgb(79,26,128);
     width:100%;
+    padding: 10px;
     margin: 0px;
     color: rgb(88,178,78);
+    text-align: center;
 }
 #minha_foto {
-    width: 150px;
+    width: 140px;
+    border-radius: 100%;
     position: fixed;
     right: 0px;
+    top: 5px;
 }
-#licoes_aprendidas {
-    position:static;
-    top: 1000px;
-}
-#licoes_a_aprender {
-    position:static;
-    top: 1000px; 
+.listas {
+    display: inline-block;
 }
