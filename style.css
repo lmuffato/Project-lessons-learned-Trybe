@@ -5,8 +5,9 @@ body {
 header {
   position: fixed;
   top: 0;
-  display: inline-block;
+  width: 100%;
   text-align: center;
+  background-color: #763626;
 }
 
 #title {
@@ -15,5 +16,12 @@ header {
 }
 
 #minha_foto {
-  
+  border-radius: 100%;
+  background-color: #336B87;
+  padding: 6px;
 }
+
+main {
+  margin-top: 215px;
+}
+
