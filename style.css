@@ -67,10 +67,24 @@ a {
   width: 300px;
 }
 
-.lado-esquerdo , .lado-direito {
-  font-size: 25px;
-  line-height: 40px;
+.lado-esquerdo {
+  font-size: 30px;
+  line-height: 50px;
   font-weight: 600;
+  background: -webkit-linear-gradient(rgb(11, 100, 3), rgb(42, 179, 8));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lado-direito {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(rgb(100, 2, 2), rgb(243, 84, 84));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #listas {
@@ -82,9 +96,15 @@ a {
 #aprendi {
   width: 35%;
   display: inline-block;
-  font-size: 55px;
-  background-clip: border-box;
+  margin: 3%;
+}
+
+#aprendiText {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 600;
   background: -webkit-linear-gradient(rgb(11, 100, 3), rgb(42, 179, 8));
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -92,9 +112,14 @@ a {
 #devoAprender {
   width: 35%;
   display: inline-block;
-  font-size: 55px;
-  background-clip: border-box;
+}
+
+#devoAprenderText {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 600;
   background: -webkit-linear-gradient(rgb(100, 2, 2), rgb(243, 84, 84));
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -102,30 +127,21 @@ a {
 #listaEsquerda {
   display: inline-block;
   width: 40%;
-  background-clip: border-box;
-  background: -webkit-linear-gradient(rgb(11, 100, 3), rgb(42, 179, 8));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-top: 3%;
 }
 
 #listaDireita {
   display: inline-block;
   width: 40%;
-  background-clip: border-box;
-  background: -webkit-linear-gradient(rgb(100, 2, 2), rgb(243, 84, 84));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 #historia {
-  margin: 2% 2% 2% 2%;
+  margin: 2%;
   font-size: 27px;
   text-align: justify;
 }
 
 #outraHistoria {
-  margin: 2% 2% 2% 2%;
+  margin: 2%;
   font-size: 26px;
   text-align: center;
   font-weight: 600;
