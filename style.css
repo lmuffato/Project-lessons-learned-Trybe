@@ -11,15 +11,36 @@ body {
   width: 100%;
 }
 
+#cabecalho h1 {
+  color: rgb(47, 193, 140);
+  padding-left: 40px;
+}
+
 nav li {
   display: inline-block;
 }
 
 main {
   margin-top: 120px;
+  padding: 20px 40px;
 }
 
 #minha_foto {
   width: 250px;
   border-radius: 100%;
+}
+
+footer {
+  padding: 5px 40px;
+  background-color: rgb(36, 30, 78);
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: rgb(134, 187, 216);
+  font-weight: bolder;
 }
