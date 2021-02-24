@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -7,7 +13,6 @@ body {
   top: 0;
   width: 100%;
   background-color: rgb(7, 7, 7);
-  margin-left: -8px;
   text-align: center;
   font-family: monospace;
   font-weight: 900;
@@ -20,7 +25,6 @@ body {
   top: 30px;
   font-size: 30px;
 }
-
 
 .nav-header {
   display: flex;
@@ -45,7 +49,8 @@ body {
   margin-top: 100px;
   border-radius: 40%;
   border: 10px solid black;
-
+  padding: 5px;
+  background-color: black;
 }
 
 .centralizando_foto {
@@ -60,6 +65,9 @@ body {
   color: rgb(179, 177, 184);
   font-weight: 900;
   background-color: rgb(30, 30, 167);
+  padding: 20px;
+  letter-spacing: 5px;
+  font-family: monospace;
 }
 
 section {
@@ -71,28 +79,36 @@ section {
 
 #licoes_aprendidas {
   font-size: 20px;
-  color: rgb(89, 200, 236);
+  color: rgb(248, 197, 204);
   font-weight: 900;
   display: inline-block;
-
+  background-image: url('https://images8.alphacoders.com/595/thumb-350-595000.jpg');
 }
 
 #licoes_a_aprender {
   font-size: 20px;
   font-weight: 900;
-  color: rgb(250, 19, 19);
+  color: rgb(248, 197, 204);
   display: inline-block;
+  margin-bottom: 80px;
+  margin-top: 100px;
+  background-image: url('https://images8.alphacoders.com/595/thumb-350-595000.jpg');
 }
 
 h2 {
-  background-color: rgb(45, 32, 56);
+  background-color: rgb(88, 12, 150);
   color: rgb(212, 216, 219);
   font-size: 30px;
+  padding: 10px;
+}
+
+#subindo_h2_liçoes {
+  margin-left: 10px;
 }
 
 p {
   margin-left: -22px;
-  color: rgb(182, 182, 190);
+  color: rgb(130, 130, 202);
 }
 
 #footer {
@@ -107,7 +123,8 @@ p {
 #rodape {
   background-color: rgb(3, 3, 3);
   margin-left: -10px;
-  margin-bottom: -10px;
+  margin-bottom: -18px;
+  margin-right: -10px;
 }
 
 #colocando_linha {
@@ -117,6 +134,7 @@ p {
   justify-content: center;
   position: relative;
   bottom: 10px;
+  margin-right: -20px;
 }
 
 #colocando_linha li {
@@ -133,6 +151,10 @@ article {
   margin-top: -25px;
 }
 
+#subindo_section_article {
+  margin-top: -25px;
+}
+
 .paragrafo {
   font-size: 25px;
   color: rgb(160, 159, 159);
@@ -141,10 +163,45 @@ article {
   margin: auto;
   margin-top: -25px;
   margin-bottom: -15px;
+  font-family: cursive;
 }
 
 aside {
   margin-left: -10px;
   margin-top: 20px;
+}
+
+#favoritos {
+  text-align: center;
+  padding: 10px;
+}
+
+.tabela {
+  color: rgb(196, 209, 219);
+  margin-top: -25px;
+  margin-bottom: -15px;
+  background-color: rgb(196, 209, 219);
+}
+
+table {
+  width: 250px;
+  margin: auto;
+  background-color: rgb(130, 130, 202);
+  border: 2px solid black;
+  position: relative;
+  top: -10px;
+}
+
+td , tr {
+  border: solid 10px rgb(7, 7, 7);
+  padding: 15px;
+}
+
+.ajeitando {
+  display: flex;
+}
+
+.lado-esquerdo , .lado-direito {
+  margin: 0;
 }
 
