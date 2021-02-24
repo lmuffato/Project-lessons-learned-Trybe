@@ -107,6 +107,67 @@ body {
   object-fit: cover;
 }
 
-#aprendizado {
+#title_aprendizado {
+  text-align: center;
+  font-size: 72px;
+  color: rgb(125, 199, 125);
+  margin-top: 70px;
+}
 
+#aprendizado {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  width: 100vw;
+  height: 350px;
+}
+
+#licoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+  background-color: rgb(67, 153, 67);
+  color: white;
+  padding: 20px;
+  height: 100%;
+}
+
+.block_licoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_licoes h2{
+  margin-bottom: 15px;
+}
+
+#aprendizado article {
+  width: 40%;
+  padding: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(67, 153, 67);
+}
+
+#aprendizado aside {
+  width: 22%;
+  padding: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 22px;
+  background-color: rgb(67, 153, 67);
+  max-height: 100%;
+  color: white;
+}
+
+#rodape {
+  margin-top: 70px;
+  background-color: rgb(67, 153, 67);
+  color: white;
+  font-size: 20px;
+  padding: 20px;
 }
