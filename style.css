@@ -1,8 +1,7 @@
 * {
     line-height: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
-} 
-
+}
 
 body {
     background-color: rgb(253,251,251); 
@@ -82,13 +81,13 @@ p {
 }
 
 .lado-direito{
-    position: right;
+    float: right;
     top: 30px;
     width: 200px;
 }
 
 .lado-esquerdo {
-    position: left;
+    float: left;
     top: 30px;
     width: 200px;
 }
