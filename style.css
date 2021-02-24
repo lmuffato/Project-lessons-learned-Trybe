@@ -16,23 +16,10 @@ table {
   width: 400px;
 }
 
-.article-section {
-  display: flex;
-}
-
-.article-section article , .article-section section {
+article , section {
   width: 400px;
   padding-left: 30px;
   padding-right: 30px;
   border: solid 1px black;
+  display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
