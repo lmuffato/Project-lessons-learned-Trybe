@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(253,251,251);
+    background-color:rgb(253,251,251);
 }
-header#cabecalho {
+header#cabecalho{
     position: fixed;
     top: 0px;
 }
-#titulo {
+#titulo{
     position: relative;
     top: 10px;
     left: 500px;
@@ -14,23 +14,23 @@ header#cabecalho {
     border: 1px solid black;
     height: 200px;
 }
-#minha_foto {
+#minha_foto{
     width: 150px;
     position: absolute;
     top: 45%;
     left: 40px;
 }
-#licoes_aprendidas {
+#licoes_aprendidas{
     position: absolute;
     top: 40%;
     left: 250px;
 }
-#licoes_a_aprender {
+#licoes_a_aprender{
     position: absolute;
     top: 40%;
     left: 480px;
 }
-#rodape {
+#rodape{
     position: absolute;
     top: 90%;
     left: 40px;
