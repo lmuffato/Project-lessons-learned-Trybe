@@ -31,24 +31,24 @@
 }
 
 #licoes_a_aprender {
- color: red;
- margin-top: 1px;
+color: red;
+margin-top: 1px;
 }
 
 #rodape {
- text-align: center;
- height: 50px;
- bottom: 0;
- width: 100%;
- background-color: blue;
+text-align: center;
+height: 50px;
+bottom: 0;
+width: 100%;
+background-color: blue;
 }
 
 #rodape p {
- padding-top: 10px;
+padding-top: 10px;
 }
 
 .Article {
- color: aquamarine;
- padding-top: 5px;
- font-family: Arial;
+color: aquamarine;
+padding-top: 5px;
+font-family: Arial;
 }
