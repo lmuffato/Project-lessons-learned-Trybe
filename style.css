@@ -90,6 +90,10 @@ main {
   margin-bottom: 10px;
 }
 
+aside.artigo {
+  width: 30vw;
+}
+
 .lado-esquerdo {
   display: inline-block;
   float: left;
