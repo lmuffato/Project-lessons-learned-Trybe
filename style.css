@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -64,16 +64,12 @@ a {
 }
 
 .arrow:hover {
-    color: rgb(54, 54, 54);
+  color: rgb(54, 54, 54);
 }
 
 @keyframes bounce {
 
-  0%,
-  25%,
-  55%,
-  75%,
-  100% {
+  0%, 25%, 55%, 75%, 100% {
     transform: translateY(0);
   }
 
@@ -105,7 +101,6 @@ a {
   background: rgb(22, 22, 22);
   margin: 0 auto;
   max-width: 960px;
-  padding: 12px;
   align-items: center;
   justify-content: space-around;
   padding: 16px 0;
