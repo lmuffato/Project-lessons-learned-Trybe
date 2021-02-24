@@ -58,22 +58,6 @@ img {
   margin: 150px 0 30px 150px;
   box-shadow: 2px 2px 5px -2px rgb(0, 0, 0, 1);}
 
-.lessons-learned {
-  display: inline-block;
-  text-align: justify;
-  position: relative;
-  z-index: -1;}
-
-.lessons-to-learn {
-  display: inline-block;
-  position: absolute;
-  z-index: -1;
-  text-align: justify;
-  left: 350px;}
-
-.side-by-side {
-  width: 25vw;}
-
 .lado-esquerdo {
   display: inline-block;
   text-align: justify;
