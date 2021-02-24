@@ -19,9 +19,7 @@ a {
 
 .container {
   max-width: 1366px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 auto;
 }
 
 #cabecalho {
@@ -32,9 +30,23 @@ a {
   background-color: rgb(20, 33, 61);
 }
 
+#cabecalho .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #cabecalho #titulo {
   font-size: 2rem;
   color: rgb(252, 163, 17);
+}
+
+#cabecalho .social-icons ul {
+  list-style: none;
+}
+
+#cabecalho .social-icons ul li {
+  display: inline;
 }
 
 #cabecalho .social-icons span {
