@@ -1,17 +1,18 @@
 body {
     background-color: rgb(253,251,251);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'VT323', monospace;
 }
 #cabecalho {
     position: fixed;
     top: 0px;
     background-color: rgb(79,26,128);
-    padding: 15px;
-    
+    width:100%;
+    margin: 0px;
+    color: rgb(88,178,78);
 }
 #minha_foto {
-    width: 250px;
-    position: absolute;
+    width: 150px;
+    position: fixed;
     right: 0px;
 }
 #licoes_aprendidas {
