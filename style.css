@@ -8,7 +8,6 @@ body {
 }
 
 #titulo {
-  font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
 }
 
@@ -35,6 +34,7 @@ section {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 
 
 
