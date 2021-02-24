@@ -55,7 +55,7 @@ a {
 }
 
 #nomeFoto {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 #perfil {
@@ -69,29 +69,31 @@ a {
 
 .lado-esquerdo , .lado-direito {
   font-size: 25px;
-  color: blue;
   line-height: 40px;
   font-weight: 600;
 }
 
 #listas {
   display: inline-block;
-  width: 100%;
+  width: 98%;
+  margin-left: 2%;
 }
 
 #aprendi {
-  width: 40%;
+  width: 35%;
   display: inline-block;
   font-size: 55px;
+  background-clip: border-box;
   background: -webkit-linear-gradient(rgb(11, 100, 3), rgb(42, 179, 8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #devoAprender {
-  width: 40%;
+  width: 35%;
   display: inline-block;
   font-size: 55px;
+  background-clip: border-box;
   background: -webkit-linear-gradient(rgb(100, 2, 2), rgb(243, 84, 84));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -100,17 +102,33 @@ a {
 #listaEsquerda {
   display: inline-block;
   width: 40%;
+  background-clip: border-box;
   background: -webkit-linear-gradient(rgb(11, 100, 3), rgb(42, 179, 8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 3%;
 }
 
 #listaDireita {
   display: inline-block;
   width: 40%;
+  background-clip: border-box;
   background: -webkit-linear-gradient(rgb(100, 2, 2), rgb(243, 84, 84));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#historia {
+  margin: 2% 2% 2% 2%;
+  font-size: 27px;
+  text-align: justify;
+}
+
+#outraHistoria {
+  margin: 2% 2% 2% 2%;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 600;
 }
 
 table , th , td {
