@@ -3,15 +3,16 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  position: fixed;
+  top: 0;
 }
 
 #titulo {
   font-size: 30px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-style: italic;
   color:dimgrey;
-  line-break: normal;
+  text-align: center;
 }
 
 .table td {
@@ -26,5 +27,10 @@ body {
 
 img {
   width: 200px;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+article {
+  line-height: 5px;
+  font-family: "Courier New", Courier, monospace;
 }
