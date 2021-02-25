@@ -205,18 +205,28 @@ h1 {
 }
 
 #aprendizado {
-  border: 2px solid tomato;
+  border: 2px solid rgb(253, 64, 42);
   max-width: 66%;
   margin: 0 auto;
   margin-top: 60px;
   padding: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#aprendizado:hover {
+  background: rgb(236, 236, 236);
+  border: 2px solid rgb(255, 25, 0);
 }
 
 #minha_foto {
   max-width: 184px;
   border-radius: 20%;
-  border: 3px solid rgb(253, 64, 42);
+  -webkit-box-shadow: 16px 25px 0px 0px rgb(146, 43, 34);
+  -moz-box-shadow: 16px 25px 0px 0px rgb(146, 43, 34);
+  box-shadow: 10px 12px 0px 0px rgb(146, 43, 34);
   margin: 0 auto;
+  transition: all 0.5s;
 }
 
 #aprendizado-container {
@@ -241,12 +251,22 @@ h1 {
 .lado-direito {
   max-width: 215px;
   border-left: solid 2px rgba(104, 151, 117, 0.699);
+  transition: all 0.4s;
+}
+
+.lado-direito:hover {
+  border-left: solid 2px rgb(104, 151, 117);
 }
 
 .lado-direito p {
   font-style: italic;
   padding-left: 4px;
   color: rgba(22, 22, 22, 0.774);
+  transition: all 0.4s;
+}
+
+.lado-direito p:hover {
+  color: rgb(22, 22, 22);
 }
 
 #rodape {
