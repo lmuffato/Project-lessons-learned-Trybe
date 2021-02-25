@@ -12,27 +12,26 @@ body {
 }
 
 #cabecalho {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: fixed;
   top: 0;
   background-color: darkmagenta;
   width: 100%;
+  background-image: url('/fotos/fundo.jpeg');
 }
 
 #titulo {
   display: inline-block;
   margin-left: 100px;
-  margin-top: 85px;
+  margin-top: 120px;
   font-size: 45px;
   font-weight: 2000;
+  color: white;
+  text-shadow: 5px 5px blue;
 }
 
 #minha_foto {
   width: 140px;
   border-radius: 60px;
-  display: inline-block;
   float: left;
   margin: 20px;
 }
@@ -49,21 +48,32 @@ body {
 
 .subtitulos-h2 {
   padding-bottom: 8px;
+  text-shadow: 3px 1px aqua;
 }
 
-footer {
-  background-color: red;
+#rodape {
+  color: white;
+  background-color: rgb(64, 93, 230);
   width: 100%;
   padding: 20px 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+#rodape-nome {
+  display: inline-block;
+  margin-right: 500px;
+}
+
+#rodape-topo {
   text-align: right;
+  text-decoration: underline;
+  display: block;
+  margin-left: 470px;
 }
 
 article p {
   text-align: justify;
-}
-
-footer p {
-  margin-right: 20px;
 }
 
 a:visited , a:link {
@@ -75,15 +85,29 @@ a:active {
   text-decoration: underline;
 }
 
+nav a:hover {
+  font-size: 2em;
+}
+
 aside p {
   width: 30%;
   text-align: justify;
 }
 
-td , th {
-  padding: 1.5%;
+#tabela {
+  width: 23%;
   border: 1px solid black;
+}
+
+table , td , th {
+  padding: 1.5%;
+  border-bottom: 1px solid black;
   text-align: center;
+  border-collapse: collapse;
+}
+
+tr:nth-child( even ) {
+  background-color: rgb(223, 221, 221);
 }
 
 #artigo-e-secao {
@@ -101,4 +125,38 @@ td , th {
 
 article {
   width: 75%;
+}
+
+#instagram:hover {
+  background-image: radial-gradient(
+    at 50% 100%, 
+    rgb(64, 93, 230),
+    rgb(88, 81, 219),
+    rgb(136, 58, 180),
+    rgb(193, 53, 132),
+    rgb(225, 48, 108),
+    rgb(253, 29, 29),
+    rgb(245, 96, 64),
+    rgb(247, 119, 55),
+    rgb(252, 175, 69),
+    rgb(255, 220, 128) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+}
+
+#linkedin:hover {
+  color: rgb(40, 103, 178);
+}
+
+#github:hover {
+  color: rgb(110, 84, 148);
+}
+
+#rodape-topo a:link , #rodape-topo a:visited {
+  color: white;
+}
+
+#rodape-topo a:hover {
+  color: violet;
 }
