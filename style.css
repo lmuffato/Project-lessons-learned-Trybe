@@ -83,7 +83,7 @@ h3 {
   margin-right: 60px;
 }
 
-#about {
+.lado-esquerdo {
   display: block;
   float: left;
   margin-left: 60px;
@@ -92,7 +92,7 @@ h3 {
   margin-bottom: 120px;
 }
 
-#box {
+.lado-direito {
   display: block;
   position: absolute;
   float: right;
