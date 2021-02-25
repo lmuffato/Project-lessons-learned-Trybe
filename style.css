@@ -36,7 +36,10 @@ h2, h1, p {
 }
 
 aside {
-  width: 40%;
+
+  font-size: 30px;
+  background-color: green;
+  width: 50%;
   padding-left: .5rem;
   margin-left: .5rem;
   float: right;
@@ -46,6 +49,9 @@ aside {
 }
 
 article {
+  font-family: fantasy;
+  font-size: 30px;
+  width: 100%;
   float: left;
 }
 
@@ -67,12 +73,17 @@ table thead {
 }
 
 table{
-  width: 600px;
+  width: 100%;
+  text-align: center;
 }
 
 th, td {
+  font-family: sans-serif;
   padding: 10px;
   border: 1px solid black;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
 }
-tr 
+
 
