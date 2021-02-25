@@ -68,22 +68,24 @@ body {
 }
 
 article p {
+  width: 50%;
+  margin-left: 100px;
   display: block;
   font-variant: normal;
   font-weight: 800;
   font-family: cursive;
   font-style: italic;
-  margin-right: 40px;
-  word-spacing: 1px;
+  word-spacing: 2px;
 }
 
 #secao {
   display: block;
+  width: 50%;
   font-variant: normal;
   font-weight: 800;
   font-family: cursive;
   font-style: italic;
-  word-spacing: 1px;
+  word-spacing: 2px;
 }
 
 #subtitulo_artigo {
@@ -102,6 +104,7 @@ article p {
   font-family: fantasy;
   font-size: 25px;
   line-height: 15px;
+  font-stretch: normal;
 }
 
 #habilidadesaprendidas {
