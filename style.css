@@ -8,7 +8,7 @@ body {
   height: 65px;
   top: 0%;
   left: 0%;
-  background-color:rgb(13, 219, 157);;
+  background-color:rgb(13, 219, 157);
   text-align: center;
 }
 
@@ -18,21 +18,33 @@ body {
 
 #direct {
   display: inline-block;
-  position: absolute;
+  position: relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  left: 0%;
+  top: 25px;
+  width: 600px;
+  height: 35px;
+  background-color: rgb(13, 219, 157);;
+}
+
+#direct ul {
+  position: float;
   left: 15px;
-  top: 15px;
-  width: 400px;
-  height: 45px;
-  background-color: blueviolet;
+}
+
+#direct li{
+  display: inline;
+  padding: 15px;
+  height: 20px;
+  position: float;
 }
 
 #minha_foto {
   width: 275px;
   position: absolute;
-  left: 468px;
+  left: 40%;
   top: 210px;
   border-radius: 100%;
 }
