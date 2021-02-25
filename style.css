@@ -8,6 +8,7 @@ body {
   background-color: salmon;
   width: 100%;
   text-align: center;
+  z-index: 1;
 }
 
 #minha_foto {
