@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  width: 960px;
 }
 
 h2 {
@@ -14,14 +15,14 @@ h2 {
 .section-list {
   padding: 25px;
   text-align: center;
-  margin: 40px 40px;
+  margin: 40px;
   display: inline-block;
 }
 
 .section-list-left,
 .section-list-right {
   color: aqua;
-background-color: blueviolet;
+  background-color: blueviolet;
   border: 12px solid blue;
 }
 
