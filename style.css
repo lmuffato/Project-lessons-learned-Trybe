@@ -7,6 +7,15 @@ header {
     top: 0px;
     background-color: blue;
 }
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
 
 #minha_foto {
     width: 300px;
