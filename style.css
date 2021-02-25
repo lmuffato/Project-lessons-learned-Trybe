@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 
-#cabecalho {
+#cabecalho {  
   position: fixed;
   top: 0;
   width: 100%;
@@ -29,11 +29,33 @@ a {
   width: 100%;
 }
 
-#minha_foto {
-  display: block;
-  margin: 0 auto;
-  width: 20%;
+
+#minha_foto {  
   margin-top: 6em;
+  text-align: left;  
+  padding: 2em;
+  width: 20%;
+  border-radius: 50%;
+  
+}
+
+main {
+  display: inline-block;
+}
+
+#aprendizado {
+  display: flex;
+  
+}
+#licoes_aprendidas {
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 1em;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  padding-left: 1em;
 }
 
 #lado-esquerdo {
@@ -45,16 +67,24 @@ a {
 }
 
 #lado-direito {
-  display: inline-block;
-  float: inline-end;
+  display: inline-block;  
   border: 1px solid black;
   width: 25%;
   margin: 20px;
   padding: 10px;
 }
 
+table {
+  border-collapse: collapse;
+}
 #tabela {
   border: 1px solid black;
+  margin: 0;
+}
+
+td {
+  border: 1px solid black;
+  padding: 1em;
 }
 
 #rodape {
