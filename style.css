@@ -26,6 +26,7 @@ body {
     background-color: rgb(8, 28, 21);
     margin-left: -8px;
     z-index: 2;
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 .links {
@@ -61,8 +62,12 @@ body {
 }
 
 #licoes_aprendidas {
-    display: inline-block;
+    font-family: 'RocknRoll One', sans-serif;
 
+}
+
+#licoes_a_aprender {
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 #lista_ordenada {
@@ -101,6 +106,7 @@ body {
     border-style: solid;
     border-width: 10px;
     width: 398px;
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 .lado-direito {
@@ -111,6 +117,7 @@ body {
     border-color: rgb(27, 67, 50);
     border-style: solid;
     border-width: 10px;
+    font-family: 'RocknRoll One', sans-serif;
 }
 
     #rodape {
@@ -119,4 +126,5 @@ body {
     border-width: 10px;
     height: 100px;
     padding: 20px;
+    font-family: 'RocknRoll One', sans-serif;
 }
