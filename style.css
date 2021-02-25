@@ -49,9 +49,10 @@ aside {
 }
 
 article {
+  margin-left: 200px;
+  line-height: 35px;
   font-family: fantasy;
   font-size: 30px;
-  width: 100%;
   float: left;
 }
 
