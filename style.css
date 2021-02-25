@@ -4,59 +4,75 @@ body {
 
 #cabecalho {
   background-color: rgb(58, 141, 85);
-  font-family: monospace, sans-serif;
   position: fixed;
+  font-family: monospace, sans-serif;
   top: 0;
   left: 0;
   right: 0;
-  text-align: center;
 }
 
 #logo {
-  width: 70px;
-  float: left;
-  padding-top: 3px;
+  position: fixed;
+  width: 90px;
+  padding-top: 18px;
   padding-left: 30px;
 }
 
+#titulo {
+  text-align: center;
+  margin-top: 6px;
+  letter-spacing: 2px;
+}
+
 #menu {
-  display: inline;
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 280px;
   padding-top: 5px;
   border-top: solid 1px rgb(7, 90, 62);
+  padding-bottom: 3px;
 }
 
 #link {
-  color: rgb(7, 90, 62);
+  color: rgb(36, 83, 17);
 }
 
 #link:hover {
-  color: rgb(23, 63, 11);
+  color: rgb(14, 43, 6);
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 #minha_foto {
   display: block;
   width: 300px;
   float: right;
-  padding: 9px;
+  margin-right: 60px;
+  padding: 12px;
+  padding-bottom: 18px;
   border-left: solid 2px rgb(194, 211, 192);
   border-top: solid 2px rgb(194, 211, 192);
 }
 
 #lessons {
-  margin-top: 150px;
-}
-
-#title {
-  text-align: center;
+  margin-top: 180px;
+  padding-bottom: 300px;
+  border-bottom: solid 2px rgb(194, 211, 192);
 }
 
 #esquerdo {
   float: left;
+  margin-left: 60px;
 }
 
 #direito {
   float: right;
-  margin-right: 30px;
+  margin-right: 60px;
+}
+
+
+
+
+#rodape {
+  font-style: italic;
 }
