@@ -3,14 +3,15 @@ body {
 }
 #cabecalho {
     position: absolute;
-    top: 0px;
     display: inline;
     text-align: center;
     width: 100%;
+    position: fixed;
 }
 #titulo {
     font-family: Trebuchet MS;
     font-style: oblique;
+    top: 0px;
 }
 figure {
     display: inline-block;

@@ -7,7 +7,9 @@
   </head>
   <body>
       <nav id="cabecalho">
-          <h1 id="titulo">Conteúdo do Bloco 03</h1>
+          <header>
+            <h1 id="titulo">Conteúdo do Bloco 03</h1>
+          </header>
       </nav>
       <figure>
         <img id="minha_foto" src="minha_foto.jpg" alt="Felipe Assis - tryber">
@@ -39,19 +41,19 @@
         </ul>
         <table>
             <tr>
-                <th>Objetivos</th>
-                <th>Ferramentas</th>
+                <th scope="colgroup">Objetivos</th>
+                <th scope="colgroup">Ferramentas</th>
             </tr>
             <tr>
-                <td>Dominar as principais técnicas e conceitos de front-end</td>
-                <td>HTML, Javascript e CSS</td>
+                <td id="linha_2_col_1">Dominar as principais técnicas e conceitos de front-end</td>
+                <td id="linha_2_col_2">HTML, Javascript e CSS</td>
             </tr>
             <tr>
-                <td>Dominar as principais técnicas e conceitos de back-end</td>
-                <td>SQL, MongoDB e NodeJS</td>
+                <td id="linha_3_col_1">Dominar as principais técnicas e conceitos de back-end</td>
+                <td id="linha_3_col2">SQL, MongoDB e NodeJS</td>
             </tr>
             <tr>
-                <th colspan="2">Resultado final: Desenvolvedor full-stack</th>
+                <th scope="row" id="ultima_linha" colspan="2">Resultado final: Desenvolvedor full-stack</th>
             </tr>
         </table>
         
