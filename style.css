@@ -77,7 +77,11 @@ h1 {
 
 @keyframes bounce {
 
-  0% , 25% , 55% , 75% , 100% {
+  0%,
+  25%,
+  55%,
+  75%,
+  100% {
     transform: translateY(0);
   }
 
@@ -145,13 +149,6 @@ h1 {
   text-transform: uppercase;
 }
 
-#minha_foto {
-  max-width: 164px;
-  border-radius: 20%;
-  border: 3px solid rgb(253, 64, 42);
-  margin: 0 auto;
-}
-
 .licoes-table {
   display: flex;
   flex-wrap: wrap;
@@ -181,5 +178,32 @@ h1 {
   border: 2px solid tomato;
   max-width: 66%;
   margin: 0 auto;
+  margin-top: 60px;
   padding: 40px;
 }
+
+#minha_foto {
+  max-width: 184px;
+  border-radius: 20%;
+  border: 3px solid rgb(253, 64, 42);
+  margin: 0 auto;
+}
+
+#aprendizado-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+
+.lados {
+  max-width: 50%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  border-left: solid 2px blue;
+}
+
+.lado-esquerdo {}
+
+.lado-direito {}
