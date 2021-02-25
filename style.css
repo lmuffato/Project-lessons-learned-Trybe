@@ -10,7 +10,7 @@ body {
     margin-left: 55%;
     color: white;
     margin-top: -15%;
-    margin-left: 29%;
+    margin-left: 28%;
     font-size: 70px;
     padding-right: 150px
 }
@@ -20,10 +20,10 @@ body {
     top: 0%;
     height: 50px;
     width: 100%;
-    border-width: 5px;
-    border-color: rgb(27, 67, 50);
-    border-style: outset;
-    background-color: rgb(47, 62, 70);
+    /* border-width: 5px;
+    border-color: black;
+    border-style: outset; */
+    background-color: rgb(8, 28, 21);
     margin-left: -8px;
     z-index: 2;
 }
@@ -36,14 +36,26 @@ body {
 }
 
 #blackBox {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(27, 67, 50);
     position: relative;
     width: 50%;
-    height: 600px;
+    height: 615px;
     margin-bottom: 00px;
     z-index: 1;
+    margin-left: -10px;
 }
 
 #black {
-    color: black;
+    color: rgb(27, 67, 50);
+}
+
+#minha_foto {
+    border-color: rgb(27, 67, 50);
+    border-style: groove;
+    border-width: 10px;
+    width: 275px;
+    margin-left: 60%;
+    margin-top: -40%;
+    margin-bottom: 100px;
+
 }
