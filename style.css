@@ -2,8 +2,8 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-h1, h2 {
-    font-family: 'Playfair Display', serif;
+h1 , h2 {
+    font-family: "Playfair Display", serif;
 }
 
 header {
@@ -19,6 +19,8 @@ header {
 header a {
     text-decoration: underline;
     color: black;
+    font-size: 1.1em;
+    font-weight: 600;
     text-shadow: 0 0 1em rgb(10, 255, 1), 0 0 10px rgb(47, 248, 6);
 }
 
@@ -30,7 +32,7 @@ header a {
     display: block;
     width: 100%;
     text-align: center;
-    margin: 135px auto 60px auto;
+    margin: 135px auto 60px;
 }
 
 #minha_foto {
@@ -45,4 +47,8 @@ header a {
 
 #articles p {
     display: inline;
+}
+
+#article , #aside-article {
+    line-height: 1.7em;
 }
