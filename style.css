@@ -14,7 +14,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 590px;
-  background-color: rgb(200, 224, 233);
+  background-color: rgb(107, 176, 201);
   text-align: center;
   vertical-align: middle;
   border: 1px solid black;
@@ -68,6 +68,7 @@ body {
 }
 
 article p {
+  display: block;
   font-variant: normal;
   font-weight: 800;
   font-family: cursive;
@@ -77,6 +78,7 @@ article p {
 }
 
 #secao {
+  display: block;
   font-variant: normal;
   font-weight: 800;
   font-family: cursive;
@@ -93,7 +95,6 @@ article p {
 #subtitulo_secao {
   font-family: cursive;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 #titulo {
@@ -101,7 +102,6 @@ article p {
   font-family: fantasy;
   font-size: 25px;
   line-height: 15px;
-  font-size: 30px;
 }
 
 #habilidadesaprendidas {
@@ -133,4 +133,8 @@ article p {
   border: 1px solid black;
   margin: 30px;
   padding: 20px;
+}
+
+#artigo_e_secao {
+  display: flex;
 }
