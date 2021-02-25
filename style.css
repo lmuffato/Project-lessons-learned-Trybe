@@ -1,6 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
+    font-size: 18px;    
+    color: hsl(0, 0%, 0%);
+    line-height: 20px;
 }
 
 h2 {
@@ -17,35 +20,66 @@ h2 {
 
 #titulo {
     color: rgb(255, 255, 255);
-    margin: 10px 0 0 20px;
+    margin: 10px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
 }
 
 #links {
-    padding: 30px;
+    text-align: center;
+    list-style: none;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    
 }
 
 #minha_foto {
     width: 200px;
-    padding-top: 90px;
-    display: inline-block;
+    padding-top: 100px;
+    padding-left: 20px;
+    border-radius: 100%;
 }
 
 article {
-    background-color: rgb(204, 204, 204);
-    width: 800px;
+    background-color: rgb(230, 230, 230);
+    width: 540px;
     padding: 20px;
     margin: 20px;
     display: inline-block;
 }
 
+#licoes {
+    width: 600px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender{
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
 aside {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(230, 230, 230);
     width: 300px;
     padding: 20px;
     margin: 20px;
     display: inline-block;
+}
+
+#table {
+    padding: 10px;
+    border: 300px;
+    margin: 20px;
+}
+
+table , th , td {
+    padding: 11px;
+    border: 1px solid hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 0%);
 }
 
 #rodape {
