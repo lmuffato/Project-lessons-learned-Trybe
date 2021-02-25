@@ -70,7 +70,7 @@ figure {
 	background-color:rgba(160, 160, 160, 0.5);
     text-align: center;
 }
-article {
+.lado-esquerdo {
     font-style: italic;
     font-family: Trebuchet MS;
     font-size: 16px;
@@ -80,8 +80,9 @@ article {
     width: 400px;
     margin-left: 60px;
     margin-top: 620px;
+    
 }
-#passagem {
+.lado-direito {
     right: -40px;
     font-style: italic;
     font-family: Trebuchet MS;
