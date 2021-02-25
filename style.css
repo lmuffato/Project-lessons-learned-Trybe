@@ -129,16 +129,15 @@ article {
 
 #instagram:hover {
   background-image: radial-gradient(
-    at 50% 100%, 
-    rgb(64, 93, 230),
-    rgb(88, 81, 219),
-    rgb(136, 58, 180),
-    rgb(193, 53, 132),
-    rgb(225, 48, 108),
-    rgb(253, 29, 29),
-    rgb(245, 96, 64),
-    rgb(247, 119, 55),
-    rgb(252, 175, 69),
+    at 50% 100%, rgb(64, 93, 230)
+    rgb(88, 81, 219)
+    rgb(136, 58, 180)
+    rgb(193, 53, 132)
+    rgb(225, 48, 108)
+    rgb(253, 29, 29)
+    rgb(245, 96, 64)
+    rgb(247, 119, 55)
+    rgb(252, 175, 69)
     rgb(255, 220, 128) );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
