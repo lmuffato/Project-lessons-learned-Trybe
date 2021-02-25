@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
+  padding: 0px;
 }
 
 #cabecalho {
@@ -20,4 +22,12 @@ img {
   left: 43%;
   top: 100px;
   border-radius: 100%;
+}
+
+footer {
+  background-color: saddlebrown;
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  width: 100%;
 }
