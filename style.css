@@ -78,8 +78,12 @@ aside {
   color: aliceblue;
 }
 
-.lado-esquerdo , .lado-direito {
-  display: inline-block;
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
 }
 
 #tabela {
