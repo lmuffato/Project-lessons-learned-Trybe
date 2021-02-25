@@ -5,6 +5,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
   background-color: salmon;
   width: 100%;
   text-align: center;
@@ -16,18 +17,28 @@ body {
   margin-top: 60px;
 }
 
-.container {
+nav {
   position: relative;
-  top: 90px;
+  top: 65px;
 }
 
-.container ul {
-  padding-bottom: 30px;
+.nav ul {
+  padding-bottom: 10px;
 }
 
-.container li {
+nav li {
   display: inline-block;
   width: 90px;
+}
+
+nav li a {
+  color: salmon;
+  font-weight: 500;
+}
+
+.foto a {
+  display: block;
+  font-size: 10px;
 }
 
 .lesson {
@@ -57,7 +68,7 @@ p {
 }
 
 .lado-esquerdo {
-  float: left;
+  display: inline-block;
 }
 
 .lado-direito {
@@ -66,4 +77,11 @@ p {
 
 article , aside {
   width: 500px;
+}
+
+footer {
+  text-align: center;
+  border-top: 5px solid salmon;
+  margin-top: 10px;
+  padding-top: 5px;
 }
