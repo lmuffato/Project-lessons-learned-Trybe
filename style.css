@@ -4,7 +4,6 @@ body {
 
 #nome {
     z-index: 1;
-    /* background-color: magenta; */
     width: 400px;
     position: absolute;
     margin-left: 55%;
@@ -12,21 +11,36 @@ body {
     margin-top: -15%;
     margin-left: 28%;
     font-size: 70px;
-    padding-right: 150px;
+
 }
 
 #cabecalho {
-    position: fixed;
+    position: relative;
     top: 0%;
     height: 50px;
     width: 100%;
-    /* border-width: 5px;
-    border-color: black;
-    border-style: outset; */
     background-color: rgb(8, 28, 21);
     margin-left: -8px;
+    margin-right: 10px;
+    margin-top: -15px;
     z-index: 2;
     font-family: 'RocknRoll One', sans-serif;
+
+}
+
+#titulo {
+    font-family: serif;
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 300px;
+    z-index: 1;
+    color: rgb(253, 251, 251);
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 70px;
+    font-style: italic;
+    text-align: left;
 }
 
 .links {
@@ -118,6 +132,8 @@ a:visited {
     font-family: 'RocknRoll One', sans-serif;
     margin-left: 70px;
     margin-top: 40px;
+    word-spacing: 5px;
+    text-align: center;
 
 }
 
@@ -135,22 +151,14 @@ a:visited {
 }
 
     #rodape {
-    background-color: aqua;
-    position: fixed;
+    background-color: rgb(27, 67, 50);
+    color: rgb(253, 251, 251);;
+    position: absolute;
+    z-index: 1;
     border-width: 10px;
-    height: 100px;
-    padding: 20px;
+    width: 100%;
+    margin-top: 65%;
+    padding-left: 20px;
     font-family: 'RocknRoll One', sans-serif;
 }
 
-#titulo {
-    position: absolute;
-    z-index: 1;
-    color: rgb(253, 251, 251);
-    float: left;
-    margin-top: -550px;
-    margin-left: 50px;
-    font-size: 70px;
-    font-style: italic;
-    text-align: center;
-}
