@@ -36,7 +36,7 @@ a {
   margin-top: 6em;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   border: 1px solid black;
   width: 25%;
@@ -44,9 +44,8 @@ a {
   padding: 10px;
 }
 
-#lado-direito {
+.lado-direito {
   display: inline-block;
-  float: inline-end;
   border: 1px solid black;
   width: 25%;
   margin: 20px;
