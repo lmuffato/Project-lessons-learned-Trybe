@@ -42,8 +42,7 @@ a:hover {
   text-align: left;  
   padding: 2em;
   width: 20%;
-  border-radius: 50%;
-  
+  border-radius: 50%;  
 }
 
 main {
@@ -84,7 +83,6 @@ td {
 #rodape {
   text-align: center;
   font-size: 20px;
-  background-color: burlywood;
   background-color: rgb(0, 207, 111);
 }
 
@@ -92,3 +90,4 @@ td {
   text-decoration: none;
   font-size: 18px;
 }
+
