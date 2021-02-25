@@ -222,7 +222,7 @@ footer p { font-size: 15px;
   margin-right: 5%;
 }
 
-#cabecalho-tabela th { padding: 20px 70px;
+th { padding: 20px 70px;
   justify-content: center;
   font-family: Courier New, Courier, monospace;
   font-size: 18px;
