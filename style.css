@@ -24,6 +24,7 @@ body::-webkit-scrollbar {
   width: 1em;
   background: rgb(22, 22, 22);
 }
+
 body::-webkit-scrollbar:hover {
   background: rgb(41, 41, 41);
 }
@@ -40,6 +41,13 @@ body::-webkit-scrollbar-thumb {
 a {
   text-decoration: none;
   color: rgb(146, 43, 34);
+  margin: 0 15px;
+  font-size: 1em;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: rgb(253, 64, 42);
 }
 
 li {
@@ -141,17 +149,19 @@ h1 {
   margin: 0 15px;
   font-size: 1.5em;
   font-family: Montserrat, sans-serif;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#titulo:hover {
+  border-bottom: 2px solid rgb(253, 64, 42);
 }
 
 #navegacao {
   display: flex;
   flex-wrap: wrap;
   margin: 0 15px;
-}
-
-#navegacao a {
-  margin: 0 15px;
-  font-size: 1em;
 }
 
 .licoes {
