@@ -1,90 +1,95 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: sans-serif;
-    font-size: 18px;    
-    color: hsl(0, 0%, 0%);
-    line-height: 20px;
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  line-height: 20px;
 }
 
 h2 {
-    color: rgb(37, 71, 2);
+  color: rgb(37, 71, 2);
 }
 
 #cabecalho {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.781);
-    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.781);
+  position: fixed;
 }
 
 #titulo {
-    color: rgb(255, 255, 255);
-    margin: 10px;
-    position: absolute;
-    top: 15px;
-    left: 20px;
+  color: white;
+  margin: 10px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
 }
 
 #links {
-    text-align: center;
-    list-style: none;
+  text-align: center;
+  list-style: none;
 }
 
 ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #minha_foto {
-    width: 200px;
-    padding-top: 100px;
-    padding-left: 20px;
-    border-radius: 100%;
+  width: 200px;
+  padding-top: 100px;
+  padding-left: 20px;
+  border-radius: 100%;
 }
 
 article {
-    background-color: rgb(230, 230, 230);
-    width: 540px;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
+  background-color: rgb(230, 230, 230);
+  width: 540px;
+  padding: 20px;
+  margin: 20px;
+  left: 20px;
+  display: inline-block;
 }
 
-#licoes {
-    width: 600px;
+#section_licoes_aprendidas {
+  background-color: rgb(230, 230, 230);
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender{
-    background-color: rgb(230, 230, 230);
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 20px;
+#section_licoes_a_aprender {
+  background-color: rgb(230, 230, 230);
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
 }
 
 aside {
-    background-color: rgb(230, 230, 230);
-    width: 300px;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
+  background-color: rgb(230, 230, 230);
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  right: 20px;
+  display: inline-block;
 }
 
 #table {
-    padding: 10px;
-    border: 300px;
-    margin: 20px;
+  padding: 10px;
+  border: 300px;
+  margin: 20px;
 }
 
 table , th , td {
-    padding: 11px;
-    border: 1px solid hsl(0, 0%, 0%);
-    color: hsl(0, 0%, 0%);
+  padding: 11px;
+  border: 1px solid black;
+  color: black;
 }
 
 #rodape {
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.781);
-    color: rgb(255, 255, 255);
-    text-align: center;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.781);
+  color: white;
+  text-align: center;
 }
