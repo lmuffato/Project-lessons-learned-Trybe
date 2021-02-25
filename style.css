@@ -1,6 +1,10 @@
     body{
     background-color:rgb(253, 251, 251) ;
 }
+main{
+    position:relative;
+    top: 300px;
+}
     #cabecalho{
     position: fixed;
     top: 0px;
@@ -27,7 +31,7 @@
     }
     #minha_foto{
         width: 200px;
-        margin-left: 600px;
+        margin-left: 500px;
         border-radius: 100%;
         display: inline-block;
         margin-top: 50px;
@@ -49,7 +53,10 @@
         
 
      #link{
-        padding-top: 400px; 
+        top: 400px; 
+        border-style: solid;
+        border-color: green;
+       
      }
      a:hover{
          background-color: black;
@@ -58,8 +65,9 @@
      #nome{
          color: green;
          padding-top: 0px;
-         padding-left:650px ;
+         padding-left:530px ;
          margin-top: 0px;
+         font-weight: bold;
      }
      .artigo{
        
@@ -78,7 +86,7 @@
      }
      #artigo-principal  {
          display: inline-block;
-         width: 1500px;
+         width: 1300px;
      }
      #passagem{
          float: right ;
@@ -95,6 +103,21 @@
  
     #trybe-link{
         padding-left: 50px;
+   }
+   #rodape{
+       background-image: url("imagens/matrix.png") ;
+       padding: 100px;
+       position: relative;
+       top: 400px;
+   }
+   table{
+       background-color: honeydew;
+       color: green;
+       width: 100%;
+       border-spacing: 5px;
+       border-width: 10px;
+       text-align: center;
+
    }
     
         
