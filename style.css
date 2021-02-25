@@ -33,11 +33,11 @@ body {
   padding-bottom: 3px;
 }
 
-#link {
+.link {
   color: rgb(36, 83, 17);
 }
 
-#link:hover {
+.link:hover {
   color: rgb(14, 43, 6);
   text-transform: uppercase;
   font-weight: bold;
@@ -52,6 +52,19 @@ body {
   padding-bottom: 18px;
   border-left: solid 2px rgb(194, 211, 192);
   border-top: solid 2px rgb(194, 211, 192);
+}
+
+.subtitle {
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  text-align: center;
+  color: rgb(27, 48, 3);
+  font-size: 30px;
+}
+
+h3 {
+  font-family: cursive, sans-serif;
+  text-align: center;
+  color: rgb(7, 78, 55);
 }
 
 #lessons {
@@ -70,9 +83,28 @@ body {
   margin-right: 60px;
 }
 
+#about {
+  display: block;
+  float: left;
+  margin-left: 60px;
+  margin-right: 500px;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
 
-
+#box {
+  display: block;
+  position: absolute;
+  float: right;
+  margin-left: 700px;
+  margin-right: 90px;
+  padding: 15px;
+  border: solid 2px rgb(194, 211, 192);
+  margin-top: 60px;
+}
 
 #rodape {
   font-style: italic;
+  text-align: center;
+  border-bottom: solid 3px blue;
 }
