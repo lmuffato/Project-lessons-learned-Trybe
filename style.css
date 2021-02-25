@@ -1,16 +1,36 @@
 body {background-color: rgb(253, 251,251);}
 
-h1 {color: rgb(253, 255, 255);
-    position: relative;
-    text-align: center;
-}
-
-.cabecalho {
-    height: 100px;
+#cabecalho {
+    height: 150px;
     width: 100%;
     background-color: rgba(15,127,25,255);
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 1;
+}
+
+h1 {color: rgb(253, 255, 255);
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.navegacao {
+    position: fixed;
+    top: 50px;
+    z-index: 3;
+}
+
+.links {
+    color: rgb(255, 255, 255);
+}
+
+
+#foto {
+    position: fixed;
+    top: 170px;
+    left: 20px;
+    z-index: 4;
 }
