@@ -55,7 +55,7 @@ body {
 }
 
 .subtitle {
-  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-family: Courier, monospace, sans-serif;
   text-align: center;
   color: rgb(27, 48, 3);
   font-size: 30px;
