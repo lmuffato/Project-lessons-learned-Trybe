@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   text-decoration: none;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -38,6 +39,7 @@ a {
 
 .lado-esquerdo {
   display: inline-block;
+  
   border: 1px solid black;
   width: 25%;
   margin: 20px;
@@ -53,6 +55,8 @@ a {
 }
 
 #tabela {
+  display: inline-block;
+  
   border: 1px solid black;
 }
 
