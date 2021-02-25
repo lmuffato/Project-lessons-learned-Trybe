@@ -11,7 +11,7 @@ body {
   margin-top: 140px;
   width: 460px;
 }
-.listas{
+.listas {
   background-color: rgba(255, 11, 11, 0);
   padding: 10px;
   display: inline-block;
@@ -19,7 +19,7 @@ body {
   left: 500px;
   bottom: 290px;
 }
-#artigo{
+#artigo {
   border-radius: 20px;
   padding: 10px 10px 10px 20px;
   position: absolute;
@@ -27,8 +27,8 @@ body {
   left: 480px;
   right: 250px;
 }
-#experiencia{
-  
+#experiencia {
+  background-image: url('');
   border-radius: 20px;
   padding: 20px;
   position: absolute;
@@ -37,11 +37,11 @@ body {
   margin-left: 730px;
   margin-right: 20px;
 }
-footer{
+footer {
   background-color: rgba(36, 36, 36, 0.637);
   bottom: 180px;
   padding: 20px;
 }
-h2{
+h2 {
   font-size: 20px;
 }
