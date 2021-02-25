@@ -66,30 +66,57 @@ body {
 }
 
 #lista_ordenada {
-    background-color: magenta;
-    width: 50%;
+    /* background-color: magenta; */
+    width: 40%;
+    height: 250px;
     text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(27, 67, 50);
+    padding-bottom: 20px;
+
 }
 
 #lista_nao_ordenada {
-    background-color: green;
-    width: 50%;
+    /* background-color: green; */
+    width: 40%;
+    height: 260px;
     margin-left: 50%;
-    margin-top: -279px;
+    margin-top: -289px;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(27, 67, 50)
 
 }
 
 .lado-esquerdo {
     background-color: blue;
     margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: 5px;
     padding: 5%;
+    border-color: rgb(27, 67, 50);
+    border-style: solid;
+    border-width: 10px;
+    width: 398px;
 }
 
 .lado-direito {
     background-color: yellow;
-    margin-right: 50%;
+    width: 400px;
     padding: 5%;
-    margin-top: -240px;
+    margin-top: -290px;
+    border-color: rgb(27, 67, 50);
+    border-style: solid;
+    border-width: 10px;
+}
+
+    #rodape {
+    background-color: aqua;
+    position: fixed;
+    border-width: 10px;
+    height: 100px;
+    padding: 20px;
 }
