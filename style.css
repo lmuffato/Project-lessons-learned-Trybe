@@ -11,7 +11,8 @@ body {
   width: 960px;
 }
 
-h2 {
+h2, h1, p {
+  font-family: sans-serif;
   size: 14px;
 }
 
