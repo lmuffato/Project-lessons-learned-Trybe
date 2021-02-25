@@ -28,7 +28,7 @@ h3 , h2 , h4 {
   font-family: Raleway;
 }
 
-.learned , .unlearned , .lado_esquerdo {
+.learned , .unlearned , .lado-esquerdo {
   border-style: dotted;
   border-radius: 15%;
   border-color: rgba(172, 68, 68, 0.4);
@@ -36,7 +36,7 @@ h3 , h2 , h4 {
   background-color: rgba(172, 68, 68, 0.1)
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   margin-top: 16px;
   margin-left: 17px;
   margin-right: auto;
@@ -50,7 +50,7 @@ article p {
   padding-bottom: 20px;
 }
 
-.lado_direito {
+.lado-direito {
   float: right;
   display: inline-block;
   width: 10%;
@@ -67,7 +67,7 @@ article p {
   line-height: 24px;
 }
 
-footer , .lado_direito {
+footer , .lado-direito {
   background-color: rgba(172, 68, 68, 0.3);
 }
 
@@ -77,6 +77,6 @@ footer {
   text-align: center;
   font-size: 15px;
 }
-header , footer , .learned , .unlearned , .lado_esquerdo {
+header , footer , .learned , .unlearned , .lado-esquerdo {
   font-family: DotGothic16;
 }
