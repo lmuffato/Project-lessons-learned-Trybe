@@ -34,8 +34,34 @@ section:first-of-type {
   line-height: 8mm;
 }
 
-section:nth-of-type (2) {
+section:nth-of-type(2) {
   font-family: Montserrat, sans-serif;
   margin-left: 60px;
   line-height: 8mm;
+}
+
+#rodape {
+  background-color: rgb(21, 211, 116);
+  margin-bottom: -16px;
+  margin-left: -20px;
+  margin-right: -8px;
+}
+
+footer ul {
+  text-align: center;
+  margin-left: -100px;
+}
+
+footer ul li {
+  display: inline;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 50px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: underline;
+  color: black;
 }
