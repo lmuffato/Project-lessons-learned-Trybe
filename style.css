@@ -7,8 +7,8 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(255 87 34 / 31%); 
-  width: 1264px;  
+  background-color: rgb(255 87 34 / 31%);
+  width: 1264px;
 }
 
 #titulo {
@@ -24,9 +24,10 @@ table tr td {
 }
 
 table {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
+  margin-top: 194px;
+  width:565px;
+  float: right;
+  margin-right: 50px;
 }
 
 article , section {
@@ -56,7 +57,7 @@ img {
 
 aside {
   margin-top: 150px;
-  margin-right: 170px;
+  margin-right: 50px;
   width: 400px;
   text-align: justify;
   border: black solid 1px;
@@ -65,7 +66,14 @@ aside {
   float: right;
 }
 
+.listas {
+  display: flex;
+  float: left;
+  width: 500px;
+  margin-left: 50px;
+}
+
 footer {
-  margin-top: 200px;
+  margin-top: 500px;
   margin-left: 50px;
 }
