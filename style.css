@@ -6,7 +6,6 @@ body {
     display: inline;
     text-align: center;
     width: 100%;
-    position: fixed;
 }
 #titulo {
     font-family: Trebuchet MS;
