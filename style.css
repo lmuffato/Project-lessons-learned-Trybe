@@ -78,7 +78,11 @@ aside {
   color: aliceblue;
 }
 
-.content {
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
   display: inline-block;
 }
 
