@@ -17,10 +17,10 @@ body {
 }
 
 #minha_foto {
-  width: 350px;
+  width: 275px;
   position: absolute;
-  left: 488px;
-  top: 190px;
+  left: 468px;
+  top: 210px;
   border-radius: 100%;
 }
 
@@ -42,6 +42,14 @@ body {
   border: 5px solid rgb(118, 71, 206);
 }
 
+#artigo {
+  position: absolute;
+  top: 265px;
+  right: 15px;
+  background-color: rgb(13, 219, 157);
+  border: 5px solid rgb(118, 71, 206); 
+}
+
 #rodape {
   position: fixed;
   width: 100%;
@@ -50,3 +58,4 @@ body {
   bottom: 0%;
   background-color: rgb(13, 219, 157);;
 }
+
