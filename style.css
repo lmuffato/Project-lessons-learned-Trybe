@@ -66,12 +66,12 @@ ol , ul {
 
 #artigo {
   width: 45%;
-  margin-left: 308px;
+  margin-left: 300px;
 }
 
 aside {
   width: 20%;
-  margin-left: 60px;
+  margin-right: 40px;
   background-color: rgb(22, 22, 22);
   border-radius: 30px;
   padding: 15px;
@@ -88,7 +88,7 @@ aside {
 
 #tabela {
   margin-left: 358px;
-  margin-top: 40px;
+  margin-top: 300px;
   margin-bottom: 80px;
   padding: 0;
   border-radius: 3px;
