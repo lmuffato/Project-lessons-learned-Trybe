@@ -201,6 +201,7 @@ footer p { font-size: 15px;
   width: 75%;
   text-align: center;
   margin-left: 10%;
+  padding-top: 120px;
 }
 
 #container-skills { display: flex;
@@ -218,7 +219,7 @@ footer p { font-size: 15px;
 }
 
 #tabela { text-align: center;
-  margin: 0 auto;
+  margin-top: 4%;
   display: flex;
   margin-right: 5%;
 }
@@ -231,11 +232,19 @@ th { padding: 20px 70px;
   display: inline-block;
 }
 
-#meu_aprendizado h3 {
+#caminho-container h3 {
   margin: 5%;
+  margin-left: 10%;
   text-align: center;
 }
 
 td:hover { background-color: rgba(156, 197, 161, 0.5);
 }
 
+.highlight { font-weight: 700;
+}
+
+figcaption { font-family: Raleway, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
