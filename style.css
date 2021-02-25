@@ -22,6 +22,7 @@ body {
 
 a {
   text-decoration: none;
+  color: rgb(146, 43, 34);
 }
 
 li {
@@ -77,11 +78,7 @@ h1 {
 
 @keyframes bounce {
 
-  0%,
-  25%,
-  55%,
-  75%,
-  100% {
+  0% , 25% , 55% , 75% , 100% {
     transform: translateY(0);
   }
 
@@ -134,7 +131,6 @@ h1 {
 #navegacao a {
   margin: 0 15px;
   font-size: 1em;
-  color: rgb(146, 43, 34);
 }
 
 .licoes {
@@ -212,8 +208,27 @@ h1 {
   max-width: 215px;
   border-left: solid 2px rgba(104, 151, 117, 0.699);
 }
+
 .lado-direito p {
   font-style: italic;
   padding-left: 4px;
   color: rgba(22, 22, 22, 0.774);
+}
+
+#rodape {
+  background: rgb(22, 22, 22);
+  text-align: center;
+  margin-top: 35px;
+}
+
+.links {
+  margin-top: 6px;
+}
+
+.git-hub-link {
+  margin-right: 15px;
+}
+
+.linkedin-link {
+  margin-left: 15px;
 }
