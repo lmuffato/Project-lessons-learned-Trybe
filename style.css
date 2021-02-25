@@ -192,18 +192,28 @@ h1 {
 #aprendizado-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 48px;
 }
 
 .lados {
-  max-width: 50%;
-  margin-top: 20px;
+  margin-top: 18px;
   text-align: center;
-  font-size: 1.2em;
-  border-left: solid 2px blue;
 }
 
-.lado-esquerdo {}
+.lado-esquerdo {
+  max-width: 534px;
+  font-size: 1.2em;
+  border-left: solid 2px rgb(173, 129, 116);
+}
 
-.lado-direito {}
+.lado-direito {
+  max-width: 215px;
+  border-left: solid 2px rgba(104, 151, 117, 0.699);
+}
+.lado-direito p {
+  font-style: italic;
+  padding-left: 4px;
+  color: rgba(22, 22, 22, 0.774);
+}
