@@ -1,36 +1,62 @@
 body {
-    background-color: rgb(253, 251, 251);
-    position: absolute;
-    top: 70px;
+  background-color: rgb(253, 251, 251);
+  position: absolute;
+  top: 70px;
 }
+
 header {
-   position: fixed;
-   top: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
 }
+
 h2 {
-    font-family: "Courier New", Courier, monospace;
+  font-family: Courier New, Courier, monospace;
 }
+
 h3 {
-    font-family: "Times New Roman", Times, serif;
+  font-family: Times New Roman, Times, serif;
 }
+
 p {
-    font-family: 'Times New Roman', Times, serif;
+  font-family: Times New Roman, Times, serif;
 }
+
 #minha_foto {
-    width: 300px;
-    border-radius: 50%;
-    top: 70px;
-    position: absolute;
-    left: 900px;
-    }
-footer {
-    text-align: right;
-    }
-#social_media {
-    text-align: center;
+  width: 300px;
+  border-radius: 50%;
+  top: 70px;
+  position: absolute;
+  left: 900px;
 }
+
+footer {
+  text-align: right;
+}
+
+#social_media {
+  text-align: center;
+}
+
 nav {
-    position: absolute;
-    top: 30px;
-    left: 790px;
+  position: absolute;
+  top: 30px;
+  left: 790px;
+}
+
+a {
+  display: inline;
+}
+
+#navegacao li {
+  display: inline;
+}
+
+#navegacao ul {
+  width: 100%;
+}
+
+#cabecalho nav {
+  position: static;
 }
