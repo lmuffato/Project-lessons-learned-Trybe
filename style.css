@@ -1,0 +1,16 @@
+body {background-color: rgb(253, 251,251);}
+
+h1 {color: rgb(253, 255, 255);
+    position: relative;
+    text-align: center;
+}
+
+.cabecalho {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(15,127,25,255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
