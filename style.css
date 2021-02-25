@@ -1,156 +1,154 @@
 body {
-    background-color: rgb(253, 251, 251);
-    max-width: 1366px;
-    max-height: 768px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: rgb(15, 13, 13);
-    line-height: 110%;
-    /* background-image: url(/trybe_bg.png);
-    background-repeat: no-repeat;
-    background-position: initial;
-    background-size: contain; */
+  background-color: rgb(253, 251, 251);
+  max-width: 1366px;
+  max-height: 768px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(15, 13, 13);
+  line-height: 110%;
+  /* background-image: url(/trybe_bg.png);
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: contain; */
 }
 #bg-img {
-    position: absolute;
-    width:  1366px;
-    opacity: .2;
+  position: absolute;
+  width:  1366px;
+  opacity: .2;
 }
 #bordinha img {
-    width: 200px;
+  width: 200px;
 }
 
 main {
-    margin-top: 15%;
+  margin-top: 15%;
 }
 
 header {
-    background-color: seagreen;
-    
+  background-color: seagreen;  
 }
 #cabecalho { 
-    top: 0;
-    position: fixed;
-    width: 1366px;
-    
+  top: 0;
+  position: fixed;
+  width: 1366px;  
 }
 #titulo {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 aside {
-    border: 1px solid rgb(253, 251, 251);
-    border-radius: 4px;
-    padding: 5px;
-    width: auto;
+  border: 1px solid rgb(253, 251, 251);
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
 
 }
 aside p {
-    margin: 10px;
+  margin: 10px;
 }
 
 aside h2 {
   padding-left: 6px;
 }
 #minha_foto {
-    border-radius: 5px   
+  border-radius: 5px   
 }
 
 .coluna {
-    background-color: ;
-    float: left;
-    width: 50%;
-    height: 300px;
+  background-color: ;
+  float: left;
+  width: 50%;
+  height: 300px;
 }
 .coluna ol {
-    margin: 14%;
+  margin: 14%;
 }
 .coluna h2 {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 #barra-inferior {
-    max-width: 1366px;
-    display: block;
-    background-color:;
-    margin-left: 3%;
+  max-width: 1366px;
+  display: block;
+  background-color:;
+  margin-left: 3%;
     
 }
 
 #barra-inferior h2 {
-    padding: 15px;
+  padding: 15px;
 }
 h2 {
-    font-style: italic;
-    color: seagreen;
-    padding-left: 40px;
+  font-style: italic;
+  color: seagreen;
+  padding-left: 40px;
 }
 
 
 #foto-titulo {
-    text-align: center;
+  text-align: center;
     
 }
 #bordinha {
-    margin-top: 40px;
-    border: 1px solid gray;
-    width: 200px;
-    padding: 10px;
-    object-fit: cover;
-    
+  margin-top: 40px;
+  border: 1px solid gray;
+  width: 200px;
+  padding: 10px;
+  object-fit: cover;
+  
 }
 
 .lado-esquerdo {
-    padding-left: 5%;
-    float: left; 
-    width: 60%;
-    height: 350px;
+  padding-left: 5%;
+  float: left; 
+  width: 60%;
+  height: 350px;
 }
 .lado-esquerdo h2 {
-    padding-left: 0%;
-    
+  padding-left: 0%;
+   
 }
 
 .lado-direito {
-    float: right;
-    width: 30%;
-    text-align: justify;
-    height: 350px;
-    display: table;
+  float: right;
+  width: 30%;
+  text-align: justify;
+  height: 350px;
+  display: table;
 
     
 }
 nav {
-    margin-top: 10px;
-    display: inline-block;
-    width: 1366px;
-    padding-left: 5%;
-    background-color: seagreen;
+  margin-top: 10px;
+  display: inline-block;
+  width: 1366px;
+  padding-left: 5%;
+  background-color: seagreen;
 
     
 }
 
 nav h2 {
-    color: seashell;
-    padding-left: 5px;
+  color: seashell;
+  padding-left: 5px;
 }
 
 nav ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 nav li {
-    display: inline-block;
-    float: left;
-    padding: 15px;
-    margin-left: 5px;
-    background-color: rgb(66, 165, 109);
-    margin-bottom: 4px;
+  display: inline-block;
+  float: left;
+  padding: 15px;
+  margin-left: 5px;
+  background-color: rgb(66, 165, 109);
+  margin-bottom: 4px;
 }
 footer {
-    margin-top: 10px;
-    border-radius: 4px;
-    padding: 5px;
-    width: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
 }
 
