@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: Akaya Kanadaka, cursive;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 #cabecalho {
@@ -57,4 +58,19 @@ a:visited {
   background-color: gray;
   padding: 15px;
   width: 500px;
+}
+
+.container {
+  display: flex;
+  background-color: aquamarine;
+}
+
+#rodape {
+  text-align: center;
+  background-color: blanchedalmond;
+  margin-top: 20px;
+}
+
+.artigo {
+  margin: 10px;
 }
