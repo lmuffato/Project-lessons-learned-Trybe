@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-	position: fixed;
+  position: fixed;
   top: 0px;
   width: 100%;
 }
@@ -15,7 +15,7 @@ body {
 img {
   position: absolute;
   z-index: 1;
-  width: 200px;  
+  width: 200px;
   height: 190px;
   left: 43%;
   top: 100px;
