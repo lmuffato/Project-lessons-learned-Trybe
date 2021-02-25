@@ -1,14 +1,17 @@
 body {
   background-color: rgb(253, 251, 251);}
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;}
+
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: seagreen;
   width: 100%;
-  margin-left: 0;
-}
+  margin-left: 0;}
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;}
+#minha_foto{
+  width: 720px;
+}  
