@@ -13,11 +13,19 @@ body {
   width: 100%;
   color: white;
   margin-bottom: 10;
+  height: 200px;
+}
+
+#logoTrybe {
+  width: 180px;
+  float: right;
+  margin: 25px;
+
 }
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 table {
@@ -34,11 +42,13 @@ td {
 
 ul {
   margin-bottom: 50px;
+
 }
 
 .linksheader li {
   display: inline;
   margin-left: 20px;
+
 }
 
 a {
@@ -52,8 +62,12 @@ a:visited {
   color: gray;
 }
 
+.fotoSection {
+  text-align: center;
+}
+
 #minha_foto {
-  margin-top: 238px;
+  margin-top: 300px;
   border-radius: 25%;
   background-color: gray;
   padding: 15px;
@@ -62,13 +76,17 @@ a:visited {
 
 .container {
   display: flex;
-  background-color: aquamarine;
+}
+
+.urlex {
+  border: 5px solid black;
 }
 
 #rodape {
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: black;
   margin-top: 20px;
+  color: azure;
 }
 
 .artigo {
