@@ -3,7 +3,11 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0;}
+  top: 0;
+  background-color: seagreen;
+  width: 100%;
+  margin-left: 0;
+}
 
 table, th, td {
   border: 1px solid black;
