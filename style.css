@@ -150,7 +150,6 @@ h1 {
   border-radius: 20%;
   border: 3px solid rgb(253, 64, 42);
   margin: 0 auto;
-  margin-top: 25px;
 }
 
 .licoes-table {
@@ -176,4 +175,11 @@ h1 {
   font-size: 1.2em;
   padding: 4px;
   color: rgb(253, 251, 251);
+}
+
+#aprendizado {
+  border: 2px solid tomato;
+  max-width: 66%;
+  margin: 0 auto;
+  padding: 40px;
 }
