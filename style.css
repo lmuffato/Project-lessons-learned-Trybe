@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   position: absolute;
-  top: 70px;
+  top: 140px;
 }
 
 header {
@@ -9,6 +9,11 @@ header {
   top: 0;
   width: 100%;
   text-align: center;
+  background-color: black;
+}
+
+#titulo {
+  color: white;
 }
 
 h2 {
@@ -59,4 +64,19 @@ a {
 
 #cabecalho nav {
   position: static;
+  color: white;
+}
+
+#licoes_aprendidas_box {
+  border: 1px solid black;
+  width: 40%;
+  padding: 5px;
+  display: inline-block;
+}
+
+#licoes_a_aprender_box {
+  border: 1px solid black;
+  width: 40%;
+  padding: 5px;
+  display: inline-block;  
 }
