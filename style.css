@@ -2,16 +2,48 @@ body {
     background-color: rgb(253, 251, 251)
 }
 
-#cabecalho {
-    background-color: #D8F3DC;
-    top: 0px;
-    margin: -10px;
-    border-style: inset;
-    border-color: black;
-    border-width: 10px;
+#titulo {
+    z-index: 1;
+    /* background-color: magenta; */
+    width: 400px;
+    position: absolute;
+    margin-left: 55%;
+    color: white;
+    margin-top: -15%;
+    margin-left: 29%;
+    font-size: 70px;
+    padding-right: 150px
 }
 
-#titulo {
-    padding-left: 25%;
+#cabecalho {
+    position: fixed;
+    top: 0%;
+    height: 50px;
+    width: 100%;
+    border-width: 5px;
+    border-color: rgb(27, 67, 50);
+    border-style: outset;
+    background-color: rgb(47, 62, 70);
+    margin-left: -8px;
+    z-index: 2;
+}
 
+.links {
+    display: inline-block;
+    position: center;
+    padding-left: 12%;
+    padding-top: 10px;
+}
+
+#blackBox {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 50%;
+    height: 600px;
+    margin-bottom: 00px;
+    z-index: 1;
+}
+
+#black {
+    color: black;
 }
