@@ -38,12 +38,12 @@ h3, h2, h4 {
 
 .text {
   margin-top: 16px;
-  margin-left: 40px;
+  margin-left: 12px;
   margin-right: auto;
-  width: 75%;
+  width: 84%;
 }
 
-div p {
+article p {
   padding-left: 20px;
   text-align: justify;
   padding-right: 20px;
@@ -60,9 +60,10 @@ div p {
   font-size: 20px;
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 0%;
+  padding-bottom: 1%;
   border-radius: 5%;
-  font-family: "Dancing Script"
+  font-family: "Dancing Script";
+  color:rgb(139, 25, 25);
 }
 
 footer, #passagem {
