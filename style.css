@@ -28,7 +28,7 @@ h3, h2, h4 {
   font-family: "Raleway"
 }
 
-.learned, .unlearned, .text {
+.learned, .unlearned, .lado_esquerdo {
   border-style: dotted;
   border-radius: 15%;
   border-color: rgba(172, 68, 68, 0.4);
@@ -36,11 +36,11 @@ h3, h2, h4 {
   background-color: rgba(172, 68, 68, 0.1)
 }
 
-.text {
+.lado_esquerdo {
   margin-top: 16px;
-  margin-left: 12px;
+  margin-left: 17px;
   margin-right: auto;
-  width: 84%;
+  width: 83%;
 }
 
 article p {
@@ -50,23 +50,24 @@ article p {
   padding-bottom: 20px;
 }
 
-#passagem {
+.lado_direito {
   float: right;
   display: inline-block;
   width: 10%;
   margin-right: 0px;
   margin-left: 20px;
   margin-top: 83px;
-  font-size: 20px;
+  font-size: 19px;
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 1%;
   border-radius: 5%;
   font-family: "Dancing Script";
-  color:rgb(139, 25, 25);
+  color: rgb(139, 25, 25);
+  line-height: 24px;
 }
 
-footer, #passagem {
+footer, .lado_direito {
   background-color: rgba(172, 68, 68, 0.3);
 }
 
@@ -76,6 +77,6 @@ footer {
   text-align: center;
   font-size: 15px;
 }
-header, footer, .learned, .unlearned, #aprendizado {
+header, footer, .learned, .unlearned, .lado_esquerdo {
   font-family: "DotGothic16";
 }
