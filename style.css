@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);}
 
@@ -10,8 +15,30 @@ table, th, td {
   top: 0;
   background-color: seagreen;
   width: 100%;
-  margin-left: 0;}
+  margin-left: 0;
+  padding: 20px}
+
+#titulo{
+  padding-bottom: 20px;
+  text-align: center;
+}
 
 #minha_foto{
-  width: 720px;
+  width: 720px;} 
+
+#licoes_aprendidas{
+  float: left;
+  text-align: center;
+  margin-right: 300px;
+  margin-left: 300px;}
+
+#licoes_a_aprender{
+  float: right;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;}
+
+#aprendizado{
+  background-color: sienna;
+  margin-top: 50px;
 }  
