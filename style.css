@@ -45,6 +45,16 @@ main {
   font-size: 14px;
 }
 
+.lado-esquerdo {
+  width: 45%;
+  display: inline-block;
+}
+
+.lado-direito {
+  width: 45%;
+  display: inline-block;
+}
+
 footer {
   background-color: darkgreen;
   text-align: center;
