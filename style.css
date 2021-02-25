@@ -16,19 +16,19 @@ header {
   border-radius: 10%;
 }
 
-.foto, .learned, .unlearned {
+.foto , .learned , .unlearned {
   display: inline-block;
   margin-left: 15px;
   margin-right: auto;
   font-size: 12px
 }
 
-h3, h2, h4 {
+h3 , h2 , h4 {
   text-align: center;
   font-family: Raleway;
 }
 
-.learned, .unlearned, .lado_esquerdo {
+.learned , .unlearned , .lado_esquerdo {
   border-style: dotted;
   border-radius: 15%;
   border-color: rgba(172, 68, 68, 0.4);
@@ -67,7 +67,7 @@ article p {
   line-height: 24px;
 }
 
-footer, .lado_direito {
+footer , .lado_direito {
   background-color: rgba(172, 68, 68, 0.3);
 }
 
@@ -77,6 +77,6 @@ footer {
   text-align: center;
   font-size: 15px;
 }
-header, footer, .learned, .unlearned, .lado_esquerdo {
+header , footer , .learned , .unlearned , .lado_esquerdo {
   font-family: DotGothic16;
 }
