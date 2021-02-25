@@ -3,13 +3,11 @@ body {
     position: absolute;
     top: 70px;
 }
-
 header {
-    position: fixed;
-    top: 0px;
+   position: fixed;
+   top: 0px;
     /* background-color: blue; */
 }
-
 h2{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -19,7 +17,6 @@ h3 {
 p {
     font-family: 'Times New Roman', Times, serif;
 }
-
 #minha_foto {
     width: 300px;
     border-radius: 50%;
@@ -27,15 +24,6 @@ p {
     position: absolute;
     left: 900px;
     }
-
- /* #licoes_aprendidas {
-    background-color: orchid;
-}
-
-#licoes_a_aprender {
-    background-color: #ffb3b3;
-} */
-
 footer {
     text-align: right;
     }
