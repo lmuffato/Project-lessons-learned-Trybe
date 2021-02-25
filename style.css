@@ -16,6 +16,19 @@ body {
   text-align: center;
 }
 
+#direct {
+  display: inline-block;
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 15px;
+  top: 15px;
+  width: 400px;
+  height: 45px;
+  background-color: blueviolet;
+}
+
 #minha_foto {
   width: 275px;
   position: absolute;
@@ -44,13 +57,28 @@ body {
 
 #titulo_artigo {
   position: absolute;
-  right: 115px;
-  top: 175px;
+  right: 135px;
+  top: 125px;
 }
 
 #artigo {
   position: absolute;
-  top: 265px;
+  top: 215px;
+  right: 15px;
+  width: 400px;
+  background-color: rgb(13, 219, 157);
+  border: 5px solid rgb(118, 71, 206); 
+}
+
+#titulo_artigo_2 {
+  position: absolute;
+  right: 75px;
+  bottom: 195px;
+}
+
+#artigo_2 {
+  position: absolute;
+  top: 465px;
   right: 15px;
   width: 400px;
   background-color: rgb(13, 219, 157);
