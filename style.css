@@ -2,10 +2,9 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    position: fixed;
+    position: absolute;
     top: 0px;
     display: inline;
-    align-items: center;
     text-align: center;
     width: 100%;
 }
@@ -50,4 +49,47 @@ figure {
     margin-top: 180px;
     position: absolute;
 }
-
+#links_externos {
+    
+    position: absolute;
+    top: 780px;
+    left: 26px; 
+    display: inline;
+    text-align: center;
+    width: 100%;
+    
+}
+#rodape {
+    object-position: absolute;
+	display: inline-block;
+    margin-bottom:0;
+    margin-top:25%;
+    max-width:100%;
+    width:100%;
+	background-color:rgba(160, 160, 160, 0.5);
+    text-align: center;
+}
+article {
+    margin-left: 10px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+#passagem {
+    margin-left: 10px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+table {
+    border: 1px solid black;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 800px;
+    margin-top: 280px;
+    position: absolute;
+}
