@@ -6,13 +6,16 @@ body {
     font-size: 14px;
     color: rgb(15, 13, 13);
     line-height: 110%;
+    /* background-image: url(/trybe_bg.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: contain; */
 }
-
-/* article {
-    display: block;
-    
-} */
-
+#bg-img {
+    position: absolute;
+    width:  1366px;
+    opacity: .2;
+}
 #bordinha img {
     width: 200px;
 }
@@ -28,7 +31,7 @@ header {
 #cabecalho { 
     top: 0;
     position: fixed;
-    width: 796px;
+    width: 1366px;
     
 }
 #titulo {
@@ -37,15 +40,19 @@ header {
 }
 
 aside {
-    background-color: slateblue;
     border: 1px solid rgb(253, 251, 251);
     border-radius: 4px;
     padding: 5px;
     width: auto;
 
 }
+aside p {
+    margin: 10px;
+}
 
-
+aside h2 {
+  padding-left: 6px;
+}
 #minha_foto {
     border-radius: 5px   
 }
@@ -55,25 +62,19 @@ aside {
     float: left;
     width: 50%;
     height: 300px;
-    
 }
 .coluna ol {
     margin: 14%;
 }
+.coluna h2 {
+    padding-top: 40px;
+}
 
-/* #barra-superior {
-    max-width: 798px;
-    display: block;
-    
-} */
 #barra-inferior {
-    max-width: 798px;
+    max-width: 1366px;
     display: block;
     background-color:;
     margin-left: 3%;
-    clear: both;
-
-    
     
 }
 
@@ -104,9 +105,10 @@ h2 {
     padding-left: 5%;
     float: left; 
     width: 60%;
-    border: 1px solid gray;
     height: 350px;
-
+}
+.lado-esquerdo h2 {
+    padding-left: 0%;
     
 }
 
@@ -114,7 +116,6 @@ h2 {
     float: right;
     width: 30%;
     text-align: justify;
-    border: 1px solid gray;
     height: 350px;
     display: table;
 
@@ -122,17 +123,32 @@ h2 {
 }
 nav {
     margin-top: 10px;
-    background-color:cyan;
     display: inline-block;
-    width: 798px;
+    width: 1366px;
     padding-left: 5%;
-    border: 1px solid gray;
+    background-color: seagreen;
+
     
+}
+
+nav h2 {
+    color: seashell;
+    padding-left: 5px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+nav li {
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    margin-left: 5px;
+    background-color: rgb(66, 165, 109);
+    margin-bottom: 4px;
 }
 footer {
     margin-top: 10px;
-    background-color: sienna;
-    border: 1px solid rgb(253, 251, 251);
     border-radius: 4px;
     padding: 5px;
     width: auto;
