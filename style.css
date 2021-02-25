@@ -221,7 +221,7 @@ h1 {
 
 #minha_foto {
   max-width: 184px;
-  border-radius: 20%;
+  border-radius: 10%;
   -webkit-box-shadow: 16px 25px 0px 0px rgb(146, 43, 34);
   -moz-box-shadow: 16px 25px 0px 0px rgb(146, 43, 34);
   box-shadow: 10px 12px 0px 0px rgb(146, 43, 34);
@@ -276,7 +276,8 @@ h1 {
 }
 
 .links {
-  margin-top: 6px;
+  margin-top: 10px;
+  font-size: 1.2em;
 }
 
 .git-hub-link {
@@ -285,4 +286,10 @@ h1 {
 
 .linkedin-link {
   margin-left: 15px;
+}
+
+.copyright {
+  color: red;
+  margin-top: 15px;
+  font-size: 0.6em;
 }
