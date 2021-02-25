@@ -42,10 +42,17 @@ body {
   border: 5px solid rgb(118, 71, 206);
 }
 
+#titulo_artigo {
+  position: absolute;
+  right: 115px;
+  top: 175px;
+}
+
 #artigo {
   position: absolute;
   top: 265px;
   right: 15px;
+  width: 400px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206); 
 }
