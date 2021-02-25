@@ -2,16 +2,11 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-h1 h2 {
-  text-align: center;
-  color: blueviolet;
-}
-
 #cabecalho {
   border-bottom: 1px rgb(96, 96, 96) solid;
   background-color: rgb(199, 186, 186);
   position: fixed;
-  padding: 10px 44% 10px 45%;
+  width: 100%;
   top: 0;
 }
 
@@ -20,8 +15,20 @@ h1 h2 {
   color: blueviolet;
 }
 
-#minha-foto {
+#minha_foto {
   width: 200px;
   border-radius: 35%;
-  margin-top: 12%;
+  margin-top: 13%;
 }
+
+#corpo {
+  width: 90%;
+  background-color: cadetblue;
+  margin: auto;
+}
+
+.ladoalado{
+  display: inline-block;
+}
+
+
