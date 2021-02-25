@@ -38,8 +38,7 @@ a {
 }
 
 .lado-esquerdo {
-  display: inline-block;
-  
+  display: inline-block;  
   border: 1px solid black;
   width: 25%;
   margin: 20px;
@@ -55,14 +54,14 @@ a {
 }
 
 #tabela {
-  display: inline-block;
-  
+  display: inline-block;  
   border: 1px solid black;
 }
 
 table {
   border-collapse: collapse;
 }
+
 td {
   border: 1px solid black;
   padding: 1em;
