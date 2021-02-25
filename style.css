@@ -2,6 +2,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.disp-in {
+  display: inline;
+}
+
 #cabecalho {
   background-color: rgb(43, 128, 153);
   position: fixed;
@@ -13,14 +17,44 @@ body {
 
 #titulo {
   color: white;
-  margin-left: 50px;
+  margin-left: 70px;
+  margin-right: 500px;
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
-  display: inline;
 }
 
 #logo-trybe {
-  margin-left: 400px;
   margin-top: 25px;
   height: 45px;
-  display: inline;
 }
+
+nav {
+  background-color: rgb(89, 192, 197);
+  height: 35px;
+  margin-top: 22px;
+  padding-top: 10px;
+}
+
+#labelnews {
+  padding-left: 180px;
+  font-size: 18px;
+  font-family: sans-serif;  
+}
+
+#letreiro {
+  vertical-align: middle;
+  margin-left: 20px;
+  width: 430px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#menu {
+  padding-left: 70px;
+  font-size: 18px;
+  font-family: sans-serif;  
+}
+
+a {
+  text-decoration: none;  
+}
+
