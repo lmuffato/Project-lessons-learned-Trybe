@@ -1,8 +1,60 @@
-body{
-  background-color: rgb(253, 251, 251)
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Akaya Kanadaka, cursive;
+  font-size: 20px;
 }
 
 #cabecalho {
-  margin-top: 0px;
+  margin-top: 0;
   position: fixed;
+  background-color: black;
+  width: 100%;
+  color: white;
+  margin-bottom: 10;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+table {
+  margin: 20px;
+  border: 10px;
+  padding: 5px;
+}
+
+td {
+  padding: 10px;
+  border: solid 1px black;
+  background-color: antiquewhite;
+}
+
+ul {
+  margin-bottom: 50px;
+}
+
+.linksheader li {
+  display: inline;
+  margin-left: 20px;
+}
+
+a {
+  color: gray;
+  font-size: 30px;
+  padding: 20px;
+
+}
+
+a:visited {
+  color: gray;
+}
+
+#minha_foto {
+  margin-top: 238px;
+  border-radius: 25%;
+  background-color: gray;
+  padding: 15px;
+  width: 500px;
 }
