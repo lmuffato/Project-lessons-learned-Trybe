@@ -1,13 +1,23 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    width: 100%;
+	position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 #titulo {
-    text-align: center;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  z-index: 1;
+  width: 200px;  
+  height: 190px;
+  left: 43%;
+  top: 100px;
+  border-radius: 100%;
 }
