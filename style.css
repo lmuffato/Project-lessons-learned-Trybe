@@ -1,8 +1,60 @@
+
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #2fc18c;
+  z-index: 1;
+  padding-right: 100%;
+}
+
+#titulo {
+  color: white;
+  padding-left: 458px;
+  width: max-content;
+
+}
+
+#links_menu {
+  top: 100px;
+  text-align: left;
+}
+
+.nav_header { 
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+
+#section_1{
+  position: absolute;
+  z-index: 2;
+  top: 110px;
+}
+
+#minha_foto {
+  position: absolute;
+  z-index: 3;
+  width: 150px;
+  padding: 10px;
+  top: 15px;
+  border-radius: 15px;
+}
+
+#main {
+  position: absolute;
+  z-index: 4;
+  top: 320px;
+}
+
+
+#aside{
+  float: right;
+  margin-top: 220px;
+  margin-right: 50px;;
 }
