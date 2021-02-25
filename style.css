@@ -51,6 +51,26 @@ article {
   font-family: Montserrat, sans-serif;
   line-height: 7mm;
   font-size: 16px;
+  width: 50%;
+  margin-left: 150px;
+  display: inline-block;
+}
+
+aside {
+  display: inline-block;
+  width: 15%;
+  background-color: rgb(8, 28, 21);
+  color: rgb(216, 243, 220);
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 60px;
+  padding: 20px;
+}
+
+aside h3 {
+  color: rgb(183, 228, 199);
+  font-size: 16px;
 }
 
 footer ul {
