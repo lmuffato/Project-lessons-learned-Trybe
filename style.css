@@ -1,12 +1,15 @@
 body {
     background-color: rgb(253, 251, 251);
+    position: absolute;
+    top: 70px;
 }
 
 header {
-    /* position: fixed; */
+    position: fixed;
     top: 0px;
-    background-color: blue;
+    /* background-color: blue; */
 }
+
 h2{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -19,25 +22,28 @@ p {
 
 #minha_foto {
     width: 300px;
-    border-radius: 90%;
-    top: 40px;
+    border-radius: 50%;
+    top: 70px;
     position: absolute;
     left: 900px;
     }
 
-#licoes_aprendidas {
-    /* position: absolute; */
-    top: 70px;
+ /* #licoes_aprendidas {
     background-color: orchid;
 }
 
 #licoes_a_aprender {
     background-color: #ffb3b3;
-}
+} */
 
 footer {
     text-align: right;
     }
 #social_media {
     text-align: center;
+}
+nav {
+    position: absolute;
+    top: 30px;
+    left: 790px;
 }
