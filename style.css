@@ -5,7 +5,7 @@ body {
 header {
     /* position: fixed; */
     top: 0px;
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 #minha_foto {
@@ -19,9 +19,16 @@ header {
 #licoes_aprendidas {
     /* position: absolute; */
     top: 70px;
-    /* background-color: orchid; */
+    background-color: orchid;
+}
+
+#licoes_a_aprender {
+    background-color: #ffb3b3;
 }
 
 footer {
-    text-align: center;
+    text-align: right;
     }
+#social_media {
+    text-align: center;
+}
