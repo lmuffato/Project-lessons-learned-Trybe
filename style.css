@@ -1,8 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
+header {
 
+}
 body {
   background-color: rgb(253, 251, 251);
   width: 960px;
@@ -15,7 +18,7 @@ h2 {
 .section-list {
   padding: 25px;
   text-align: center;
-  margin: 40px;
+  margin: 0;
   display: inline-block;
 }
 
@@ -27,6 +30,7 @@ h2 {
 }
 
 #cabecalho {
+  width: 100%;
   background-color: green;
   position: fixed;
   top: 0px;
@@ -48,16 +52,19 @@ article {
   float: left;
 }
 
-aside>p {
-  margin: .5rem;
-}
-
 img {
   margin-top: 40px;
   width: 400px;
 }
-
-p,
+ 
 li {
   font-size: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+td {
+  border: 1px solid black;
 }
