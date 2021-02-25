@@ -34,7 +34,7 @@ body {  background-color: rgb(253, 251, 251);
 }
 
 
-#nav-bar {  justify-content: center;
+#nav-bar , footer p {  justify-content: center;
   font-family: Raleway, sans-serif;
 }
 
@@ -178,6 +178,11 @@ article p , #licoes_aprendidas , #licoes_a_aprender { font-family: Raleway, sans
   margin-left: 25%;
 }
 
+footer p { font-size: 15px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
 #secao-soft-skills p { padding-left: 20px;
   padding-right: 20px;
 }
@@ -203,10 +208,7 @@ article p , #licoes_aprendidas , #licoes_a_aprender { font-family: Raleway, sans
 #skill-last { border-left: none;
 }
 
-#icone-esquerdo { margin-right: 15%;
-}
-
 #icones-social-media { width: 60%;
-  margin-left: 35%;
+  margin-left: 25%;
 }
 
