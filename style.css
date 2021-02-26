@@ -1,11 +1,49 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
 }
 
 #cabecalho {
   background-color: green;
+  color: white;
+  margin: 0px;
+  position: fixed;
+  width: 100%;
 }
 
 #titulo {
-  top: 0;
+  text-align: center;
+  margin: 0px;
+  padding-top: 20px;
 }
+
+#linksInternos ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#linksInternos ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#minha_foto {
+    width: 200px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+#foto-e-sobre-mim span {
+  position: absolute;
+  float: left;
+  top: 200px;
+  left: 300px;
+}
+
+.licoes span {
+  display: inline-block;
+}
+
+#artigos ul li {
+    display: inline-block;
+  }

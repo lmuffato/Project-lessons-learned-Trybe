@@ -8,47 +8,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="cabecalho">
+    <header id="cabecalho">
         <h1 id="titulo">Primeiro Projeto - Trybe</h1>
-    </div>
+        <nav id="linksInternos">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre mim</a></li>
+                <li><a href="">Licções aprendidas</a></li>
+                <li><a href="">Lições a aprender</a></li>
+                <li><a href="">Redes sociais</a></li>
+                <li><a href="">Artigos</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="foto-e-sobre-mim">
     <img id="minha_foto" src="eu-projeto1.jpeg" alt="foto do Douglas">
+    <span>Sempre fui apaixonado por tecnologia, pricipalmente programação web.</span>
+    </section>
 
-    <ol id="licoes_aprendidas">
-        <li>UNIX</li>
-        <li>BASH</li>
-        <li>SHELL SCRIPT</li>
+    <section class="licoes">
+    <span><ol id="licoes_aprendidas">
+        <li>Unix</li>
+        <li>Git</li>
+        <li>Github</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>JAVASCRIPT</li>
-        <li>LÓGICA DE PROGRAMAÇÃO</li>
+        <li>Empatia</li>
+        <li>Slack</li>
+        <li>Zoom</li>
+        <li>Inspect</li>
+        <li>Semântic HTML</li>
+    </ol></span>
+
+    <span><ul id="licoes_a_aprender">
+        <li>Javascript</li>
         <li>DOM</li>
-        <li>FLEXBOX</li>
-        <li>RESPONSIVO</li>
-    </ol>
-
-    <ul id="licoes_a_aprender">
-        <li>OBJECTS</li>
-        <li>TESTES UNITÁRIOS</li>
         <li>ES6</li>
-        <li>HIGHER OTHER FUNCTIONS</li>
-        <li>SPREAD OPERATOR</li>
-        <li>PARÂMETRO REST</li>
-        <li>DESTRUCTURING</li>
-        <li>ZOO FUNCTIONS</li>
-        <li>JS ASSÍNCRONO</li>
-        <li>CALLBACKS</li>
-    </ul>
-
-    <nav><a href="https://www.google.com.br/" target="_blank">Site do Google</a></nav>
-
-    <article>
-        <p>Olá, este artigo é destinado às tecnologias que eu aprendi até agora. Já aprendi sobre o Unix e como utilizá-lo, aprendi também sobre o Bash e como utilizá-lo, aprendi sobre Shell Scrpipt, o que é o HTML e algumas tags, o que é CSS e algumas tags, como funciona a internet, Softs Skills e ainda estou aprendendo mais sobre essas coisas.</p>
-    </article>
-
-    <section>
-        <p>Olá, estou aprendendo sobre HTML semântico. Foi muito legal saber a importância disso nos sites e aplicações web pois muitos deficientes visuais poderão ter mais acessibilidade aos conteúdos através dessa prática que já deveria existir em todos os sites.</p>
+        <li>Forms</li>
+        <li>CSS Responsive</li>
+        <li>HOF</li>
+        <li>Unit Tests</li>
+        <li>React</li>
+        <li>Node</li>
+        <li>SQL</li>
+    </ul></span>
     </section>
+
+    <article class="artigo">
+    <section id="artigos">
+        <ul>
+            <li>Olá, este artigo é destinado às tecnologias que eu aprendi até agora. Já aprendi sobre o Unix e como utilizá-lo, aprendi também sobre o Bash e como utilizá-lo, aprendi sobre Shell Scrpipt, o que é o HTML e algumas tags, o que é CSS e algumas tags, como funciona a internet, Softs Skills e ainda estou aprendendo mais sobre essas coisas.</li>
+        </ul>
+    
+        <ul>
+            <li>Olá, estou aprendendo sobre HTML semântico. Foi muito legal saber a importância disso nos sites e aplicações web pois muitos deficientes visuais poderão ter mais acessibilidade aos conteúdos através dessa prática que já deveria existir em todos os sites.</li>
+        </ul>
+
+        <ul>
+            <li>Estou ansioso para aprender todas as tecnologias que estão por vir. Já consigo fazer muita coisa com o que aprendi até agora, imagine tudo o que eu poderei fazer após terminar o curso da Trybe!</li>
+        </ul>
+    </section>
+    </article>
 
     <aside>
         <table>
@@ -64,7 +85,15 @@
         </table>
     </aside>
 
-    <footer id="rodape"></footer>
+    <footer id="rodape">
+        <nav>
+            <ul>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">Github</a></li>
+            </ul>
+        </nav>
+        <p>Todos os direitos redervados, Douglas</p>
+    </footer>
 
 </body>
 </html>
