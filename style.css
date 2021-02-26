@@ -1,7 +1,6 @@
-*{
+* {
   margin: 0;
-  padding: 0;
-}
+  padding: 0;}
 
 body {
   background-color: rgb(253, 251, 251);}
@@ -18,36 +17,34 @@ table, th, td {
   margin-left: 0;
   padding: 20px}
 
-#titulo{
+#titulo {
   padding-bottom: 20px;
   text-align: center;}
 
-#minha_foto{
+#minha_foto {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;} 
 
-#laprendidas{
+#laprendidas {
   margin: auto;
   padding-left: 33%;
-  float: left;
-}
-#laaprender{
+  float: left;}
+
+#laaprender {
   margin: auto;
   padding-right: 33%;
-  float: right;
-}
+  float: right;}
+
+#licoes_aprendidas{
+  text-align: center;}
+  
+#licoes_a_aprender{
+  text-align: center;}
 
 #aprendendo_na_trybe{
   margin-top: 300px;
   text-align: center;
-  width: 30%;
-}
+  width: 30%;}
 
-#licoes_aprendidas{
-  text-align: center;
-}
-#licoes_a_aprender{
-  text-align: center;
-}
