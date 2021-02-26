@@ -16,12 +16,9 @@ body {
 }
 
 #menu {
-  display: block;
-}
-
-#menu {
   padding-left: 31%;
   margin-bottom: 0;
+  display: block;
 }
 
 #menu li {
@@ -46,16 +43,6 @@ body {
   width: 200px;
   border-radius: 35%;
   margin-top: 13%;
-}
-
-#corpo {
-  width: 90%;
-  background-color: cadetblue;
-  margin: auto;
-}
-
-.ladoalado {
-  display: inline-block;
 }
 
 article {
