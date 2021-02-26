@@ -12,18 +12,42 @@ body {
   margin-top: 40px;
 }
 
-#licoes_aprendidas {
-  background-color: royalblue;
-}
+/* #licoes_aprendidas {
+  
+} */
 
 #licoes_aprendidas li:hover {
-  background-color: orchid;
+  color: orchid;
 }
 
-#licoes_a_aprender {
-  background-color: mediumvioletred;
-}
+/* #licoes_a_aprender {
+
+} */
 
 #licoes_a_aprender li:hover {
-  background-color: skyblue;
+  color: skyblue;
+}
+
+#linkedin:link {
+  color: green;
+}
+
+#linkedin:visited {
+  color: purple
+}
+
+#linkedin:hover {
+  color: darkred;
+}
+
+#row {
+  display: flex;
+}
+
+.coluna {
+  flex: 50%;
+  /* float: left;
+  width: 50%; */
+  padding: 10px;
+  height: 300px;
 }
