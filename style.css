@@ -74,7 +74,7 @@ a {
   color: white;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 250px;
   border: 7px solid gray;
@@ -83,7 +83,7 @@ a {
   position: relative;
 }
 
-.lado_direito {
+.lado-direito {
   display: inline-block;
   width: 250px;
   border: 7px solid  gray;
