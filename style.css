@@ -11,8 +11,8 @@ body {
   z-index: 999;
   width: 100%;
   color: white;
-  margin:0px;
-  left:0px;
+  margin: 0px;
+  left: 0px;
   padding: 7px;
   border-bottom: 7px solid #2fc18c;
 }
@@ -22,7 +22,7 @@ body {
   top: 80px;
 }
 
-#minha_foto{
+#minha_foto {
   height: 150px;
   border-radius: 100%;
 }
@@ -32,24 +32,27 @@ figcaption {
   text-align: center;
 }
 
-#habilidades{
+#habilidades {
   position: absolute;
   top: 280px;
   display: inline-block;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   position: relative;
+  top: -20px;
   left: 0px;
   display: inline-block;
+  line-height: 25px;
 }
 
 #licoes_a_aprender{
   position: relative;
+  top: -20px;
   left: 5px;
-  display: inline-block
+  display: inline-block;
+  line-height: 25px;
 }
-
 
 #tragetoria{
   position: absolute;
@@ -60,7 +63,7 @@ figcaption {
   text-align: justify;
 }
 
-#primeiro_projeto{
+.primeiro_projeto{
   position: absolute;
   top: 280px;
   display: inline-block;
@@ -69,10 +72,9 @@ figcaption {
   text-align: justify;
 }
 
-
 #tabelasAvaliacao {
   position: absolute;
-  top:610px;
+  top: 610px;
 }
 
 table, th, td {
@@ -92,7 +94,7 @@ table, th, td {
   text-align: justify;
 }
 
-#rodape {
+#Sec-rodape {
   position: absolute;
   top: 1410px;
   background-color: #036b52;
@@ -100,7 +102,7 @@ table, th, td {
   width: 100%;
   color: white;
   margin:0px;
-  left:0px;
+  left: 0px;
   padding: 7px;
   border-bottom: 4px solid #2fc18c;
 }
@@ -123,7 +125,3 @@ a {
 a:hover {
   font-weight: bold;
 }
-
-
-
-
