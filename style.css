@@ -1,24 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
+main {
+  padding: 50px;
+}
 
 #cabecalho {
-  position: fixed;
-  margin-top: 0;
+  padding: 70px;
+  background-image: url(capatrybe.jpeg);
+  background-position: center;
+  text-align: center;
+  top: 0;
+}
+
+#titulo {
+  padding: 10px;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+#nav_header {
+  margin-top: 80px;
+  margin-left: 80%;
 }
 
 header a {
   text-decoration: none;
-  color: black;
+  letter-spacing: 0,5px;
+  color: aliceblue;
+  font-size: 25px;
+  border: solid 2px aliceblue;
+  padding: 5px;
+  border-radius: 10px;
 }
+
 
 #minha_foto {
   width: 200px;
-  margin-top: 100px;
-}
-
-h1 {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  margin-top: -180px;
+  border-radius: 100%;
 }
 
