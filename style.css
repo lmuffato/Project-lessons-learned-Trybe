@@ -19,11 +19,13 @@ header {
 h2 {
   font-family: Courier New, Courier, monospace;
   font-size: 27px;
+  color: rgb(41, 61, 61);
 }
 
 h3 {
   font-family: Times New Roman, Times, serif;
   font-size: 23px;
+  color: #476b6b;
 }
 
 p {
