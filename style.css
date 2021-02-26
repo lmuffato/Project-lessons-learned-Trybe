@@ -1,12 +1,8 @@
-/* * {
-  display: flexbox;
+* {
   margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: monospace;
   font-size: 100%;
-  color: rgb(43, 43, 43);
-} */
+  line-height: 22px;
+}
 
 body {
   background-color: rgb(253, 251, 251);
@@ -84,7 +80,7 @@ article {
 aside {
   text-align: right;
   position: absolute;
-  top: 320px;
+  top: 120px;
   left: 950px;
   width: 300px;
 }
