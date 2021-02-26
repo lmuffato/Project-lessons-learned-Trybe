@@ -25,7 +25,7 @@ body {
 }
 
 #licoes_aprendidas li:hover {
-  color: orchid;
+  color: skyblue;
 }
 
 #licoes_a_aprender li:hover {
@@ -70,6 +70,15 @@ article {
 .lado-direito {
   float: right;
   width: 25%;
+}
+
+section {
+  font-family: sans-serif;
+}
+
+h2 {
+  color: navy;
+  font-family: sans-serif;
 }
 
 .externo {
