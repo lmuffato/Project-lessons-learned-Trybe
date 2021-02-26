@@ -16,7 +16,6 @@ body {
   text-align: center;
   line-height: 80px;
   color: white;
-  size: 20px;
 }
 
 #minha_foto {
@@ -52,5 +51,9 @@ body {
 
 #list h4 {
   text-align: center;
+  font-size: large;
+  font-family: fantasy;
+  color: rgb(70, 13, 85);
+  line-height: 4px;
 }
 
