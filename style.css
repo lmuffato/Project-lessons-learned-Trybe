@@ -1,37 +1,44 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
-header#cabecalho {
-    position: fixed;
-    top: 0px;
+
+#cabecalho {
+  position: fixed;
+  top: 0px;
 }
+
 #titulo {
-    position: relative;
-    top: 10px;
-    left: 500px;
+  position: relative;
+  top: 10px;
+  left: 500px;
 }
+
 .headerCabeçalho {
-    border: 1px solid black;
-    height: 200px;
+  border: 1px solid black;
+  height: 200px;
 }
+
 #minha_foto {
-    width: 150px;
-    position: absolute;
-    top: 45%;
-    left: 40px;
+  width: 150px;
+  position: absolute;
+  top: 45%;
+  left: 40px;
 }
+
 #licoes_aprendidas {
-    position: absolute;
-    top: 40%;
-    left: 250px;
+  position: absolute;
+  top: 40%;
+  left: 250px;
 }
+
 #licoes_a_aprender {
-    position: absolute;
-    top: 40%;
-    left: 480px;
+  position: absolute;
+  top: 40%;
+  left: 480px;
 }
+
 #rodape {
-    position: absolute;
-    top: 90%;
-    left: 40px;
+  position: absolute;
+  top: 90%;
+  left: 40px;
 }
