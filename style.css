@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   position: absolute;
-  top: 140px;
+  top: 170px;
 }
 
 header {
@@ -65,16 +65,24 @@ a {
   color: white;
 }
 
-#licoes_aprendidas_box {
-  border: 1px solid black;
+.lado_esquerdo {
+  /* border: 1px solid black;
   width: 40%;
-  padding: 5px;
-  display: inline-block;
+  padding: 5px 30px 5px;
+  display: inline-block; */
+  width: 300px;
+  border: 2px solid green;
+  padding: 30px;
+  margin: 20px;
 }
 
-#licoes_a_aprender_box {
-  border: 1px solid black;
+.lado_direito {
+  /* border: 1px solid black;
   width: 40%;
-  padding: 5px;
-  display: inline-block;
+  padding: 5px 30px 5px;
+  display: inline-block; */
+  width: 300px;
+  border: 2px solid green;
+  padding: 30px;
+  margin: 20px;
 }
