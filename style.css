@@ -3,6 +3,9 @@ body {
 }
 
 #cabecalho {
+  width: 1275px;
+  height: auto;
+  position: fixed;
   margin-top: 0;
   border: 2px solid black;
   background-color: rgb(236, 236, 236);
@@ -16,10 +19,12 @@ body {
 }
 
 #licoes_aprendidas {
+  width: 50%;
   border: 1px solid black;
 }
 
 #licoes_a_aprender {
+  width: 50%;
   border: 1px solid black;
 }
 
@@ -38,13 +43,19 @@ body {
 
 #artigo_e_secao {
   display: flex;
+  float: right;
 }
 
 #artigo {
+  float: left;
   display: block;
 }
 
 #secao {
   display: block;
   margin-left: 100px;
+}
+
+#listas {
+  display: flex;
 }
