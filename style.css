@@ -20,20 +20,8 @@ body {
   margin-top: 30px;
 }
 
-#menu:link {
-  color: green;
-}
-
-#menu:visited {
-  color: purple
-}
-
-#menu:hover {
-  color: darkred;
-}
-
 #licoes_aprendidas {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #licoes_aprendidas li:hover {
@@ -49,7 +37,7 @@ body {
 }
 
 .links:visited {
-  color: purple
+  color: purple;
 }
 
 .links:hover {
@@ -67,11 +55,11 @@ body {
 }
 
 aside {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
 }
 
 article {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
 }
 
 .lado-esquerdo {
@@ -84,6 +72,6 @@ article {
   width: 25%;
 }
 
-.externo{
+.externo {
   width: 25px;
 }
