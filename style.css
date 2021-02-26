@@ -1,20 +1,24 @@
-body {background-color: rgb(253, 251,251);}
+body {
+    background-color: rgb( 253, 251, 251 );
+    height: auto 
+}
 
 #cabecalho {
     height: 150px;
     width: 100%;
-    background-color: rgba(15,127,25,255);
-    position: fixed;
+    background-color: rgb(15, 127, 25, 255);
+    position : fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     z-index: 1;
 }
 
-h1 {color: rgb(253, 255, 255);
-    position: relative;
-    text-align: center;
-    z-index: 2;
+h1 {
+  color: rgb(253, 255, 255);
+  position: relative;
+  text-align: center;
+  z-index: 2;
 }
 
 .navegacao {
@@ -27,10 +31,69 @@ h1 {color: rgb(253, 255, 255);
     color: rgb(255, 255, 255);
 }
 
-
 #foto {
     position: fixed;
     top: 170px;
     left: 20px;
     z-index: 4;
+}
+
+#nome {
+    color: black;
+    position: fixed;
+    top: 380px;
+    left: 20px;
+    z-index: 5;
+}
+
+#section1 {
+    position: fixed;
+    top: 450px;
+    left: 20px;
+    z-index: 4;
+}
+
+#licoes_aprendidas {
+    color: black;
+    z-index: 4;
+}
+
+#section2 {
+    position: fixed;
+    top: 450px;
+    left: 250px;
+    z-index: 4;
+}
+
+#licoes_a_aprender {
+    color: black;
+    z-index: 4;
+}
+
+article {
+    height: 100px;
+    width: 800px;
+    background-color:rgb(15, 127, 25, 255) ;
+    position : fixed;
+    top: 700px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+#artigo1 {
+text-align: justify;
+    z-index: 10;
+}
+
+
+#rodape {
+    height: 100px;
+    width: 100%;
+    background-color:rgb(15, 127, 25, 255) ;
+    position : fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 8;
 }
