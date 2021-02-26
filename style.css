@@ -29,9 +29,7 @@ p {
 }
 
 #minha_foto {
-  width: 300px;
-  border-radius: 50%;
-  top: 70px;
+  width: 206px;
   position: absolute;
   left: 900px;
 }
@@ -78,5 +76,5 @@ a {
   border: 1px solid black;
   width: 40%;
   padding: 5px;
-  display: inline-block;  
+  display: inline-block;
 }
