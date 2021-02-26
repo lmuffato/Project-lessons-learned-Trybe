@@ -10,7 +10,7 @@ body {
 
 #cabecalho {
   color: aliceblue;
-  top: 0;
+  top: 0px;
   padding-top: 20px;
   display: flex;
   background-color: rgb(63, 63, 63);
@@ -91,4 +91,8 @@ aside {
 
 .nome {
   font-size: 20px;
+}
+
+.tabela {
+  border: 0;
 }
