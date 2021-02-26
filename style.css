@@ -10,6 +10,7 @@
 }
 
 body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
@@ -26,9 +27,12 @@ body {
 }
 
 #cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
   position: fixed;
   top: 0;
-  display: block;
   width: 100%;
   background-color: black;
 }
@@ -42,8 +46,7 @@ nav > ul > li {
 }
 
 nav {
-  display: inline-block;
-  float: right;
+ 
 }
 
 main {
