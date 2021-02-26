@@ -4,7 +4,7 @@ body {
 }
 
 #cabecalho {
-    height: 150px;
+    height: 20%px;
     width: 100%;
     background-color: rgb(15, 127, 25, 255);
     position : fixed;
@@ -72,11 +72,11 @@ h1 {
 
 article {
     height: 100px;
-    width: 800px;
+    width: 400px;
     background-color:rgb(15, 127, 25, 255) ;
     position : fixed;
     top: 700px;
-    left: 0px;
+    left: 20px;
     right: 0px;
     z-index: 10;
 }
@@ -88,7 +88,7 @@ text-align: justify;
 
 
 #rodape {
-    height: 100px;
+    height: 7%;
     width: 100%;
     background-color:rgb(15, 127, 25, 255) ;
     position : fixed;
@@ -96,4 +96,15 @@ text-align: justify;
     left: 0px;
     right: 0px;
     z-index: 8;
+}
+
+#aside {
+    height: 100px;
+    width: 400px;
+    background-color:rgb(15, 127, 25, 255) ;
+    position : fixed;
+    top: 700px;
+    left: 450px;
+    right: 0px;
+    z-index: 10;
 }
