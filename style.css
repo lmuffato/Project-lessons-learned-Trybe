@@ -27,7 +27,7 @@ body {
 }
 
 #list {
-  top: 80px;
+  top: 70px;
   position: relative;
   float: left;
   margin: 30px;
@@ -58,6 +58,11 @@ body {
 
 .artigo {
   text-align: justify;
+}
+
+.tabela {
+  border: 2px solid rgb(94, 97, 95);
+  padding: 2px;
 }
 
 #links {
