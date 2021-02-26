@@ -26,24 +26,13 @@ body {
 }
 
 #artigo {
-  border-radius: 20px;
-  padding: 10px 10px 10px 20px;
-  position: absolute;
-  top: 119px;
-  left: 480px;
-  right: 250px;
+  line-height: 1.2px;
   color: rgb(32, 32, 32);
 }
 
 #experiencia {
-  border-radius: 20px;
-  padding: 35px;
-  position: absolute;
-  left: 500px;
-  bottom: 205px;
-  margin-left: 730px;
-  margin-right: 20px;
-  color:rgb(32, 32, 32);
+  line-height: 1.2px;
+  color: rgb(32, 32, 32);
 }
 
 footer {
@@ -54,4 +43,23 @@ footer {
 
 h2 {
   font-size: 20px;
+}
+
+.lado-esquerdo{
+  border-radius: 20px;
+  padding: 35px;
+  position: absolute;
+  left: 500px;
+  bottom: 205px;
+  margin-left: 730px;
+  margin-right: 20px;  
+}
+
+.lado-direito{
+  border-radius: 20px;
+  padding: 10px 10px 10px 20px;
+  position: absolute;
+  top: 119px;
+  left: 480px;
+  right: 250px;
 }
