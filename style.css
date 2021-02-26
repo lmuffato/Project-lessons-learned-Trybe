@@ -1,5 +1,5 @@
 .fonte-estilo {
-  font-family:cursive;
+  font-family: cursive;
   color: rgb(82, 82, 85);
   font-size: 20px;
   line-height: 20px;
@@ -12,7 +12,7 @@ body {
   border: 50px;
 }
 
-#titulo{
+#titulo {
   text-align: center;
 }
 
@@ -21,8 +21,7 @@ body {
   top: 0;
   margin: 10px;
   padding: 10px;
-  border: 10px;
-  
+  border: 10px;  
 }
 
 #minha_foto {
@@ -31,31 +30,33 @@ body {
   padding: 10px;
   border: 10px;
 }
-.lado-esquerdo{
+
+.lado-esquerdo {
   position: absolute;
   width: 50%;
   left: 30px;
+  text-align: justify;
 }
 
-.lado-direito{
+.lado-direito {
   position: absolute;
   left: 700px;
   width: 50%;
 }
 
-.lista-esquerda{
-  position:absolute;
+.lista-esquerda {
+  position: absolute;
   top: 800px;
   left: 30px;
 }
 
-.lista-direita{
+.lista-direita {
   position: absolute;
   top: 850px;
   left: 300px;
 }
 
-.tabela{
+.tabela {
   position: absolute;
   top: 1150px;
   left: 30px;
