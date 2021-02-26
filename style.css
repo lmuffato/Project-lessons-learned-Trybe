@@ -2,12 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Roboto, sans-serif;
   font-size: 16px;
+  line-height: 25px;
   color: black;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 #menu {
