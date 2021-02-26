@@ -6,6 +6,7 @@ body {
   margin-top: 0;
   position: fixed;
 } 
+
 .listas {
   padding: 10px;
   display: inline-block;
@@ -18,9 +19,8 @@ body {
 #meu-aprendizado {
   padding: 10px;
   position: absolute;
-  right: 20px;
   bottom: 500px;
-  right: 330px;
+  right: 350px;
 }
 
 #coisas_que_vou_aprender {
