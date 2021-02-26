@@ -5,10 +5,9 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  bottom: 590px;
+  bottom: 570px;
   text-align: center;
   vertical-align: middle;
-  border: 1px solid black;
 }
 
 #minha_foto {
@@ -19,7 +18,7 @@ body {
   margin-top: 90px;
   margin-left: 100px;
   border: 2px solid black;
-  border-radius: 35%;
+  border-radius: 40%;
 }
 
 #licoes_aprendidas {
@@ -59,6 +58,9 @@ body {
 
 #secao {
   float: left;
+  font-size: 5px;
+  font-family: fantasy;
+  font-weight: 800;
 }
 
 #subtitulo_artigo {
@@ -73,11 +75,13 @@ body {
 }
 
 #titulo {
-  margin-top: 17px;
+  margin-top: 10px;
   font-family: fantasy;
   font-size: 25px;
   line-height: 15px;
   font-stretch: normal;
+  margin-bottom: 10px;
+
 }
 
 #habilidadesaprendidas {
@@ -103,18 +107,23 @@ body {
 }
 
 .box {
-  background-color: rgb(107, 176, 201);
+  background-color: rgb(236, 236, 236);
   display: inline-block;
-  width: 1210px;
-  height: 20px;
-  border: 2px solid black;
-  margin: 2px;
+  width: 1300px;
+  height: 30px;
   padding: 20px;
 }
 
 #artigo_e_secao {
   display: flex;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
+
 #artigos {
   float: right;
+  background-color: rgb(240, 240, 240);
+  border-radius: 2%;
 }
