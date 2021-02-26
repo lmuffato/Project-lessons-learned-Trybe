@@ -57,7 +57,7 @@ header a {
   font-size: 35px;
 }
 
-#profession, #city {
+#profession , #city {
   font-size: 25px;
 }
 
@@ -76,15 +76,15 @@ header a {
   padding: 5px;
 }
 
-#list_ok, #list_tolearn {
+#list_ok , #list_tolearn {
   width: 400px;
   height: 350px;
   display: inline-block;
   font-size: 20px;
 }
 
-#list_ok li, #list_tolearn li {
-  font-size: 20px; ;
+#list_ok li , #list_tolearn li {
+  font-size: 20px;
 }
 
 h3 {
@@ -93,7 +93,6 @@ h3 {
 
 table {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 5px;
   text-align: center;
   border-collapse: collapse;
   width: 80%;
@@ -106,7 +105,7 @@ table {
   text-align: center;
 }
 
-td, th {
+td , th {
   border: solid 2px black;
   padding: 8px;
   font-size: 20px;
