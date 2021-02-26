@@ -2,15 +2,18 @@ header {
   margin-top: 0;
   position: fixed;
 }
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: Montserrat, sans-serif;
   font-weight: 300px;
 }
+
 #minha_foto {
   margin-top: 140px;
   width: 460px;
 }
+
 .listas {
   background-color: rgba(255, 11, 11, 0);
   padding: 10px;
@@ -19,6 +22,7 @@ body {
   left: 500px;
   bottom: 290px;
 }
+
 #artigo {
   border-radius: 20px;
   padding: 10px 10px 10px 20px;
@@ -27,6 +31,7 @@ body {
   left: 480px;
   right: 250px;
 }
+
 #experiencia {
   background-image: url('');
   border-radius: 20px;
@@ -37,11 +42,13 @@ body {
   margin-left: 730px;
   margin-right: 20px;
 }
+
 footer {
   background-color: rgba(36, 36, 36, 0.637);
   bottom: 180px;
   padding: 20px;
 }
+
 h2 {
   font-size: 20px;
 }
