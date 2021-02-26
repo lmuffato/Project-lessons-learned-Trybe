@@ -1,74 +1,83 @@
 body {
-	background-color: rgb(253, 251, 251);
-  font-family: Spartan, sans-serif;
-  letter-spacing: 2px;
-  font-weight: 100;
+
+		background-color: rgb(253, 251, 251);
+  	font-family: Spartan, sans-serif;
+  	letter-spacing: 2px;
+  	font-weight: 100;
 }
 
 #cabecalho {
-	position: fixed;
-	top: 0;
-	background-color: rgb(114, 38, 122);
-	width: 100%;
-	padding: 10px;
-	margin: 0;
-	color: rgb(255, 167, 66);
-	text-align: center;
+
+		position: fixed;
+		top: 0;
+		background-color: rgb(114, 38, 122);
+		width: 100%;
+		padding: 10px;
+		margin: 0;
+		color: rgb(255, 167, 66);
+		text-align: center;
 }
 
 #minha_foto {
-	width: 140px;
-	border-radius: 100%;
-	position: fixed;
-	right: 0;
-	top: 5px;
+
+		width: 140px;
+		border-radius: 100%;
+		position: fixed;
+		right: 0;
+		top: 5px;
 }
 
 nav {
-	position: fixed;
-	width: 99%;
-	padding: 3px;
-	background-color: rgb(255, 167, 66);
-	color: rgb(114, 38, 122);
-	top: 140px;
-	text-align: right;
-	font-size: 12px;
+
+		position: fixed;
+		width: 99%;
+		padding: 3px;
+		background-color: rgb(255, 167, 66);
+		color: rgb(114, 38, 122);
+		top: 140px;
+		text-align: right;
+		font-size: 12px;
 }
 
 section {
-	display: inline-block;
-	width: 600px;
+
+		display: inline-block;
+		width: 600px;
 }
 
 .lado-esquerdo {
-	color: rgb(163, 39, 97);
-	background-color: rgb(59, 175, 160);
-	padding: 30px;
-	margin: 40px;
-	margin-top: 125px;
+
+		color: rgb(163, 39, 97);
+		background-color: rgb(59, 175, 160);
+		padding: 30px;
+		margin: 40px;
+		margin-top: 125px;
 }
 
 .lado-direito {
-	color: rgb(255, 110, 48);
-	background-color: rgb(163, 39, 97);
-	padding: 30px;
-	margin-left: 200px;
+
+		color: rgb(255, 110, 48);
+		background-color: rgb(163, 39, 97);
+		padding: 30px;
+		margin-left: 200px;
 }
 
 div {
-	display: inline-block;
-	font-size: 15px;
-	color: rgb(114, 38, 122);
-	line-height: 30px;
-	background-color: rgb(255, 167, 66);
-	margin: 20px;
-	padding: 15px;
+
+		display: inline-block;
+		font-size: 15px;
+		color: rgb(114, 38, 122);
+		line-height: 30px;
+		background-color: rgb(255, 167, 66);
+		margin: 20px;
+		padding: 15px;
 }
 
 footer {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	font-size: 10px;
-	text-align: justify;
+
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		font-size: 10px;
+		text-align: justify;
 }
