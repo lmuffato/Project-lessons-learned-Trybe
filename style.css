@@ -91,15 +91,15 @@ span {
   text-decoration: none;
 }
 
-#tabela{
+#tabela {
   margin-left: 350px;
   width: 500px;
   border: 3px;
   border-color: black;
-  border-style:dashed;
+  border-style: dashed;
 }
 
-td, tr, th{
+td , tr , th {
   border-color: gray;
   border-style: dashed;
 }
