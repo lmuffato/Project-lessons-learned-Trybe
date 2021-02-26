@@ -24,7 +24,7 @@
   margin-top: 100px;
   margin-left: 70px;
   float: left;
-  border-style: dotted;
+  border-style: solid;
   border-width: 3px;
   border-color: darkolivegreen;
 }
@@ -44,7 +44,7 @@
 }
 
 section {
-  display: inline-block;
+  display: inline;
 }
 
 #licaoaprendida {
@@ -80,10 +80,18 @@ section {
 }
 
 .lado-direito {
-  display: inline-block;
+  display: ;
   margin-left: 100px;
 }
 
 span {
   text-decoration: none;
+}
+
+#tabela{
+  margin-left: 350px;
+  width: 500px;
+  border: 3px;
+  border-color: black;
+  border-style:dashed;
 }
