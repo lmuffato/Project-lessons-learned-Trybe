@@ -46,8 +46,6 @@ body {
 
 .coluna {
   flex: 50%;
-  /* float: left;
-  width: 50%; */
   padding: 10px;
   height: 300px;
 }
