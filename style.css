@@ -126,32 +126,33 @@ a:visited {
 }
 
 .lado-esquerdo {
-    background-color: blue;
     float: left;
     border-color: rgb(27, 67, 50);
     border-style: solid;
     border-width: 15px;
-    width: 40%;
-    height: 350px;
+    width: 495px;
+    height: 250px;
     font-family: 'RocknRoll One', sans-serif;
     margin-left: 70px;
     margin-top: 40px;
     word-spacing: 5px;
-    text-align: center;
+    text-align: center; 
+    padding: 0px 20px 0px 20px; 
 
 }
 
 .lado-direito {
-    background-color: yellow;
     float: right;
-    width: 40%;
-    height: 350px;
+    width: 495px;
+    height: 248px;
     border-color: rgb(27, 67, 50);
     border-style: solid;
     border-width: 15px;
     font-family: 'RocknRoll One', sans-serif;
     margin-top: 40px;
     margin-right: 70px;
+    word-spacing: 5px;
+    padding: 0px 20px 0px 20px;
 }
 
     #rodape {
@@ -170,7 +171,7 @@ a:visited {
     color: rgb(27, 67, 50);
     float: right;
     margin-right: 50px;
-    margin-top: -110%;
+    margin-top: -100%;
     padding: 100px 50px 100px 20px;
     position: relative;
     font-size: 100px;
