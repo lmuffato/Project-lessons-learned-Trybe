@@ -1,13 +1,14 @@
-body {background-color: rgb(253, 251, 251); height: 768px; width: 1366;}
+body {background-color: rgb(253, 251, 251); height: 768px; width: 1366px;}
 
-#cabecalho {top: 0px; background-color:#2E8B57; height: 180px;}
+#cabecalho {top: 0px; background-color:#2E8B57; height: 180px; position: fixed;
+width: 100%;}
+
 #titulo {text-align: center; color: #fff;}
 
-#minha_foto {border-radius: 100%; height: 200px; width: 200px; margin-left: auto; margin-right: auto; display: block;
-animation: pulse 0.7s infinite;
-}
+#minha_foto {border-radius: 100%; height: 200px; width: 200px; margin-left: auto; margin-right: auto; display: block;}
 
-#area_principal {background-image: url("bggame.jpg");background-color: brown; height: 500px; background-position: center;}
+#area_principal {background-image: url("bggame.jpg"); height: 420px; 
+background-position:center; background-attachment: fixed; width: 100%; margin-top: 140px; }
 
 #licoes_aprendidas {margin-top: 40px; display: block; float: left;}
 
@@ -15,3 +16,7 @@ animation: pulse 0.7s infinite;
 
 .levelup {width: 80px; height: 80px;}
 .sonic {width: 70px; height: 70px; margin: 12px;}
+
+#secao_artigo1 {display: block; float: left; height: 200px; width: 510px; background-color: lightblue;}
+
+.artigo_aprendizado {margin: 10px;}
