@@ -3,7 +3,8 @@ body {
 }
 
 #cabecalho {
-  top: 0;
+  top: 0px;
+  margin-top: 0px;
   background-color: rgb(70, 13, 85);
   height: 90px;
   margin-left: -8px;
@@ -27,6 +28,8 @@ body {
 #list {
   position: relative;
   float: left;
+  margin: 30px;
+  padding: 20px;
   border: 3px solid rgb(94, 97, 95);
 }
 
