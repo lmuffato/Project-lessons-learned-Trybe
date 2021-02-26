@@ -3,8 +3,7 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
-  margin-top: 0px;
+  top: '0px';
   background-color: rgb(70, 13, 85);
   height: 90px;
   margin-left: -8px;
@@ -33,8 +32,35 @@ body {
   border: 3px solid rgb(94, 97, 95);
 }
 
+.lado-direito {
+  top: 150px;
+  width: 20%;
+  position: absolute;
+  left: 310px;
+}
+
+.lado-esquerdo {
+  top: 150px;
+  width: 20%;
+  position: absolute;
+  left: 610px;
+}
+
+.titulo2 {
+  text-align: center;
+  font-size: large;
+  font-family: fantasy;
+  color: rgb(70, 13, 85);
+}
+
 .artigo {
-  width: 50%;
+  text-align: justify;
+}
+
+#links {
+  position: absolute;
+  top: 600px;
+  left: 520px;
 }
 
 #rodape {
