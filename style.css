@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: lobster;
+    
 }
 
 #cabecalho {
@@ -56,6 +58,7 @@ body {
   width: 165px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206);
+  font-size: 1.1em;
 }
 
 #licoes_a_aprender {
@@ -65,6 +68,7 @@ body {
   width: 165px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206);
+  font-size: 1.1em;
 }
 
 #titulo_artigo {
@@ -80,6 +84,7 @@ body {
   width: 400px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206); 
+  color:rgb(52,32,69);
 }
 
 #titulo_artigo_2 {
@@ -95,6 +100,7 @@ body {
   width: 400px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206); 
+  line-height: 1.1em;
 }
 
 #rodape {
