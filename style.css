@@ -13,7 +13,7 @@ body {
 }
 
 #cabecalho {
-  top: 0;
+  top: 0px;
   padding-top: 20px;
   display: flex;
   background-color: rgb(43, 226, 119);
@@ -59,7 +59,7 @@ li:hover {
 #licoes_a_aprender {
   position: absolute;
   top: 320px;
-  left: 230px;
+  left: 270px;
 }
 
 #rodape {
