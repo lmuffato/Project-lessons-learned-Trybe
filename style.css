@@ -26,11 +26,39 @@ body {
 
 #licoes_aprendidas {
   width: 50%;
+<<<<<<< HEAD
   border: 1px solid black;
+=======
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: monospace;
+  columns: 2;
+  width: 600px;
+>>>>>>> corrige estylo e fontes
 }
 
 #licoes_a_aprender {
   width: 50%;
+<<<<<<< HEAD
+=======
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: monospace;
+  columns: 2;
+  width: 600px;
+  margin-bottom: 100px;
+}
+
+#rodape {
+  height: 40px;
+  bottom: 0;
+  top: auto;
+  background-color: rgb(200, 224, 233);
+  text-align: center;
+  vertical-align: middle;
+>>>>>>> corrige estylo e fontes
   border: 1px solid black;
 }
 
