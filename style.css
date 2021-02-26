@@ -9,7 +9,7 @@ header {
   top: 0;
   width: 100%;
   text-align: center;
-  background-color: black;
+  background-color: gray;
 }
 
 #titulo {
@@ -31,7 +31,7 @@ p {
 #minha_foto {
   width: 206px;
   position: absolute;
-  left: 900px;
+  left: 990px;
 }
 
 footer {
@@ -66,23 +66,22 @@ a {
 }
 
 .lado_esquerdo {
-  /* border: 1px solid black;
-  width: 40%;
-  padding: 5px 30px 5px;
-  display: inline-block; */
-  width: 300px;
-  border: 2px solid green;
+  display: inline-block;
+  width: 250px;
+  border: 7px solid gray;
   padding: 30px;
   margin: 20px;
 }
 
 .lado_direito {
-  /* border: 1px solid black;
-  width: 40%;
-  padding: 5px 30px 5px;
-  display: inline-block; */
-  width: 300px;
-  border: 2px solid green;
+  display: inline-block;
+  width: 250px;
+  border: 7px solid  gray;
   padding: 30px;
   margin: 20px;
+}
+
+table td{
+  width: 100px;
+  border: 1px solid gray;
 }
