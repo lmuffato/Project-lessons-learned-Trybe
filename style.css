@@ -22,7 +22,7 @@ main {
 }
 
 #nav_capa {
-  background-image: url("capatrybe.jpeg");
+  background-image: url('capatrybe.jpeg');
   padding: 50px;
 }
 
@@ -126,7 +126,7 @@ td , th {
 
 #article_aside {
   width: 550px;
-  margin: 50px 50px 300px 50px;
+  margin: 50px 50px 300px;
   position: static;
 }
 
@@ -134,6 +134,7 @@ td , th {
   position: absolute;
   left: 50px;
   width: 550px;
+  line-height: 25px;
 }
 
 .lado-direito {
