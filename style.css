@@ -6,13 +6,40 @@ body {
   border-bottom: 1px rgb(96, 96, 96) solid;
   background-color: rgb(199, 186, 186);
   position: fixed;
-  width: 100%;
+  width: 99%;
   top: 0;
 }
 
 #titulo {
   text-align: center;
   color: blueviolet;
+}
+
+#menu {
+  display: block;
+}
+
+#menu ul {
+  padding-left: 31%;
+  margin-bottom: 0;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 2px;
+}
+
+#menu ul li:hover {
+  background-color: thistle;
+}
+
+.menu:hover{
+  background-color: rgb(206, 200, 189);
+}
+
+#apresentacao{
+  background-color: blue;
 }
 
 #minha_foto {
@@ -27,8 +54,6 @@ body {
   margin: auto;
 }
 
-.ladoalado{
+.ladoalado {
   display: inline-block;
 }
-
-
