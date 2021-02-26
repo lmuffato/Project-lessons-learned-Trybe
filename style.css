@@ -9,4 +9,21 @@ body {
 
 #minha_foto {
   width: 300px;
+  margin-top: 40px;
+}
+
+#licoes_aprendidas {
+  background-color: royalblue;
+}
+
+#licoes_aprendidas li:hover {
+  background-color: orchid;
+}
+
+#licoes_a_aprender {
+  background-color: mediumvioletred;
+}
+
+#licoes_a_aprender li:hover {
+  background-color: skyblue;
 }
