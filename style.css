@@ -21,12 +21,14 @@ body {
   position: absolute;
   bottom: 500px;
   right: 350px;
+  top: 40px;
 }
 
 #coisas_que_vou_aprender {
   padding: 10px;
   position: absolute;
-  right: 900px;
+  right: 500px;
   bottom: 500px;
   top: 130px;
+  left: 324px;
 }
