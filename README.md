@@ -131,7 +131,7 @@ Através desta aplicação, será possível realizar a construção de código H
   * Usando o exemplo anterior: `git push -u origin joaozinho-lessons-learned-project`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-010-a-project-lessons-learned/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](git status/sd-010-a-project-lessons-learned/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
