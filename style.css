@@ -20,25 +20,34 @@ table, th, td {
 
 #titulo{
   padding-bottom: 20px;
-  text-align: center;
-}
-
-#minha_foto{
-  width: 720px;} 
-
-#licoes_aprendidas{
-  float: left;
-  text-align: center;
-  margin-right: 300px;
-  margin-left: 300px;}
-
-#licoes_a_aprender{
-  float: right;
-  margin-left: 300px;
-  margin-right: 300px;
   text-align: center;}
 
-#aprendizado{
-  background-color: sienna;
-  margin-top: 50px;
-}  
+#minha_foto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;} 
+
+#laprendidas{
+  margin: auto;
+  padding-left: 33%;
+  float: left;
+}
+#laaprender{
+  margin: auto;
+  padding-right: 33%;
+  float: right;
+}
+
+#aprendendo_na_trybe{
+  margin-top: 300px;
+  text-align: center;
+  width: 30%;
+}
+
+#licoes_aprendidas{
+  text-align: center;
+}
+#licoes_a_aprender{
+  text-align: center;
+}
