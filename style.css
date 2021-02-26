@@ -32,3 +32,9 @@ body {
   top: 130px;
   left: 324px;
 }
+#coisas_aprendidas {
+  color: rgb(196, 0, 137);
+  font-size: 15;
+  font-family: italic;
+  padding: 5px;
+}
