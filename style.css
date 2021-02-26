@@ -20,7 +20,7 @@ h2 , li {
 
 #cabecalho {
   position: fixed;
-  top: 0%;
+  top: 0px;
   height: 50px;
   width: 100%;
   background-color: rgb(8, 28, 21);
