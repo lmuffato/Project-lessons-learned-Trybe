@@ -80,8 +80,11 @@ section {
 }
 
 .lado-direito {
-  display: ;
+  display: inline-block;
   margin-left: 100px;
+  width: 200px;
+  margin-top: 80px;
+  text-align: justify;
 }
 
 span {
@@ -94,4 +97,9 @@ span {
   border: 3px;
   border-color: black;
   border-style:dashed;
+}
+
+td, tr, th{
+  border-color: gray;
+  border-style: dashed;
 }
