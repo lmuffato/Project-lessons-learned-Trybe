@@ -3,41 +3,12 @@ body {
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
-  bottom: 570px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   vertical-align: middle;
-}
-
-#minha_foto {
-  max-width: 400px;
-  max-height: 250px;
-  width: auto;
-  height: auto;
-  margin-top: 90px;
-  margin-left: 100px;
-  border: 2px solid black;
-  border-radius: 40%;
-}
-
-#licoes_aprendidas {
-  margin-top: 20px;
-  margin-left: 100px;
-  font-size: 15px;
-  font-family: monospace;
-  columns: 2;
-  width: 600px;
-}
-
-#licoes_a_aprender {
-  margin-top: 20px;
-  margin-left: 100px;
-  font-size: 15px;
-  font-family: monospace;
-  columns: 2;
-  width: 600px;
-  margin-bottom: 100px;
+  background-color: blue
+  border: 1px solid black;
 }
 
 #rodape {
@@ -46,27 +17,6 @@ body {
   top: auto;
   text-align: center;
   vertical-align: middle;
-}
-
-#link_linkedin {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 20px;
-}
-
-}
-
-#secao {
-  float: left;
-  font-size: 5px;
-  font-family: fantasy;
-  font-weight: 800;
-}
-
-#subtitulo_artigo {
-  font-family: cursive;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 #subtitulo_secao {
@@ -81,17 +31,6 @@ body {
   line-height: 15px;
   font-stretch: normal;
   margin-bottom: 10px;
-
-}
-
-#habilidadesaprendidas {
-  margin-left: 100px;
-  margin-top: 60px;
-}
-
-#habilidadesaprender {
-  margin-left: 100px;
-  margin-top: 40px;
 }
 
 #tabela {
@@ -108,22 +47,42 @@ body {
 
 .box {
   background-color: rgb(236, 236, 236);
-  display: inline-block;
   width: 1300px;
   height: 30px;
   padding: 20px;
 }
 
-#artigo_e_secao {
-  display: flex;
+#artigo {
+  width: 50%;
+  float: left;
+  background-color: rgb(240, 240, 240);
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+  font-weight: 800;
 }
 
-#artigos {
+#secao {
+  width: 50%;
   float: right;
   background-color: rgb(240, 240, 240);
-  border-radius: 2%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 800;
+}
+
+#box2 {
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+}
+
+#lista {
+  display: block;
+}
+
+#foto {
+  width: 20%;
+  border-radius: 15%;
+  border: 2px solid black;
 }
