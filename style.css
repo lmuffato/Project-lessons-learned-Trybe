@@ -3,7 +3,7 @@ body {
 
 }
 
-h2, li {
+h2 , li {
   color: rgb(8, 28, 21);
 }
 
@@ -19,163 +19,165 @@ h2, li {
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0%;
-    height: 50px;
-    width: 100%;
-    background-color: rgb(8, 28, 21);
-    margin-left: -8px;
-    margin-right: 10px;
-    z-index: 2;
-    font-family: 'RocknRoll One', sans-serif;
+  position: fixed;
+  top: 0%;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(8, 28, 21);
+  margin-left: -8px;
+  margin-right: 10px;
+  z-index: 2;
+  font-family: RocknRoll One, sans-serif;
 
 }
 
 #titulo {
-    font-family: serif;
-    position: absolute;
-    float: left;
-    top: 30px;
-    width: 400px;
-    height: 300px;
-    z-index: 1;
-    color: rgb(253, 251, 251);
-    margin-top: 30px;
-    margin-left: 50px;
-    font-size: 70px;
-    font-style: italic;
-    text-align: left;
+  font-family: serif;
+  position: absolute;
+  float: left;
+  top: 30px;
+  width: 400px;
+  height: 300px;
+  z-index: 1;
+  color: rgb(253, 251, 251);
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 70px;
+  font-style: italic;
+  text-align: left;
 }
 
 .links {
-    display: inline-block;
-    text-align: center;
-    position: center;
-    padding-left: 12%;
-    padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  position: center;
+  padding-left: 12%;
+  padding-top: 10px;
 }
 
 a:link {
-    color: rgb(253, 251, 251);
-    text-decoration: none;
+  color: rgb(253, 251, 251);
+  text-decoration: none;
 }
 
 a:visited {
-    color: rgb(82, 183, 136);
-    text-decoration: none;
+  color: rgb(82, 183, 136);
+  text-decoration: none;
 }
 
 #blackBox {
-    background-color: rgb(27, 67, 50);
-    position: relative;
-    width: 50%;
-    height: 615px;
-    margin-bottom: 00px;
-    z-index: 1;
-    margin-left: -10px;
+  background-color: rgb(27, 67, 50);
+  position: relative;
+  width: 50%;
+  height: 615px;
+  margin-bottom: 0;
+  z-index: 1;
+  margin-left: -10px;
 }
 
 #black {
-    color: rgb(27, 67, 50);
+  color: rgb(27, 67, 50);
 }
 
 #minha_foto {
-    border-color: rgb(27, 67, 50);
-    border-style: solid;
-    border-width: 10px;
-    width: 275px;
-    margin-left: 60%;
-    margin-top: -40%;
-    margin-bottom: 100px;
+  border-color: rgb(27, 67, 50);
+  border-style: solid;
+  border-width: 10px;
+  width: 275px;
+  margin-left: 60%;
+  margin-top: -40%;
+  margin-bottom: 100px;
 
 }
 
 #licoes_aprendidas {
-    font-family: 'RocknRoll One', sans-serif;
+  font-family: RocknRoll One, sans-serif;
 
 }
 
 #licoes_a_aprender {
-    font-family: 'RocknRoll One', sans-serif;
+  font-family: RocknRoll One, sans-serif;
 }
 
 #lista_ordenada {
-    /* background-color: magenta; */
-    float: left;
-    width: 40%;
-    height: 350px;
-    margin-left: 70px;
-    text-align: center;
-    border-style: solid;
-    border-width: 15px;
-    border-color: rgb(27, 67, 50);
+
+  /* background-color: magenta; */
+  float: left;
+  width: 40%;
+  height: 350px;
+  margin-left: 70px;
+  text-align: center;
+  border-style: solid;
+  border-width: 15px;
+  border-color: rgb(27, 67, 50);
 
 }
 
 #lista_nao_ordenada {
-    /* background-color: green; */
-    width: 40%;
-    height: 350px;
-    float: right;
-    margin-right: 70px;
-    text-align: center;;
-    border-style: solid;
-    border-width: 15px;
-    border-color: rgb(27, 67, 50)
+
+  /* background-color: green; */
+  width: 40%;
+  height: 350px;
+  float: right;
+  margin-right: 70px;
+  text-align: center;
+  border-style: solid;
+  border-width: 15px;
+  border-color: rgb(27, 67, 50);
 
 }
 
 .lado-esquerdo {
-    float: left;
-    border-color: rgb(27, 67, 50);
-    border-style: solid;
-    border-width: 15px;
-    width: 495px;
-    height: 250px;
-    font-family: 'RocknRoll One', sans-serif;
-    margin-left: 70px;
-    margin-top: 40px;
-    word-spacing: 5px;
-    text-align: center; 
-    padding: 0px 20px 0px 20px; 
+  float: left;
+  border-color: rgb(27, 67, 50);
+  border-style: solid;
+  border-width: 15px;
+  width: 495px;
+  height: 250px;
+  font-family: RocknRoll One, sans-serif;
+  margin-left: 70px;
+  margin-top: 40px;
+  word-spacing: 5px;
+  text-align: center;
+  padding: 0 20px;
 
 }
 
 .lado-direito {
-    float: right;
-    width: 495px;
-    height: 248px;
-    border-color: rgb(27, 67, 50);
-    border-style: solid;
-    border-width: 15px;
-    font-family: 'RocknRoll One', sans-serif;
-    margin-top: 40px;
-    margin-right: 70px;
-    word-spacing: 5px;
-    padding: 0px 20px 0px 20px;
+  float: right;
+  width: 495px;
+  height: 248px;
+  border-color: rgb(27, 67, 50);
+  border-style: solid;
+  border-width: 15px;
+  font-family: RocknRoll One, sans-serif;
+  margin-top: 40px;
+  margin-right: 70px;
+  word-spacing: 5px;
+  padding: 0 20px;
 }
 
-    #rodape {
-    background-color: rgb(27, 67, 50);
-    color: rgb(253, 251, 251);;
-    position: absolute;
-    z-index: 1;
-    border-width: 10px;
-    width: 100%;
-    margin-top: 65%;
-    padding-left: 20px;
-    font-family: 'RocknRoll One', sans-serif;
+#rodape {
+  background-color: rgb(27, 67, 50);
+  color: rgb(253, 251, 251);
+  position: absolute;
+  z-index: 1;
+  border-width: 10px;
+  width: 100%;
+  margin-top: 65%;
+  padding-left: 20px;
+  font-family: RocknRoll One, sans-serif;
 }
 
-    #asteriscos {
-    color: rgb(27, 67, 50);
-    float: right;
-    margin-right: 50px;
-    margin-top: -100%;
-    padding: 100px 50px 100px 20px;
-    position: relative;
-    font-size: 100px;
-    font-family: 'RocknRoll One', sans-serif;
+#asteriscos {
+  color: rgb(27, 67, 50);
+  float: right;
+  margin-right: 50px;
+  margin-top: -100%;
+  padding: 100px 50px 100px 20px;
+  position: relative;
+  font-size: 100px;
+  font-family: RocknRoll One, sans-serif;
 
 }
 
