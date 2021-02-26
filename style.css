@@ -24,18 +24,18 @@ h3 {
   font-family: Times New Roman, Times, serif;
 }
 
-p {
-  font-family: Times New Roman, Times, serif;
-}
-
 #minha_foto {
   width: 206px;
   position: absolute;
   left: 990px;
+  border-radius: 100%;
 }
 
 footer {
-  text-align: right;
+  text-align: center;
+  background-color: gray;
+  width: 100%;
+  padding: 10px;
 }
 
 #social_media {
