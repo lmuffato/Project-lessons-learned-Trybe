@@ -1,4 +1,4 @@
-* {
+/* * {
   display: flexbox;
   margin: 0;
   padding: 0;
@@ -6,14 +6,14 @@
   font-family: monospace;
   font-size: 100%;
   color: rgb(43, 43, 43);
-}
+} */
 
 body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   padding-top: 20px;
   display: flex;
   background-color: rgb(43, 226, 119);
@@ -40,7 +40,7 @@ body {
 
 #minha_foto {
   position: absolute;
-  top: 130px;
+  top: 150px;
   left: 35px;
   width: 100px;
   border-radius: 30%;
@@ -48,7 +48,7 @@ body {
 
 #licoes_aprendidas {
   position: absolute;
-  top: 320px;
+  top: 300px;
   left: 90px;
 }
 
@@ -58,8 +58,8 @@ li:hover {
 
 #licoes_a_aprender {
   position: absolute;
-  top: 320px;
-  left: 270px;
+  top: 300px;
+  left: 300px;
 }
 
 #rodape {
