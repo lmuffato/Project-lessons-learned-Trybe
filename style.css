@@ -45,6 +45,7 @@ body {
   display: inline-block;
 }
 
-#artigos ul li {
+.artigo-e-aside {
   display: inline-block;
-  }
+  width: 600px;
+}
