@@ -3,74 +3,55 @@ body {
 }
 
 #cabecalho {
+  width: 1275px;
+  height: auto;
   position: fixed;
-  top: 0;
-  bottom: 570px;
-  background-color: rgb(200, 224, 233);
+  margin-top: 0;
+  border: 2px solid black;
+  background-color: rgb(236, 236, 236);
   text-align: center;
+<<<<<<< HEAD
   vertical-align: middle;
   border: 1px solid black;
   width: 1300px;
+=======
+>>>>>>> 50a5e78dffbc7ae4e90c0749a41c466e8eefb5e8
 }
 
-#minha_foto {
-  max-width: 400px;
-  max-height: 250px;
-  width: auto;
-  height: auto;
-  margin-top: 90px;
-  margin-left: 100px;
+#foto {
+  width: 20%;
+  border-radius: 15%;
   border: 2px solid black;
-  border-radius: 35%;
 }
 
 #licoes_aprendidas {
-  margin-top: 20px;
-  margin-left: 100px;
-  font-size: 20px;
-  font-family: monospace;
-  columns: 2;
-  width: 600px;
+  width: 50%;
+  border: 1px solid black;
 }
 
 #licoes_a_aprender {
-  margin-top: 20px;
-  margin-left: 100px;
-  font-size: 20px;
-  font-family: monospace;
-  columns: 2;
-  width: 600px;
-  margin-bottom: 100px;
-}
-
-#rodape {
-  height: 40px;
-  bottom: 0;
-  top: auto;
-  background-color: rgb(200, 224, 233);
-  text-align: center;
-  vertical-align: middle;
+  width: 50%;
   border: 1px solid black;
-  margin-top: 50px;
 }
 
-#link_linkedin {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 20px;
-}
-
+<<<<<<< HEAD
 article p {
   font-weight: 200;
   font-family: cursive;
   font-style: italic;
   word-spacing: 1px;
+=======
+#rodape {
+  border: 2px solid black;
+  background-color: rgb(236, 236, 236);
+  padding: auto;
+>>>>>>> 50a5e78dffbc7ae4e90c0749a41c466e8eefb5e8
 }
 
-#secao {
-  font-weight: 200;
-  font-family: cursive;
+#titulo {
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
+<<<<<<< HEAD
   word-spacing: 1px;
 }
 
@@ -78,30 +59,36 @@ article p {
   font-family: cursive;
   text-align: center;
   margin-bottom: 20px;
+=======
+  font-weight: 800;
+  color: rgb(58, 136, 226);
+  font-size: 30px;
+>>>>>>> 50a5e78dffbc7ae4e90c0749a41c466e8eefb5e8
 }
 
-#subtitulo_secao {
-  font-family: cursive;
-  margin-left: 400px;
-  margin-bottom: 20px;
+#artigo_e_secao {
+  display: flex;
+  float: right;
 }
 
+<<<<<<< HEAD
 #titulo {
   margin-top: 17px;
   font-family: cursive;
   color: blue;
+=======
+#artigo {
+  float: left;
+  display: block;
+>>>>>>> 50a5e78dffbc7ae4e90c0749a41c466e8eefb5e8
 }
 
-#habilidadesaprendidas {
+#secao {
+  display: block;
   margin-left: 100px;
-  margin-top: 60px;
 }
 
-#habilidadesaprender {
-  margin-left: 100px;
-  margin-top: 40px;
-}
-
+<<<<<<< HEAD
 #tabela {
   font-family: monospace;
   font-size: 20px;
@@ -134,3 +121,8 @@ article p {
 .lado-esquerdo {
   float: left;
 }
+=======
+#listas {
+  display: flex;
+} 
+>>>>>>> 50a5e78dffbc7ae4e90c0749a41c466e8eefb5e8
