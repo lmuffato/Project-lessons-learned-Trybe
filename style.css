@@ -65,6 +65,15 @@ div {
   padding: 15px;
 }
 
+table {
+  background-color: rgb(163, 39, 97);
+  color: rgb(59, 175, 160);
+  line-height: 20px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
 footer {
   position: fixed;
   bottom: 0;
