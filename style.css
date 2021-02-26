@@ -5,10 +5,13 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 main {
   padding: 50px;
+  width: 80%;
 }
 
 #cabecalho {
@@ -19,9 +22,10 @@ main {
 }
 
 #nav_capa {
-  background-image: url(capatrybe.jpeg);
-  padding: 120px;
+  background-image: url("capatrybe.jpeg");
+  padding: 50px;
 }
+
 #titulo {
   font-size: 30px;
   background-color: green;
@@ -30,23 +34,29 @@ main {
 }
 
 #nav_header {
-  margin-top: 150px;
-  margin-left: 70%;
+  margin-top: 230px;
+  text-align: center;
 }
 
 #nav_capa a {
   text-decoration: none;
+  text-transform: uppercase;
+  background: rgba(209, 246, 250, 0.4);
   color: aliceblue;
-  font-size: 25px;
+  font-size: 20px;
   border: solid 2px aliceblue;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
-#minha_foto {
+#nav_capa a:hover {
+  background: rgba(209, 246, 250, 0.8);
+}
+
+  #minha_foto {
   width: 200px;
   margin: 30px;
-  margin-top: -180px;
+  margin-top: -200px;
   border-radius: 100%;
 }
 
@@ -95,6 +105,7 @@ h3 {
 
 table {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(209, 246, 250);
   text-align: center;
   border-collapse: collapse;
   width: 80%;
@@ -103,7 +114,7 @@ table {
 
 #table_title {
   font-size: 25px;
-  padding-bottom: 5px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -111,4 +122,28 @@ td , th {
   border: solid 2px black;
   padding: 8px;
   font-size: 20px;
+}
+
+#article_aside {
+  width: 550px;
+  margin: 50px;
+  position: static;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  left: 50px;
+  width: 550px;
+}
+
+.lado-direito {
+  position: absolute;
+  width: 200px;
+  right: 80px;
+}
+
+footer {
+  padding: 10px;
+  background: rgba(209, 246, 250, 0.8);
+  text-align: center;
 }
