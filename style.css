@@ -23,6 +23,16 @@
         right: 0;
         top: 5px;
     }
+    nav {
+        position: fixed;
+        width: 99%;
+        padding: 3px;
+        background-color: rgb(255, 167, 66);
+        color:  rgb(114, 38, 122);
+        top: 140px;
+        text-align: right;
+        font-size: 12px;
+    }
     section{
         display: inline-block;
         width: 600px;
