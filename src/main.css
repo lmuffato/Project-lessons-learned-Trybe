@@ -7,8 +7,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 h1 {
-    font-size: 30px;
+  font-size: 30px;
   font-family: "Noto Sans JP", sans-serif;
+  line-height: 20px;
+  word-spacing: 20px;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -23,6 +25,9 @@ a {
   font-family: "Nunito Sans", sans-serif;
 }
 a {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 20px;
+  word-spacing: 30px;
   text-decoration: none;
 }
 ul{
