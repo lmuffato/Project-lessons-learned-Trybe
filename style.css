@@ -33,6 +33,17 @@ main {
   color: aliceblue;
 }
 
+#pag_profession a {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: oblique;
+  background-color: blue;
+  color: aliceblue;
+  border: solid 2px blue;
+  border-radius: 20px;
+  padding: 5px;
+}
+
 #nav_header {
   margin-top: 230px;
   text-align: center;
@@ -53,7 +64,7 @@ main {
   background: rgba(209, 246, 250, 0.8);
 }
 
-  #minha_foto {
+#minha_foto {
   width: 200px;
   margin: 30px;
   margin-top: -200px;
@@ -75,17 +86,6 @@ main {
 
 #city {
   padding-bottom: 25px;
-}
-
-#pag_profession a {
-  text-decoration: none;
-  font-size: 20px;
-  font-style: oblique;
-  background-color: blue;
-  color: aliceblue;
-  border: solid 2px blue;
-  border-radius: 20px;
-  padding: 5px;
 }
 
 #list_ok , #list_tolearn {
@@ -126,7 +126,7 @@ td , th {
 
 #article_aside {
   width: 550px;
-  margin: 50px;
+  margin: 50px 50px 300px 50px;
   position: static;
 }
 
