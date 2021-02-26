@@ -75,3 +75,39 @@ header a {
   border-radius: 20px;
   padding: 5px;
 }
+
+#list_ok, #list_tolearn {
+  width: 400px;
+  height: 350px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#list_ok li, #list_tolearn li {
+  font-size: 20px; ;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
+  text-align: center;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+#table_title {
+  font-size: 25px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+td, th {
+  border: solid 2px black;
+  padding: 8px;
+  font-size: 20px;
+}
