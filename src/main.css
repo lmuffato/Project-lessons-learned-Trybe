@@ -14,6 +14,9 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-style: bold;
+  color:darkslategray;
+  line-height: 20px;
+  font-size:24px;
 }
 p,
 a {
@@ -53,6 +56,11 @@ header {
   display: flex block;
   width: 300px;
   z-index: 1;
+  
+}
+#minha_foto{
+  padding:10px 10px 10px 10px;
+  border: 2px dashed darkslategray;
 }
 #photo-name img {
   width: 300px;
@@ -113,48 +121,78 @@ header {
 }
 #lista-lessons {
   margin-top: 10px;
+  border-left: 2px dashed #32a791;
+  border-right: 2px dashed #32a791;
 }
 #lista-lessons h2 {
   margin-top: 30px;
 }
-#lista-lessons ol,
-ul {
+#lista-lessons ol,ul {
   margin: 20px 0px 0px 85px;
 }
-#art_ap {
-  max-width: 30%;
-  margin: 0px 200px 10px 10px;
-  line-height: 25px;
+#lista-lessons li{
+  margin-right: 30px;
 }
-#art_ap h1 {
+table{
+  margin-left:70px
+}
+th,td{
   text-align: center;
-  margin-bottom: 10px;
 }
-#art_ap p {
+table,th,td{
+  border: 1px solid darkslategray;
+}
+.lado-esquerdo,.lado-direito {
+  display:inline-block;
+  max-width: 100%;
+}
+.lado-esquerdo {
+  max-width: 50%;
+}
+.lado-esquerdo article{
+  text-align: initial;
+  min-width:70%;
+  margin-left:20px;  
+}
+.lado-esquerdo h1 {
+  text-align: center;
+  margin: 0px 0px 10px 10px
+}
+.lado-esquerdo p {
   margin-left: 10px;
   text-align: justify;
   word-spacing: 2px;
 }
-#last div,article{
-  display: inline-block;
+.lado-esquerdo span{
+  padding-top:170px;
+  border-left: 2px solid #32a791;
+  margin-right: 10px;
 }
-#passage {
+
+.lado-direito div{
+  display: block;
+}
+.lado-direito aside{
+  text-align: center;
+  max-width:708px;
+  padding-bottom: 10px;
+}
+
+.lado-direito {
+  text-align: end;
   background-color: black;
   color: whitesmoke;
-  max-width: 33%;
-  margin-left:313px;
-  padding-bottom: 15px;
-  padding-top:10px;
 }
-#passage h2 {
-  font-size: 17px;
+.lado-direito h2 {
+  margin-top: 10px;
   text-align: center;
+  color: azure;
 }
-#passage p {
-  margin-top: 5px;
+.lado-direito p {
   font-size: 13px;
-  text-align: initial;
-  margin-left: 25px;
+  text-align:center;
+  margin: 10px 15px 0px 15px;
+  
 }
 footer {
   background-color: black;
