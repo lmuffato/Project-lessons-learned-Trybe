@@ -12,28 +12,30 @@ main {
 }
 
 #cabecalho {
-  padding: 70px;
-  background-image: url(capatrybe.jpeg);
   background-position: center;
   text-align: center;
+  position: fixed;
   top: 0;
 }
 
+#nav_capa {
+  background-image: url(capatrybe.jpeg);
+  padding: 120px;
+}
 #titulo {
-  padding: 10px;
-  font-size: 60px;
+  font-size: 30px;
+  background-color: green;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
 }
 
 #nav_header {
-  margin-top: 80px;
-  margin-left: 80%;
+  margin-top: 150px;
+  margin-left: 70%;
 }
 
-header a {
+#nav_capa a {
   text-decoration: none;
-  letter-spacing: 0,5px;
   color: aliceblue;
   font-size: 25px;
   border: solid 2px aliceblue;
