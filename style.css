@@ -12,6 +12,8 @@ body {
 #minha_foto {
   margin-top: 140px;
   width: 450px;
+  border-radius: 50%;
+  border-style: dashed;
 }
 
 .listas {
@@ -30,6 +32,7 @@ body {
   top: 119px;
   left: 480px;
   right: 250px;
+  color: rgb(32, 32, 32);
 }
 
 #experiencia {
@@ -40,6 +43,7 @@ body {
   bottom: 205px;
   margin-left: 730px;
   margin-right: 20px;
+  color:rgb(32, 32, 32);
 }
 
 footer {
