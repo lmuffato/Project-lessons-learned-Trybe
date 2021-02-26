@@ -19,18 +19,18 @@ body {
   display: block;
 }
 
-#menu ul {
+#menu {
   padding-left: 31%;
   margin-bottom: 0;
 }
 
-#menu ul li {
+#menu li {
   display: inline-block;
   margin: 10px;
   padding: 2px;
 }
 
-#menu ul li:hover {
+#menu li:hover {
   background-color: thistle;
 }
 
@@ -56,4 +56,9 @@ body {
 
 .ladoalado {
   display: inline-block;
+}
+
+article {
+  width: 90%;
+  background-color: teal;
 }
