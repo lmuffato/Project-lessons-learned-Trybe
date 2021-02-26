@@ -29,57 +29,66 @@
             <img id="minha_foto" src="images/downAndre.jpg" alt="Andre (I) going down the river in a bicicle">
         </section>
 
-        <section >
-            <h2>Lições Aprendidas</h2>
-            <ol id="licoes_aprendidas">
-                <li>Unix & Bash</li>
-                <li>Shell Scripts</li>
-                <li>Git & Github</li>
-                <li>Slack & Zoom</li>
-                <li>SoftSkills</li>
-                <li>VSCode</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Semantic HTML</li>
-                <li>Cypress & StyleLint</li>
-            </ol>
+        <section id="licoes">
+            <section id="licoesAp">
+                <h2>Lições Aprendidas</h2>
+                <ol id="licoes_aprendidas">
+                    <li>Unix & Bash</li>
+                    <li>Shell Scripts</li>
+                    <li>Git & Github</li>
+                    <li>Slack & Zoom</li>
+                    <li>SoftSkills</li>
+                    <li>VSCode</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Semantic HTML</li>
+                    <li>Cypress & StyleLint</li>
+                </ol>
+            </section>
+    
+            <section id="licoesAap">
+                <h2>Lições a Aprender</h2>
+                <ul id="licoes_a_aprender">
+                    <li>Javascript</li>
+                    <li>DOM</li>
+                    <li>ES6</li>
+                    <li>CSS Responsive</li>
+                    <li>Import UI/UX Projects</li>
+                    <li>Unit Tests</li>
+                    <li>Node.js</li>
+                    <li>SQL</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                </ul>
+            </section>
         </section>
 
-        <section >
-            <h2>Lições a Aprender</h2>
-            <ul id="licoes_a_aprender">
-                <li>Javascript</li>
-                <li>DOM</li>
-                <li>ES6</li>
-                <li>CSS Responsive</li>
-                <li>Import UI/UX Projects</li>
-                <li>Unit Tests</li>
-                <li>Node.js</li>
-                <li>SQL</li>
-                <li>React</li>
-                <li>Redux</li>
-            </ul>
-        </section>
-
-        <section id="articles">
-            <article>
-                <h2>Aprendizado Sustentável</h2>
-                <p>
-                    É com esse título que caracterizo como me sinto ao longo deste primeiro mês na Trybe. Nós no deparamos com conteudos novos, exploramos, revisamos e depois sintetizamos ao longo de exercícios e projetos. Além das plataformas como o site e o Slack da Trybe, temos também a ajuda de funcionários e colegas, tanto na resolução de problemas durante o desenvolvimento como na revisão dos nosso códigos. Não precisa nem citar o networking gigantesco que isso proporciona, afinal somos <p class="trybe">Trybe</p>.
-                </p>
-            </article>
-        </section>
-
-        <section id="aside-article">
-            <aside>
+        <h2>Aprendizado Sustentável</h2>
+        <section id="artigos">
+            <section id="articles" class="lado-esquerdo">
+                <article>
                     <p>
-                        Já foram produzidos vários conteudos no curso Trybe. Temos o <a href="https://github.com/andrejaques/Trybe/tree/main/Block%2003%20-%20Introduction%20to%20HTML%20and%20CSS/firstHTML">site introducao ao html</a> e o <a href="https://github.com/andrejaques/Stomatopoda-Website-Trybe">site sobre o curioso animal Stomatopoda</a>.
+                        É com esse título que caracterizo como me sinto ao longo deste primeiro mês na Trybe. Nós no deparamos com conteudos novos, exploramos, revisamos e depois sintetizamos ao longo de exercícios e projetos. Além das plataformas como o site e o Slack da Trybe, temos também a ajuda de funcionários e colegas, tanto na resolução de problemas durante o desenvolvimento como na revisão dos nosso códigos. Não precisa nem citar o networking gigantesco que isso proporciona, afinal somos <p class="trybe">Trybe</p>.
                     </p>
-            </aside>
+                </article>
+            </section>
+    
+            <section id="aside-article" class="lado-direito">
+                <aside>
+                        <p>
+                            Já foram produzidos vários conteudos no curso Trybe. Temos: 
+                            <ul>
+                                <li><a href="https://github.com/andrejaques/Trybe/tree/main/Block%2003%20-%20Introduction%20to%20HTML%20and%20CSS/firstHTML">O site Introducao ao HTML</a></li>
+                                <li><a href="https://github.com/andrejaques/Stomatopoda-Website-Trybe">site sobre o curioso animal Stomatopoda</a>.</li>
+                            </ul>
+                            
+                        </p>
+                </aside>
+            </section>
         </section>
 
         <section id="tableContainner">
-            <table>
+            <table class="table">
                 <caption>Principais Conteudos Front-End</caption>
                 <tr>
                     <th>HTML</th>
@@ -106,7 +115,7 @@
     </main>
 
     <footer id="rodape">                   <!--- --- footer --- --->
-        <p>Website feito por André Jaques Batista</p>
+        <p>Website feito por <a href="https://github.com/andrejaques">André Jaques</a></p>
     </footer>
 </body>
 </html>
