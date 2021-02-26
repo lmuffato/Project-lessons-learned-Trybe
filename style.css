@@ -7,14 +7,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #036b52;
+  background-color: rgb(33, 107, 83);
   z-index: 999;
   width: 100%;
   color: white;
   margin: 0;
   left: 0;
   padding: 7px;
-  border-bottom: 7px solid #2fc18c;
+  border-bottom: 4px solid rgb(68, 192, 140)
 }
 
 #apresentacao {
@@ -97,14 +97,14 @@ table , th , td {
 #Sec-rodape {
   position: absolute;
   top: 1410px;
-  background-color: #036b52;
+  background-color: rgb(33, 107, 83);
   z-index: 999;
   width: 100%;
   color: white;
   margin: 0;
   left: 0;
   padding: 7px;
-  border-bottom: 4px solid #2fc18c;
+  border-bottom: 4px solid rgb(68, 192, 140)
 }
 
 #linkedin {
@@ -123,5 +123,5 @@ a {
 }
 
 a:hover {
-  font-weight: bold;
+  font-weight: 900;
 }
