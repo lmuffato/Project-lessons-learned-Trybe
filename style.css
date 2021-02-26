@@ -3,9 +3,11 @@ body {
 }
 
 #cabecalho {
-  top: '0px';
+  position: fixed;
+  top: 0;
   background-color: rgb(70, 13, 85);
   height: 90px;
+  width: 100%;
   margin-left: -8px;
   margin-right: -8px;
   margin-top: -21px;
@@ -25,6 +27,7 @@ body {
 }
 
 #list {
+  top: 80px;
   position: relative;
   float: left;
   margin: 30px;
@@ -59,8 +62,9 @@ body {
 
 #links {
   position: absolute;
-  top: 600px;
-  left: 520px;
+  top: 550px;
+  left: 550px;
+  text-align: center;
 }
 
 #rodape {
