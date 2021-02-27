@@ -3,6 +3,10 @@ body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 td, footer nav, #intro, .lado-direito, .lado-esquerdo {
   padding: 10px;
 }
@@ -35,6 +39,7 @@ footer {
   padding: 10px;
   right: 0;
   bottom: 0;
+  background-color: violet;
 }
 
 #cabecalho {
