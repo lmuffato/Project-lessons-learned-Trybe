@@ -3,12 +3,12 @@
   top: 0;
   width: 99%;
   height: 100px;
-  background-color:rgb(57,111,80);
+  background-color: rgb(57, 111, 80);
   border-bottom: 10px solid rgb(105, 195, 141);
 }
 
 #titulo {
-  font-family: 'RobotoLight', sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 100;
   text-align: center;
   color: white;
@@ -17,9 +17,8 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
-
 
 #minha_foto {
   display: block;
@@ -30,4 +29,9 @@ body {
 
 #licoes_aprendidas {
   margin-top: 20px;
+  line-height: 180%;
+}
+
+#licoes_a_aprender {
+  line-height: 180%;
 }
