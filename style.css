@@ -115,8 +115,14 @@ nav ul li a {
   justify-content: center;
 }
 
+#contacts {
+  padding: 20px 30px;
+  margin-top: 90px;
+}
+
 #contacts div {
   display: inline-block;
+  padding: 0 30px;
 }
 
 #lessons-learned div:nth-of-type( 1 ) , #lessons-learned div:nth-of-type( 2 ) {
@@ -128,6 +134,28 @@ nav ul li a {
   width: 70px;
 }
 
+#rodape p {
+  color: white;
+  text-align: center;
+}
+
 #contacts div:nth-of-type( 2 ) p {
   display: inline;
+  margin-right: 35px;
+}
+
+#contacts a {
+  filter: invert(29%) sepia(12%) saturate(2544%) hue-rotate(251deg)
+    brightness(94%) contrast(86%);
+}
+
+#rodape {
+  margin-top: 90px;
+  background-color: rgb(70, 36, 70);
+  padding: 20px 30px;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: white;
 }
