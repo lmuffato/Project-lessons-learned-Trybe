@@ -111,4 +111,11 @@ nav ul li a {
 
 #lessons-learned {
   clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+#lessons-learned div:nth-of-type( 1 ) , #lessons-learned div:nth-of-type( 2 ) {
+  display: inline-block;
+  width: 500px;
 }
