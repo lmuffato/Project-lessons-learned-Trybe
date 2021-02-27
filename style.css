@@ -1,51 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Ubuntu:wght@300&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Ubuntu', sans-serif;
   margin: 0px;
+  padding: 0px;
 }
 
 #cabecalho {
-  background-color: green;
-  color: white;
-  margin: 0px;
+  background-color: rgb(67, 170, 139);
+  color: rgb(247, 186, 0);
   position: fixed;
   width: 100%;
-  z-index: 99;
 }
 
 #titulo {
   text-align: center;
-  margin: 0px;
   padding-top: 20px;
 }
 
-#linksInternos ul li {
+#linksInternos li {
   display: inline-block;
   padding-right: 20px;
 }
 
-#linksInternos ul li a {
+#linksInternos a {
   color: white;
   text-decoration: none;
 }
 
+#linksInternos a:hover {
+  color: rgb(249, 132, 74);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
 #minha_foto {
   width: 200px;
-  margin-top: 100px;
-  border-radius: 50%;
+  margin-top: 50px;
+  border-radius: 25%;
+  padding-bottom: 30px;
 }
 
-#foto-e-sobre-mim span {
-  position: absolute;
-  float: left;
-  top: 200px;
-  left: 300px;
+#foto-e-sobre-mim {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(249, 132, 74);
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
-.licoes span {
+#foto-e-sobre-mim h1 {
+  padding-top: 200px;
+}
+
+#licoes-aprendidas-e-aprender {
+  background-color: rgb(255, 99, 71);
+  color: rgb(255, 255, 255);
+}
+
+.licoes-aprendidas-e-aprender p {
+  font-weight: bolder;
+}
+
+.licoes_aprendidas, .licoes_a_aprender {
+  font-size: 20px;
+  font-weight: 500;
   display: inline-block;
+  width: 372px;
+  margin-top: 0px;
+  padding-left: 250px;
+  padding-top: 80px;
+  height: 460px;
 }
 
-.artigo-e-aside {
+ #lados {
+  background-color: rgb(0, 128, 128);
+  color: rgb(247, 186, 0);
+ }
+
+.lado-esquerdo, .lado-direito {
+  font-size: 16px;
+  font-weight: bold;
   display: inline-block;
-  width: 600px;
+  width: 270px;
+  height: 165px;
+  padding: 200px;
+  padding-top: 50px;
+}
+
+.lado-direito p {
+  padding-top: -20px;
+}
+
+#tabela {
+  background-color: rgb(247, 186, 0);
+  color: rgb(0, 128, 128);
+  font-weight: bolder;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#tabela #titulo {
+  padding-right: 450px;
+  color: rgb(255, 255, 255);
+}
+
+#tabela #td {
+  padding-left: 900px;
+}
+
+#tabela #th {
+  padding-left: 350px;
+}
+
+#rodape {
+  text-align: center;
+  background-color: rgb(87, 117, 144);
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#rodape li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: rgb(247, 186, 0);
+}
+
+#rodape a:hover {
+  text-decoration: none;
+  color: rgb(247, 186, 0);
+  font-size: 20px;
+}
+
+#rodape p {
+  margin: 0px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
 }
