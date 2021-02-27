@@ -1,5 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td, footer nav, #intro, .lado-direito, .lado-esquerdo {
+  padding: 10px;
 }
 
 main {
@@ -19,16 +24,15 @@ table {
   border-collapse: collapse;
 }
 
-td {
-   padding: 10px;
-}
-
 ul, ol {
   padding: 0 0 0 30px;
 }
 
 footer {
-  position: absolute;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
   right: 0;
   bottom: 0;
 }
@@ -58,7 +62,6 @@ footer {
 #intro {
   display: flex;
   justify-content: space-evenly;
-  padding: 10px;
 }
 
 #minha_foto {
@@ -66,17 +69,20 @@ footer {
   border-radius: 100%;
 }
 .lado-esquerdo {
-  float: left;
-  padding: 10px;
   width: 60%;
+  display: inline-block;
 }
 
 .lado-direito {
-  float: right;
-  padding: 10px;
   width: 30%;
+  float: right;
 }
 
 .lado-direito, .lado-esquerdo {
   text-align: justify;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
 }
