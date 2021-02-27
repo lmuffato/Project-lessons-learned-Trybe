@@ -2,8 +2,11 @@ body{
     background-color: rgb(253, 251, 251);
 }
 header{
-    background-color: rgb(31, 84, 125); padding: 100px; top: 0px;
+    background-color: rgb(31, 84, 125); width: 100% ; top: 0px; position: fixed;
 }
 #titulo{
-    color: rgb(253, 251, 251);
+    color: rgb(253, 251, 251); text-align: center;
+}
+#minha_foto{
+
 }
