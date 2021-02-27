@@ -1,3 +1,24 @@
 body{
-background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
+}
+#cabecaho{
+    top: 0;
+    background-color: seagreen;
+}
+
+#titulo {
+
+}
+
+#minha_foto {
+    width: 200px;
+    alt="Foto perfil Samuel"
+}
+
+#licoes_aprendidas{
+
+}
+
+#licoes_a_aprender{
+
 }
