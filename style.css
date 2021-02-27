@@ -1,26 +1,26 @@
-body{
-    margin-top: 150px;
-    background-color: rgb(253, 251, 251);
-    font-family: verdana, Verdana, sans-serif;
+body {
+        margin-top: 150px;
+        background-color: rgb(253, 251, 251);
+        font-family: verdana, Verdana, sans-serif;
 }
-#cabecalho{
-    position: fixed;
-    top: 0px;
-    background-color: seagreen;
+#cabecalho {
+        position: fixed;
+        top: 0;
+        background-color: seagreen;
 }
 
 #titulo {
-
+/**/
 }
 
 #minha_foto {
-    width: 200px;
+        width: 200px;
 }
 
-#licoes_aprendidas{
-
+#licoes_aprendidas {
+/**/
 }
 
-#licoes_a_aprender{
-
+#licoes_a_aprender {
+/**/
 }
