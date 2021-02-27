@@ -25,10 +25,13 @@ body {
 }
 
 #licoes_aprendidas {
+<<<<<<< HEAD
   width: 50%;
 <<<<<<< HEAD
   border: 1px solid black;
 =======
+=======
+>>>>>>> repara minha gitpullrebase
   margin-top: 20px;
   margin-left: 100px;
   font-size: 20px;
@@ -39,9 +42,12 @@ body {
 }
 
 #licoes_a_aprender {
+<<<<<<< HEAD
   width: 50%;
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> repara minha gitpullrebase
   margin-top: 20px;
   margin-left: 100px;
   font-size: 20px;
@@ -103,12 +109,16 @@ article p {
 #titulo {
   margin-top: 17px;
   font-family: cursive;
+<<<<<<< HEAD
   color: blue;
 =======
 #artigo {
   float: left;
   display: block;
 >>>>>>> 50a5e78dffbc7ae4e90c0749a41c466e8eefb5e8
+=======
+  color: red;
+>>>>>>> repara minha gitpullrebase
 }
 
 #secao {
@@ -137,6 +147,7 @@ article p {
   padding: 20px;
 }
 
+<<<<<<< HEAD
 #artigo_e_secao {
   display: flex;
 }
@@ -154,3 +165,16 @@ article p {
   display: flex;
 } 
 >>>>>>> 50a5e78dffbc7ae4e90c0749a41c466e8eefb5e8
+=======
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.artigo_e_secao {
+  display: flex;
+}
+>>>>>>> repara minha gitpullrebase
