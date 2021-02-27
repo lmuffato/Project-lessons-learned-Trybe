@@ -1,12 +1,10 @@
 <!DOCTYPE html>
- <html lang="en">
+ <html lang="pt-br">
  <head>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Primeira Página</title>
-
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -14,42 +12,50 @@
 <body class="fonte-estilo">
 
     <header id="cabecalho">
-
-        <h1 id="titulo">Lições Aprendidas-Trybe!</h1>
-        <footer id="rodape"></footer>
-
+    <h1 id="titulo">Lições Aprendidas-Trybe!</h1>
     </header>
 
-    <img id="minha_foto" src="imagem/diego correia.jpg" alt="diego correia">
+    <div class="foto">
+    <img id="minha_foto" src="imagem/diego correia.jpg" alt="foto de diego correia">
+    </div>
 
-    <article class="lado-esquerdo">
-
-        <h2>O Aprendizado na trybe</h2>
-
-    <p>Sem sombra de dúvida a profissão de desenvolvedor é uma das mais<br>
-    promissoras do mundo e hoje faltam profissionais nessa área. E é nesse<br>
-    ponto que a trybe vem inovando, ensinando pessoas (que nunca tiveram<br>
-    contato ou que gostariam de migrar para essa área) a programar. O dia<br>
-    começa com apresentações animadas (esquenta) com orientações e logo vai<br>
-    para estudo do conteúdo a ser visto na aula ao vivo, que é ministrada<br>
-    por um especialista da área. Depois vem a hora dos exercícios para melhor<br>
-    assimilação do conteúdo estudado com ajuda de monitores para auxiliar os<br>
+    <div class="descricao">
+        <h2 id="Sobre">Sobre Diego</h2>
+        <p>Diego é natural da cidade de Curitiba, tem 35 anos. Atualmente mora
+        em Santa Catarina na cidade de Florianópolis. É apaixonado por música e
+        desenho artístico, toca contrabaixo e arrisca no canto e na bateria! Mais
+        recentemente descobriu seu amor por programação e hoje é estudante da Trybe! 
+        </p>
+    </div>
+   
+    <div class="lado-esquerdo">
+    <article>
+    <h2>O Aprendizado na trybe</h2>
+    
+    <p>Sem sombra de dúvida a profissão de desenvolvedor é uma das mais
+    promissoras do mundo e hoje faltam profissionais nessa área. E é nesse
+    ponto que a trybe vem inovando, ensinando pessoas (que nunca tiveram
+    contato ou que gostariam de migrar para essa área) a programar. O dia
+    começa com apresentações animadas (esquenta) com orientações e logo vai
+    para estudo do conteúdo a ser visto na aula ao vivo, que é ministrada
+    por um especialista da área. Depois vem a hora dos exercícios para melhor
+    assimilação do conteúdo estudado com ajuda de monitores para auxiliar os
     alunos.</p>
+    </article>
+    </div> 
 
-    </article> 
-
-    <section class="lado-direito">
-        <h3>Minha Rotina de Estudos</h3>
-        <aside>O aprendizado na trybe exige foco e muito empenho , comigo não é<br>
-        diferente, minha rotina de estudos às vezes chega a ser bem cansativa,<br>
-        depois do encerramento ainda estudo mais três horas para dar conta do<br>
+    <div class="lado-direito">
+    <section>
+        <h2>Minha Rotina de Estudos</h2>
+        <aside>O aprendizado na trybe exige foco e muito empenho , comigo não é
+        diferente, minha rotina de estudos às vezes chega a ser bem cansativa,
+        depois do encerramento ainda estudo mais três horas para dar conta do
         conteúdo, é difícil , mas vale cada esforço feito.</aside>
     </section>
+    </div>
 
-    <nav class="lista-esquerda">
-
+    <div class="lista-esquerda">
     <h2>Lições</h2>
-        
     <ol id="licoes_aprendidas">
         <li>Unix</li>
         <li>Git</li>
@@ -62,13 +68,10 @@
         <li>Inspect</li>
         <li>HTML Semântico</li>
     </ol>
+    </div>
 
-    </nav>
-
-    <nav class="lista-direita">
-
+    <div class="lista-direita">
     <ul id="licoes_a_aprender">
-
         <li>JavaScript</li>
         <li>React</li>
         <li>Node</li>
@@ -79,22 +82,33 @@
         <li>CSS Responsivo</li>
         <li>Java</li>
         <li>Soft Skills</li>
-
     </ul>
+    </div>
 
-    </nav>
+    <div>
+    <table border="1" a class="tabela" id="Tabela-info">
 
-    <table border="1" class="tabela">
+        <tr><td>NOME</td> <td>IDADE</td> <td>NASCIMENTO</td><td>PROFISSÃO</td> <td>CIDADE</td></tr>
+        <tr><td>Diego</td> <td>35 anos </td> <td>1985</td><td>Desenvolvedor</td> <td>Florianópolis</td> </tr>
 
-        <tr><td>NOME</td> <td>IDADE</td> <td>PROFISSÃO</td> <td>CIDADE</td></tr>
-        <tr><td>Diego</td> <td>35 anos </td> <td>Desenvolvedor</td> <td>Florianópolis</td> </tr>
+    </table>    
+    </div>
 
-    </table>
-     
+    <span class="link">
+    <a href="https://www.betrybe.com" target="blank">Links relacionados: Aprenda mais sobre programação aqui!</a>
+    </span>
 
-    <a class="link"  href="https://www.betrybe.com" target="blank">Aprenda mais sobre programação aqui!</a>
+    <footer id="rodape">
+    <nav>
+        <ul>
+            <li><a href="#Sobre">Sobre Diego</a></li>
+            <li><a href="linkedin.com/in/diego-correia-da-silva-150243121" target="blank">Entre em contato</a></li>
+        </ul>
+    </nav> 
+    </footer>   
 
-    <p>Página criada por diego correia, 2021.</p>
+    <p id="criacao">Página criada por diego correia, 2021.</p>
+
 </body>
 
 </html>
