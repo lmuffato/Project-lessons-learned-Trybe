@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     
-    <title>Document</title>
+    <title>JessicaArrais</title>
   </head>
 
   <body>
@@ -18,23 +19,34 @@
 
     <nav class="navegacao">
         <ol>
-          <li class="navs"><a href="#"></a>Sobre</li>
-          <li class="navs"><a href="#"></a>Lições</li>
-          <li class="navs"><a href="#"></a>Trybe </li>
-          <li class="navs"><a href="#"></a>Aprender</li>
+          <li class="navs"><a href="#depoimento">Depoimento</a></li>
+          <li class="navs"><a href="#licoes">Lições</a></li>
+          <li class="navs"><a href="#links">Links</a></li>
+          <li class="navs"><a href="#aprendizado"">Aprendizado</a></li>
         </ol>
         </nav>
         
-    <section class="foto">
-      <img id="minha_foto" src="images/foto.png" alt="foto-Jessica" />
-      <h2 id="dep">Depoimento</h2>
+    <section class="sobre">
+      <img id="minha_foto" src="images/jessica.jpg" alt="foto da aluna Jessica"/>
+      <h2 id="titulo-depoimento">Depoimento</h2>
       <p id="depoimento">
         “Estou fazendo transição de carreira e para mim está sendo um grande desafio e muito aprendizado!”
         <br><strong>Jéssica Arrais, estudante da Trybe, da turma 10 - A</strong></p>
+        <table class="tabela">
+          <tr>
+            <th id="redesocial">Redes Sociais</th>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/jessiarrais" target="_blank">GitHub</td>
+            <td><a href="https://www.linkedin.com/in/jessicafreitasmorales/" target="_blank">Linkedin</a></td>
+            <td><a href="https://twitter.com/jessi_fmorales" target="_blank">Twitter</a></td>
+            <td><a href="https://www.instagram.com/jessifmorales/" target="_blank">Instagram</a></td>
+          </tr>
+        </table>
     </section>
 
-    <section class="licoes">
-      <h3>Lições Aprendidas:</h3>
+    <section id="licoes">
+      <h3 class="titulo_aprendida">Lições Aprendidas:</h3>
       <ol id="licoes_aprendidas">
         <li>Preparando o setup</li>
         <li>Unix & Shell</li>
@@ -47,7 +59,7 @@
         <li>HTML & CSS Seletores e posicionamento</li>
         <li>HTML Semântico</li>
       </ol>
-      <h3>Lições a Aprender:</h3>
+      <h3 class="titulo_aprender">Lições a Aprender:</h3>
       <ul id="licoes_a_aprender">
         <li>Soft Skills</li>
         <li>JavaScript</li>
@@ -62,31 +74,40 @@
       </ul>
     </section>
     <article class="lado-esquerdo">
-      <h2>Sobre o Aprendizado:</h2>
-      <p>
+      <h2 id="aprendizado">Sobre o Aprendizado:</h2>
+      <p class="text">
         Nos primeiros dias puder habituar ao linux e personalizá-lo do jeito que gostasse, isso fez com que me adapta-se melhor ao sistema operacional e visse que não era um bicho de sete cabeças. Depois de preparar todo o setup, era hora de começar a "desenvolver". 
         <br>Aprendemos Unix e Bash,desde o sistema até os comandos. 
         <br>Git e GitHub, suas diferenças e comandos.
         <br>HTML e CSS , sobre as tags do HTML e como deixá-lo semântico e sobre os seletores e posicionamento da CSS.
       </p>
     </article>
-      
-      <h4>Venha conhecer a Trybe!</h4>
-      <a href="https://www.betrybe.com/" alt="Link para Trybe" target="_blank">Trybe</a>
-    
+     
    <section class="lado-direito">
     <aside>
-        <h3>O que é aprendido?</h3>
-        Você conhece sobre a trybe!
+        <h2>O que é aprendido?</h2>
+       <p class="text">Você conhece sobre a trybe!
         <br>Depois aprende a configurar o setup e ferramentas utilizadas.
-        <br>As aulas são divididas em módulos:
-        <ol>
+        <br>As aulas são divididas em módulos: </p>
+        <br><ol id="lista">
             <li>Fundamentos do Desenvolvimento Web</li>
             <li>Desenvolvimento Front-end</li>
             <li>Desenvolvimento Back-end </li>
             <li>Ciência da Computação</li>
-        </ol> 
+        </ol>
+    
     </aside>
+</section>
+<section class="final">
+<h4 id="trybe">Venha conhecer a Trybe!</h4>
+<p id="sobre-trybe">
+  A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho.
+<br>
+O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+      
+<br>
+Conheça aqui: <a href="https://www.betrybe.com/" alt="Link para Trybe" target="_blank">Trybe</a>
+</p> 
 </section>
     <footer id="rodape">Jéssica Arrais</footer>
   </body>
