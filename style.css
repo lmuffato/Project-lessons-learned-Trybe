@@ -3,6 +3,10 @@ body {
   margin: 0px;
 }
 
+.conteudo-principal {
+  margin-left: 1%;
+}
+
 #cabecalho {
   position: fixed;
   top: 0px;
@@ -14,29 +18,58 @@ body {
 
 #minha_foto {
   width: 200px;
+  border-radius: 50%;
 }
 
 .conteudo-principal {
-  margin-top: 11%;
+  margin-top: 9%;
 }
 
-.navegacao ul li a{
+.navegacao ul li a {
   text-decoration: none;
-  float: left;
-  color: white;
+  color: black;
+}
+
+.navegacao ul li a :hover{
+  background-color: #ffff;
+  color: black;
 }
 
 .navegacao ul li {
+  padding-top:2px;
+  margin: 4px;
+  border: solid 1px;
+  border-radius: 10px;
   display: flex;
   justify-content: space-around;
   width: 20%;
   transition: color 0.8s ;
-} 
+}
 
-.navegacao ul li :hover{
-  background-color: black;
+.navegacao ul :hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 .navegacao ul {
   display: flex;
+}
+
+#licoes {
+  border: solid 1px;
+  border-radius: 16px;
+  display: flex;
+  width: 29.5%;
+  padding-left: 3%;
+  background-color: lightgray;
+}
+
+footer {
+  background-color: #1DD05D;
+  color: antiquewhite;
+  width: 100%;
+}
+
+#licoes_a_aprender {
+  margin-left: 25px;
 }
