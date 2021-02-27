@@ -108,11 +108,11 @@ body {
   color: white;
 }
 
-#tabela #td {
+#tabela .td {
   padding-left: 900px;
 }
 
-#tabela #th {
+#tabela .th {
   padding-left: 350px;
 }
 
