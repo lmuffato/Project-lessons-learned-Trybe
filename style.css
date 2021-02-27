@@ -7,6 +7,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  top: 50px;
   margin: 50px;
   padding: 20px;
   border: 50px;
@@ -14,21 +15,26 @@ body {
 
 #titulo {
   text-align: center;
+  color: azure;
+}
+#rodape{
+
 }
 
 #cabecalho {
   position: fixed;
-  top: 0;
-  margin: 5px;
-  padding: 5px;
+  top: 10px;
+  right: 0;
+  left: 0;
+  margin: 5;
+  padding: 20px;
   border: 10px;
   background-color: rgb(30, 30, 153);
-  width: 1800px;
 }
 
 #minha_foto {
   width: 300px;
-  margin: 30px;
+  margin: 100px;
   padding: 10px;
   border: 10px;
 }
@@ -48,18 +54,24 @@ body {
 
 .lista-esquerda {
   position: absolute;
-  top: 800px;
+  top: 850px;
   left: 30px;
 }
 
 .lista-direita {
   position: absolute;
-  top: 850px;
+  top: 900px;
   left: 300px;
 }
 
 .tabela {
   position: absolute;
   top: 1150px;
+  left: 30px;
+}
+
+.link {
+  position: absolute;
+  top: 1300px;
   left: 30px;
 }
