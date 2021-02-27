@@ -3,6 +3,7 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: verdana, Verdana, sans-serif;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -10,14 +11,8 @@ body {
   width: 100%;
 }
 
-#titulo {}
-
 #minha_foto {
   width: 200px;
   float: right;
   margin-right: 200px;
 }
-
-#licoes_aprendidas {}
-
-#licoes_a_aprender {}
