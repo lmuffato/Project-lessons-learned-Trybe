@@ -45,13 +45,14 @@ body {
   background-color: bisque;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #minha_foto {
   width: 350px;
   height: 490px;
   margin: 32px;
+  border: 1px;
 }
 
 .aside {
@@ -61,16 +62,18 @@ body {
 
 .sec-2 {
   display: flex;
-  justify-content: center;
-  margin-top: 64px;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: baseline;
 }
 
-#licoes_aprendidas {
-  list-style: none;
-  margin-right: 52px;
+.article {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: auto;
 }
 
-#licoes_a_aprender {
-  list-style: none;
-  margin-left: 52px;
+.article p {
+  width: 500px;
 }
