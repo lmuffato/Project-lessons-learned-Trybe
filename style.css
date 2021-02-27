@@ -8,7 +8,7 @@ header {
 }
 
 body {
-    background-color: rgb(251, 253, 252);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -18,15 +18,17 @@ body {
 #titulo {
     background-color: rgb(157, 228, 210);
     text-align: center;
-    padding: 50px;
+    padding: 30px;
+}
+
+#foto {
+    text-align: center;
 }
 
 #minha_foto {
     max-width: 200px;
     margin-top: 20px;
-    margin-left: 20px;
     border-radius: 100%;
-    text-align: center;
 }
 
 #licoes-aprendidas {
@@ -58,5 +60,44 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgb(157, 228, 210);
+    background-color: cornflowerblue;
+}
+
+nav {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 30px;
+}
+
+#div-article {
+    
+    display: inline-block;
+    background-color: darkorange;
+    width: 800px;
+    text-align: center;
+}
+
+#div-aside {
+    display: inline-block;
+    background-color: deeppink;
+    width: 800px;
+    text-align: center;
+}
+
+article {
+    background-color: crimson;
+    text-align: justify;
+    margin-left: 30%;
+}
+
+aside {
+    background-color: darkcyan;
+    text-align:justify;
+    margin-right: 30%;
+}
+
+#teste {
+    background-color: lawngreen;
+    text-align: center;
+    display:flex;
 }
