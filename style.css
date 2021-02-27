@@ -60,10 +60,8 @@ body {
   width: 400px;
 }
 
-.table tr, td {
-  
+.table tr , td {
   border: 2px solid black;
-  background-color: aquamarine;
 }
 
 .sec-2 {
