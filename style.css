@@ -7,20 +7,17 @@ body {
   position: fixed;
   top: 0;
   background-color: seagreen;
+  width: 100%;
 }
 
-#titulo {
-/**/
-}
+#titulo {}
 
 #minha_foto {
   width: 200px;
+  float: right;
+  margin-right: 200px;
 }
 
-#licoes_aprendidas {
-/**/
-}
+#licoes_aprendidas {}
 
-#licoes_a_aprender {
-/**/
-}
+#licoes_a_aprender {}
