@@ -9,7 +9,7 @@ body {
 #cabecalho {
   position: fixed;
   display: block;
-  top: 0px;
+  top: 0;
   right: 0;
   left: 0;
   margin: 5;
@@ -113,5 +113,5 @@ body {
 
 #criacao {
   display: inline-flex;
-  margin-top: 100px;
+  margin-top: 100px; 
 }
