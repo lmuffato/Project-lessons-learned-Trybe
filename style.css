@@ -71,13 +71,22 @@ body {
   left: 5px;
 }
 
-#minha_foto {
+#_imagem {
   position: absolute;
   left: 5px;
   width: 300px;
   height: 200px;
   top: 10px;
   border-radius: 7px;
+}
+
+#minha_foto {
+  position: absolute;
+  top: 390px;
+  width: 130px;
+  height: 150px;
+  left: 100px;
+  border-radius: 100%;
 }
 
 #botao {
