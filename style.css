@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
   font-family: monospace;
 }
@@ -26,59 +27,76 @@ ol , ul , table {
   font-size: 2.5em;
 }
 
+.content {
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+.my-picture {
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
 #minha_foto {
+  display: inline-block;
   width: 150px;
   border-radius: 100%;
   border: 2px solid black;
   margin-top: 125px;
-  margin-left: 25px;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+}
+
+.main-content {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
 .lado-esquerdo {
-  width: 500px;
-  margin-left: 50px;
-  margin-top: 100px;
   display: inline-block;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 25px;
+  padding: 0;
 }
 
 .lado-direito {
-  width: 200px;
-  margin-left: 50px;
-  margin-top: 100px;
   display: inline-block;
+  width: 200px;
+  margin-left: 45px;
+  margin-top: 25px;
   letter-spacing: -1px;
 }
 
 section {
-  width: 500px;
   display: inline-block;
-  margin-left: 50px;
-  margin-top: 25px;
+  width: 400px;
+  padding: 0;
+  margin: 25px 0 0 200px;
 }
 
 nav {
-  width: 200px;
+  width: 100%;
   display: inline-block;
-  margin-top: 100px;
-  margin-left: 25px;
-  position: absolute;
-  z-index: 1;
-}
-
-nav ul {
-  list-style: none;
-  margin-left: 30px;
 }
 
 nav a {
+  width: 20%;
   text-decoration: none;
   color: black;
+  padding: 2%;
+  font-weight: 900;
 }
 
 nav a:hover {
-  color: gray;
+  color: rgba(253, 251, 251, 0.6);
 }
 
-#titulo-nav {
-  text-align: center;
+#rodape {
+  margin-top: 20px;
 }
