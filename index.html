@@ -5,74 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-    <header class="box" id="cabecalho" >
+    <header>
+    <section id="titulo">
+        <h1>Titulo</h1>
+    </section>
+   </header>
+    <section>
+        <img id="minha_foto" src="fotos/minha foto.jpeg" alt="Foto do Nilson">
+    </section>
+    <section>
         <section>
-            <h1 id="titulo">Olá, Me chamo Nilson Ribeiro</h1>
+            <ol id="licoes_aprendidas" >
+                <li>Html5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>SoftSkill</li>
+                <li>Unix/Bash</li>
+                <li>Zoom</li>
+                <li>Slack</li>
+                <li>Slido</li>
         </section>
-    </header>
-    <section>
-      <img id="minha_foto" src="fotos/minha foto.jpeg" alt="Foto do Nilson">
+        <section>
+            <ul id="licoes_a_aprender">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Lógica de programação</li>
+                <li>DOM</li>
+                <li>FlexBox</li>
+                <li>JavaScript/ES6</li>
+                <li>Jest</li>
+                <li>Metodologia Ágeis</li>
+                <li>MySQL</li>
+                <li>Estrutura de Dados</li>
+        </section>
+        <section>
+            <ul id="licoes_a_aprender">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Lógica de programação</li>
+                <li>DOM</li>
+                <li>FlexBox</li>
+                <li>JavaScript/ES6</li>
+                <li>Jest</li>
+                <li>Metodologia Ágeis</li>
+                <li>MySQL</li>
+                <li>Estrutura de Dados</li>
+        </section>
     </section>
     <section>
-        <h2 id="habilidadesaprendidas">Habilidades aprendidas ou Desenvolvendo</h2>
-        <ol id="licoes_aprendidas" >
-            <li>Html5</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>SoftSkill</li>
-            <li>Unix/Bash</li>
-            <li>Zoom</li>
-            <li>Slack</li>
-            <li>Slido</li>
-        </ol>
+        <nav>
+            <a href="https://www.linkedin.com/in/nilson-ribeiro-da-concei%C3%A7%C3%A3o-souza-60a72616b/" target="_blank" >Linkedin</a>
+        </nav>
     </section>
-    <section>
-        <h2 id="habilidadesaprender">Habilidades a Aprender</h2>
-        <ul id="licoes_a_aprender">
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Lógica de programação</li>
-            <li>DOM</li>
-            <li>FlexBox</li>
-            <li>JavaScript/ES6</li>
-            <li>Jest</li>
-            <li>Metodologia Ágeis</li>
-            <li>MySQL</li>
-            <li>Estrutura de Dados</li>
-        </ul>
-    </section>
-   <section id="artigo_e_secao" >
-    <section>
-        <article id="artigos" >
-            <h2 id="subtitulo_artigo" >Sobre Meu Aprendizado</h3>
-            <p>
-                Não me imaginava fazendo metade do que estou construindo
-                 com menos de um mês de estudo.
-            </p>
-            <p> Estou surpreso com minha evolução e a
-              fome de conhecimento que  cresce e a facinação que ocorre quando descubro uma nova ferramenta.
-            </p>
-            <p>
-                Nessas semanas viajei pelo mundodo HTML,
-              CSS, Unix/Bash, Git, GitHub e só tenho mais vontade de 
-               prosseguir no desenvolvimento web.
-            </p>
+    <div class="artigo-e-secao">
+    <section class="fontes" class="lado-esquerdo">
+        <article>
+            <p>textoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercois</p>
         </article>
     </section>
-    <section id="secao" >
-        <h2 id="subtitulo_secao">Passagem sobre Aprendizado</h2>
-        <aside> <br>A algumas semanas descobri o CSS, como tenho mania de alinhamento foi paixão a 
-            primeira vista, vejo alguns projetos que são feitos no puro css e fico imprecionado, quanto poder ele da!.
+    <section class="lado-direito">
+        <aside>
+            <p>
+                textoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisatextoqualquercoisate
+            </p>
         </aside>
     </section>
-   </section>
-    <section>
-    <table id="tabela" border="1" >
+   </div>
+   <section>
+    <table class="box" id="tabela" border="1" >
         <h2 id="produtos">Tabela de Video Games</h2>
         <tr>
             <td>Fabricante</td>
@@ -96,14 +101,10 @@
         </tr>
     </table>
    </section>
-    <nav id="link_linkedin">
-   <a href="https://www.linkedin.com/in/nilson-ribeiro-da-concei%C3%A7%C3%A3o-souza-60a72616b/" target="_blank" >MeuLinkedin</a>
-    </nav>
     <section>
-        <footer class="box" id="rodape" >
-            <h3>Todos os direitos reservados, Mesmo!!@2021</h3>
-        </footer>
+    <footer id="rodape" >
+        <h2>Direitos reservados</h2>
+    </footer>
     </section>
-    
 </body>
 </html>
