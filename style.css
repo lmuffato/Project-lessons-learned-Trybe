@@ -1,8 +1,57 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgb(70, 36, 70);
+  width: 100%;
+}
+
+#cabecalho h1 {
+  color: white;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  margin-top: 90px;
+  padding: 20px 100px;
+  background-color: rgb(119, 63, 119);
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  background-color: white;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+nav ul li:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+nav ul li a {
+  color: rgb(119, 63, 119);
+  font-size: 15px;
 }
