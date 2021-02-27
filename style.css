@@ -35,3 +35,8 @@ body {
 #licoes_a_aprender {
   line-height: 180%;
 }
+
+#rodape {
+  text-align: center;
+  font-size: 75%;
+}
