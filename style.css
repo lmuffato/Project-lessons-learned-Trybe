@@ -1,13 +1,42 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+  background-color: #1DD05D;
+  color: antiquewhite;
+  width: 100%;
+  text-align: center;
 }
 
 #minha_foto {
   width: 200px;
 }
 
+.conteudo-principal {
+  margin-top: 11%;
+}
+
+.navegacao ul li a{
+  text-decoration: none;
+  float: left;
+  color: white;
+}
+
+.navegacao ul li {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  transition: color 0.8s ;
+} 
+
+.navegacao ul li :hover{
+  background-color: black;
+}
+
+.navegacao ul {
+  display: flex;
+}
