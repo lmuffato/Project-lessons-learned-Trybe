@@ -11,9 +11,10 @@ body {
 }
 
 #titulo {
+  font-size: 30pt;
   text-align: center;
   color: blueviolet;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 #menu {
@@ -27,7 +28,7 @@ body {
   display: inline-block;
   margin: 10px;
   padding: 2px;
-  font-family: fantasy;
+  font-size: 12pt;
 }
 
 #menu li:hover {
@@ -85,6 +86,11 @@ main {
   text-align: center;
   font-size: 20pt;
   color: blueviolet;
+  font-family: sans-serif;
+}
+
+#aprendizados {
+  margin-left: 33%;
 }
 
 #licoes_aprendidas {
@@ -99,30 +105,24 @@ main {
   font-size: 13pt;
 }
 
-#aprendizados {
-  margin: 100px 20px 10px 70px;
-  width: 33%;
+.lado_esquerdo {
   display: inline-block;
-}
-
-#relatos {
-  margin-left: 200px;
-  width: 33%;
-  padding: 30px;
-  display: inline-block;
-}
-
-#esquerdo {
-  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-top: 20px;
+  margin-bottom: 30px;
   text-indent: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 400px;
   font-size: 16pt;
   padding: 10px;
   text-align: justify;
+  font-family: sans-serif;
 }
 
-#direito {
+.lado_direito {
+  font-family: sans-serif;
+  margin-left: 30px;
+  display: inline-block;
   margin-top: 5px;
   text-indent: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
