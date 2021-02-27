@@ -1,3 +1,9 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+header{
+    background-color: rgb(31, 84, 125); padding: 100px; top: 0px;
+}
+#titulo{
+    color: rgb(253, 251, 251);
+}
