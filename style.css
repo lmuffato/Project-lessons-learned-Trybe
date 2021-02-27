@@ -3,7 +3,9 @@ body {
 }
 
 #titulo {
-  color: blue;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  color: black;
 }
 
 #minha_foto {
@@ -29,8 +31,8 @@ body {
   font-size: 20px;
   font-family: fantasy;
   font-weight: 800;
-  letter-spacing: 5px;
-  word-spacing: 5px;
+  letter-spacing: 10px;
+  word-spacing: 10px;
 }
 
 .artigo-e-secao {
