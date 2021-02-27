@@ -88,10 +88,10 @@ main{
          display: inline-block;
          width: 1300px;
      }
-     #passagem{
+     .lado-direito{
          float: right ;
      }  
-     #jornada{
+     .lado-esquerdo{
          float: left;
      }
      #passagem-margem{
