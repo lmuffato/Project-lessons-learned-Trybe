@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Poppins', sans-serif;
@@ -16,17 +17,15 @@ body {
     width: 100%;
     height: 60px;
     z-index: 998;
-
-} 
+}
 
 .navegacao {
     color: rgb(242, 204, 143);
-    top:20px;
+    top: 20px;
     position: fixed;
     left: 70%;
     font-size: 14px;
     z-index: 999;
-
 }
 
 .navs {
@@ -34,6 +33,7 @@ body {
     padding: 10px;
     display: inline-block;
 }
+
 .sobre {
     background-color: rgb(244, 241, 222);
     height: 550px;
@@ -45,9 +45,8 @@ body {
     top: 150px;
     border-radius: 30%;
     margin: 20px;
-    padding:5px;
+    padding: 5px;
     position: relative;
-
 }
 
 #titulo-depoimento {
@@ -56,7 +55,7 @@ body {
     color: rgb(224, 122, 95);
     display: flex;
     margin: 20px;
-    padding:5px;
+    padding: 5px;
     top: -70px;
     position: relative;
 }
@@ -78,17 +77,15 @@ table, td, th {
     border-collapse: collapse;
     padding: 3px;
     display: flex;
-    color:rgb(61, 64, 91));
-    
+    color: rgb(61, 64, 91));
 }
 
 .tabela {
-    left:600px;
+    left: 600px;
     display: inline-block;
     position: relative;
     margin-left: 250px;
-    top:-300px;
-
+    top: -300px;
 }
 
 #licoes {
@@ -98,38 +95,38 @@ table, td, th {
     position: relative;
     height: 400px;
     width: 100%;
-    
 }
-.titulo_aprendida{
+
+.titulo_aprendida {
     color: rgb(61, 64, 91);
-    font-size:  30px;
+    font-size: 30px;
     position: relative;
     left: 5%;
-    text-align:left;
-    padding:5px;
+    text-align: left;
+    padding: 5px;
 }
 
 .titulo_aprender {
     color: rgb(61, 64, 91);
-    font-size:  30px;
+    font-size: 30px;
     position: relative;
     left: 600px;
     bottom: 305px;
-    text-align:left;
-    padding:5px;
+    text-align: left;
+    padding: 5px;
 }
 
-#licoes_aprendidas{
-color: rgb(129, 178, 154);
-left: 100px;
-position: relative;
+#licoes_aprendidas {
+    color: rgb(129, 178, 154);
+    left: 100px;
+    position: relative;
 }
 
 #licoes_a_aprender {
-color: rgb(129, 178, 154);
-left: 650px;
-bottom: 300px;
-position: relative;
+    color: rgb(129, 178, 154);
+    left: 650px;
+    bottom: 300px;
+    position: relative;
 }
 
 #rodape {
@@ -141,11 +138,10 @@ position: relative;
     color: rgb(242, 204, 143);
     font-size: 12px;
     padding: 40px;
-
 }
 
 #titulo {
-    left:100px;
+    left: 100px;
     position: relative;
 }
 
@@ -153,13 +149,12 @@ position: relative;
     color: rgb(61, 64, 91);
     position: relative;
     left: 5%;
-    padding:10px;
+    padding: 10px;
     text-align: justify;
     width: 400px;
     bottom: 200px;
-    border: 5px solid rgb(242, 204, 143); 
+    border: 5px solid rgb(242, 204, 143);
     margin-bottom: 50px;
-
 }
 
 .lado-direito {
@@ -168,47 +163,46 @@ position: relative;
     left: 45%;
     bottom: 615px;
     width: 340px;
-    border: 5px solid rgb(242, 204, 143); 
+    border: 5px solid rgb(242, 204, 143);
     display: inline-block;
     margin-bottom: 50px;
     padding: 10px 10px 85px 10px;
-    
 }
 
 .text {
- color:rgb(224, 122, 95);
- text-align: justify;
+    color: rgb(224, 122, 95);
+    text-align: justify;
 }
 
 #lista {
-    color:rgb(224, 122, 95);
+    color: rgb(224, 122, 95);
     list-style-position: inside;
 }
 
 #links {
-position: relative;
-margin:50px;
-bottom: 600px;
+    position: relative;
+    margin: 50px;
+    bottom: 600px;
 }
 
 #trybe {
     position: relative;
-    font-size: 30px;  
-    color:rgb(61, 64, 91);
- }
+    font-size: 30px;
+    color: rgb(61, 64, 91);
+}
 
- #sobre-trybe {
+#sobre-trybe {
     position: relative;
     text-align: justify;
     width: 600px;
     display: inline-block;
- }
+}
 
- .final {
-     background-color: rgb(224, 122, 95);
-     position: relative;
-     padding: 100px;
-     top: -550px;
-     color:rgb(242, 204, 143);
-     text-align: auto;
- }
+.final {
+    background-color: rgb(224, 122, 95);
+    position: relative;
+    padding: 100px;
+    top: -550px;
+    color: rgb(242, 204, 143);
+    text-align: auto;
+}
