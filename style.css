@@ -95,15 +95,20 @@ nav ul li a {
 }
 
 .lado-esquerdo {
+  margin-top: 90px;
   float: left;
-  width: 69%;
+  width: 65%;
+  padding: 20px 30px;
+  text-align: justify;
 }
 
 .lado-direito {
   float: right;
-  width: 29%;
+  width: 30%;
+  font-size: 20px;
+  margin-top: 140px;
 }
 
-#lessons {
+#lessons-learned {
   clear: both;
 }
