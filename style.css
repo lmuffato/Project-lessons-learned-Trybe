@@ -1,7 +1,8 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family: verdana, Verdana, sans-serif;
 }
-#cabecaho{
+#cabecalho{
     top: 0;
     background-color: seagreen;
 }
@@ -12,7 +13,6 @@ body{
 
 #minha_foto {
     width: 200px;
-    alt="Foto perfil Samuel"
 }
 
 #licoes_aprendidas{
