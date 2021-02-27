@@ -47,8 +47,55 @@ nav a {
 }
 
 .photo_section {
-  display: inline;
+  display: inline-block;
   min-width: 100%;
+}
+
+#texts {
+  min-width: 100%;
+}
+
+article , aside {
+  margin-top: 30px;
+}
+
+article p , h3 {
+  text-align: end;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+article p {
+  font-size: 12px;
+  border-right: 1px solid black;
+  line-height: 20px;
+}
+
+article h3 {
+  text-align: end;
+}
+
+article {
+  display: inline-block;
+  max-width: 200px;
+  margin-left: 150px;
+}
+
+aside {
+  display: inline-block;
+  max-width: 100px;
+}
+
+aside h3 {
+  text-align: initial;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+aside p {
+  font-size: 10px;
+  text-align: initial;
+  font-family: monospace;
+  border-left: 1px dashed darkgreen;
 }
 
 .trials {
@@ -67,4 +114,42 @@ nav a {
 
 #lists ul , ol {
   margin: 30px;
+}
+
+
+table {
+  justify-items: center;
+  margin-left: 600px;
+}
+
+table , tr , th , td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 38px;
+  filter: invert(100%);
+  margin-left: 40px;
+}
+
+footer div {
+  margin-right: 20px;
+}
+
+footer h4 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: Courier New, Courier, monospace;
+  font-weight: 50;
+  font-size: 13px;
+  color: aliceblue;
 }
