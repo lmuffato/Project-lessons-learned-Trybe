@@ -45,16 +45,17 @@ body {
   width: 50px;
 }
 
-#link {
-  display: block;
-  padding-top: 15px;
-  margin-left: 60px;
-}
-
 #rodape {
+  display: inline-block;
   margin-top: 40px;
-  padding: 1px;
+  padding: 10px;
   text-align: center;
   font-size: 75%;
+  color: white;
   background-color: rgb(57, 111, 80);
+  width: 100%;
+}
+
+#textorodape {
+  padding-top: 5px;
 }
