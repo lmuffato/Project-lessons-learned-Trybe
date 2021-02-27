@@ -14,15 +14,16 @@ body {
 
 #titulo {
   text-align: center;
-  margin-right: 500px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   border: 10px; 
+  background-color: rgb(30, 30, 153);
+  width: 1800px;
 }
 
 #minha_foto {
