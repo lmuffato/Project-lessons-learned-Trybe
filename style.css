@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'lobster';
-  
+  font-family: 'lobster', serif;
+
 }
 
 #cabecalho {
@@ -47,7 +47,7 @@ body {
   width: 275px;
   position: absolute;
   left: 40%;
-  top: 210px;
+  top: 20%;
   border-radius: 100%;
 }
 
@@ -74,7 +74,7 @@ body {
 #titulo_artigo {
   position: absolute;
   right: 43%;
-  top: 30%;
+  top: 57%;
 }
 
 #artigo {
@@ -87,7 +87,7 @@ body {
 #titulo_artigo_2 {
   position: absolute;
   right: 10%;
-  top: 30%;
+  top: 57%;
 }
 
 #artigo_2 {
@@ -108,12 +108,12 @@ body {
 
 .lado-esquerdo {
   position: absolute;
-  top: 40%;
+  top: 65%;
   right: 33%;
 }
 
 .lado-direito {
   position: absolute;
-  top: 47%;
+  top: 73%;
   right: 2.4%;
 }
