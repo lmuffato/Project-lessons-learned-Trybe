@@ -1,15 +1,23 @@
 header {
+  background-color: rgb(8,108,84);
+  color: white;
+  padding-right: 100%;
   position: fixed;
   top: 0;
+  margin-left: -8px;
+  z-index: 1;
+  
 }
 
 body {
   background-color: rgb(253, 251, 251);
   font-family: Montserrat, sans-serif;
   font-weight: 300;
+  margin-bottom: 30px;
 }
 
 #minha_foto {
+  margin-left: 40px;
   margin-top: 140px;
   width: 450px;
   border-radius: 50%;
@@ -17,26 +25,26 @@ body {
 }
 
 .listas {
-  background-color: rgba(255, 11, 11, 0);
+  background-color: rgba(255, 0, 0, 0);
   padding: 10px;
   display: inline-block;
   position: relative;
-  left: 500px;
-  bottom: 290px;
+  left: 200px;
+  top: 50px;
 }
 
 #artigo {
-  line-height: 1.2px;
+  width: 400px;
   color: rgb(32, 32, 32);
 }
 
 #experiencia {
-  line-height: 1.2px;
+  width: 120px;
   color: rgb(32, 32, 32);
 }
 
 footer {
-  background-color: rgba(36, 36, 36, 0.637);
+  background-color: rgba(36, 36, 36, 0.644);
   bottom: 180px;
   padding: 20px;
 }
@@ -45,21 +53,31 @@ h2 {
   font-size: 20px;
 }
 
-.lado-esquerdo{
-  border-radius: 20px;
+.lado-esquerdo {
+  background-color: rgba(137, 43, 226, 0);
   padding: 35px;
-  position: absolute;
-  left: 500px;
-  bottom: 205px;
-  margin-left: 730px;
-  margin-right: 20px;  
+  position: relative;
+  bottom: 720px;
+  left: 550px;
 }
 
-.lado-direito{
-  border-radius: 20px;
+.lado-direito {
+  background-color: rgba(137, 43, 226, 0);
   padding: 10px 10px 10px 20px;
-  position: absolute;
-  top: 119px;
-  left: 480px;
-  right: 250px;
+  position: relative;
+  bottom: 980px;
+  left: 1150px;
+}
+
+table, td, th {  
+  border: 1px solid rgb(223, 222, 222);
+  text-align: center;
+  width: 50px;
+  position: relative;
+  bottom: -30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
