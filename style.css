@@ -1,51 +1,56 @@
 body {
-    background-color: rgb(253, 251, 251);;
+  background-color: rgb(253, 251, 251);
 }
 
 #titulo {
-    background-color: blue;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    bottom: 50px;
+  color: blue;
 }
 
 #minha_foto {
-    max-width: 15%;
-    max-height: 15%;
+  max-width: 15%;
+  max-height: 15%;
 }
 
 #rodape {
-    width: 100%;
-    bottom: 0;
-    background-color: blue;
-    text-align: center;
+  width: 100%;
+  bottom: 0;
+  background-color: blue;
+  text-align: center;
 }
 
 .box {
-    margin: 10px;
-    padding: auto;
-    border: 1px solid black;
+  margin: 10px;
+  padding: auto;
+  border: 1px solid black;
 }
 
 .fontes {
-    color: blue;
-    font-size: 20px;
-    font-family: fantasy;
-    font-weight: 800;
-    letter-spacing: 5px;
+  color: blue;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 800;
+  letter-spacing: 5px;
+  word-spacing: 5px;
 }
 
 .artigo-e-secao {
-    display: flex;
+  display: flex;
 }
 
 .lado-esquerdo {
-    display: block;
+  display: block;
 }
 
 .lado-direito {
-    display: block;
+  display: block;
+}
+
+#cabecalho {
+  background-color: blue;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  bottom: 50px;
 }
