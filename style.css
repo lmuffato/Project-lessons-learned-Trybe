@@ -2,24 +2,30 @@
   position: fixed;
   top: 0;
   width: 99%;
-  background-color: greenyellow;
+  height: 100px;
+  background-color:rgb(57,111,80);
+  border-bottom: 10px solid rgb(105, 195, 141);
+}
+
+#titulo {
+  font-family: 'RobotoLight', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Noto Sans JP, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-#titulo {
-  font-family: DotGothic16, sans-serif;
-}
 
 #minha_foto {
   display: block;
-  margin-top: 100px;
-  border-radius: 10px;
+  margin-top: 130px;
+  border-radius: 50%;
   width: 20%;
-  border: 2px solid black;
 }
 
 #licoes_aprendidas {
