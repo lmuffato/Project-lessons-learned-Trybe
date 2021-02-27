@@ -7,7 +7,7 @@ body {
 #cabecalho {
   position: fixed;
   width: 100%;
-  height: 65px;
+  height: 85px;
   top: 0%;
   left: 0%;
   background-color:rgb(13, 219, 157);
@@ -20,15 +20,15 @@ body {
 
 #direct {
   display: inline-block;
-  position: relative;
+  position: fixed;
   list-style-type: none;
   margin: 0;
   padding: 0;
   left: 0%;
-  top: 25px;
-  width: 600px;
+  top: 12%;
+  width: 100%;
   height: 35px;
-  background-color: rgb(13, 219, 157);;
+  background-color: rgb(13, 219, 157);
 }
 
 #direct ul {
@@ -53,7 +53,7 @@ body {
 
 #licoes_aprendidas {
   position: absolute;
-  top: 245px;
+  top: 35%;
   left: 240px;
   width: 165px;
   background-color: rgb(13, 219, 157);
@@ -63,7 +63,7 @@ body {
 
 #licoes_a_aprender {
   position: absolute;
-  top: 245px;
+  top: 35%;
   left: 25px;
   width: 165px;
   background-color: rgb(13, 219, 157);
@@ -73,15 +73,12 @@ body {
 
 #titulo_artigo {
   position: absolute;
-  right: 135px;
-  top: 125px;
+  right: 43%;
+  top: 30%;
 }
 
 #artigo {
-  position: absolute;
-  top: 215px;
-  right: 15px;
-  width: 400px;
+   width: 400px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206); 
   color:rgb(52,32,69);
@@ -89,14 +86,11 @@ body {
 
 #titulo_artigo_2 {
   position: absolute;
-  right: 75px;
-  bottom: 195px;
+  right: 10%;
+  top: 30%;
 }
 
 #artigo_2 {
-  position: absolute;
-  top: 465px;
-  right: 15px;
   width: 400px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206); 
@@ -112,3 +106,14 @@ body {
   background-color: rgb(13, 219, 157);;
 }
 
+.lado-esquerdo {
+  position: absolute;
+  top: 40%;
+  right: 33%;
+}
+
+.lado-direito {
+  position: absolute;
+  top: 47%;
+  right: 2.4%;
+}
