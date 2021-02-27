@@ -13,6 +13,7 @@ body {
 }
 
 #foto {
+  border-radius: 10%;
   margin-top: 100px;
 }
 
@@ -37,4 +38,5 @@ body {
   font-size: 15;
   font-family: italic;
   padding: 5px;
+  line-height: 1,2px;
 }
