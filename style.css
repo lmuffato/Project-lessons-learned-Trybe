@@ -1,167 +1,189 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-#cabecalho{
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    top: 0px;
-    background:black;
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  background: black;
 }
-#titulo{
-    text-align: center;
-    color: rgb(255, 255, 255);
+
+#titulo {
+  text-align: center;
+  color: white;
 }
-#aside{
-    position: absolute;
-    width: 308px;
-    height: 600px;
-    background-color: rgb(18, 192, 223);
-    border-radius: 7px;
-    top: 60px;
-    left: 840px;
+
+#aside {
+  position: absolute;
+  width: 308px;
+  height: 600px;
+  background-color: rgb(18, 192, 223);
+  border-radius: 7px;
+  top: 60px;
+  left: 840px;
 }
-#nav{
-    position: absolute;
-    width: 830px;
-    height: 40px;
-    background-color: rgb(39, 169, 192);
-    border-radius: 10px;
-    top: 60px;
-    left: 5px;
+
+#nav {
+  position: absolute;
+  width: 830px;
+  height: 40px;
+  background-color: rgb(39, 169, 192);
+  border-radius: 10px;
+  top: 60px;
+  left: 5px;
 }
-#article{
-    position: absolute;
-    width: 800px;
-    height: 500px;
-    background-color: rgb(0, 162, 255);
-    border-radius: 7px;
-    top: 30px;
-    left: 15px;
-    right: 15px;
+
+#article {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  background-color: rgb(0, 162, 255);
+  border-radius: 7px;
+  top: 30px;
+  left: 15px;
+  right: 15px;
 }
-#section{
-    position: absolute;
-    width: 828px;
-    height: 550px;
-    background-color: rgb(18, 192, 223);
-    border-radius: 7px;
-    top: 110px;
-    left: 5px;
+
+#section {
+  position: absolute;
+  width: 828px;
+  height: 550px;
+  background-color: rgb(18, 192, 223);
+  border-radius: 7px;
+  top: 110px;
+  left: 5px;
 }
-#rodape{
-    position: absolute;
-    width: 1142px;
-    height: 65px;
-    background-color: rgb(18, 192, 223);
-    border-radius: 10px;
-    top: 670px;
-    left: 5px;
+
+#rodape {
+  position: absolute;
+  width: 1142px;
+  height: 65px;
+  background-color: rgb(18, 192, 223);
+  border-radius: 10px;
+  top: 670px;
+  left: 5px;
 }
-#minha_foto{
-    position: absolute;
-    left: 5px;
-    width: 300px;
-    height: 200px;
-    top: 10px;
-    border-radius: 7px;
+
+#minha_foto {
+  position: absolute;
+  left: 5px;
+  width: 300px;
+  height: 200px;
+  top: 10px;
+  border-radius: 7px;
 }
-#botao{
-    position: absolute;
-    background-color: black;
-    top: 11px;
-    left: 10px;
-    height: 20px;
-    width: 150px;
-    border-radius: 10px;
-    
+
+#botao {
+  position: absolute;
+  background-color: black;
+  top: 11px;
+  left: 10px;
+  height: 20px;
+  width: 150px;
+  border-radius: 10px;
+
 }
-#texto{
-   position: absolute;
-   font-family:Georgia;
-   left: 12px;
-   text-decoration: none;
-   color: white;
+
+#texto {
+  position: absolute;
+  font-family: Georgia, ' Times New Roman', Times, serif;
+  left: 12px;
+  text-decoration: none;
+  color: white;
 }
-#meu_artigo{
-    position: absolute;
-    top: 40px;
-    width: 800px;
+
+#meu_artigo {
+  position: absolute;
+  top: 40px;
+  width: 800px;
 }
-#minha_passagem{
-    position:absolute;
-    top: 230px;
-    width: 300px;
-    height:345px ;
+
+#minha_passagem {
+  position: absolute;
+  top: 230px;
+  width: 300px;
+  height: 345px;
 }
-#paragrafo_aside{
-   position: absolute;
-   top: 50px;
-   text-align: center;
+
+#paragrafo_aside {
+  position: absolute;
+  top: 50px;
+  text-align: center;
 }
-#paragrafo_article{
-    text-align: center;
+
+#paragrafo_article {
+  text-align: center;
 }
-#licoes_aprendidas{
-    position: absolute;
-    top: 300px;
-    left: 100px;
+
+#licoes_aprendidas {
+  position: absolute;
+  top: 300px;
+  left: 100px;
 }
-#licoes_a_aprender{
-    position: absolute;
-    top: 300px;
-    left: 550px;
+
+#licoes_a_aprender {
+  position: absolute;
+  top: 300px;
+  left: 550px;
 }
-#div_titulo{
-    position: absolute;
-    border-radius: 10px;
-    top: 3px;
-    left: 10px;
-    width: 780px;
-    height: 30px;
-    background-color: black;
+
+#div_titulo {
+  position: absolute;
+  border-radius: 10px;
+  top: 3px;
+  left: 10px;
+  width: 780px;
+  height: 30px;
+  background-color: black;
 }
-#titulo_article{
-    position: absolute;
-    color: white;
-    top: 3px;
-    left: 300px;
+
+#titulo_article {
+  position: absolute;
+  color: white;
+  top: 3px;
+  left: 300px;
 }
-#div_titulo_aside{
-    position: absolute;
-    border-radius: 10px;
-    top: 235px;
-    left: 5px;
-    width: 300px;
-    height: 30px;
-    background-color: black;
+
+#div_titulo_aside {
+  position: absolute;
+  border-radius: 10px;
+  top: 235px;
+  left: 5px;
+  width: 300px;
+  height: 30px;
+  background-color: black;
 }
-#titulo_aside{
+
+#titulo_aside {
   position: absolute;
   color: white;
   top: 3px;
   left: 46px;
 }
-#titulo_lista{
-    position: absolute;
-    border-radius: 10px;
-    left: 50px;
-    top: 250px;
-    width: 250px;
-    height: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
+
+#titulo_lista {
+  position: absolute;
+  border-radius: 10px;
+  left: 50px;
+  top: 250px;
+  width: 250px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
-#titulo_listaDois{
-    position: absolute;
-    border-radius: 10px;
-    left: 450px;
-    top: 250px;
-    width: 250px;
-    height: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
+
+#titulo_listaDois {
+  position: absolute;
+  border-radius: 10px;
+  left: 450px;
+  top: 250px;
+  width: 250px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
