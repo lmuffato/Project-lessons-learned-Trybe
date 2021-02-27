@@ -86,13 +86,11 @@ aside {
   padding: 10px 20px;
 }
 
-section { 
-  display: flex;
-} 
+section { display: flex; }
 
 table {
   background-color: rgb(180, 206, 194);
   font-size: 25px;
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px;
 }
