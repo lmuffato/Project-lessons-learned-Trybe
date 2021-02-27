@@ -1,12 +1,12 @@
 body {
-        margin-top: 150px;
-        background-color: rgb(253, 251, 251);
-        font-family: verdana, Verdana, sans-serif;
+  margin-top: 150px;
+  background-color: rgb(253, 251, 251);
+  font-family: verdana, Verdana, sans-serif;
 }
 #cabecalho {
-        position: fixed;
-        top: 0;
-        background-color: seagreen;
+  position: fixed;
+  top: 0;
+  background-color: seagreen;
 }
 
 #titulo {
@@ -14,7 +14,7 @@ body {
 }
 
 #minha_foto {
-        width: 200px;
+  width: 200px;
 }
 
 #licoes_aprendidas {
