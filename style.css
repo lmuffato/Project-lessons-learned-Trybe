@@ -34,7 +34,7 @@ h2 {
   text-align: justify;
 }
 
-.ladoesquerdo {
+.ladoe-squerdo {
   float: left;
   margin-top: 370px;
   margin-left: -230px;
@@ -55,7 +55,7 @@ h2 {
   margin-left: 30px;
 }
 
-.ladodireito {
+.lado-direito {
   float: right;
   background-color: rgb(237, 238, 241);
   text-align: justify;
