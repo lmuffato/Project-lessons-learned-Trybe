@@ -1,84 +1,122 @@
-
-header {
-
+html {
+  --dark-green: hsl(120, 100%, 20%);
 }
-body {
+
+header {}
+
+body, #rodape p {
   background-color: rgb(253, 251, 251);
-  width: 960px;
+  margin: 0px;
 }
 
-h2, h1, p {
+h2,
+h1 {
   font-family: sans-serif;
   size: 14px;
+  color: white;
+}
+
+.lado-esquerdo,
+.lado-esquerdo h2 {
+  color: hsl(120, 100%, 20%);
+}
+
+
+main {
+  margin: 5rem auto;
+  max-width: 1200px;
 }
 
 .section-list {
+
   padding: 25px;
   text-align: center;
-  margin: 0;
-  display: inline-block;
+  display: block;
 }
 
 .section-list-left,
 .section-list-right {
-  color: aqua;
-  background-color: blueviolet;
-  border: 12px solid blue;
+  font-size: 20px;
+  color: rgb(249, 250, 249);
+  background-color: rgb(61, 165, 43);
+  border: 12px solid var(--dark-green);
+}
+
+.lists {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #cabecalho {
   width: 100%;
   background-color: green;
   position: fixed;
-  top: 0px;
+  z-index: 2;
+  top: 0;
   font-family: sans-serif;
   text-align: center;
 }
 
 aside {
-
+  padding-left: 1rem;
   font-size: 30px;
-  background-color: green;
-  width: 50%;
-  padding-left: .5rem;
-  margin-left: .5rem;
-  float: right;
   box-shadow: inset 5px 0 5px -5px #29627e;
   font-style: italic;
-  color: #29627e;
+  color: hsl(120, 100%, 20%);
+  ;
+}
+
+.lado-esquerdo {
+  flex: 2;
+  padding: 2rem;
+}
+
+.lado-direito {
+  flex: 1;
+  padding: 3rem;
 }
 
 article {
-  margin-left: 200px;
+
   line-height: 35px;
   font-family: fantasy;
   font-size: 30px;
-  float: left;
+
 }
 
 img {
-  margin-top: 40px;
+
+  margin: auto;
   width: 400px;
+  border-radius: 100%;
+  border-width: 20px;
+  border-style: solid;
+  border-color: var(--dark-green);
+
 }
- 
+
 li {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 table thead {
   background-color: #00ff00;
 }
 
-table{
-  width: 100%;
+table {
+  margin: auto;
   text-align: center;
 }
 
-th, td {
+th,
+td {
   font-family: sans-serif;
   padding: 10px;
   border: 1px solid black;
@@ -87,4 +125,39 @@ th, td {
   text-align: center;
 }
 
+#rodape {
+  background-color: var(--dark-green);
+  color: white;
+  margin: 2em auto 0px;
+}
 
+#rodape img {
+  width: 100px;
+  height: auto;
+  border: unset;
+}
+
+#rodape p{
+  font-size: 2rem;
+  margin: 0px;
+  background: #015201;
+}
+
+.redes-sociais{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.foot-content{
+  margin: 5rem auto 0px;
+  max-width: 1200px;
+
+}
+
+#rodape a{
+  text-decoration: none;
+  color: white;
+}
