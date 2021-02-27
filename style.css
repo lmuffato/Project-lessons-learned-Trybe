@@ -16,9 +16,13 @@ body {
 }
 
 #titulo {
+  color: rgb(66, 63, 63);  
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 40px;
   margin: 20px 12px;
   margin-left: 45px;
-  line-height: 40px;
+  
 }
 
 .nav-menu {
@@ -54,4 +58,24 @@ body {
 .aside {
   margin: 32px;
   width: 400px;
+}
+
+.sec-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.sub-title {
+ 
+}
+
+#licoes_aprendidas{
+  list-style: none;
+  margin-right: 52px;
+}
+
+#licoes_a_aprender {
+  list-style: none;
+  margin-left: 52px;
 }
