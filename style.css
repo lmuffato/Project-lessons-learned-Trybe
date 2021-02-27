@@ -1,12 +1,15 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
 #cabecalho {
-  background-color: aquamarine;
+  display: flex;
   top: 0;
+
 }
 
 #titulo {
-  padding: 10px;
+  margin: 45px 0 45px 45px;
 }
