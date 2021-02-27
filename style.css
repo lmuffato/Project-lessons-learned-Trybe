@@ -5,9 +5,16 @@
 body {
   background-color: rgb(253, 251, 251);}
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;}
+table , th , td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;}
+
+table{
+  margin-top: 200px;
+  padding-top: 6000px;
+  margin: auto}
+  
 
 #cabecalho {
   position: fixed;
@@ -25,26 +32,48 @@ table, th, td {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;} 
+  width: 40%;}
 
 #laprendidas {
-  margin: auto;
+  margin-top: 35px;
   padding-left: 33%;
   float: left;}
 
 #laaprender {
-  margin: auto;
+  margin-top: 35px;
   padding-right: 33%;
   float: right;}
 
-#licoes_aprendidas{
-  text-align: center;}
-  
-#licoes_a_aprender{
-  text-align: center;}
-
-#aprendendo_na_trybe{
-  margin-top: 300px;
+#licoes_aprendidas {
   text-align: center;
-  width: 30%;}
+  margin-top: 20px;}
 
+#licoes_a_aprender {
+  text-align: center;
+  margin-top: 20px;}
+
+#aprendendo_na_trybe {
+  margin-top: 20px;
+  margin-left: 200px;
+  float: left;
+  text-align: center;
+  width: 35%;
+  border-style: dashed;}
+
+#aprendendo_html {
+  margin-top: 45px;
+  float: right;
+  padding: 25px;
+  text-align: center;
+  width: 35%;
+  border-style: dashed;}
+
+.titulos_artigos{
+  margin-bottom: 20px;
+  padding-top: 50px;}
+
+#objetivos{
+  margin-top: 600px;
+  text-align: center;
+  display: block;
+}
