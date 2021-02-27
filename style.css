@@ -8,5 +8,28 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: #64876B;
+  background-color: #64876b;
+  z-index: 2;
+}
+
+#cabecalho h1 {
+  font-size: 26px;
+}
+
+#page_content {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  z-index: 1;
+  background-color: #a59f8f;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+aside {
+  position: absolute;
+  float: right;
 }
