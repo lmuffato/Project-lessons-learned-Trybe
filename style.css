@@ -36,3 +36,7 @@ background-color:#2E8B57; margin-top: 10px;}
     background-color:#2E8B57; margin-top: 10px; margin-left: 10px;}
 
 #menu-social a {margin: 12px; color: #fff; font-weight: bold;}
+
+#rodape {background-color: #2E8B57; color: #fff; height: 50px; width: 100%;}
+
+#rodape h4 {text-align: center; padding: 15px;}
