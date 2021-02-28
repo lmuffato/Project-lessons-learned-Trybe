@@ -81,6 +81,9 @@ main {
 .lado-direito {
   width: 25%;
   float: right;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: rgb(47, 193, 140);
 }
 
 table {
