@@ -2,9 +2,69 @@ body {
   background-color: rgb(253, 251, 251);
   width: 1366px;
   height: 768px;
+  margin-left: 0;
+}
+
+.border {
+  border: 1px solid red;
 }
 
 #cabecalho {
+  width: 1366px;
+  height: 110px;
+  background-color: rgb(50, 167, 145);
+  background-repeat: no-repeat;
   top: 0;
+  padding: 15px;
   position: fixed;
+  display: block;
+  margin-left: 0;
+}
+
+#imagem {
+  width: 210px;
+}
+
+#imagem img {
+  width: 120px;
+  margin-left: 219px;
+  position: fixed;
+  margin-top: -220px;
+  border-radius: 6px;
+}
+
+#main {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 200px;
+}
+
+#lista_habilidades {
+  width: 660px;
+  margin: 0;
+  padding: 0;
+}
+
+#aprender {
+  width: 660px;
+}
+
+.color {
+  background-color: rgb(50, 167, 145);
+}
+
+.elementHeader h1 {
+  text-align: center;
+  color: white;
+}
+
+.m-main {
+  margin-left: 130px;
+}
+
+.habilidades {
+  float: left;
+  margin-right: 100px;
+  padding-right: 40px;
 }
