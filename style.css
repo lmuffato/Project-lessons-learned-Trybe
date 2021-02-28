@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
 body {
   background-color: rgb(253, 251, 251);
   margin: 0px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .conteudo-principal {
@@ -22,19 +26,18 @@ body {
   border-radius: 50%;
 }
 
-.navegacao ul li a {
+#nome {
+  padding-left: 20px;
+}
+
+.navegacao ul a {
   text-decoration: none;
   color: white;
 }
 
-.navegacao ul li a :hover {
-  background-color: white;
-  color: white;
-}
-
 .navegacao ul :hover {
-  background-color: white;
-  color: black;
+  background-color: darkgreen;
+  color: white;
 }
 
 .navegacao ul li {
