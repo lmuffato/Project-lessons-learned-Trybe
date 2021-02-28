@@ -15,7 +15,9 @@ body {
   font-family: sans-serif;
   padding: 10px;
   margin: auto;
-  background-color: rosybrown;  
+  background-color: rosybrown;
+  width: 1400px;
+  height: 50px;
 }
 
 #minha_foto {
@@ -24,18 +26,35 @@ body {
   border-radius: 3px;
   border-color: rgba(179, 50, 71, 0.63);
   border-style: solid;
+  margin-left: 40px;
 }
 
 h2 {
   margin: 20px;
+  color:  rgb(21, 53, 14);
+}
+
+h3 {
+  text-align: center;
 }
 
 .article {
   padding: 20px;
+  box-sizing: border-box;
+  margin-right: 700px;
+  text-align: justify;
+}
+
+#licoes_aprendidas {
+  padding-left: 40px;
 }
 
 section {
   padding: 30px;
+  float: right;
+  margin-left: 700px;
+  text-align: justify;
+  position: absolute;
 }
 
 #table {
@@ -58,6 +77,8 @@ footer {
 
 nav a {
   color: black;
+  padding-left: 40px;
+  font-size: 12px;
 }
 
 a:hover , footer {
@@ -70,6 +91,6 @@ aside {
   border-style: solid;
   background-color: rgba(194, 155, 155, 0.644);
   float: right;
-  padding: 10px;
+  padding-left: 30px;
   margin-bottom: 100px;
 }
