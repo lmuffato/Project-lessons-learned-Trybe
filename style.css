@@ -69,7 +69,22 @@ body {
   font-size: 1.125em;
   font-weight: 700;
   letter-spacing: 0.06em;
+  color: var(--orange);
 }
+
+.title::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 5px;
+  background-color: var(--orange);
+  z-index: -1;
+  vertical-align: middle;
+  margin-left: -25px;
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+
 
 /* header */
 .header {
@@ -185,6 +200,7 @@ body {
   display: grid;
   grid-template-columns: max-content max-content;
   gap: 60px;
+  margin-left: 20px;
 }
 
 .lessons__title {
@@ -196,6 +212,9 @@ body {
   margin-bottom: 5px;
   font-size: 1em;
   line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
 }
 
 .lessons-learned__list {
@@ -251,5 +270,4 @@ body {
 
 .footer__paragraph {
   text-align: center;
-  text-transform: capitalize;
 }
