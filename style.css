@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0px;
+  margin: 0;
   font-family: Nunito Sans, sans-serif;
   letter-spacing: 1px;
 }
@@ -12,8 +12,8 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
-  background-color: #1dd05d;
+  top: 0;
+  background-color: rgb(29, 208, 93);
   color: antiquewhite;
   width: 100%;
   text-align: center;
@@ -64,13 +64,13 @@ body {
 }
 
 footer {
-  background-color: #1dd05d;
+  background-color: rgb(29, 208, 93);
   color: antiquewhite;
   width: 100%;
 }
 
 #licoes_a_aprender {
-  margin-left: 25px;  
+  margin-left: 25px;
 }
 
 #licoes_aprendidas {
