@@ -55,7 +55,7 @@ body {
 #licoes_aprendidas_titulo {
   position: absolute;
   top: 25%;
-  left: 32%;
+  right: 31%;
 }
 
 #licoes_aprendidas {
@@ -71,7 +71,7 @@ body {
 #licoes_a_aprender_titulo {
   position: absolute;
   top: 25%;
-  right: 31%;
+  left: 32%;
 }
 
 #licoes_a_aprender {
