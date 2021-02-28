@@ -8,13 +8,13 @@ header{
     color: rgb(253, 251, 251); text-align: center;
 }
 #minha_foto{
-    width: 200px; height: auto; position: absolute; margin: 30px; top: 210px; z-index: 1;
+    width: 200px; height: auto; position: absolute; margin: 20px; top: 210px; z-index: 1;     
 }
 #link_cabecalho{
     color: rgb(253, 251, 251);
 }
 #rodape{
-    background-color: rgb(36, 112, 134); width: 100%; bottom: 0px; position: fixed; padding: 20px;
+    background-color: rgb(36, 112, 134); width: 100%; position:fixed; padding: 20px; bottom: 0px;
 }
 #author-comments{
     background-color: rgb(62, 182, 172); width: 400px; height: 500px; border-style: solid; border-color: rgb(31, 84, 125); position: relative; 
@@ -22,4 +22,13 @@ header{
 }
 #comments{
     padding: 15px;
+}
+#side-coments{
+    right: 60px; position: absolute; top: 280px;
+}
+#text{
+    width: 65%;
+}
+.conteudo{
+    top: 450px; position: absolute; padding: 20px;
 }
