@@ -81,13 +81,9 @@ td {
 
 .corfundo {
   background-color: rgb(15, 157, 7);
-  margin-left: -8px;
-  padding-bottom: 30px;
-  margin-top: -16px;
-}
-
-p {
-  text-align: center;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding-bottom: 20px;
 }
 
 footer {
@@ -110,9 +106,18 @@ footer {
 
 .lado_direito {
   font-weight: 900;
+  margin-left: 20px;
+  width: 50%;
 }
 
 .lado_esquerdo {
   font-weight: 900;
+  width: 50%;
+}
+
+.sobre {
+  display: flex;
+  text-align: center;
+  line-height: 1.5;
 }
 
