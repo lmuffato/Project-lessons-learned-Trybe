@@ -2,6 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 20px;
   padding: 10px 20px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 #cabecalho {
@@ -12,4 +14,12 @@ body {
 #minha_foto {
   margin-top: 50px;
   border: 10px solid gray;
+}
+
+#titulo {
+  color: rgb(83, 136, 53);
+}
+
+h2 h3 th { color: rgb(83, 136, 53);
+  letter-spacing: 1px;
 }
