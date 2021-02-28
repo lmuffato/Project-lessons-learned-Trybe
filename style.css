@@ -50,9 +50,50 @@ body {
   top: 320px;
 }
 
+#lado-superior {
+  display: inline;
+  float: right;
+  margin-top: -190px;
+  margin-left: 250px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#head_1 {
+  text-align: center;
+}
+
+#text_1 {
+  text-align: justify;
+}
+
+#lado-esquerdo {
+  margin-top: 65px;
+  margin-left: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#lado-direito {
+  display: inline;
+  float: right;
+  margin-top: -268px;
+}
+
+#tables {
+  margin-top: 35px;
+  margin-left: 15px;
+  border-collapse: collapse;
+}
 
 #aside {
   float: right;
-  margin-top: 220px;
-  margin-right: 50px;
+  margin-top: 125px;
+  margin-right: 45px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#rodape {
+  margin-top: 35px;
 }
