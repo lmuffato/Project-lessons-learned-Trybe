@@ -45,6 +45,10 @@ body {
   padding: 0;
 }
 
+#aprender {
+  float: right;
+}
+
 #sobre-aprendizado {
   clear: both;
 }
