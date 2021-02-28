@@ -12,7 +12,7 @@ h1 {
 #cabecalho {
   position: fixed;
   background-color: rgb(46, 46, 46);
-  margin-top: 0;
+  top: 0;
   padding: 20px;
   width: 100%;
   margin-left: -10px;
@@ -45,6 +45,7 @@ h1 {
 #walves {
   font-size: 22px;
   margin-left: -2px;
+  line-height: 5px;
 }
 
 h2 {
@@ -107,3 +108,9 @@ footer {
   margin-top: 40px;
 }
 
+.lado_direito{
+  font-weight: 900;
+}
+.lado_esquerdo{
+  font-weight: 900;
+}
