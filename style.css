@@ -3,8 +3,8 @@ body {
 }
 
 #cabecalho {
-  background-color: aqua;
   top: 0;
+  background-color: aqua;
   position: fixed;
 }
 
