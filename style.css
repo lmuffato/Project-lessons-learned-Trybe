@@ -8,8 +8,8 @@ body {
   top: 0;
   text-align: center;
   width: 100%;
-  background-color: darkgreen;
-  color: white;
+  background-color: #4A7C4F;
+  color: lightgray;
 }
 
 #cabecalho nav ul li {
@@ -30,7 +30,7 @@ main {
 }
 
 #minha_foto {
-  height: 250px;
+  height: 280px;
   border-radius: 50%;
   border: 4px solid lightgreen;
   margin-top: auto;
@@ -48,15 +48,25 @@ main {
 .lado-esquerdo {
   width: 45%;
   display: inline-block;
+  height: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
 }
 
 .lado-direito {
   width: 45%;
   display: inline-block;
+  height: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 0;
 }
 
 footer {
-  background-color: darkgreen;
+  margin-top: 10px;
+  background-color: #4A7C4F;
   text-align: center;
-  color: white;
+  color: lightgray;
+  padding: 20px 20px;
 }
