@@ -12,10 +12,12 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: Montserrat, serif, Arial, Helvetica, sans-serif;
     font-size: 14px;
+    line-height: 25px;
 }
 
 #cabecalho {
-    margin-top: 0px;
+    top: 0px;
+    left: 0px;
 }
 
 #titulo {
