@@ -10,6 +10,7 @@ body {
   background-color: rgb(51, 204, 51);
   z-index: 1;
   padding-right: 100%;
+  font-family: Helvetica;
 }
 
 #titulo {
@@ -57,6 +58,7 @@ body {
   margin-left: 250px;
   border: 2px solid black;
   border-radius: 5px;
+  font-family: Georgia;
 }
 
 #head_1 {
@@ -70,6 +72,7 @@ body {
 #lado-esquerdo {
   margin-top: 65px;
   margin-left: 30px;
+  padding-left: 15px;
   border: 2px solid black;
   border-radius: 5px;
 }
@@ -78,6 +81,7 @@ body {
   display: inline;
   float: right;
   margin-top: -268px;
+  margin-right: 25px;
 }
 
 #tables {
@@ -89,9 +93,10 @@ body {
 #aside {
   float: right;
   margin-top: 125px;
-  margin-right: 45px;
+  margin-right: 25px;
   border: 2px solid black;
   border-radius: 5px;
+  font-family: Helvetica;
 }
 
 #rodape {
