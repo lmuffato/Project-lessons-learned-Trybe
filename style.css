@@ -1,15 +1,49 @@
 body {
     background-color: rgb(253, 251, 251);
+
+    
 }
 
 #cabecalho {
     position: fixed;
-        background-color: blue;
+        background-color: rgb(49, 45, 45);
         top: 0px;
         width: 100%;
         height: 80px;
+        color: white;
+        z-index: 1;
+        
+}
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 30 0px;
+    line-height: 0px;
 }
 
 #minha_foto {
-    width: 400px;
+    position: relative;
+    width: 200px;
+    top: 100px;
+    left: 40%;
+    border-radius: 5%;
+}
+#secao_aside {
+    
+    position: relative;
+    float: right;
+    top: -240px;
+    background-color: green;
+    width: 180px;
+
+}
+li:hover {
+    background-color: yellow;
+    
+}
+#rodape {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(83, 226, 214);
 }
