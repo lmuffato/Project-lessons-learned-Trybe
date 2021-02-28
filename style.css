@@ -3,10 +3,10 @@ body {
   font-family: monospace;
   font-size: 1.1em;
   background-color: rgb(253, 251, 251);
-  line-height: 1.0em;
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
+  line-height: 1em;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 /* Atributos do cabeçalho */
@@ -18,7 +18,7 @@ header {
   margin-bottom: 2px;
   z-index: 10;
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 /* Título central */
@@ -57,14 +57,14 @@ nav {
 /* Titulo superior */
 #nome {
   width: 200px;
-  text-decoration:none;
+  text-decoration: none;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: rgb(15, 127, 25, 255);
   margin-top: 10px;
   margin-left: 20px;
   color: white;
-z-index: 5;
+  z-index: 5;
 }
 
 /* Titulo superior e links */
@@ -93,15 +93,13 @@ z-index: 5;
 }
 
 .textos_lado_a_lado {
-  width: fit-content;
   margin-left: 20px;
   position: relative;
   margin-bottom: 10px;
-  background-color: brown;
+  background-color: rgb(161, 54, 54);
 }
 
 .lado-esquerdo {
-  align-content: flex-start;
   width: 400px;
   height: fit-content;
   text-align: justify;
@@ -109,7 +107,7 @@ z-index: 5;
 }
 
 .lado-direito {
-  width: 400px;
+  width: 600px;
   height: fit-content;
   text-align: justify;
   display: inline-block;
@@ -117,11 +115,11 @@ z-index: 5;
 
 #rodape {
   position: absolute;
-  padding: 0 px;
+  padding: 0px;
   margin-top: 30x;
   height: 7%;
   width: 100%;
-  background-color:rgb(15, 127, 25, 255) ;
+  background-color: rgb(15, 127, 25, 255);
   z-index: 8;
 }
 
