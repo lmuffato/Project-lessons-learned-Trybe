@@ -154,3 +154,15 @@ section {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
   text-align: center;
 }
+
+footer {
+  background-color: rgb(192, 204, 199);
+  position: absolute;
+  margin-top: 20px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  }
