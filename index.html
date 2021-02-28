@@ -16,21 +16,29 @@
       <a href="#licoes_a_aprender">Lições a aprender</a>
     </nav>
   </header>
-  <div class="container" style="margin-top: 100px;">
-    <img id="minha_foto" src="minha_foto.jpeg" alt="Foto de Rafael" height="256" width="256">
-    <article id="meu_aprendizado">
-      <h2>Sobre meu aprendizado</h2>
-      <p>Desde a primeira semana o ritmo da trybe tem sido forte!
-        A cada dia: Muito conteúdo novo, muitos exercícios, e não faltam dúvidas!
-        Mas graças a uma equipe dedicada, e excelentes companheiros de turma,
-        tenho aprendido bastante todos os dias; Shell, Git, GitHub, HTML, CSS.
-        E a lista não para de crescer! #vqv porque foguete não tem ré e nem freio.</p>
-    </article>
-    <aside>
-      <h2>Uma história da jornada até então</h2>
-      <p>O primeiro dia de GitHub foi especial, eu já conhecia sistemas de versionamento, mas nunca tinha utilizado o GitHub. Foi ótimo adicionar essa nova ferramenta, hoje consigo navegar repositórios sem nenhuma dor de cabeça.
-      </p>
-    </aside>
+  <div class="container">
+    <div>
+      <img id="minha_foto" src="minha_foto.jpeg" alt="Foto de Rafael" height="256" width="256">
+    </div>
+    <!-- Side-by-side hack below from https://stackoverflow.com/questions/19089933/how-to-position-two-elements-side-by-side-using-css-->
+    <div class="lado-esquerdo">
+      <article id="meu_aprendizado" >
+        <h2>Sobre meu aprendizado</h2>
+        <p>Desde a primeira semana o ritmo da trybe tem sido forte!
+          A cada dia: Muito conteúdo novo, muitos exercícios, e não faltam dúvidas!
+          Mas graças a uma equipe dedicada, e excelentes companheiros de turma,
+          tenho aprendido bastante todos os dias; Shell, Git, GitHub, HTML, CSS.
+          E a lista não para de crescer! #vqv porque foguete não tem ré e nem freio.</p>
+      </article>
+    </div>
+    <div class="lado-direito">
+      <aside >
+        <h2>Uma história da jornada até então</h2>
+        <p>O primeiro dia de GitHub foi especial, eu já conhecia sistemas de versionamento, mas nunca tinha utilizado o GitHub. Foi ótimo adicionar essa nova ferramenta, hoje consigo navegar repositórios sem nenhuma dor de cabeça.
+        </p>
+      </aside>
+    </div>
+    <div class="clearfix"></div>
     <section>
       <h2>Lições aprendidas</h2>
       <ol id="licoes_aprendidas">

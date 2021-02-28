@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 .header {
@@ -22,4 +23,24 @@ body {
 
 .navbar a:link {
   color: rgb(253, 251, 251);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  float: left;
+  width: 49%;
+
+
+}
+
+.clearfix {
+  clear: both;
 }
