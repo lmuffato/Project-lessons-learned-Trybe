@@ -11,6 +11,7 @@ body {
   background-color: rgb(90, 130, 90);
   padding: 5px;
   border-bottom: 7px solid black;
+  z-index: 1;
 }
 
 #titulo {
@@ -27,9 +28,26 @@ body {
   border-left: 7px solid black;
 }
 
+.navegacao {
+  position: absolute;
+  right: 50px;
+  top: 400px;
+}
+
+.navegacao ul{
+  list-style: none;
+  text-align: center;
+}
+
 .listas {
   position: absolute;
   top: 100px;
+}
+
+#main {
+  position: absolute;
+  padding-bottom: 50px;
+  top: 600px;
 }
 
 #rodape {
@@ -38,7 +56,17 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: rgba(90, 130, 90, 0.5);
-  padding: 1px;
+  height: 40px;
+  background-color: rgba(90, 130, 90, 0.7);
+  padding-bottom: 5px;
   border-top: 2px solid black;
+}
+
+#rodape p {
+  text-align: right;
+  padding-right: 10px;
+}
+
+#link {
+  color: black;
 }
