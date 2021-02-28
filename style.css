@@ -1,7 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
   width: 1366px;
-  height: 768px;
   margin-left: 0;
 }
 
@@ -11,7 +10,7 @@ body {
 
 #cabecalho {
   width: 1366px;
-  height: 110px;
+  height: 90px;
   background-color: rgb(50, 167, 145);
   background-repeat: no-repeat;
   top: 0;
@@ -26,10 +25,10 @@ body {
 }
 
 #imagem img {
-  width: 120px;
+  width: 100px;
   margin-left: 219px;
   position: fixed;
-  margin-top: -220px;
+  margin-top: -196px;
   border-radius: 6px;
 }
 
@@ -46,8 +45,31 @@ body {
   padding: 0;
 }
 
-#aprender {
-  width: 660px;
+#elementos-rodape {
+  margin-bottom: -8px;
+}
+
+#rodape {
+  width: 1366px;
+  height: 35px;
+  background-color: rgb(50 167 145 / 5%);
+  background-repeat: no-repeat;
+  padding: 15px;
+  display: block;
+  margin-left: 0;
+}
+
+#github {
+  width: 40px;
+  margin-left: 219px;
+  margin-bottom: -90px;
+}
+
+#linkedin {
+  width: 40px;
+  margin-left: 219px;
+  margin-bottom: -73px;
+  padding-left: 73px;
 }
 
 .color {
@@ -68,3 +90,9 @@ body {
   margin-right: 100px;
   padding-right: 40px;
 }
+
+.link-externo ul {
+  list-style: none;
+}
+
+
