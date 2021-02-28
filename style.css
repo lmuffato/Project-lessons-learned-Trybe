@@ -36,7 +36,7 @@ nav {
 }
 
 #labelnews {
-  padding-left: 180px;
+  padding-left: 50px;
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -91,6 +91,29 @@ article {
   text-align: justify;
   padding-top: 20px;
   padding-right: 15px;
+}
+
+#sobre {
+  background-color: rgb(192, 204, 199);
+  width: 350px;
+  position: absolute;
+  top: 160px;
+  left: 840px;
+  width: 495px;
+  height: 600px;
+}
+
+#title-sobre {
+  background-color: cadetblue;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  text-align: center;
+}
+
+#minha_foto {
+  width: 200px;
 }
 
 section {
