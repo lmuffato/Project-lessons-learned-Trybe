@@ -27,18 +27,23 @@ h2 h3 th { color: rgb(83, 136, 53);
 }
 
 .lado-direito {
-  float: left;
-  margin-left: 620px;
-  border: 10px solid rgb(23, 35, 207);
-  margin-top: -390px; }
+  float: right;
+  width: 500px;
+  border: 5px solid rgb(6, 228, 17);
+}
 
 .lado-esquerdo {
-  border: 10px solid rgb(2, 5, 80);
-  margin-right: 700px;
-  margin-bottom: 60px;
+  float: left;
+  width: 650px;
+}
+
+table {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-right: 500px;
 }
 
 #rodape-link {
-  margin-top: 60px;
   text-align: center;
 }
