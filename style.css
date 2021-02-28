@@ -107,24 +107,22 @@ p {
   margin-right: 20px;
 }
 
-#paragrafo{
-  border: 1px solid black;
+#paragrafo {
+  
   display: inline-block;
   width: 300px;
   margin-left: 300px;
   margin-right: 200px;
-  height: 300px;
-}
-
-aside {
-  background-color: rgba(15, 163, 107,0.5);
-  display: inline-block;
-  width: 300px;
   height: 400px;
 }
 
-h3 {
-  text-align: center;
+aside {
+  background-color: rgba(15, 163, 107, 0.5);
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
 }
 
 aside p {
@@ -132,6 +130,11 @@ aside p {
   text-align: justify;
   padding-left: 10px;
 }
+h3 {
+  color: grey;
+  text-align: center;
+}
+
 
 table {
   width: 200px;
@@ -139,10 +142,13 @@ table {
   border: 1px solid black;
 }
 
-table ,th, tr, td {
+table, th, tr, td {
   border: 2px solid black;
   border-collapse: collapse;
   background-color: white;
+}
+aside h3 {
+  color: white;
 }
 /* #rodape{
 background-color: rgba(15, 163, 107,0.5);
