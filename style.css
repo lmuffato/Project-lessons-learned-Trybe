@@ -2,10 +2,16 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.top-0px {
+.header {
   top: 0;
+  position: fixed;
+  background-color: rgb(17, 148, 17);
+  width: 100%;
+  height: 100px;
+  color: antiquewhite;
+  text-align: center;
 }
 
-.fixed {
-  position: fixed;
+.navbar a:visited {
+  color: rgb(253, 251, 251);
 }

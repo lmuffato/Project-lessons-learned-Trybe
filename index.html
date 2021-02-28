@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt" xml:lang="pt">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Rafael Medeiros Gomes - Turma 10 - Tribo A</title>
-  </head>
-  <body>
-    <header id="cabecalho" class="top-0px fixed">
-      <h1 id="titulo">Rafael Medeiros Gomes - Estudante da Trybe</h1>
-      <nav>
-        <a href="#meu_aprendizado">Meu aprendizado</a>
-        <a href="#licoes_aprendidas">Lições aprendidas</a>
-        <a href="#licoes_a_aprender">Lições a aprender</a>
-      </nav>
-    </header>
-    <img id="minha_foto" src="minha_foto.jpeg" alt="Foto de Rafael">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Rafael Medeiros Gomes - Turma 10 - Tribo A</title>
+</head>
+
+<body>
+  <header id="cabecalho" class="header">
+    <h1 id="titulo">Rafael Medeiros Gomes - Estudante da Trybe</h1>
+    <nav style="text-align: left;" class="navbar">
+      <a href="#meu_aprendizado">Meu aprendizado</a>
+      <a href="#licoes_aprendidas">Lições aprendidas</a>
+      <a href="#licoes_a_aprender">Lições a aprender</a>
+    </nav>
+  </header>
+  <div class="container" style="margin-top: 100px;">
+    <img id="minha_foto" src="minha_foto.jpeg" alt="Foto de Rafael" height="256" width="256">
     <article id="meu_aprendizado">
       <h2>Sobre meu aprendizado</h2>
       <p>Desde a primeira semana o ritmo da trybe tem sido forte!
-      A cada dia: Muito conteúdo novo, muitos exercícios, e não faltam dúvidas!
-      Mas graças a uma equipe dedicada, e excelentes companheiros de turma,
-      tenho aprendido bastante todos os dias; Shell, Git, GitHub, HTML, CSS.
-      E a lista não para de crescer! #vqv porque foguete não tem ré e nem freio.</p>
+        A cada dia: Muito conteúdo novo, muitos exercícios, e não faltam dúvidas!
+        Mas graças a uma equipe dedicada, e excelentes companheiros de turma,
+        tenho aprendido bastante todos os dias; Shell, Git, GitHub, HTML, CSS.
+        E a lista não para de crescer! #vqv porque foguete não tem ré e nem freio.</p>
     </article>
     <aside>
       <h2>Uma história da jornada até então</h2>
-        <p>Não é a primeira vez que uso um sistema de versionamento como o git, mas é a primeira vez que precisei fazer Pull Requests, review de código de outras pessoas, e passar por testes automatizados, sem dúvidas foi um dia longo porém recompensador.</p>
+      <p>Não é a primeira vez que uso um sistema de versionamento como o git, mas é a primeira vez que precisei fazer
+        Pull
+        Requests, review de código de outras pessoas, e passar por testes automatizados, sem dúvidas foi um dia longo
+        porém recompensador.</p>
     </aside>
     <section>
       <h2>Lições aprendidas</h2>
@@ -57,108 +63,111 @@
         <li>Liderança</li>
       </ul>
     </section>
-    <!--Source https://stackoverflow.com/questions/18505921/chess-using-tables-->
-    <table id="chess_board" cellpadding="0" cellspacing="0">
-      <tr>
-        <td>8</td>
-          <td id="A8">&#9820;</td>
-          <td id="B8"></td>
-          <td id="C8"></td>
-          <td id="D8"></td>
-          <td id="E8"></td>
-          <td id="F8">&#9821;</td>
-          <td id="G8"></td>
-          <td id="H8">&#9820;</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td id="A7"></td>
-          <td id="B7">&#9823;</td>
-          <td id="C7">&#9823;</td>
-          <td id="D7">&#9818;</td>
-          <td id="E7"></td>
-          <td id="F7"></td>
-          <td id="G7">&#9823;</td>
-          <td id="H7">&#9823;</td>
-      </tr>
-      <tr>
-        <td>6</td>
-          <td id="A6">&#9823;</td>
-          <td id="B6"></td>
-          <td id="C6"></td>
-          <td id="D6"></td>
-          <td id="E6">&#9823;</td>
-          <td id="F6"></td>
-          <td id="G6"></td>
-          <td id="H6"></td>
-      </tr>
-      <tr>
-        <td>5</td>
-          <td id="A5"></td>
-          <td id="B5"></td>
-          <td id="C5"></td>
-          <td id="D5">&#9823;</td>
-          <td id="E5"></td>
-          <td id="F5">&#9823;</td>
-          <td id="G5"></td>
-          <td id="H5">&#9817;</td>
-      </tr>
-      <tr>
-        <td>4</td>
-          <td id="A4"></td>
-          <td id="B4"></td>
-          <td id="C4"></td>
-          <td id="D4">&#9813</td>
-          <td id="E4"></td>
-          <td id="F4"></td>
-          <td id="G4"></td>
-          <td id="H4"></td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td id="A3"></td>
-          <td id="B3"></td>
-          <td id="C3">&#9816;</td>
-          <td id="D3"></td>
-          <td id="E3"></td>
-          <td id="F3">&#9817;</td>
-          <td id="G3">&#9815;</td>
-          <td id="H3"></td>
-      </tr>
-      <tr>
-        <td>2</td>
-          <td id="A2">&#9817;</td>
-          <td id="B2">&#9817;</td>
-          <td id="C2">&#9822;</td>
-          <td id="D2"></td>
-          <td id="E2">&#9817;</td>
-          <td id="F2"></td>
-          <td id="G2"></td>
-          <td id="H2">&#9817;</td>
-      </tr>
-      <tr>
-        <td>1</td>
-          <td id="A1">&#9814;</td>
-          <td id="B1"></td>
-          <td id="C1"></td>
-          <td id="D1"></td>
-          <td id="E1">&#9812;</td>
-          <td id="F1">&#9815;</td>
-          <td id="G1"></td>
-          <td id="H1">&#9814;</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>A</td>
-        <td>B</td>
-        <td>C</td>
-        <td>D</td>
-        <td>E</td>
-        <td>F</td>
-        <td>G</td>
-        <td>H</td>
-      </tr>
-    
+  </div>
+
+  <!--Source https://stackoverflow.com/questions/18505921/chess-using-tables-->
+  <table id="chess_board" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>8</td>
+      <td id="A8">&#9820;</td>
+      <td id="B8"></td>
+      <td id="C8"></td>
+      <td id="D8"></td>
+      <td id="E8"></td>
+      <td id="F8">&#9821;</td>
+      <td id="G8"></td>
+      <td id="H8">&#9820;</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td id="A7"></td>
+      <td id="B7">&#9823;</td>
+      <td id="C7">&#9823;</td>
+      <td id="D7">&#9818;</td>
+      <td id="E7"></td>
+      <td id="F7"></td>
+      <td id="G7">&#9823;</td>
+      <td id="H7">&#9823;</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td id="A6">&#9823;</td>
+      <td id="B6"></td>
+      <td id="C6"></td>
+      <td id="D6"></td>
+      <td id="E6">&#9823;</td>
+      <td id="F6"></td>
+      <td id="G6"></td>
+      <td id="H6"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td id="A5"></td>
+      <td id="B5"></td>
+      <td id="C5"></td>
+      <td id="D5">&#9823;</td>
+      <td id="E5"></td>
+      <td id="F5">&#9823;</td>
+      <td id="G5"></td>
+      <td id="H5">&#9817;</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td id="A4"></td>
+      <td id="B4"></td>
+      <td id="C4"></td>
+      <td id="D4">&#9813</td>
+      <td id="E4"></td>
+      <td id="F4"></td>
+      <td id="G4"></td>
+      <td id="H4"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td id="A3"></td>
+      <td id="B3"></td>
+      <td id="C3">&#9816;</td>
+      <td id="D3"></td>
+      <td id="E3"></td>
+      <td id="F3">&#9817;</td>
+      <td id="G3">&#9815;</td>
+      <td id="H3"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td id="A2">&#9817;</td>
+      <td id="B2">&#9817;</td>
+      <td id="C2">&#9822;</td>
+      <td id="D2"></td>
+      <td id="E2">&#9817;</td>
+      <td id="F2"></td>
+      <td id="G2"></td>
+      <td id="H2">&#9817;</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td id="A1">&#9814;</td>
+      <td id="B1"></td>
+      <td id="C1"></td>
+      <td id="D1"></td>
+      <td id="E1">&#9812;</td>
+      <td id="F1">&#9815;</td>
+      <td id="G1"></td>
+      <td id="H1">&#9814;</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+      <td>E</td>
+      <td>F</td>
+      <td>G</td>
+      <td>H</td>
+    </tr>
+
     <footer id="rodape"><a href="https://rafaelmedeirosgomes.github.io/" target="_blank">My GitHub page</a></footer>
-  </body>
+</body>
+
 </html>
