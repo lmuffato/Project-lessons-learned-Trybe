@@ -36,7 +36,7 @@ nav {
 }
 
 #labelnews {
-  padding-left: 50px;
+  padding-left: 250px;
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -95,7 +95,6 @@ article {
 
 #sobre {
   background-color: rgb(192, 204, 199);
-  width: 350px;
   position: absolute;
   top: 160px;
   left: 840px;
@@ -103,22 +102,27 @@ article {
   height: 600px;
 }
 
-#title-sobre {
+#t-sobre {
   background-color: cadetblue;
   margin-top: 0;
-  padding-top: 15px;
+  padding-top: 25px;
   padding-bottom: 15px;
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
   text-align: center;
 }
 
 #minha_foto {
-  width: 250px;
+  padding-top: 20px;
+  width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
-#paragrafo-sobre {
+#p-sobre {
+  padding-top: 15px;
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   font-family: sans-serif;
 }
 
