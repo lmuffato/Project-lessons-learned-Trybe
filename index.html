@@ -1,73 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <header id="cabecalho">
-        <h1 id="titulo">Título</h1>
+  </head>
+  <body>
+    <header id="cabecalho" class="elementHeader">
+      <h1 id="titulo">TIAGO NOGUEIRA DOS SANTOS</h1>
     </header>
     <section id="imagem">
-        <img id="minha_foto" src="./foto-perfil.jpg" alt="Foto do perfil">
+      <img class="img" src="./foto-perfil.jpg" alt="Foto do perfil" />
     </section>
     <section id="main">
-        <main>
-            <section id="lista-habilidades">
-                <ol id="licoes_aprendidas">
-                    <li>Boas práticas no Slack</li>
-                    <li>Novos comandos no bash</li>
-                    <li>Funcionalidades Git/GitHub</li>
-                    <li>HTML 5 Básico</li>
-                    <li>CSS 3 Básico</li>
-                    <li>Básico de SSH</li>
-                    <li>Novos recursos do Zoom </li>
-                    <li>Fazer pesquisas de forma eficiente</li>
-                    <li>Organizar meus horários</li>
-                    <li>Colaborativo</li>
-                </ol>
-            </section>
-            <section id="aprender">
-                <ul id="licoes_a_aprender">
-                    <li>Softskill</li>
-                    <li>Ser Criativo</li>
-                    <li>HTML 5 avannçado</li>
-                    <li>CSS 3 avannçado</li>
-                    <li>JavaScript</li>
-                    <li>Nodejs</li>
-                    <li>Banco de dados relacionais</li>
-                    <li>Banco de dados não relacionais</li>
-                    <li>Usar Lint</li>
-                    <li>GitHub intermediário/avançando</li>
-                </ul>
-            </section>
-            <section id="sobre">
-                <article id="sobre-aprendizado">
-                    <h2>Título sobre aprendizado</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis impedit nobis esse nulla deserunt debitis enim, neque id eveniet!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, expedita.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quidem.</p>
-                </article>
-            </section>
-            <section id="momento-marcante">
-                <aside>
-                    <h2>Titulo momento marcante</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem explicabo repellendus, quod cupiditate vel!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem officiis esse aut dolor quam cupiditate.</p>
-                </aside>
-            </section>
-        </main>
+      <main class="m-main">
+        <section id="lista-habilidades" class="border habilidades">
+          <ol>
+            <li>Boas práticas no Slack</li>
+            <li>Novos comandos no bash</li>
+            <li>Funcionalidades Git/GitHub</li>
+            <li>HTML 5 Básico</li>
+            <li>CSS 3 Básico</li>
+            <li>Básico de SSH</li>
+            <li>Novos recursos do Zoom</li>
+            <li>Fazer pesquisas de forma eficiente</li>
+            <li>Organizar meus horários</li>
+            <li>Colaborativo</li>
+          </ol>
+        </section>
+        <section id="aprender" class="border licoes_a_aprender">
+          <ul>
+            <li>Softskill</li>
+            <li>Ser Criativo</li>
+            <li>HTML 5 avannçado</li>
+            <li>CSS 3 avannçado</li>
+            <li>JavaScript</li>
+            <li>Nodejs</li>
+            <li>Banco de dados relacionais</li>
+            <li>Banco de dados não relacionais</li>
+            <li>Usar Lint</li>
+            <li>GitHub intermediário/avançando</li>
+          </ul>
+        </section>
+        <section id="sobre">
+          <article id="sobre-aprendizado">
+            <h2>Título sobre aprendizado</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet,
+              doloremque! Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Quo blanditiis impedit nobis esse nulla deserunt debitis
+              enim, neque id eveniet!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores,
+              expedita.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              quidem.
+            </p>
+          </article>
+        </section>
+        <section id="momento-marcante">
+          <aside>
+            <h2>Titulo momento marcante</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              dolorem explicabo repellendus, quod cupiditate vel!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem officiis esse aut dolor quam cupiditate.
+            </p>
+          </aside>
+        </section>
+      </main>
     </section>
     <section id="elementos-rodape">
-        <footer id="rodape"></footer>
-        <nav id="link-externo">
-            <ul>
-                <li><a target="_blank" href="https://www.google.com.br">Google</a></li>
-            </ul>
-        </nav>
+      <footer id="rodape"></footer>
+      <nav id="link-externo">
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.google.com.br">Google</a>
+          </li>
+        </ul>
+      </nav>
     </section>
-</body>
+  </body>
 </html>
