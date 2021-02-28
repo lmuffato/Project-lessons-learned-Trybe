@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   font-family: sans-serif;
   letter-spacing: 2px;
+  line-height: 25px;
 }
 
 #cabecalho {
@@ -28,8 +29,6 @@ h2 h3 th { color: rgb(83, 136, 53);
 .lado_direito {
   float: right;
   margin: 0 0 10px 10px;
-  margin-top: -315px;
-  margin-right: 550px;
 }
 
 .lado_esquerdo {
