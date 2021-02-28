@@ -45,7 +45,7 @@ body {
   padding: 0;
 }
 
-#aprender {
+.lado-direito {
   float: right;
 }
 
@@ -93,7 +93,7 @@ body {
   margin-left: 130px;
 }
 
-.habilidades {
+.lado-esquerdo {
   float: left;
   margin-right: 100px;
   padding-right: 40px;
