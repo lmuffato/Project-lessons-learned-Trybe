@@ -19,6 +19,14 @@ body {
   background-color: rgb(155, 151, 168);
 }
 
+#minha_foto {
+  margin-top: 300px;
+  margin-left: 60px;
+  width: 200px;
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+}
+
 div#interface {
 
 }
