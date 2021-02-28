@@ -19,6 +19,19 @@ body {
   position: fixed;
 }
 
+#navegacao-lateral {
+  margin-left: 5px;
+  letter-spacing: 2px;
+  list-style-type: none;
+  font-family: Source Sans Pro, monospace;
+  text-align: left;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
 .subtitulo {
   margin: 20px;
   font-size: 20px;
@@ -52,6 +65,8 @@ button {
   margin-left: 10px;
   font-size: 20px;
 }
+
+#busca { color: black; }
 
 article {
   background-color: rgb(180, 206, 194);
