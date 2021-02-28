@@ -1,18 +1,18 @@
-body {background-color: rgb(253, 251, 251); height: 768px; width: 1366px;}
+body {background-color: rgb(253, 251, 251); height:768px;width:1366px;}
 
-#cabecalho {top: 0px; background-color:#2E8B57; height: 180px; position: fixed;
-width: 100%;}
+#cabecalho {top:0px;background-color:#2E8B57;height:180px;position:fixed;
+width:100%;}
 
-#titulo {text-align: center; color: #fff;font-family: 'DotGothic16', sans-serif;}
+#titulo {text-align:center;color: #fff;font-family:'DotGothic16', sans-serif;}
 
-#minha_foto {border-radius: 100%; height: 200px; width: 200px; margin-left: auto; margin-right: auto; display: block;}
+#minha_foto {border-radius:100%;height:200px;width:200px;margin-left:auto;margin-right:auto;display:block;}
 
-#area_principal {background-image: url("bggame.jpg"); height: 420px; 
-background-position:center; background-attachment: fixed; width: 100%; margin-top: 140px; }
+#area_principal {background-image:url("bggame.jpg");height:420px; 
+background-position:center;background-attachment:fixed;width:100%;margin-top:140p-x;}
 
-#area_principal h2 {font-family: 'DotGothic16', sans-serif;}
+#area_principal h2 {font-family:'DotGothic16', sans-serif;}
 
-#licoes_aprendidas {margin-top: 40px; display: block; float: left;}
+#licoes_aprendidas {margin-top:40px;display:block;float:left;}
 
 #licoes_a_aprender {margin-top: 40px; display: block; float: right;}
 
