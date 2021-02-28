@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -20,4 +19,21 @@ body {
   left: 10px;
   position: fixed;
   top: 25px;
+}
+
+#minha_foto {
+  width: 300px;
+  position: fixed;
+  left: 300px;
+  top: 300px;
+}
+
+#licos_aprendidas {
+  left: 200px;
+  margin-bottom: 100px;
+}
+
+#licoes_a_aprender {
+  left: 200px;
+  margin-bottom: 100px;
 }
