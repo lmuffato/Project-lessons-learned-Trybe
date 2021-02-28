@@ -11,7 +11,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(36, 123, 160);
+  background-color: rgba(36, 123, 160, 0.3);
   width: 100%;
   height: 50px;
   max-height: 50px;
@@ -48,6 +48,7 @@ body {
   right: 15%;
   top: 50%;
   transform: translateX(-15%) translateY(-50%);
+  z-index: 1;
 }
 
 .links ul {
@@ -101,7 +102,7 @@ body {
 
 .learning h2 {
   position: relative;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-weight: 400;
   text-align: center;
   font-size: 2.5vw;
@@ -138,7 +139,7 @@ body {
 }
 
 #aside-bar h3 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   font-style: italic;
   color: rgb(173, 255, 177);
@@ -152,7 +153,7 @@ body {
   font-size: 1.2vw !important;
 }
 
-#aside-bar p {
+#aside-student {
   font-size: 1vw;
 }
 
@@ -162,13 +163,15 @@ body {
 }
 
 .section-learning,
-.section-lessons {
+.section-lessons,
+.section-curriculum {
   height: 100vh;
   width: 100%;
 }
 
 .section-lessons {
   padding-top: 50px;
+  background-color: rgba(88, 184, 9, 0.555);
 }
 
 .div-lessons {
@@ -176,6 +179,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 40vw;
+  height: 50%;
   margin-top: 30px;
 }
 
@@ -184,15 +188,17 @@ body {
   display: inline-block;
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgba(153, 223, 132, 0.699);
   width: 15vw;
   padding: 15px 30px;
   border-radius: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #licoes_aprendidas h2,
 #licoes_a_aprender h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   display: inline-block;
   position: relative;
   left: 50%;
@@ -209,4 +215,33 @@ body {
 
 #licoes_a_aprender {
   float: right;
+}
+
+.phrase {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  height: 200px;
+  width: 60vw;
+}
+
+.phrase p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#message {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.4vw;
+  color: rgb(255, 255, 255);
+}
+
+#author {
+  font-family: 'Times New Roman', Times, serif;
+  float: right;
+  font-size: 1.3vw;
+  font-weight: 600;
+  right: 35px;
 }
