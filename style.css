@@ -2,7 +2,7 @@ body{
     background-color: rgb(253, 251, 251);
 }
 header{
-    background-color: rgb(31, 84, 125); width: 100% ; top: 0px; position: fixed;
+    background-color: rgb(31, 84, 125); width: 100% ; top: 0px; position: fixed; padding: 30px;
 }
 #titulo{
     color: rgb(253, 251, 251); text-align: center;
