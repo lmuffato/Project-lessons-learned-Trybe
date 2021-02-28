@@ -26,11 +26,19 @@ h2 h3 th { color: rgb(83, 136, 53);
   letter-spacing: 2px;
 }
 
-.lado_direito {
-  float: right;
-  margin: 0 0 10px 10px;
+.lado-direito {
+  float: left;
+  margin-left: 620px;
+  border: 10px solid rgb(23, 35, 207);
+  margin-top: -390px; }
+
+.lado-esquerdo {
+  border: 10px solid rgb(2, 5, 80);
+  margin-right: 700px;
+  margin-bottom: 60px;
 }
 
-.lado_esquerdo {
-  border: 10px solid rgb(23, 35, 207);
+#rodape-link {
+  margin-top: 60px;
+  text-align: center;
 }
