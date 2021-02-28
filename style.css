@@ -52,6 +52,7 @@ main {
 }
 
 .float-container {
+  margin-top: 10px;
   height: 275px;
 }
 
