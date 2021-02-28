@@ -2,18 +2,30 @@ body {
   background-color: rgb(253 251, 251);
 }
 
-header {
+#cabecalho {
   top: 0px;
-  background-color: green
+  background-color: green;
+  position: fixed;
+  width: 100%;
 }
 
-aside {
-  float: right;
+#titulo {
+  text-align: center;
+}
 
-  width: 350px;
-  height: 990px;
-  border: 50px;
-  background-color: pink
+.botao {
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  bottom: ;
+}
+
+.content {
+  position: relative;
+  top: 107.875px;
+  z-index: -1;
 }
 
 img {
@@ -21,40 +33,37 @@ img {
   width: 200px;
   padding-left: 1px;
   padding-top: 5px;
-
 }
 
 #artigo {
   background-color: purple;
   margin-bottom: 3px;
   margin-right: 355px;
-  height: 500px
+  height: 500px;
 }
 
 article {
-
   width: 979px;
   height: 500px;
   padding: 10px;
   padding-left: 20px;
   border: 5px;
-  margin: 5px
+  margin: 5px;
 }
 
 #tabela1 {
   display: inline-table;
   box-sizing: 200px;
   background-color: red;
-
 }
 
 #tabela2 {
   display: inline-table;
-  background-color: orange
+  background-color: orange;
 }
 
 footer {
   margin: 5px;
   padding: 100px;
-  background: yellow
+  background: yellow;
 }
