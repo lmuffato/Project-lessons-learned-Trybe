@@ -113,7 +113,13 @@ article {
 }
 
 #minha_foto {
-  width: 200px;
+  width: 250px;
+}
+
+#paragrafo-sobre {
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 section {
