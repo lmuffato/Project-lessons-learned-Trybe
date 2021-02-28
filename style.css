@@ -27,67 +27,200 @@ p {
     top: 0;
     position: fixed;
     width: 100%;
+    background-color: crimson;
+    height: 180px;
+    box-shadow: 5px 5px 5px black;
+    z-index: 2;
 }
 
 #titulo {
     text-align: center;
-    color: #E8091B;
-    margin-right: 20px;
+    color:ghostwhite;
+    margin-top: 80px;
+    text-shadow: 3px 3px 3px black;   
 }
 
-#menu-nav {  
-    text-align: center;
-}
-
-#menu-nav ul {
-    float: right;
-    margin-right: 50px;
+#lista-menu {
+    position: fixed;
+    top: 130px;
+    left: 620px; 
+    z-index: 3;
+ }
+  
+#lista-menu ul {
     text-decoration: none;
+    margin-top: 0px;
 }   
-
-#mmenu-nav ul li {
+    
+#lista-menu ul li {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 1.1em;
     font-weight: bold;
     vertical-align: middle;
-    display: inline;
-    margin-right: 15px;
+    display: inline-block;
+    margin-right: 15px;        
+}
     
-   
-}
-
-#menu-nav {
-    color:#D1D3EB;
+#lista-menu a {
+    color: white;
+    background: rgb(241, 82, 64);
     padding: 5px 10px;
-    border-radius: 100px;
+    border-radius: 100px; 
+    box-shadow: 3px 3px 3px black;   
 }
 
-#menu-nav a:hover {
-    background: white;
+#lista-menu a:hover {
     color: black;
-    box-shadow: 3px 3px 3px gray;
+    background: white;
+    border-radius: 100px; 
+    box-shadow: 3px 3px 3px black;   
 }
+
 
 #foto-perfil {
-    margin-top: 140px;
+    margin-top: 200px;
+    position:absolute;
+    left: 900px;
+    z-index: 1;
 }
 
-.minha-foto img {
-    border-left-width: 20%;
-    padding: 10px;
+#minha_foto {
     width: 250px;
-    background: #fff;
+    background: rgb(241, 82, 64);
     margin-right: 20px;
+    border-radius: 100px;
+    padding: 10px;
 }
 
-.lado-direito{
-    float: right;
-    top: 30px;
-    width: 200px;
+#link {
+    position: absolute;
+    left: 40px;
+    background: rgb(241, 82, 64);
+    padding: 10px;
+    font-size: 1.0em;
+    font-weight: bold;
+    border-radius: 150px;
+    margin-top: -5px;
+    
+}
+
+#link a {
+    color: white;
+}
+
+#link a:hover {
+    color: black;
+    text-shadow: 2px 2px 2px black;
+    background: white;
+    padding: 7px;
+    border-radius: 150px;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    width: 300px;
+    top: 250px;
+    left: 200px;
+    background: tomato;
+    padding: 100px /*em cima*/ 30px /*direita*/ 20px /*embaixo*/ 30px /*esquerda*/;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 100px;
+    z-index: 0;
+}
+
+#licoes_aprendidas li {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+    text-align: center;
+}
+
+#titulo-aprendidas {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    left: 250px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 15px 15px 15px black;
+    z-index: 1;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    width: 300px;
+    top: 250px;
+    right: 200px;
+    background: tomato;
+    padding: 100px /*em cima*/ 20px /*direita*/ 20px /*embaixo*/ 30px /*esquerda*/;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 100px;
+    z-index: 0;
+}
+
+#licoes_a_aprender li {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+    text-align: center;
+}
+
+#titulo-a-aprender {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    right: 200px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 15px 15px 15px black;
+    z-index: 1;
+}
+
+.lado-direito {
+    position: absolute;
+    width: 300px;
+    top: 700px;
+    right: 750px;
+    background: tomato;
+    padding: 100px /*em cima*/ 70px /*direita*/ 20px /*embaixo*/ 80px /*esquerda*/;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 100px;
+    text-align: justify;
+    color: white;
+    font-size: 1.2em;
+    line-height: 30px
 }
 
 .lado-esquerdo {
-    float: left;
-    top: 30px;
-    width: 200px;
+    position: absolute;
+    width: 300px;
+    top: 1200px;
+    left: 60px;
+    background: tomato;
+    padding: 20px /*em cima*/ 70px /*direita*/ 20px /*embaixo*/ 80px /*esquerda*/;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 100px;
+    text-align: justify;
+    color: white;
+    font-size: 1.2em;
+    line-height: 30px
 }
+
+#rodape {
+    position: absolute;
+    top: 1600px;
+    background: crimson;
+    color: white;
+    font-size: 1.0em;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    text-align: center;   
+}
+
+#rodape div {
+    margin-top: 20px;
+}
+
