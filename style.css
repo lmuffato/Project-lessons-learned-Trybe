@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: monospace;
+  margin-top: -10px;
+  margin-right: -10px;
 }
 
 h1 {
@@ -13,32 +15,94 @@ h1 {
   margin-top: 0;
   padding: 20px;
   width: 100%;
+  margin-left: -10px;
 }
 
 #minha_foto {
-  position: fixed;
-  margin-top: 10vw;
-  margin-left: 36vw;
-  width: 400px;
+  margin-top: 13%;
+  width: 300px;
 }
 
 #titulo {
-  color: greenyellow;
+  color: rgb(15, 157, 7);
 }
 
-* {
-  margin: 0;
-  padding: 0;
+#licoes_aprendidas {
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-  margin-top: 35%;
-  border: 40px;
+  display: inline-block;
 }
 
-#meunome {
-  position: fixed;
-  color: rgb(53, 238, 16);
-  margin-left: 40px;
-  margin-top: 20px;
+#listas {
+  margin-top: 5%;
+  background-color: rgb(15, 157, 7);
+  margin-left: -8px;
+  padding-bottom: 30px;
+}
+
+#walves {
+  font-size: 22px;
+  margin-left: -2px;
+}
+
+h2 {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.centralizando {
+  text-align: center;
+  background-color: darkgreen;
+  padding-bottom: 30px;
+  margin-bottom: -48px;
+  margin-left: -10px;
+}
+
+.tabela {
+  background-color: rgb(62, 165, 56);
+  margin-top: -16px;
+  margin-left: -10px;
+  padding-bottom: 30px;
+}
+
+table {
+  width: 200px;
+  margin: auto;
+  border: 5px solid rgb(31, 38, 24);
+}
+
+td {
+  border: 5px solid rgb(31, 38, 24);
+  padding: 3%;
+}
+
+.corfundo {
+  background-color: rgb(15, 157, 7);
+  margin-left: -8px;
+  padding-bottom: 30px;
+  margin-top: -16px;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(46, 46, 46);
+  padding-bottom: 4%;
+  margin-left: -10px;
+  margin-bottom: -5%;
+}
+
+#iconeg {
+  width: 60px;
+  margin-top: 40px;
+}
+
+#iconel {
+  width: 150px;
+  margin-top: 40px;
 }
