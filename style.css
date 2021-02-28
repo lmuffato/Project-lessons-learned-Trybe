@@ -78,15 +78,39 @@ img:hover {
 h2 {
   text-align: center;
   color: grey;
+  
 }
 
+div{
+  border: 1px solid black;
+  text-align: center;
+  width: 100px;
+  margin-left: 300px;
+}
 
-/*
+#licoes {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 300px;
+  width: 700px;
+}
 
 #licoes_aprendidas{
+  display: inline-block;
+  border: 1px solid black;
+  margin-left: 30px;
 }
+
 #licoes_a_aprender{
+  border: 1px solid black;
+  float: right;
+  margin-right: 30px;
 }
-#rodape{
+
+p{
+  margin-right: 20px;
 }
-*/
+
+/*#rodape{
+}*/
+
