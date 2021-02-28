@@ -34,6 +34,7 @@ body {
   border-radius: 60px;
   float: left;
   margin: 20px;
+  filter: invert(20%) ;
 }
 
 .secoes {
@@ -46,8 +47,13 @@ body {
   margin-top: 230px;
 }
 
+#quem h2 {
+  text-align: center;
+}
+
 .subtitulos-h2 {
-  padding-bottom: 8px;
+  font-size: 30px;
+  padding-bottom: 30px;
   text-shadow: 3px 1px aqua;
 }
 
@@ -97,6 +103,7 @@ aside p {
 #tabela {
   width: 23%;
   border: 1px solid black;
+  margin-left: 500px;
 }
 
 table , td , th {
@@ -150,3 +157,5 @@ article {
 #rodape-topo a:hover {
   color: violet;
 }
+
+
