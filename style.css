@@ -9,6 +9,7 @@ header {
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Montserrat, serif, Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -18,7 +19,7 @@ body {
 #titulo {
     background-color: rgb(76, 21, 87);
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     color: coral;
     border: 1px solid black;
 }
@@ -61,8 +62,7 @@ body {
 #secao {
     text-align: center;
     margin-top: 50px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     background-color: rgb(76, 21, 87);
     color: coral;
     margin-left: 15%;
@@ -71,8 +71,8 @@ body {
 
 nav {
     text-align: center;
-    background-color: cornflowerblue;
-    padding: 30px;
+    background-color:coral;
+    padding: 10px;
 }
 
 #div-article {
