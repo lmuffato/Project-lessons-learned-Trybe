@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
-
 body {
   background-color: rgb(253, 251, 251);
   margin: 0px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: Nunito Sans, sans-serif;
+  letter-spacing: 1px;
 }
 
 .conteudo-principal {
@@ -28,6 +26,7 @@ body {
 
 #nome {
   padding-left: 20px;
+  margin-bottom: 1px;
 }
 
 .navegacao ul a {
@@ -71,8 +70,7 @@ footer {
 }
 
 #licoes_a_aprender {
-  margin-left: 25px;
-  
+  margin-left: 25px;  
 }
 
 #licoes_aprendidas {
@@ -81,13 +79,23 @@ footer {
 
 #rodape {
   padding-bottom: 1px;
+  text-decoration: none;
 }
 
 #texto_rodape {
   margin-left: 11px;
 }
 
+#texto_rodape a {
+  text-decoration: none;
+  color: darkolivegreen;
+}
+
 .titulo {
   font-size: 20px;
   font-weight: 900;
+}
+
+#tabela {
+  padding-left: 27px;
 }
