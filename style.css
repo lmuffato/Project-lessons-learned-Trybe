@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-family: Courier New, Courier, monospace;
 }
 
 .header {
@@ -9,12 +10,18 @@ body {
   background-color: rgb(17, 148, 17);
   width: 100%;
   height: 100px;
-  color: antiquewhite;
+  color: rgb(253, 251, 251);
   text-align: center;
 }
 
 .navbar {
   text-align: left;
+  padding-left: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-right: 25px;
 }
 
 .navbar a:visited {
@@ -43,4 +50,18 @@ body {
 
 .clearfix {
   clear: both;
+}
+
+.footer {
+  background-color: rgb(17, 148, 17);
+  color: rgb(253, 251, 251);
+  padding: 15px 10px 5px;
+}
+
+.footer a:visited {
+  color: rgb(253, 251, 251);
+}
+
+.footer a:link {
+  color: rgb(253, 251, 251);
 }

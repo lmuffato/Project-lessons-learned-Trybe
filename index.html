@@ -22,7 +22,7 @@
     </div>
     <!-- Side-by-side hack below from https://stackoverflow.com/questions/19089933/how-to-position-two-elements-side-by-side-using-css-->
     <div class="lado-esquerdo">
-      <article id="meu_aprendizado" >
+      <article id="meu_aprendizado">
         <h2>Sobre meu aprendizado</h2>
         <p>Desde a primeira semana o ritmo da trybe tem sido forte!
           A cada dia: Muito conteúdo novo, muitos exercícios, e não faltam dúvidas!
@@ -32,47 +32,53 @@
       </article>
     </div>
     <div class="lado-direito">
-      <aside >
+      <aside>
         <h2>Uma história da jornada até então</h2>
-        <p>O primeiro dia de GitHub foi especial, eu já conhecia sistemas de versionamento, mas nunca tinha utilizado o GitHub. Foi ótimo adicionar essa nova ferramenta, hoje consigo navegar repositórios sem nenhuma dor de cabeça.
+        <p>O primeiro dia de GitHub foi especial, eu já conhecia sistemas de versionamento, mas nunca tinha utilizado o
+          GitHub. Foi ótimo adicionar essa nova ferramenta, hoje consigo navegar repositórios sem nenhuma dor de cabeça.
         </p>
       </aside>
     </div>
     <div class="clearfix"></div>
-    <section>
-      <h2>Lições aprendidas</h2>
-      <ol id="licoes_aprendidas">
-        <li>Linux</li>
-        <li>Slack</li>
-        <li>Zoom</li>
-        <li>Bash</li>
-        <li>Shell Script</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Como funciona a Internet</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ol>
-    </section>
-    <section>
-      <h2>Lições a aprender</h2>
-      <ul id="licoes_a_aprender">
-        <li>Javascript</li>
-        <li>Testes Unitários</li>
-        <li>Testes automatizados</li>
-        <li>React</li>
-        <li>Metodologias Ágeis</li>
-        <li>SQL</li>
-        <li>MongoDB</li>
-        <li>NodeJS</li>
-        <li>Trabalho em Equipe</li>
-        <li>Liderança</li>
-      </ul>
-    </section>
+    <div class="lado-esquerdo">
+      <section>
+        <h2>Lições aprendidas</h2>
+        <ol id="licoes_aprendidas">
+          <li>Linux</li>
+          <li>Slack</li>
+          <li>Zoom</li>
+          <li>Bash</li>
+          <li>Shell Script</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Como funciona a Internet</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ol>
+      </section>
+    </div>
+    <div class="lado-direito">
+      <section>
+        <h2>Lições a aprender</h2>
+        <ul id="licoes_a_aprender">
+          <li>Javascript</li>
+          <li>Testes Unitários</li>
+          <li>Testes automatizados</li>
+          <li>React</li>
+          <li>Metodologias Ágeis</li>
+          <li>SQL</li>
+          <li>MongoDB</li>
+          <li>NodeJS</li>
+          <li>Trabalho em Equipe</li>
+          <li>Liderança</li>
+        </ul>
+      </section>
+    </div>
+    <div class="clearfix"></div>
   </div>
 
   <!--Source https://stackoverflow.com/questions/18505921/chess-using-tables-->
-  <table id="chess_board" cellpadding="0" cellspacing="0">
+  <!-- <table id="chess_board" cellpadding="0" cellspacing="0">
     <tr>
       <td>8</td>
       <td id="A8">&#9820;</td>
@@ -171,9 +177,12 @@
       <td>F</td>
       <td>G</td>
       <td>H</td>
-    </tr>
-
-    <footer id="rodape"><a href="https://rafaelmedeirosgomes.github.io/" target="_blank">My GitHub page</a></footer>
+    </tr> -->
+  <div>
+    <footer id="rodape" class="footer">
+      <a href="https://rafaelmedeirosgomes.github.io/" target="_blank">My GitHub page</a>
+    </footer>
+  </div>
 </body>
 
 </html>
