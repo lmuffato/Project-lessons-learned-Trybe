@@ -44,11 +44,11 @@ main {
 }
 
 #image{
-  width: auto;
+  width: 350x;
+  margin-left: 250px;
   height: auto;
-  padding-left: 50px;
-  border: 1px solid black;
- }
+  display: inline-block;
+}
 
 #minha_foto {
   width: 300px;
@@ -67,13 +67,17 @@ img:hover {
 }
 
 #artigo {
-  border: 1px solid black;
-  display: inline-block;
-  width: 400px;
+  float: right;
+  width: 500px;
   height: 300px;
   text-align: justify;
-  margin-left: 50px; 
+  margin-left: 5px; 
   padding-top: 50px;
+  margin-right: 200px;
+}
+h2 {
+  text-align: center;
+  color: grey;
 }
 
 /*
