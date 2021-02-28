@@ -1,12 +1,25 @@
 body{
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251); font-size: 24px; font-family: 'Times New Roman', Times, sans-serif;
 }
 header{
-    background-color: rgb(31, 84, 125); width: 100% ; top: 0px; position: fixed; padding: 30px;
+    background-color: rgb(31, 84, 125); width: 100% ; top: 0px; position: fixed; padding: 30px; z-index: 2;
 }
 #titulo{
     color: rgb(253, 251, 251); text-align: center;
 }
 #minha_foto{
-
+    width: 200px; height: auto; position: absolute; margin: 30px; top: 210px; z-index: 1;
+}
+#link_cabecalho{
+    color: rgb(253, 251, 251);
+}
+#rodape{
+    background-color: rgb(36, 112, 134); width: 100%; bottom: 0px; position: fixed; padding: 20px;
+}
+#author-comments{
+    background-color: rgb(62, 182, 172); width: 400px; height: 500px; border-style: solid; border-color: rgb(31, 84, 125); position: relative; 
+    text-align: justify;
+}
+#comments{
+    padding: 15px;
 }
