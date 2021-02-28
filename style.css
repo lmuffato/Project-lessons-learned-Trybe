@@ -71,8 +71,8 @@ nav {
 #nome , a {
   position: relative;
   text-align: center;
-  text-decoration:none;
-  color: white
+  text-decoration: none;
+  color: white;
 }
 
 #Corpo_da_sessao {
@@ -95,8 +95,6 @@ nav {
 .textos_lado_a_lado {
   margin-left: 20px;
   position: relative;
-  margin-bottom: 10px;
-  background-color: rgb(161, 54, 54);
 }
 
 .lado-esquerdo {
@@ -115,7 +113,7 @@ nav {
 
 #rodape {
   position: absolute;
-  padding: 0px;
+  padding: 0;
   margin-top: 30x;
   height: 7%;
   width: 100%;
