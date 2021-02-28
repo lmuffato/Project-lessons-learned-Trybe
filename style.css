@@ -15,6 +15,7 @@ a {
   top: 0;
   background-color: green;
   padding-left: 20px;
+  opacity: 50%;
 }
 
 #titulo {
@@ -48,9 +49,18 @@ main {
   padding-right: 10px;
 }
 
+#image{
+  width: 300px;
+  height: auto;
+  padding-left: 50px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
 #minha_foto {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
+  margin-left: 10%;
 }
 
 img {
@@ -65,7 +75,13 @@ img:hover {
 }
 
 #artigo {
+  border: 1px solid black;
   display: inline-block;
+  width: 400px;
+  height: 300px;
+  text-align: justify;
+  margin-left: 50px; 
+  padding-top: 50px;
 }
 
 /*
