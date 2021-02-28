@@ -64,20 +64,22 @@ body {
   border: 2px solid black;
 }
 
-.sec-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  align-self: baseline;
+.lado-esquerdo {
+  display: inline;
 }
 
-.article {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: auto;
-}
-
-.article p {
+.lado-direito {
+  display: inline;
   width: 500px;
+  float: right;
+}
+
+.lado-esquerdo p {
+  width: 500px;
+}
+
+#rodape {
+  display: block;
+  bottom: 0;
+  width: 100%;
 }
