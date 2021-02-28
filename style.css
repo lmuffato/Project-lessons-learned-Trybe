@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: lobster, serif;
+  height: 950px;
 }
 
 #cabecalho {
@@ -11,6 +12,7 @@ body {
   left: 0%;
   background-color: rgb(13, 219, 157);
   text-align: center;
+  z-index: 1;
 }
 
 #titulo {
@@ -50,20 +52,32 @@ body {
   border-radius: 100%;
 }
 
+#licoes_aprendidas_titulo {
+  position: absolute;
+  top: 25%;
+  left: 32%;
+}
+
 #licoes_aprendidas {
   position: absolute;
   top: 35%;
-  left: 240px;
+  left: 55%;
   width: 165px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206);
   font-size: 1.1em;
 }
 
+#licoes_a_aprender_titulo {
+  position: absolute;
+  top: 25%;
+  right: 31%;
+}
+
 #licoes_a_aprender {
   position: absolute;
   top: 35%;
-  left: 25px;
+  left: 30%;
   width: 165px;
   background-color: rgb(13, 219, 157);
   border: 5px solid rgb(118, 71, 206);
@@ -72,8 +86,8 @@ body {
 
 #titulo_artigo {
   position: absolute;
-  right: 43%;
-  top: 30%;
+  left: 24%;
+  top: 620px;
 }
 
 #artigo {
@@ -85,8 +99,8 @@ body {
 
 #titulo_artigo_2 {
   position: absolute;
-  right: 10%;
-  top: 30%;
+  right: 21%;
+  top: 620px;
 }
 
 #artigo_2 {
@@ -107,12 +121,12 @@ body {
 
 .lado-esquerdo {
   position: absolute;
-  top: 40%;
-  right: 33%;
+  top: 700px;
+  left: 15%;
 }
 
 .lado-direito {
   position: absolute;
-  top: 47%;
-  right: 2.4%;
+  top: 700px;
+  right: 15%;
 }
