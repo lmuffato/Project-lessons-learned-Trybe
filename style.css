@@ -35,13 +35,24 @@ main {
   font-size: 17px;
 }
 
+.float-container {
+  height: 275px;
+}
+
 #minha_foto {
   width: 250px;
   border-radius: 100%;
   display: block;
+  float: left;
 }
 
-#float-container {
+#about-me {
+  padding-left: 50px;
+  width: 80%;
+  float: right;
+}
+
+.float-container2 {
   height: 200px;
 }
 
@@ -54,6 +65,25 @@ main {
 .lado-direito {
   width: 25%;
   float: right;
+}
+
+table {
+  padding-left: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+caption {
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+th {
+  border: 2px solid black;
+}
+
+td {
+  border: 1px solid black;
 }
 
 footer {
