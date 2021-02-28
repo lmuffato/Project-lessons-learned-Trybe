@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  color: black;
+  color: teal;
   letter-spacing: 1px;
   line-height: 130%;
   font-family: Lato, sans-serif;
@@ -14,14 +14,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: darkmagenta;
   width: 100%;
   background-image: url('/fotos/fundo.jpeg');
 }
 
 #titulo {
   display: inline-block;
-  margin-left: 100px;
+  text-align: center;
+  margin-left: 120px;
   margin-top: 120px;
   font-size: 45px;
   font-weight: 2000;
@@ -41,6 +41,7 @@ body {
   padding-top: 30px;
   padding-left: 30px;
   margin-left: 10px;
+  margin-bottom: 60px;
 }
 
 #quem {
@@ -52,6 +53,7 @@ body {
 }
 
 .subtitulos-h2 {
+  color: black;
   font-size: 30px;
   padding-bottom: 30px;
   text-shadow: 3px 1px aqua;
@@ -59,7 +61,7 @@ body {
 
 #rodape {
   color: white;
-  background-color: rgb(64, 93, 230);
+  background-color:black;
   width: 100%;
   padding: 20px 10px;
   margin-top: 10px;
@@ -115,9 +117,10 @@ table , td , th {
 
 tr:nth-child( even ) {
   background-color: rgb(223, 221, 221);
+  color: black;
 }
 
-#artigo-e-secao {
+.textos-lado-a-lado {
   display: flex;
 }
 
@@ -158,4 +161,12 @@ article {
   color: violet;
 }
 
+ul, ol {
+  list-style: none;
+}
 
+section ul, section ol {
+  text-align: center;
+  background-color: rgb(223, 221, 221);
+ }
+ 
