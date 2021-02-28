@@ -12,6 +12,14 @@ body {
   text-align: center;
 }
 
+.navbar {
+  text-align: left;
+}
+
 .navbar a:visited {
+  color: rgb(253, 251, 251);
+}
+
+.navbar a:link {
   color: rgb(253, 251, 251);
 }
