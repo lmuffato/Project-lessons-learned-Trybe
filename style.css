@@ -5,11 +5,13 @@
 
 header {
     text-align: center;
+    margin-top: 0px;
 }
 
 body {
     background-color: rgb(253, 251, 251);
     font-family: Montserrat, serif, Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 #cabecalho {
@@ -146,4 +148,24 @@ h4 {
 
 .textos {
     font-style: italic;
+}
+
+#rodape {
+    
+}
+
+#google {
+    padding-left: 50px;
+}
+
+#quem {
+    padding-left: 50px;
+}
+
+#licoes {
+    padding-left: 50px;
+}
+
+#aprendizado {
+    padding-left: 50px;
 }
