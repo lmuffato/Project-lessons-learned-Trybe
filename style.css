@@ -8,7 +8,7 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: rgb(88, 129, 87);
+  background-color: rgb(90, 130, 90);
   padding: 5px;
   border-bottom: 7px solid black;
 }
@@ -25,4 +25,20 @@ body {
   border-top: 7px solid black;
   border-bottom: 7px solid black;
   border-left: 7px solid black;
+}
+
+.listas {
+  position: absolute;
+  top: 100px;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(90, 130, 90, 0.5);
+  padding: 1px;
+  border-top: 2px solid black;
 }
