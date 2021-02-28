@@ -6,15 +6,14 @@ body {
   background-color: rgb(253, 251, 251);}
 
 table , th , td {
-  border: 2px solid black;
+  border: solid black;
   border-collapse: collapse;
   text-align: center;}
 
-table{
-  margin-top: 200px;
-  padding-top: 6000px;
-  margin: auto}
-  
+table {
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 6000px;}
 
 #cabecalho {
   position: fixed;
@@ -22,7 +21,7 @@ table{
   background-color: seagreen;
   width: 100%;
   margin-left: 0;
-  padding: 20px}
+  padding: 20px;}
 
 #titulo {
   padding-bottom: 20px;
@@ -57,23 +56,25 @@ table{
   margin-left: 200px;
   float: left;
   text-align: center;
-  width: 35%;
-  border-style: dashed;}
+  width: 35%;}
 
 #aprendendo_html {
-  margin-top: 45px;
+  margin-top: 20px;
   float: right;
+  margin-right: 200px;
   padding: 25px;
   text-align: center;
-  width: 35%;
-  border-style: dashed;}
+  width: 35%;}
 
 .titulos_artigos{
   margin-bottom: 20px;
   padding-top: 50px;}
 
 #objetivos{
-  margin-top: 600px;
-  text-align: center;
-  display: block;
+  margin-top: 500px;
+  padding-bottom: 50px;
+  text-align: center;}
+
+footer{
+  background-color: seagreen;
 }
