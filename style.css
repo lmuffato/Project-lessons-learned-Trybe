@@ -27,3 +27,15 @@ body {
   width: 300px;
   margin-top: 140px;
 }
+
+.lado-esquerdo {
+  width: 67%;
+  float: left;
+  padding: 0 1% 0 2%;
+}
+
+.lado-direito {
+  float: right;
+  width: 28%;
+  padding-right: 2%;
+}
