@@ -101,8 +101,30 @@ body {
 
 #tables {
   margin-top: 35px;
-  margin-left: 15px;
-  border-collapse: collapse;
+  margin-left: 25px;
+}
+
+#title-tables {
+  border: 1px solid black;
+  font-size: 18px;
+  background-color: rgb(51, 204, 51);
+  font-style: oblique;
+}
+
+#customs-tables td, th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#customs-tables tr:nth-child(even) {
+  background-color: rgb(217, 217, 217);
+}
+
+#customs-tables th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
 }
 
 #aside {
