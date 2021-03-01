@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   width: 100%;
-  font-family: Courier New, Courier, monospace;
+  font-family: cursive;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@ nav {
 
 table tr td {
   border: black solid 1px;
-  text-align: center; 
+  text-align: center;
 }
 
 table {
