@@ -18,7 +18,7 @@ nav ul li {
 
 table , caption , td , th {
   border: 1px solid white;
-  background-color: #2d4654;
+  background-color: hsl(202, 30%, 25%);
   color: white;
   margin: 3px;
   padding: 5px;
@@ -32,7 +32,7 @@ section , article , aside , nav {
 }
 
 h1 , h2 , h3 , h4 , ul , ol , p , table {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 20px;
 }
 
