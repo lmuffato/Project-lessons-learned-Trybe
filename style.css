@@ -7,7 +7,7 @@ body {
 
 #cabecalho h1 {
   position: fixed;
-  top: 0px;
+  top: 0;
   color: darkorange;
 }
 
@@ -52,18 +52,19 @@ li:active {
 
 .lado-esquerdo {
   width: 40%;
-  display: inline-block;
+  float: left;
   margin-left: 20px;
   background-color: slateblue;
-  padding: 10px;
+  padding: 50px;
   border-style: groove;
 }
 
 .lado-direito {
   background-color: slategrey;
   width: 35%;
-  display: inline-block;
-  margin-left: 100px;
+  float: right;
+  margin-bottom: 10px;
+  top: 50px;
   padding: 10px;
   border-color: black;
   border-style: double;
