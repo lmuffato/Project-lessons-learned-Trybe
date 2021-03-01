@@ -22,8 +22,8 @@ body {
   font-family: Nunito, sans-serif;
   color: rgb(242, 204, 143);
   font-size: 35px;
-  letter-spacing: 4px;
-  top: 10px;
+  line-height: 10px;
+  top: 20px;
   left: 100px;
   position: relative;
 }
@@ -161,18 +161,22 @@ table , td , th {
   bottom: 200px;
   border: 5px solid rgb(242, 204, 143);
   margin-bottom: 50px;
+  height: 350px;
+
 }
 
 .lado-direito {
   color: rgb(61, 64, 91);
   position: relative;
   left: 45%;
-  bottom: 615px;
-  width: 340px;
+  bottom: 630px;
+  width: 300px;
   border: 5px solid rgb(242, 204, 143);
   display: inline-block;
   margin-bottom: 50px;
   padding: 10px 10px 85px;
+  height: 275px;
+
 }
 
 .text {
