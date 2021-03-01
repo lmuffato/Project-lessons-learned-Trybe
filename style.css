@@ -71,6 +71,7 @@ header div {
 .player img {
   width: 10%;
 }
+
 .table-container img {
   width: 8%;
   padding-left: 25%;
@@ -85,22 +86,29 @@ section {
   margin: 5% 0;
 }
 
-.side_side {
+.side-side {
   padding-top: 8%;
   border-top: 5px white solid;
 }
 
-.lado_esquerdo , .lado_direito {
+
+
+.lado-esquerdo , .lado-direito {
   display: inline-block;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   width: 60%;
+  line-height: 30px;
 }
 
-.lado_direito {
+.lado-direito {
   float: right;
   width: 30%;
+}
+
+#skills-list {
+  padding-left: 5%;
 }
 
 .table-container {
