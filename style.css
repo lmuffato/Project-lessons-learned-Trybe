@@ -22,9 +22,6 @@ body {
 
 #titulo {
   padding-left: 20px;
-}
-
-#titulo {
   left: 10px;
   position: fixed;
   top: 25px;
@@ -60,5 +57,5 @@ body {
 }
 
 #rodape {
-  background: lime;  
+  background: lime;
 }
