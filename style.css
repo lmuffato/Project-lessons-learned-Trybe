@@ -1,29 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
-  background-color: darkgreen;
-  top: 0px;
-  padding: 10px;
+  background-color: #52796f;
+  margin-top: 0px;
+  position: fixed;
+  width: 1300px;;
 }
 
 #titulo {
   text-align: center;
-  margin-top: 0px;
-  font-size: 30px;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.sub-titulo {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+#nav-header {
+  background-color: #84a98c;
+  padding-bottom: 10px;
+}
+
+.nav-list {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 30px
 }
 
 #minha_foto {
   width: 300px;
+  border-radius: 100%;
   margin-top: 30px;
-}
-
-#legend {
-  text-decoration: underline;
-  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 #rodape {
-
+  background-color: #cad2c5;
+  padding: 50px;
 }
