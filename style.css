@@ -65,11 +65,14 @@ article {
 .lado-esquerdo {
   float: left;
   width: 75%;
+  letter-spacing: 3px;
+  font-size: 35px;
 }
 
 .lado-direito {
   float: right;
   width: 25%;
+  letter-spacing: 3px;  
 }
 
 section {
