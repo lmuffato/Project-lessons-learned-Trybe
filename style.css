@@ -68,12 +68,12 @@ aside {
   font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
 }
 
- .listas {
+.listas {
   width: 500px;
   display: flex;
 }
 
- .lista-tabela {
+.lista-tabela {
   display: flex;
   margin-left: 60px;
 }
