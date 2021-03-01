@@ -83,10 +83,15 @@ body {
 
 #licoes_a_aprender {
   margin: 3em 0 0 1em;
+  display: block;
+  float: left;
 }
 
 #aprendizado {
   margin: 2em 0 3em 1em;
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 0;
 }
 
 #aprendizado h2 {
@@ -94,33 +99,33 @@ body {
   background-color: rgba(46, 193, 139, 255);
   width: 500px;
   text-align: center;
+  display: inline-block;
 }
 
 #aprendizado p {
   margin-left: 1em;
   width: 30em;
+  text-align: justify;
+  padding-left: 20px;
 }
 
-#rodape {
+#conteudoProg h2{
+  margin: 2em 0 2em 1em;
+  background-color: rgba(46, 193, 139, 255);
+  width: 500px;
   text-align: center;
-  margin-bottom: 3em;
-}
-
-#rodape img {
-  width: 50px;
-  margin-top: 10px;
-  margin-inline-end: 20px;
 }
 
 #tabela {
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#tabela th, tr, td {
+#tabela th , tr , td {
   margin-top: 50px;
   border: 1px solid black;
   border-collapse: collapse;
-  
 }
 
 #tabela th {
@@ -132,4 +137,15 @@ body {
 #tabela td {
   text-align: center;
   padding: 20px;
+}
+
+#rodape {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+#rodape img {
+  width: 50px;
+  margin-top: 10px;
+  margin-inline-end: 20px;
 }
