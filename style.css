@@ -38,6 +38,9 @@ body {
   color: rgb(253, 251, 251);
   font-size: larger;
 }
+#menu a:hover {
+  color: rgba(46, 193, 139, 255);
+}
 
 #cabecalho {
   position: fixed;
