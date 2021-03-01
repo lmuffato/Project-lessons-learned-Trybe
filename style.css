@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
   width: 1366px;
   margin-left: 0;
 }
@@ -87,10 +88,15 @@ body {
 .elementHeader h1 {
   text-align: center;
   color: white;
+  font-size: 2em;
 }
 
 .m-main {
   margin-left: 130px;
+}
+
+.m-main p {
+  line-height: 22px;
 }
 
 .lado-esquerdo {
