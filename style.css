@@ -1,11 +1,22 @@
 body{
         background-color:rgb(253, 251, 251);
+        font-size: medium;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
 }
 #cabecalho{
         position:fixed;
         top:0px;
+        background-color: rgb(136, 76, 76);
+
 }
 #minha_foto{
         margin-top: 100px;
         padding-right: 5px;
+}
+footer{
+        background-color: rgb(136, 76, 76);
+        padding: 50px;
+        max-width: 100%;
+        
 }
