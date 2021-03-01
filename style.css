@@ -6,6 +6,7 @@ body {
   background-size: 100%;
   width: fit-content;
   font-family: matrix;
+
   @font-face {
     font-family: matrix;
     src: url('matrix.ttf') format('truetype')
@@ -25,9 +26,10 @@ body {
   font-size: 350%;
   font-style: italic;
 }
+
 @font-face {
   font-family: matrix;
-  src: url("matrix.ttf") format("truetype") 
+  src: url('matrix.ttf') format('truetype') 
 }
 #navigation {
   font-family: 'Courier New', Courier, monospace;
@@ -53,33 +55,28 @@ body {
 }
 .lessons-learned {
   margin-left: 0px;
-  margin-top:50px;
+  margin-top: 50px;
   display: inline-block;
   
 }
 #licoes_aprendidas {
-  -webkit-columns: 2;
-  -moz-columns: 2;
   columns: 2;
   list-style-position: inside;
 }
 .lessons-to-be-learn {
   margin-left: 0px;
-  margin-top:50px;
+  margin-top: 50px;
   display: inline-block;
 }
 #licoes_a_aprender {
-  -webkit-columns: 2;
-  -moz-columns: 2;
   columns: 2;
   list-style-position: inside;
 } 
-h2{
+h2 {
   margin-left: 100px;
 }
 .side-bar {
   margin-left: 270px;
-  border:1px solid black;
   width: 350px;
   font-size: 150%;
   display: inline-block;
@@ -87,7 +84,6 @@ h2{
 .side-bar-contact {
   margin-top: 0px;
   margin-left: 270px;
-  border:1px solid black;
   width: 350px;
   font-size: 150%;
   display: inline-block;
