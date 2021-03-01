@@ -41,11 +41,11 @@ footer {
   font-size: 13px;
 }
 
-div.lado-esquerdo , div.lado-direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 500px;
 }
 
-div.lado-direito {
+.lado-direito {
   float: right;
 }
