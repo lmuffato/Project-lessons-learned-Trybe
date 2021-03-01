@@ -6,7 +6,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Quicksand', sans-serif;
-  color: #4e4d4d;
+  color: rgb(78, 77, 77);
 }
 
 table {
@@ -14,22 +14,18 @@ table {
 }
 
 th {
-  background-color: #A8E0CA;
-  color: #696868;
+  background-color: rgb(168, 224, 202);
+  color: rgb(105, 104, 104);
   padding: 10px 15px 10px 35px;
 }
 
 td {
-  background-color: #EEF1EA;
+  background-color: rgb(238, 241, 234);
   padding: 10px 15px 10px 35px;
 }
 
-li {
-  text-align: justify;
-}
-
 header {
-  background-color: #2B8099;
+  background-color: rgb(43, 128, 153);
   width: 100%;
 }
 
@@ -38,11 +34,17 @@ h3 {
   padding-bottom: 30px;
 }
 
+.testimony {
+  width: 600px;
+  padding: 40px 10px 15px 20px;
+  display: inline-block;
+  text-align: justify;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
-  /* background-color: #2B8099; */
-  color: #EEF1EA;
+  color: rgb(238, 241, 234);
   font-weight: 500;
   padding: 10px;
 }
@@ -50,13 +52,13 @@ h3 {
 #minha_foto {
   width: 150px;
   padding: 130px 5px 5px 30px;
-
 }
 
 #rodape {
-  color: #8f8e8e;
+  color: rgb(143, 142, 142);
   font-style: italic;
   font-size: 15px;
+  padding: 13px 5px 5px 20px;
 }
 
 #titulo {
