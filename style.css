@@ -8,10 +8,22 @@ body {
   color: darkorange;
 }
 
-#minha_foto{
+#minha_foto {
   position: absolute;
   top: 60px;
   left: 400px;
   border-radius: 10%;
   align-items: center;
+}
+
+#menu {
+  text-align: center;
+}
+
+#rodape {
+  text-align: center;
+}
+
+li:hover{
+  color: red;
 }
