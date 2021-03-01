@@ -35,16 +35,16 @@ body {
   color: rgb(189, 188, 188, 0.925);
 }
 
+a:link , :visited {
+    color: rgb(189, 188, 188, 0.925);
+    text-decoration: none;
+  }
+
 #efeito :hover {
   background-color: rgb(63, 63, 63);
 }
 
 a {
-  text-decoration: none;
-}
-
-a:link , :visited {
-  color: rgb(189, 188, 188, 0.925);
   text-decoration: none;
 }
 
