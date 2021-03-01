@@ -37,3 +37,12 @@ h2 {
 #licoes_a_aprender {
   color: rgb(75, 73, 73);
 }
+
+section {
+  width: 300px;
+  border: 15px;
+  border-radius: 15%;
+  border-color: rgb(9, 121, 118);
+  padding: 15px;
+  margin: 15px;
+}
