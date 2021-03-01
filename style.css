@@ -131,3 +131,48 @@ main section .profile-box , .profile-table {
   width: 75%;
   float: right;
 }
+
+main section .profile-table table {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  border: 1px solid rgb(20, 33, 61);
+  border-collapse: collapse;
+}
+
+section .profile-table table caption {
+  background-color: rgb(252, 163, 17);
+  font-weight: 600;
+  color: rgb(20, 33, 61);
+  border: 1px solid rgb(20, 33, 61);
+  border-radius: 8px 8px 0 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+section .profile-table table th {
+  background-color: rgb(252, 163, 17);
+  font-weight: 500;
+  color: rgb(20, 33, 61);
+  text-align: center;
+}
+
+section .profile-table table th , td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid rgb(20, 33, 61);
+}
+
+section .profile-table table td {
+  color: rgb(253, 251, 251);
+  text-align: center;
+}
+
+section .profile-table table tr:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
+.profile-table table tr:hover td {
+  background-color: rgb(255, 188, 31);
+  color: rgb(20, 33, 61);
+}
