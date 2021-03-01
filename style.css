@@ -18,13 +18,11 @@ body{
     color: white;
     margin-left: 500px;
     width: 500px;
-    
-    
-
-  
+     
 }
 
-#titulo { color:#0D0208;
+#titulo { 
+  color:#0D0208;
     font-family: matrix; 
     font-size: 400%;
     text-align: center;
@@ -59,14 +57,20 @@ body{
     
   }
   .side-bar {
-    margin-left: 2000px;
-    width: 100px;
+    margin-left: 500px;
+    width: 200px;
     display: inline-block;
-    vertical-align:top;
+    float:left;
+  }
+  #contact{
+    margin-left: 5px;
+    display: inline-block;
+    width: 250px;
+    
   }
 
   #licoes_aprendidas{
-      font-size: 150%;
+      font-size: 100%;
     display: inline-block;
     columns: 2;
     -webkit-columns: 2;
@@ -85,7 +89,7 @@ body{
 }
 
   #licoes_a_aprender{
-  font-size: 150%;
+  font-size: 100%;
   
   columns: 2;
   -webkit-columns: 2;
@@ -109,7 +113,9 @@ h2{
     padding: 50px;
 }
 
-
+#linkedin-logo{
+  height: 25px;
+}
   
   
 
