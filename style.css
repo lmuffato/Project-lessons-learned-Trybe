@@ -4,7 +4,7 @@ body {
 
 #cabecalho h1 {
   position: fixed;
-  top: 0;
+  top: 0px;
   color: darkorange;
 }
 
@@ -24,6 +24,6 @@ body {
   text-align: center;
 }
 
-li:hover{
+li:hover {
   color: red;
 }
