@@ -64,7 +64,7 @@ figure {
     object-position: absolute;
 	display: inline-block;
     margin-bottom:0;
-    margin-top:25%;
+    margin-top:68%;
     max-width:100%;
     width:100%;
 	background-color:rgba(160, 160, 160, 0.5);
@@ -76,22 +76,23 @@ figure {
     font-size: 16px;
     text-align: justify;
     display: inline-block;
-    position: relative;
+    position: absolute;
     width: 400px;
     margin-left: 60px;
     margin-top: 620px;
     
 }
 .lado-direito {
-    right: -40px;
     font-style: italic;
     font-family: Trebuchet MS;
     font-size: 16px;
     text-align: justify;
     display: inline-block;
-    position: relative;
+    position: absolute;
     width: 400px;
     line-height: 36px;
+    margin-left: 600px;
+    margin-top: 620px;
 }
 table {
     display: inline-block;
