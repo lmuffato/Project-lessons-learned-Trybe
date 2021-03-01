@@ -29,16 +29,27 @@ header {
   width: 100%;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 h3 {
   padding-left: 30px;
   padding-bottom: 30px;
 }
 
+nav {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
 .testimony {
-  width: 600px;
-  padding: 40px 10px 15px 20px;
+  width: 550px;
+  margin: 40px 10px 15px 45px;
   display: inline-block;
   text-align: justify;
+  padding: 10px 5px 5px 10px;
+  border-style: outset;
 }
 
 #cabecalho {
