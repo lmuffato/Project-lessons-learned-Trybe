@@ -20,32 +20,33 @@ body {
 
 #esquerda {
   text-align: left;
-  padding: 0px 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #lista {
-  padding: 0px;
   text-align: center;
 }
 
 #lista li {
   list-style-type: none;
   display: inline;
-  margin: 0px 55px;
+  margin-left: 55px;
+  margin-right: 55px;
   color: rgb(189, 188, 188, 0.925);
-}
-
-a:link , :visited {
-    color: rgb(189, 188, 188, 0.925);
-    text-decoration: none;
-  }
-
-#efeito :hover {
-  background-color: rgb(63, 63, 63);
 }
 
 a {
   text-decoration: none;
+}
+
+a:link , :visited {
+  color: rgb(189, 188, 188, 0.925);
+  text-decoration: none;
+}
+
+#efeito :hover {
+  background-color: rgb(63, 63, 63);
 }
 
 #minha_foto {
@@ -58,7 +59,8 @@ a {
 
 #corpo {
   background-color: rgb(189, 188, 188, 0.925);
-  padding: 180px 0px 300px;
+  padding-top: 180px;
+  padding-bottom: 300px;
   padding-left: 35px;
 }
 
@@ -86,6 +88,7 @@ a {
   width: 98%;
   height: 50px;
   text-align: right;
-  padding: 10px 0px 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   padding-right: 35px;
 }
