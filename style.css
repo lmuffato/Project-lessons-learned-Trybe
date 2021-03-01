@@ -35,7 +35,7 @@ body {
 }
 
 .nav_header:hover {
-  color: #3366ff;
+  color: #36f;
 }
 
 #section_1 {
@@ -81,7 +81,7 @@ body {
 #text_1 {
   text-align: justify;
   text-indent: 5px;
-  letter-spacing: 0.3px;
+  line-height: 16px;
 }
 
 #lado-esquerdo {
