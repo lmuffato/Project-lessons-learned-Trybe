@@ -6,7 +6,6 @@ body{
   background-size: 100%;
   width:fit-content;
   font-family: matrix;
-  border:1px solid black;
   @font-face {
     font-family: matrix;
     src: url("matrix.ttf") format("truetype")
@@ -17,15 +16,16 @@ body{
   position: fixed;
   top: 0px;
   color: white;
-  width: 250px;  
-  border:1px solid black;
+  width: 300px;  
+  
 }
 
 #titulo { 
   color:#0D0208;
+  margin-top: 0px;
   font-family: matrix; 
-  font-size: 200%;
-  border:1px solid black;
+  width: 900px;
+  font-size: 350%;
 }
 @font-face {
   font-family: matrix;
@@ -36,6 +36,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
   margin-left: 5px;
   margin-right: 5px;
+  margin-top: 5px;
   width: 300px;
   font-size: 100%;
   display: inline;
@@ -52,61 +53,60 @@ body{
 }
 
 .lessons{
-  width: 1366px;
-  height: 768px;
-  border:1px solid black;
+  margin-top: 100px;
+  margin-left: 270px;
+  width: 750px;
+  height: 190px;
+  
   
 }
 .lessons-learned{
-  margin-left: 300px;
-  margin-top:100px;
+  margin-left: 0px;
+  margin-top:50px;
   display: inline-block;
+  
 }
 
 #licoes_aprendidas{
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
-  list-style-position: inside;//this is important addition
+  list-style-position: inside;
 }
 
 .lessons-to-be-learn{
-  margin-left: 300px;
-  margin-top:100px;
+  margin-left: 0px;
+  margin-top:50px;
   display: inline-block;
+  
 }
 #licoes_a_aprender{
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
-  list-style-position: inside;//this is important addition
+  list-style-position: inside;
 } 
+h2{
+  margin-left: 100px;
+}
+.article{
+  margin-top: 25px;
+  margin-left: 270px;
+  width: 750px;
+  height: 190px;
+  border:1px solid black;
 }
 #projects{
-  margin-left: 500px;
-  width: 200px;
-  display: inline-block;
-  float:left;
+  margin-left: 270px;
   border:1px solid black;
-}
-}
-.side-bar {
-  margin-left: 500px;
-  width: 200px;
+  width: 350px;
+  font-size: 150%;
   display: inline-block;
-  float:left;
-  border:1px solid black;
-}
-#contact{
-  margin-left: 5px;
-  display: inline-block;
-  width: 250px;
-  border:1px solid black;
-    
+  
 }
 #linkedin-logo{
   height: 25px;
-  border:1px solid black;
+  
 }
   
   
