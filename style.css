@@ -9,7 +9,7 @@ body {
     margin-left: 0;
     width: 100%;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     font;
     color: white;
     border: 3px;
@@ -17,30 +17,52 @@ body {
     border-color: rgb(20, 20, 20)
 }
 #titulo {
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #rodape {
     background-color: rgb(54,54,50);
 }
 #minha_foto {
     width: 400px;
-    border-radius: 50px;
+    border-radius: 10px;
+    margin-top: 90px;
+    border-color: black;
 }
 #licoes_aprendidas {
     display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    background-color: rgb(11, 11, 29);
+    padding: 30px;
+    margin: 40px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
 }
 #licoes_a_aprender {
     display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    background-color: rgb(11, 11, 29);
+    padding: 30px;
+    margin: 40px;
+    border: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+
+    
 }
 #Artigo1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    width: 100%; 
+    display: inline-block;
+
 }
 #Artigo2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
 }
 #rodape {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    padding: 5px;
+    margin: 0px;
+    border-radius: 10px;
+
 }
 
