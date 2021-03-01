@@ -12,33 +12,49 @@
   <body>
 
     <header id="cabecalho">
-     <div>
-     <h1 id="titulo">Congratulations: lessons unlonked's!</h1>
-     </div>
+      <div>
+        <h1 id="titulo">Congratulations: unlocked Block at Trybe!</h1>
+        <img class="unlock-icon" src="/unlock-icon.png" alt="cadeado desbloqueado">
+      </div>
     </header>
   
-    <main id="about_me">
-    <section id="infos">
-      <img id="minha_foto" src="junior-amaral.png" alt="foto de junior amaral">
-      <h2> Junior Portela do amaral</h2>
-    </section>
+    <div id="about_me">
+      <section id="infos">
+        <img id="minha_foto" src="junior-amaral.png" alt="foto de junior amaral">
+            <div class="player">
+              <p>player</p>
+              <img src="/key-image.png" alt="imagem de chave">
+              <h2> Junior Portela do amaral</h2>
+            </div>
+      </section>
 
-    <article>
-    <h4> Experiência de aprendizado</h4></h1>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      t has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-    </p>
-    </article>
+      <section class="side_side"> 
+        <article class="lado_esquerdo">
+          <h3> Experiência de aprendizado</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+              t has survived not only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s with the release of
+              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+              </p>
+        </article>
 
-    <section id="skils_list">
-      <section class="list">
-        <h4> Habilidades Adquiridas</h4>
-        <ol id="licoes_aprendidas">
+        <aside class="lado_direito">
+          <h4>Porque Web Dev?</h4>
+            <p>
+              O contato com modelos  de empresas contemporâneos acabaram por me guiar 
+              a descobrir os caminhos profissionas da área. Hoje me envolvo, gostodo que estudo
+              e viso capacitação profissional nas ferramentas pra participar de diversos projetos.
+            </p>
+        </aside>
+      </section>
+
+      <section id="skils_list">
+        <section class="list">
+          <h4> Habilidades Adquiridas</h4>
+          <ol id="licoes_aprendidas">
         <li> Configurações de setup</li>
         <li> Noções gerais sobre a web</li>
         <li> Unix/Bash - definiçoes</li>
@@ -49,12 +65,12 @@
         <li> Semântica HTML e acessibilidade</li>
         <li> Estilizações e posicionamentos CSS</li>
         <li> SOFT SKILLS: princípios de inteligência emocional </li>
-        </ol>
-      </section>
+          </ol>
+        </section>
 
-      <section class="list">
-        <h4>Lições a aprender</h4>
-        <ul id="licoes_a_aprender">
+        <section class="list">
+          <h4>Lições a aprender</h4>
+          <ul id="licoes_a_aprender">
           <li> Grid CSS</li>
           <li> Flexbox CSS</li>
           <li> Animações em cliques</li>
@@ -65,26 +81,42 @@
           <li> React</li>
           <li> Back-end</li>
           <li> Banco de dados</li>
-        </ul>
+          </ul>
+        </section>
       </section>
-    </section>
+      
+      <section class="table-container">
+        <h3> Como ir além</h3>
+          <table>
+            <tr>
+                <th>Atividade </th>
+                <th>XP</th>
+              </tr>
+              <tr>
+                <td>Ler artigo </td>
+                <td>100 xp</td>
+              </tr>
+              <tr>
+                <td>Assistir video </td>
+                <td>250 xp</td>
+              </tr>
+              <tr>
+                <td>Aula ao vivo </td>
+                <td>500 xp </td>
+              </tr>
+          </table> 
+          <a href="https://www.betrybe.com/" target="_blacnk"><img src="https://www.flaticon.com/svg/vstatic/svg/591/591855.svg?token=exp=1614558239~hmac=722742e74dcbe1e0b883aa912556c52f" alt="flecha para próximo nível"></a>
+      </section>
 
-    <aside>
-      <h5>Porque Web Dev?</h5>
-      <p>
-      O contato com modelos  de empresas contemporâneos acabaram por me guiar 
-      a descobrir os caminhos profissionas dessa área. Hoje me envolvo, gostodo que estudo
-      e viso capacitação profissional nas ferramentas pra participar de diversos projetos.
-      </p>
-    </aside>
-
-    </main>
+    </div>
 
     <footer id="rodape">
       <nav>
-        <p><a href="https://www.linkedin.com/in/juniorporteladoamaral/" target="_blank">Linkedin</a></p>
-        <p>Github</p>
+        <div>
+          <a class="linkedin_logo" href="https://www.linkedin.com/in/juniorporteladoamaral/" target="_blank">Linkedin </a>
+          <a class="github_logo" href="https://github.com/portelajr" target="_blank" >Github</a>
+        </div>
       </nav>
-    </footer>
+    </footer>  
   </body>
 </html>

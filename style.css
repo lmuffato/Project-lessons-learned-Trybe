@@ -12,16 +12,25 @@ body {
 #cabecalho {
   display: block;
   background-color: rgb(255, 183, 3);
-  height: 10%;
   width: 100%;
   position: fixed;
   top: 0;
+  padding: 2px 0;
+  color: black;
 }
 
 header div {
-  margin-top: 2%;
-  display: block;
-  text-align: center;
+  margin: 2px 0;
+  margin-left: 25%;
+}
+
+#titulo {
+  display: inline-block;
+}
+
+.unlock-icon {
+  width: 5%;
+  padding-right: 5px;
 }
 
 #about_me {
@@ -29,7 +38,8 @@ header div {
   width: 70%;
   margin: auto;
   padding: 35px;
-  border: 15px black solid;
+  border-right: 15px black solid;
+  border-left: 15px black solid;
 }
 
 #infos {
@@ -37,17 +47,33 @@ header div {
   margin-top: 5%;
 }
 
-#infos h2 {
-  display: block;
-  float: right;
+#minha_foto {
+  display: inline-block;
+  margin-left: 5%;
+  width: 25%;
+  border: 10px solid white;
+  border-radius: 50%;
 }
 
-#minha_foto {
-  padding: 0 5% 0 0;
-  margin-left: 5%;
-  width: 30%;
-  height: 60%;
-  border-radius: 70%;
+#infos .player {
+  display: block;
+  float: right;
+  width: 60%;
+  height: 100%;
+  padding-top: 15%;
+  font-size: 150%;
+}
+
+.player p {
+  display: inline-block;
+}
+
+.player img {
+  width: 10%;
+}
+
+.player img:hover {
+  transform: scaleX(-1);
 }
 
 section {
@@ -55,15 +81,54 @@ section {
   margin: 5% 0;
 }
 
+.side_side {
+  padding-top: 8%;
+  border-top: 5px white solid;
+}
+
+.lado_esquerdo , .lado_direito {
+  display: inline-block;
+}
+
+.lado_esquerdo {
+  width: 60%;
+}
+
+.lado_direito {
+  float: right;
+  width: 30%;
+}
+
+.table-container {
+  display: inline-block;
+  padding-left: 30%;
+  width: 80%;
+}
+
+.table-container h3 {
+  padding: 20px 0;
+}
+
+table {
+  display: inline-block;
+}
+
+.table-container img {
+  width: 8%;
+  padding-left: 25%;
+}
+
 #rodape {
-  display: block;
   background-color: rgb(255, 183, 3);
-  height: 15%;
   width: 100%;
 }
 
-#rodape p {
-  display: block;
-  border: 5px red solid;
-  width: 50%;
+#rodape div {
+  width: 100%;
+  margin-left: 65%;
+}
+
+#rodape a {
+  display: inline-block;
+  padding-right: 5%;
 }
