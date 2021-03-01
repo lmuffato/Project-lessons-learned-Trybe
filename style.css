@@ -30,6 +30,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: monospace;
+  color: rgb(9, 121, 118);
+  text-align: center;
+}
+
 #licoes_aprendidas {
   color: rgb(75, 73, 73);
   font-family: monospace;
@@ -40,11 +46,20 @@ h2 {
   font-family: monospace;
 }
 
-section {
+article {
+  color: rgb(75, 73, 73);
+  font-family: monospace;
+}
+
+aside {
+  color: rgb(75, 73, 73);
+  font-family: monospace;
+}
+
+.style_box {
   width: 300px;
-  border: 15px;
+  border: 5px solid rgb(9, 121, 118);
   border-radius: 15%;
-  border-color: rgb(9, 121, 118);
   padding: 15px;
   margin: 15px;
 }
