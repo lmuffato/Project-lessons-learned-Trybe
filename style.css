@@ -11,7 +11,7 @@ body {
 }
 
 #minha_foto {
-  width: 300px;
+  width: 271px;
   margin-top: 40px;
   float: right;
 }
@@ -20,8 +20,24 @@ body {
   margin-top: 30px;
 }
 
+button:hover {
+  background-color:lawngreen;
+}
+
+li {
+  letter-spacing: 3px;
+}
+
+ol {
+  background-color: darkred;
+}
+
+ul {
+  background-color: darkred;
+}
+
 #licoes_aprendidas {
-  margin-left: 15px;
+  margin-left: 33px;
 }
 
 #licoes_aprendidas li:hover {
@@ -67,12 +83,15 @@ article {
   width: 75%;
   letter-spacing: 3px;
   font-size: 35px;
+  line-height: 58px;
+  letter-spacing: 4px;
 }
 
 .lado-direito {
   float: right;
   width: 25%;
-  letter-spacing: 3px;  
+  letter-spacing: 4px;
+  font-size: 20px;
 }
 
 section {
