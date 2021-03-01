@@ -150,7 +150,7 @@ body {
   padding: 7px;
 }
 
-#aside-bar p:nth-child(1) {
+#quote {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   font-style: italic;
