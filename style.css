@@ -64,3 +64,11 @@ table {
   bottom: 390px;
   left: 310px;
 }
+
+#lado-esquerdo {
+  left: 0px;
+}
+
+#lado-direito {
+  right: 0px;
+}
