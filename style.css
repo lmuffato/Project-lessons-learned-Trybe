@@ -29,12 +29,9 @@ body {
 }
 
 #coisas_que_vou_aprender {
+  color: rgb(26, 95, 122);
   padding: 10px;
-  position: absolute;
-  right: 500px;
-  bottom: 500px;
-  top: 280px;
-  left: 320px;
+  position: relative;
 }
 
 #coisas_aprendidas {
@@ -65,10 +62,11 @@ table {
   left: 310px;
 }
 
-#lado-esquerdo {
-  left: 0px;
+.lado-esquerdo {
+  left: 300px;
 }
 
-#lado-direito {
-  right: 0px;
+.lado-direito {
+  left: 700px;
+  bottom: 730px;
 }
