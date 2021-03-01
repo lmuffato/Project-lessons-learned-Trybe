@@ -11,8 +11,7 @@ body {
         color: yellow;
         z-index: 1;
         margin-left: -8px;
-        text-align: center;
-        
+        text-align: center;        
 }
 
 header h1 {
@@ -30,12 +29,17 @@ header h1 {
     left: 40%;
     border-radius: 5%;
 }
-    
+
 #secao_aside {
     width: 300px;
-    
-    
+    float: right;
+    position: relative;
+    top: -290px;
+}
 
+.art_sec {
+    /* display: inline-block; 
+    background-color: red; */
 }
 
 li:hover {
@@ -53,10 +57,7 @@ li:hover {
 #artigo {
     width: 50%;
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* position: relative;
-    top: 250px; */
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 
 .posicao {
@@ -67,10 +68,4 @@ li:hover {
 .trybe {
      color: forestgreen;
      font-weight: 900;
- }
-
- .art_sec {
-     display: inline-block;
-     
-
  }
