@@ -30,18 +30,6 @@ header h1 {
     border-radius: 5%;
 }
 
-#secao_aside {
-    width: 300px;
-    float: right;
-    position: relative;
-    top: -290px;
-}
-
-.art_sec {
-    /* display: inline-block; 
-    background-color: red; */
-}
-
 li:hover {
     background-color: yellow;
 }
@@ -54,10 +42,27 @@ li:hover {
     top: 800px;
 }
 
-#artigo {
+.lado-esquerdo {
+    display: inline-block;
     width: 50%;
+    height: auto; 
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: monospace, sans-serif; 
+}
+
+.lado-direito {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-left: 300px;
+    position: relative;
+    font-size: 20px;
+    
+
+}
+
+.lado-a-lado {
+
 }
 
 .posicao {
