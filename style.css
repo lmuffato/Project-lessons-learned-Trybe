@@ -181,11 +181,11 @@ body {
 }
 
 .section-lessons {
-  padding-top: 50px;
   background-color: rgba(88, 184, 9, 0.555);
 }
 
 .div-lessons {
+  padding-top: 50px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -259,8 +259,8 @@ body {
 
 .section-training {
   background-color: rgba(92, 218, 134, 0.3);
-  padding-top: 50px;
   text-align: center;
+  height: 100vh;
 }
 
 .training-title {
@@ -273,6 +273,10 @@ body {
   width: 50vw;
   margin: 0 auto;
   border-bottom: 3px solid rgba(88, 184, 9, 0.555);
+}
+
+#title {
+  padding-top: 100px;
 }
 
 .table {
@@ -331,4 +335,42 @@ body {
   transform: translateY(-50%);
   padding: 10px;
   position: relative;
+}
+
+#rodape {
+  height: 40px;
+  background-color: rgba(159, 182, 164, 0.541);
+  position: relative;
+  margin-top: -40px;
+  width: 100%;
+  text-align: center;
+}
+
+#copyright {
+  display: inline-block;
+  position: relative;
+  padding-right: 500px;
+}
+
+#copyright img {
+  width: 10px;
+}
+
+#rodape p {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-footer {
+  display: inline-block;
+}
+
+.social-media {
+  width: 25px;
+  position: relative;
+  top: 20px;
+  transform: translateY(-10px);
+  padding: 0 5px;
 }
