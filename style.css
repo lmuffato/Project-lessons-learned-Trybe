@@ -7,9 +7,23 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: lightgreen;
+  height: 125px;
+  width: 100%;
+  text-align: center;
+}
+
+#menu {
+  position: fixed;
+  padding-left: 2%;
+}
+
+.menu-link {
+  padding-right: 10px;
 }
 
 #minha_foto {
   height: 350px;
   width: 300px;
+  margin-top: 140px;
 }
