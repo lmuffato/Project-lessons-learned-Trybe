@@ -3,6 +3,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color:black
 }
 
 #cabecalho h1 {
@@ -49,18 +50,27 @@ li:active {
   width: 40%;
   display: inline-block;
   margin-left: 20px;
+  background-color: slateblue;
+  padding: 10px;
+  border-style: groove;
 }
 
 #lado-direito {
+  background-color: slategrey;
   width: 35%;
   display: inline-block;
   margin-left: 100px;
+  padding: 10px;
+  border-color: black;
+  border-style: double;
 }
 
 #tabela {
-  margin:auto;
+  margin: auto;
   margin-top: 10px;
   text-align: center;
   border-color: green;
   padding-top: 10px;
+  color: blue;
+  
 }
