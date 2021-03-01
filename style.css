@@ -111,12 +111,12 @@ body {
   font-style: oblique;
 }
 
-#customs-tables td, th {
+#customs-tables td,th {
   border: 1px solid black;
   padding: 8px;
 }
 
-#customs-tables tr:nth-child(even) {
+#customs-tables tr:nth-child( even ) {
   background-color: rgb(217, 217, 217);
 }
 
@@ -124,7 +124,7 @@ body {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 #aside {
