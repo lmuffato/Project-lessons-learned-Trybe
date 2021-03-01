@@ -176,3 +176,11 @@ section .profile-table table tr:last-child {
   background-color: rgb(255, 188, 31);
   color: rgb(20, 33, 61);
 }
+
+footer {
+  background-color: rgb(255, 188, 31);
+  color: rgb(20, 33, 61);
+  padding: 16px;
+  margin-top: 850px;
+  text-align: center;
+}
