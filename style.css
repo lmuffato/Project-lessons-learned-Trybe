@@ -30,6 +30,12 @@ h2 {
   text-align: center;
 }
 
+.inline_skills {
+  display: inline-block;
+  align-content: flex-end;
+  justify-content: space-around;
+}
+
 h3 {
   font-family: monospace;
   color: rgb(9, 121, 118);
