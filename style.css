@@ -1,96 +1,93 @@
-
 body{
-    background-color: rgb(253, 251, 251);
-    background-image: url('https://www.news.gatech.edu/sites/default/files/pictures/feature_images/icon_math_1.gif');
-    background-repeat: no-repeat;
-    height: 100px;
-    background-size: 100%;
+  background-color: rgb(253, 251, 251);
+  background-image: url('https://www.news.gatech.edu/sites/default/files/pictures/feature_images/icon_math_1.gif');
+  background-repeat: no-repeat;
+  height: 100px;
+  background-size: 100%;
+  font-family: matrix;
+  @font-face {
     font-family: matrix;
-    @font-face {
-        font-family: matrix;
-        src: url("matrix.ttf") format("truetype")
-        
-      }
+    src: url("matrix.ttf") format("truetype")
+  }
 }
 #cabecalho{
-    position: relative;
-    top: 0px;
-    color: white;
-    margin-left: 500px;
-    width: 500px;
+  position: relative;
+  top: 0px;
+  color: white;
+  margin-left: 500px;
+  width: 500px;
      
 }
 
 #titulo { 
   color:#0D0208;
-    font-family: matrix; 
-    font-size: 400%;
-    text-align: center;
+  font-family: matrix; 
+  font-size: 400%;
+  text-align: center;
 
 }
-    @font-face {
-      font-family: matrix;
-      src: url("matrix.ttf") format("truetype")
+@font-face {
+  font-family: matrix;
+  src: url("matrix.ttf") format("truetype")
       
-    }
+}
 #navigation {
-        font-family: 'Courier New', Courier, monospace;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 300px;
-        font-size: 100%;
-        display: inline;
-}
-  #minha_foto{
-    width: 70%;
-    border-radius: 50%;
-    padding: 0%;
-    float: left;
-    display: inline-block;
-  
-}
-
-  .title-container {
-    margin-left: 5px;
-    margin-right: 5px;
-    display: inline-block;
-    
-  }
-  .side-bar {
-    margin-left: 500px;
-    width: 200px;
-    display: inline-block;
-    float:left;
-  }
-  #contact{
-    margin-left: 5px;
-    display: inline-block;
-    width: 250px;
-    
-  }
-
-  #licoes_aprendidas{
-      font-size: 100%;
-    display: inline-block;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    list-style: square;
-
-  }
-  h2{
-      margin-left: 145px;
-  }
-
-  .lessons-learned{
-    display: inline-block;
-    width: 420px;
-    vertical-align: top;
-}
-
-  #licoes_a_aprender{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 300px;
   font-size: 100%;
+  display: inline;
+}
+#minha_foto{
+  width: 70%;
+  border-radius: 50%;
+  padding: 0%;
+  float: left;
+  display: inline-block;
   
+}
+
+.title-container {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+    
+}
+.side-bar {
+  margin-left: 500px;
+  width: 200px;
+  display: inline-block;
+  float:left;
+}
+#contact{
+  margin-left: 5px;
+  display: inline-block;
+  width: 250px;
+    
+}
+
+#licoes_aprendidas{
+  font-size: 100%;
+  display: inline-block;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style: square;
+
+}
+h2{
+  margin-left: 145px;
+}
+
+.lessons-learned{
+  display: inline-block;
+  width: 420px;
+  vertical-align: top;
+}
+
+#licoes_a_aprender{
+  font-size: 100%;
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
@@ -98,19 +95,17 @@ body{
 
 }
 h2{
-    margin-left: 145px;
+  margin-left: 145px;
 }
 .lessons-to-be-learned{
-    display: inline-block;
-    width: 420px;
-    vertical-align: top;
-    margin-left: 50px;
-
-    
+  display: inline-block;
+  width: 420px;
+  vertical-align: top;
+  margin-left: 50px; 
 }
 .lessons{
-    width: 1550px;
-    padding: 50px;
+  width: 1550px;
+  padding: 50px;
 }
 
 #linkedin-logo{
