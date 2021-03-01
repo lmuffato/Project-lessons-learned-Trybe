@@ -40,7 +40,7 @@ body {
   font-size: 100%;
   display: inline;
   line-height: 10mm;
-  font-color: black
+  font-color: black;
   font-family: matrix;
 }
 #minha_foto {
@@ -78,18 +78,27 @@ body {
 h2 {
   margin-left: 100px;
 }
-.side-bar {
-  margin-left: 270px;
-  width: 350px;
-  font-size: 150%;
-  display: inline-block;
+.next_text {
+  margin-left: 10px;
+  position: relative;
+
 }
-.side-bar-contact {
-  margin-top: 0;
+.one-side {
+  height: fit-content;
   margin-left: 270px;
   width: 350px;
   font-size: 150%;
   display: inline-block;
+  text-align: justify;
+  
+}
+.other-side {
+  height: max-content;
+  margin-left: 50px;
+  width: 250px;
+  font-size: 150%;
+  display: inline-block;
+  
 }
 #linkedin-logo {
   height: 25px;
