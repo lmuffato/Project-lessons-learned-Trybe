@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: rgb(78, 77, 77);
 }
 
@@ -39,11 +39,11 @@ h3 {
 }
 
 nav {
-  font-weight: bold;
+  font-weight: 700;
   padding-left: 20px;
 }
 
-.lado_esquerdo, .lado_direito {
+.lado_esquerdo .lado_direito {
   width: 550px;
   margin: 40px 10px 15px 45px;
   display: inline-block;
