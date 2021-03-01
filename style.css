@@ -14,13 +14,13 @@ body {
 }
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   color: white;
   width: 300px;
 }
 #titulo {
-  color: #0d0208;
-  margin-top: 0px;
+  color: black;
+  margin-top: 0;
   font-family: matrix;
   width: 900px;
   font-size: 350%;
@@ -29,7 +29,7 @@ body {
 
 @font-face {
   font-family: matrix;
-  src: url('matrix.ttf') format('truetype') 
+  src: url('matrix.ttf') format('truetype')
 }
 #navigation {
   font-family: 'Courier New', Courier, monospace;
@@ -39,6 +39,9 @@ body {
   width: 300px;
   font-size: 100%;
   display: inline;
+  line-height: 10mm;
+  font-color: black
+  font-family: matrix;
 }
 #minha_foto {
   width: 50%;
@@ -54,7 +57,7 @@ body {
   height: 190px;
 }
 .lessons-learned {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 50px;
   display: inline-block;
   
@@ -64,7 +67,7 @@ body {
   list-style-position: inside;
 }
 .lessons-to-be-learn {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 50px;
   display: inline-block;
 }
@@ -82,7 +85,7 @@ h2 {
   display: inline-block;
 }
 .side-bar-contact {
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 270px;
   width: 350px;
   font-size: 150%;
