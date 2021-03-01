@@ -72,6 +72,11 @@ header div {
   width: 10%;
 }
 
+.table-container img {
+  width: 8%;
+  padding-left: 25%;
+}
+
 .player img:hover {
   transform: scaleX(-1);
 }
@@ -111,11 +116,6 @@ section {
 
 table {
   display: inline-block;
-}
-
-.table-container img {
-  width: 8%;
-  padding-left: 25%;
 }
 
 #rodape {
