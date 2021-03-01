@@ -1,78 +1,77 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0%;
-    font-family: sans-serif;
+  background-color: rgb(253, 251, 251);
+  margin: 0%;
+  font-family: sans-serif;
 }
 #cabecalho {
-    position: fixed;
-    background-color: rgb(100, 13, 13);
-    width: 96%;
-    color: rgba(189, 188, 188, 0.925);
-    padding: 10px 30px;
-    margin-right: 100px;    
+  position: fixed;
+  background-color: rgb(100, 13, 13);
+  width: 96%;
+  color: rgba(189, 188, 188, 0.925);
+  padding: 10px 30px;
+  margin-right: 100px;
 }
 #topo {
-    width: 100%;
-    display: inline-block;
+  width: 100%;
+  display: inline-block;
 }
 #esquerda {
-    text-align: left;
-    padding: 0px 30px;
+  text-align: left;
+  padding: 0px 30px;
 }
 #lista {
-    padding: 0px;
-    text-align: center;
+  padding: 0px;
+  text-align: center;
 }
 #lista li {
-    list-style-type: none;
-    display: inline;
-    margin: 0px 55px;
-    color: rgb(189, 188, 188, 0.925);
+  list-style-type: none;
+  display: inline;
+  margin: 0px 55px;
+  color: rgb(189, 188, 188, 0.925);
 }
 #efeito :hover {
-    background-color: rgb(63, 63, 63);
+  background-color: rgb(63, 63, 63);
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-a:link, :visited {
-    color: rgb(189, 188, 188, 0.925);
-    text-decoration: none;
+a:link , :visited {
+  color: rgb(189, 188, 188, 0.925);
+  text-decoration: none;
 }
 #minha_foto {
-    position: absolute;
-    width: 100px;
-    right: 80px;
-    top: 35px;
-    border-radius: 100%;
+  position: absolute;
+  width: 100px;
+  right: 80px;
+  top: 35px;
+  border-radius: 100%;
 }
 #corpo {
-    background-color: rgb(189, 188, 188, 0.925);
-    padding: 180px 0px 300px;
-    padding-left: 35px;
+  background-color: rgb(189, 188, 188, 0.925);
+  padding: 180px 0px 300px;
+  padding-left: 35px;
 }
 #box-model {
-    display: inline-block;
-    padding-top: 35px;
+  display: inline-block;
+  padding-top: 35px;
 }
 .lado-esquerdo {
-    position: absolute;
-    left: 15%;
-    text-align: left;
-    max-width: 300px;
+  position: absolute;
+  left: 15%;
+  text-align: left;
+  max-width: 300px;
   }
-  
-  .lado-direito {
-    position: absolute;
-    right: 15%;
-    text-align: right;
-    max-width: 300px;
+.lado-direito {
+  position: absolute;
+  right: 15%;
+  text-align: right;
+  max-width: 300px;
 }
 #rodape {
-    background-color: rgb(100, 13, 13);
-    width: 98%;
-    height: 50px;
-    text-align: right;
-    padding: 10px 0px 15px;
-    padding-right: 35px;
+  background-color: rgb(100, 13, 13);
+  width: 98%;
+  height: 50px;
+  text-align: right;
+  padding: 10px 0px 15px;
+  padding-right: 35px;
 }
