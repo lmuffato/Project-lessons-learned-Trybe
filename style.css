@@ -1,6 +1,7 @@
-body { 
+body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   position: fixed;
   top: 0px;
@@ -8,16 +9,19 @@ body {
   width: 100%;
   background-color: black;
 }
+
 #minha_foto {
   margin-top: 100px;
   width: 200px;
   border-radius: 100%;
   display: block;
 }
+
 h1 {
   color: white;
   margin-left: 30px;
 }
+
 #link_foto {
   margin-left: 60px;
 }
