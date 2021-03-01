@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho h1 {
@@ -44,7 +44,7 @@ li:active {
 }
 
 #lado-esquerdo {
-  width: 35%;
+  width: 40%;
   display: inline-block;
   margin-left: 20px;
 }
@@ -52,5 +52,11 @@ li:active {
 #lado-direito {
   width: 35%;
   display: inline-block;
-  margin-left: 200px;
-}
+  margin-left: 100px;
+  }
+
+#tabela {
+  margin:auto;
+  text-align: center;
+  border-color:green;
+  }
