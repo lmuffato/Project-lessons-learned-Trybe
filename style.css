@@ -27,3 +27,22 @@ body {
 li:hover {
   color: red;
 }
+
+li:active {
+  background-color:black;
+}
+
+#licoes_aprendidas {
+  display:inline-block;
+  margin-left: 350px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
