@@ -7,10 +7,11 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: DotGothic16, sans-serif;
   color: white;
+  width: 100%;
 }
 
 #cabecalho {
-  display: block;
+  position: absolute;
   background-color: rgb(255, 183, 3);
   width: 100%;
   position: fixed;
@@ -91,8 +92,6 @@ section {
   border-top: 5px white solid;
 }
 
-
-
 .lado-esquerdo , .lado-direito {
   display: inline-block;
 }
@@ -131,11 +130,25 @@ table {
 }
 
 #rodape div {
-  width: 100%;
-  margin-left: 65%;
+  margin-left: 70%;
+
+}
+#rodape a img {
+  display: inline-block;
+  padding-right: 15%;
+  width:10%;
+  margin:auto 0;
 }
 
 #rodape a {
-  display: inline-block;
-  padding-right: 5%;
+  width: auto;
+}
+#rodape .linkedin-icon img {
+  width: 8%;
+  bottom:0;
+}
+
+#rodape .github-icon img {
+  width: 12%;
+  bottom: 0;
 }
