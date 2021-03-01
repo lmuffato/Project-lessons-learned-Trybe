@@ -29,8 +29,8 @@ header {
   width: 100%;
 }
 
-h2 {
-  font-size: 30px;
+h1 {
+  font-weight: 500;
 }
 
 h3 {
@@ -43,7 +43,7 @@ nav {
   padding-left: 20px;
 }
 
-.lado_esquerdo .lado_direito {
+.lado_esquerdo , .lado_direito {
   width: 550px;
   margin: 40px 10px 15px 45px;
   display: inline-block;
@@ -57,7 +57,7 @@ nav {
   position: fixed;
   top: 0;
   color: rgb(238, 241, 234);
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px;
 }
 
