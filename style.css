@@ -5,13 +5,14 @@ body {
   line-height: 20px;
 }
 
-#cabecalho h1 {
+#cabecalho {
   position: fixed;
   color: darkorange;
+  top : 0;
 }
 
 #titulo {
-  position: fixed;
+  padding-top: 10px;
 }
 
 #minha_foto {
