@@ -1,5 +1,12 @@
 * {
   margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgb(32, 30, 30);
 }
 
 body {
@@ -16,7 +23,7 @@ body {
 }
 
 .nav_links li {
-  padding: 100px 30px 0 0;
+  padding: 100px 10px 0 30px;
   display: inline-block;
 }
 
@@ -57,5 +64,19 @@ body {
 }
 
 #rodape {
-  background: lime;
+  background: rgb(253, 251, 251);
+}
+
+.table {
+  margin: 10px;
+  padding: 10px;
+  border: aqua;
+}
+
+#logo_github {
+  padding-left: 310px;
+}
+
+#logo_linkedin {
+  padding-left: 315px;
 }
