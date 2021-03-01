@@ -29,9 +29,12 @@ body {
 }
 
 #coisas_que_vou_aprender {
-  color: rgb(26, 95, 122);
   padding: 10px;
-  position: relative;
+  position: absolute;
+  right: 500px;
+  bottom: 500px;
+  top: 280px;
+  left: 320px;
 }
 
 #coisas_aprendidas {
@@ -42,6 +45,7 @@ body {
   padding: 5px;
   line-height: 18px;
   top: 100px;
+  right: 230px;
 }
 
 table {
@@ -58,15 +62,6 @@ table {
 
 #Linkedin {
   position: relative;
-  bottom: 390px;
+  bottom: 360px;
   left: 310px;
-}
-
-.lado-esquerdo {
-  left: 300px;
-}
-
-.lado-direito {
-  left: 700px;
-  bottom: 730px;
 }
