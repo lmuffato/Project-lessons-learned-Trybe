@@ -33,11 +33,6 @@ h1 {
   font-weight: 500;
 }
 
-h3 {
-  padding-left: 30px;
-  padding-bottom: 30px;
-}
-
 nav {
   font-weight: 700;
   padding-left: 20px;
@@ -64,6 +59,12 @@ nav {
 #minha_foto {
   width: 150px;
   padding: 130px 5px 5px 30px;
+}
+
+#student-name {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-weight: 800;
 }
 
 #rodape {
