@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cabecalho h1 {
@@ -29,11 +30,11 @@ li:hover {
 }
 
 li:active {
-  background-color:black;
+  background-color: black;
 }
 
 #licoes_aprendidas {
-  display:inline-block;
+  display: inline-block;
   margin-left: 350px;
 }
 
@@ -42,7 +43,14 @@ li:active {
   margin-left: 50px;
 }
 
-body {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
+#lado-esquerdo {
+  width: 35%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#lado-direito {
+  width: 35%;
+  display: inline-block;
+  margin-left: 200px;
 }
