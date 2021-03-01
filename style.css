@@ -87,6 +87,13 @@ body {
   float: left;
 }
 
+#licoesAAprender h2 {
+  margin: 2em 0 0 1em;
+  background-color: rgba(46, 193, 139, 255);
+  width: 500px;
+  text-align: center;
+}
+
 #aprendizado {
   margin: 2em 0 3em 1em;
   display: inline-block;
@@ -142,6 +149,7 @@ body {
 #rodape {
   text-align: center;
   margin-bottom: 3em;
+  margin-top: 30px;
 }
 
 #rodape img {
