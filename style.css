@@ -2,8 +2,16 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+#cabecalho h1 {
   position: fixed;
   top: 0;
   color: darkorange;
+}
+
+#minha_foto{
+  position: absolute;
+  top: 60px;
+  left: 400px;
+  border-radius: 10%;
+  align-items: center;
 }
