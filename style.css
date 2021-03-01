@@ -11,9 +11,6 @@ body {
 }
 
 .listas {
-  position: relative;
-  bottom: 80px;
-  left: 310px;
   border-radius: 10%;
   background-color: rgb(10, 153, 105);
   padding: 10px;
@@ -60,9 +57,10 @@ table, th, td {
   text-align: center;
   left: 120px;
   padding: 5px;
-  bottom: 60px;
+  bottom: 45px;
 }
 #Linkedin {
   position: relative;
-  bottom: 260px;
+  bottom: 390px;
+  left: 310px;
 }
