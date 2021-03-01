@@ -100,15 +100,3 @@ footer {
 #tabela {
   padding-left: 27px;
 }
-
-#texto_flutuante section{
-  display: flex;
-}
-
-div section article {
-  width: 50%;
-}
-
-div section aside {
-  width: 50%;
-}
