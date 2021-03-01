@@ -14,8 +14,8 @@ body {
 }
 
 aside {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav {
@@ -50,7 +50,6 @@ h2 {
   display: flex;
   padding: 30px; 
   justify-content: center;
-
 }
 
 article {
@@ -100,5 +99,7 @@ footer {
   padding-top: 2px;
   padding-bottom: 2px;
   color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 1em;
 }
 
