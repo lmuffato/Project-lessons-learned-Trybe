@@ -1,16 +1,19 @@
 body {
   background-color: rgb(253, 251, 251);
   padding-left: 5px;
+  max-width: 1433px;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
-  height: 50px;
+  width: 100%;
+  background-color: rgb(157, 176, 177);
+  padding: 5px;
 }
 
 #minha_foto {
-  height: 300px;
+  width: 80%;
   border: black solid 1px;
   margin: 5px;
 }
@@ -18,6 +21,24 @@ body {
 #name {
   font-family: Courier, monospace;
   font-size: 30px;
+  text-align: left;
+}
+
+#apresentacao{
+  width: 90%;
+  margin-top: 150px;
+  border: solid black 1px;
+}
+
+#apresetacao td{
+  width: 50%;
+}
+
+.listas_aprendizados {
+  width: 87%;
+  border: solid black 1px;
+  margin: 50px 1px;
+  padding: 10px;
 }
 
 p {
@@ -36,25 +57,47 @@ li {
 }
 
 .lado-esquerdo {
-  display: inline-block;
-  float: left;
-  width: 600px;
-  height: 500px;
+  float:left;
+  border: black solid 1px;
+  padding: 0 5%;
 }
 
 .lado-direito {
-  display: inline-block;
   float: right;
-  width: 600px;
-  height: 500px;
-}
-
-#tabela {
   border: black solid 1px;
+  float: left;
+  margin: 0% 20%;
+  padding: 0 5%;
 }
 
-th {
+table #tabela {
+  width: 87%;
+}
+
+#tabela th {
   background-color: darkslategrey;
   color: white;
-  width: 100px;
+  width: 10%px;
+}
+
+#relatos th {
+  width: 50%;
+  text-align: left;
+}
+
+
+#tabela td:nth-child(odd) {
+  background-color: rgb(151, 185, 181);
+}
+
+#lista_contato li {
+  display: inline;
+  padding: 0 30px;
+}
+
+footer {
+  border: black solid 1px;
+  padding: 0 20px;
+  margin-top: 15px;
+  width: 87%;
 }
