@@ -8,7 +8,10 @@ body {
 #cabecalho {
   position: fixed;
   color: darkorange;
+  border-style: solid;
   top : 0;
+  padding: 20px;
+  background-color: black;
 }
 
 #titulo {
@@ -53,20 +56,22 @@ li:active {
   width: 40%;
   float: left;
   margin-left: 20px;
-  background-color: slateblue;
+  background-color: green;
   padding: 50px;
   border-style: groove;
+  border-color: black;
 }
 
 .lado-direito {
-  background-color: slategrey;
+  background-color: green;
   width: 35%;
   float: right;
+  height: 112px;
   margin-bottom: 10px;
   top: 50px;
-  padding: 10px;
+  padding: 80px;
   border-color: black;
-  border-style: double;
+  border-style: groove;
 }
 
 #tabela {
