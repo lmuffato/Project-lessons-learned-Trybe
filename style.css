@@ -83,18 +83,19 @@ h2 {
   margin-left: 30%;
   width: 33%;
   display: inline-block;
-  border: solid;
+  
 }
 .aside {
   float: right;
-  margin: 0 1.5%;
-  width: 30%;
-  border: solid;
+  margin: 0 2%;
+  width: 33%;
+  display: inline-block;
+
 }
 #linkedin-logo {
   height: 25px;
 }
-#rodape{
+#rodape {
   margin-top: 340px;
   margin-left: 10px;
 }
