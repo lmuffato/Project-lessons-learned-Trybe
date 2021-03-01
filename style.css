@@ -27,6 +27,11 @@ header {
   width: 100%;
 }
 
+h3 {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -37,6 +42,8 @@ header {
 }
 
 #minha_foto {
+  width: 150px;
+  padding: 130px 5px 5px 30px;
 
 }
 
