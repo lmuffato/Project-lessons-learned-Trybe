@@ -30,6 +30,12 @@ body {
   padding-right: 30px;
   padding-left: 30px;
   font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav_header:hover {
+  color: #3366ff;
 }
 
 #section_1 {
@@ -107,6 +113,15 @@ body {
   border-radius: 5px;
   font-family: Georgia, Arial, Verdana, Tahoma, sans-serif;
   font-size: 15px;
+}
+
+.links_aside {
+  text-decoration: none;
+  color: black;
+}
+
+.links_aside:hover {
+  color: darkgreen;
 }
 
 #rodape {
