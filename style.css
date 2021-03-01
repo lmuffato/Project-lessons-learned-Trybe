@@ -3,12 +3,19 @@ body {
 }
 
 #cabecalho {
+  z-index: 1;
+  padding-right: 100%;
   top: 0;
   background-color: aqua;
   position: fixed;
 }
 
 .listas {
+  position: relative;
+  bottom: 80px;
+  left: 310px;
+  border-radius: 10%;
+  background-color: rgb(10, 153, 105);
   padding: 10px;
   display: inline-block;
 }
@@ -22,7 +29,7 @@ body {
   padding: 10px;
   position: absolute;
   bottom: 500px;
-  right: 350px;
+  right: 340px;
   top: 40px;
 }
 
@@ -31,14 +38,31 @@ body {
   position: absolute;
   right: 500px;
   bottom: 500px;
-  top: 130px;
-  left: 324px;
+  top: 280px;
+  left: 320px;
 }
 
 #coisas_aprendidas {
-  color: rgb(196, 0, 137);
+  position: relative;
+  color: rgb(26, 95, 122);
   font-size: 15;
   font-family: italic;
   padding: 5px;
   line-height: 18px;
+  top: 100px;  
+}
+table, th, td {
+  position: relative;
+  color: rgb(1, 141, 141);
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 40%;
+  text-align: center;
+  left: 120px;
+  padding: 5px;
+  bottom: 60px;
+}
+#Linkedin {
+  position: relative;
+  bottom: 260px;
 }
