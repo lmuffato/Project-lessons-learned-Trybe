@@ -298,7 +298,7 @@ body {
   text-align: center;
 }
 
-.table td:nth-child(even)  {
+.table td:nth-child(even) {
   background-color: rgba(91, 184, 91, 0.7);
 }
 
