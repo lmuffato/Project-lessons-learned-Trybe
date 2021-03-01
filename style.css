@@ -36,6 +36,7 @@ a {
 #cabecalho nav a {
   font-weight: 600;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 #minha_foto {
