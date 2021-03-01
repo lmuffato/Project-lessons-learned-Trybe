@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 #cabecalho h1 {
@@ -53,10 +55,12 @@ li:active {
   width: 35%;
   display: inline-block;
   margin-left: 100px;
-  }
+}
 
 #tabela {
   margin:auto;
+  margin-top: 10px;
   text-align: center;
-  border-color:green;
-  }
+  border-color: green;
+  padding-top: 10px;
+}
