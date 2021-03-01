@@ -71,7 +71,7 @@ body {
   margin: 10em 0 0 2em;
 }
 
-.aprendizado h2 {
+#aprendizado h2 {
   margin: 2em 0 2em 1em;
   background-color: rgba(46, 193, 139, 255);
   width: 500px;
@@ -79,7 +79,7 @@ body {
   display: inline-block;
 }
 
-.aprendizado2 h2 {
+#aprendizado2 h2 {
   margin: 2em 0 2em 1em;
   background-color: rgba(46, 193, 139, 255);
   width: 500px;
@@ -108,7 +108,11 @@ body {
   margin: 2em 0 0 1em;
   width: 560px;
   text-align: center;
-  display: inline-block;
+}
+
+.lado-esquerdo {
+  display: block;
+  float: right;
 }
 
 #licoesAAprender h2 {
@@ -118,24 +122,27 @@ body {
   text-align: center;
 }
 
-.aprendizado {
-  margin: 2em 0 3em 1em;
-  display: inline-block;
+.lado-direito {
+  display: block;
+  float: left;
 }
 
-.aprendizado p {
+#aprendizado {
+  margin: 2em 0 3em 1em;
+}
+
+#aprendizado p {
   margin-left: 1em;
   width: 30em;
   text-align: justify;
   padding-left: 15px;
 }
 
-.aprendizado2 {
-  margin: 2em 0 3em 1em;
-
+#aprendizado2 {
+  margin: 38em 0 3em 1em;
 }
 
-.aprendizado2 p {
+#aprendizado2 p {
   margin-left: 1em;
   width: 30em;
   text-align: justify;
