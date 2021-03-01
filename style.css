@@ -16,7 +16,7 @@ body{
     position: relative;
     top: 0px;
     color: white;
-    margin-left: 950px;
+    margin-left: 500px;
     width: 500px;
     
     
@@ -35,21 +35,83 @@ body{
       src: url("matrix.ttf") format("truetype")
       
     }
+#navigation {
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 300px;
+        font-size: 100%;
+        display: inline;
+}
+  #minha_foto{
+    width: 70%;
+    border-radius: 50%;
+    padding: 0%;
+    float: left;
+    display: inline-block;
   
+}
+
   .title-container {
     margin-left: 5px;
     margin-right: 5px;
-    width: calc(100% - 100px);
+    display: inline-block;
     
   }
-  
-  .navigation {
-      font-family: 'Courier New', Courier, monospace;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 300px;
-    font-size: 200%;
+  .side-bar {
+    margin-left: 2000px;
+    width: 100px;
+    display: inline-block;
+    vertical-align:top;
   }
+
+  #licoes_aprendidas{
+      font-size: 150%;
+    display: inline-block;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: square;
+
+  }
+  h2{
+      margin-left: 145px;
+  }
+
+  .lessons-learned{
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+}
+
+  #licoes_a_aprender{
+  font-size: 150%;
+  
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: square
+
+}
+h2{
+    margin-left: 145px;
+}
+.lessons-to-be-learned{
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    margin-left: 50px;
+
+    
+}
+.lessons{
+    width: 1550px;
+    padding: 50px;
+}
+
+
+  
+  
 
 
     
