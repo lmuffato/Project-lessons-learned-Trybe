@@ -10,7 +10,8 @@ body {
   background-color: rgb(51, 204, 51);
   z-index: 1;
   padding-right: 100%;
-  font-family: Helvetica;
+  font-family: Georgia, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 18px;
 }
 
 #titulo {
@@ -28,6 +29,7 @@ body {
 .nav_header {
   padding-right: 30px;
   padding-left: 30px;
+  font-size: 15px;
 }
 
 #section_1 {
@@ -40,25 +42,30 @@ body {
   position: absolute;
   z-index: 3;
   width: 150px;
-  padding: 10px;
-  top: 15px;
-  border-radius: 15px;
+  padding: 5px;
+  top: 33px;
+  margin-left: 24px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 #main {
   position: absolute;
   z-index: 4;
   top: 320px;
+  font-family: Georgia, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 #lado-superior {
   display: inline;
   float: right;
-  margin-top: -190px;
-  margin-left: 250px;
+  margin-top: -180px;
+  margin-left: 235px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: 2px solid black;
   border-radius: 5px;
-  font-family: Georgia;
 }
 
 #head_1 {
@@ -67,6 +74,7 @@ body {
 
 #text_1 {
   text-align: justify;
+  text-indent: 5px;
 }
 
 #lado-esquerdo {
@@ -80,7 +88,7 @@ body {
 #lado-direito {
   display: inline;
   float: right;
-  margin-top: -268px;
+  margin-top: -248px;
   margin-right: 25px;
 }
 
@@ -92,13 +100,17 @@ body {
 
 #aside {
   float: right;
-  margin-top: 125px;
+  margin-top: 145px;
   margin-right: 25px;
   border: 2px solid black;
   border-radius: 5px;
-  font-family: Helvetica;
+  font-family: Georgia, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 #rodape {
-  margin-top: 35px;
+  margin-top: 100px;
+  margin-left: 15px;
+  font-family: Georgia, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 15px;
 }
