@@ -78,14 +78,14 @@ body {
 h2 {
   margin-left: 100px;
 }
-.article {
+.lado-esquerdo {
   float: left;
   margin-left: 30%;
   width: 33%;
   display: inline-block;
   
 }
-.aside {
+.lado-direito {
   float: right;
   margin: 0 2%;
   width: 33%;
