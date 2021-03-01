@@ -9,7 +9,7 @@ body {
   top: 0;
   background-color: green;
   width: 1264px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue;
 }
 
@@ -30,10 +30,9 @@ table {
   padding-left: 10px;
 }
 
-.meu-aprendizado {
+.article-section {
   display: flex;
-  padding: 30px;
-  
+  padding: 30px;  
 }
 
 article {
