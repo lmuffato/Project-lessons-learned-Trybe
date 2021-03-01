@@ -20,3 +20,10 @@ body {
     width: 49%;
 
 }
+#minha_foto {
+    padding: 0px;
+    margin: 0px;
+    border-width: 10px;
+    border-color: springgreen;
+    width: 150px;
+}
