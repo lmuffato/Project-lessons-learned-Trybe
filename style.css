@@ -9,19 +9,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  right: 650px;
-  width: 600px;
-  color: #66c0b1;
-}
-
-#minha_foto {
-  width: 250px;
-  top: 50px;
-  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  float: right;
+  width: 500px;
+  display: inline-block;
+  margin-right: 600px;
+  margin-left: 650px;
+  background-color: #66c0b1;
+  border: 10px solid black;
 }
 
 .menu ul {
@@ -49,6 +44,7 @@ body {
 
 .menu ul li a:hover {
   background-color: #Ea654b;
+  font-weight: bold;
 }
 
 #para_aprender {
@@ -57,17 +53,17 @@ body {
   width: 200px;
   text-align: center;
   padding-bottom: 10px;
-  float: right;
   background-color: #66c0b1;
+  float: right;
 }
 
 #para_aprender a:hover {
   background-color: #66c0b1;
+  font-weight: bold;
 }
 
 #para_aprender:hover {
-  background-color: #Ea654b;
-  font-weight: 10 bold;
+  background-color: #ea654b;
 }
 
 #licoes_aprendidas {
@@ -78,6 +74,15 @@ body {
   width: 200px;
 }
 
+#licoes_aprendidas:hover {
+  background-color: #ea654b
+}
+
+#licoes_aprendidas li:hover {
+  font-weight: bold;
+  background-color: #66c0b1;
+}
+
 #licoes_a_aprender {
   display: inline-block;
   border: 5px solid black;
@@ -86,8 +91,48 @@ body {
   background-color: #Ea654b;
 }
 
+#licoes_a_aprender:hover {
+  background-color: #66c0b1;
+}
+
+#licoes_a_aprender li:hover {
+  font-weight: bold;
+  background-color: #ea654b;
+}
+
 article {
   width: 800px;
-  display: inline-block;
+  border: 10px solid black;
+  margin-left: 620px;
+  background-color: #ea654b;
+}
+
+article:hover {
+  background-color: #66c0b1;
+}
+
+#section1 {
+  width: 400px;
+  border: 10px solid black;
+  padding: 30px;
+  background-color: #354b70;
+  float: left;
+}
+
+#minha_foto {
+  width: 200px;
+  top: 50px;
+  border-radius: 50%;
+  border:10px solid black;
+  position: relative;
   margin: auto;
+  float:right;
+}
+
+#rodape {
+  margin-bottom: 0;
+  width: 300px;
+  text-align: center;
+  margin-left: 800px;
+  margin-top: 800px;
 }
