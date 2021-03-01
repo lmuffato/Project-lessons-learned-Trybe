@@ -5,23 +5,25 @@ body {
   height: 100px;
   background-size: 100%;
   width: fit-content;
-  font-family: matrix, matrix;
+  font-family: matrix, serif;
 
   @font-face {
-    font-family: matrix;
+    font-family: matrix, serif;
     src: url('matrix.ttf') format('truetype');
   }
 }
 #cabecalho {
+
   position: fixed;
   top: 0;
   color: white;
   width: 300px;
 }
 #titulo {
+
   color: black;
   margin-top: 0;
-  font-family: matrix, matrix;
+  font-family: matrix, serif;
   width: 900px;
   font-size: 350%;
   font-style: italic;
@@ -32,6 +34,7 @@ body {
   src: url('matrix.ttf') format('truetype');
 }
 #navigation {
+
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 5px;
@@ -40,9 +43,10 @@ body {
   display: inline;
   line-height: 10mm;
   font-color: black;
-  font-family: matrix, matrix;
+  font-family: matrix, serif;
 }
 #minha_foto {
+
   width: 50%;
   border-radius: 50%;
   padding: 0%;
@@ -50,51 +54,61 @@ body {
   display: inline-block;
 }
 .lessons {
+
   margin-top: 50px;
   margin-left: 270px;
   width: 750px;
   height: 190px;
 }
 .lessons-learned {
+
   margin-left: 0;
   margin-top: 50px;
   display: inline-block;
 }
 #licoes_aprendidas {
+
   columns: 2;
   list-style-position: inside;
 }
 .lessons-to-be-learn {
+
   margin-left: 0;
   margin-top: 50px;
   display: inline-block;
 }
 #licoes_a_aprender {
+
   columns: 2;
   list-style-position: inside;
-} 
+}
 h2 {
   margin-left: 100px;
 }
 .lado-esquerdo {
+
   float: left;
   margin-left: 30%;
   width: 33%;
   display: inline-block;
 }
 .lado-direito {
+
   float: right;
   margin: 0 2%;
   width: 33%;
   display: inline-block;
 }
 #linkedin-logo {
+
   height: 25px;
 }
 #github-logo {
+
   height: 25px;
 }
 #rodape {
+  
   margin-top: 340px;
   margin-left: 10px;
 }
