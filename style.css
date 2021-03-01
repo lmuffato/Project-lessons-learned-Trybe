@@ -156,9 +156,15 @@ section {
   text-align: center;
 }
 
+#agradecimentos {
+  background-color: cadetblue;
+}
+
 table {
   background-color: rgb(168, 224, 202);
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th {
@@ -169,6 +175,7 @@ th {
   border-color: black;
   font-size: 18px;
   font-family: sans-serif;
+  line-height: 2;
 }
 
 td {
@@ -179,6 +186,7 @@ td {
   border-color: black;
   font-size: 18px;
   font-family: sans-serif;
+  line-height: 2;
 }
 
 footer {
