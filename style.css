@@ -104,6 +104,13 @@ body {
   float: left;
 }
 
+#licoesAAprender {
+  margin: 2em 0 0 1em;
+  width: 560px;
+  text-align: center;
+  display: inline-block;
+}
+
 #licoesAAprender h2 {
   margin: 2em 0 0 1em;
   background-color: rgba(46, 193, 139, 255);
@@ -114,7 +121,7 @@ body {
 .aprendizado {
   margin: 2em 0 3em 1em;
   display: inline-block;
-  margin-top: 0500px;
+  
 }
 
 .aprendizado p {
@@ -125,9 +132,8 @@ body {
 }
 
 .aprendizado2 {
-  display: inline-block;
-  margin-left: 500px;
-  margin-top: 0;
+  margin: 2em 0 3em 1em;
+
 }
 
 .aprendizado2 p {
