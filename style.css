@@ -86,5 +86,10 @@ nav {
 #giovanni_text_footer {
   position: absolute;
   left: 1200px;
-  top: 960px;
+  top: 882px;
+}
+
+main {
+  width: 100%;
+  height: 119vh;
 }
