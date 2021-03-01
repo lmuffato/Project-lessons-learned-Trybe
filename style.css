@@ -75,6 +75,7 @@ body {
 #text_1 {
   text-align: justify;
   text-indent: 5px;
+  letter-spacing: 0.3px;
 }
 
 #lado-esquerdo {
