@@ -2,15 +2,15 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    position: absolute;
+    position: fixed;
     display: inline;
     text-align: center;
     width: 100%;
+    top: 0;
 }
 #titulo {
     font-family: Trebuchet MS;
     font-style: oblique;
-    top: 0px;
 }
 figure {
     display: inline-block;
