@@ -32,10 +32,12 @@ h2 {
 
 #licoes_aprendidas {
   color: rgb(75, 73, 73);
+  font-family: monospace;
 }
 
 #licoes_a_aprender {
   color: rgb(75, 73, 73);
+  font-family: monospace;
 }
 
 section {
