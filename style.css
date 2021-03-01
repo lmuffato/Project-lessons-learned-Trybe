@@ -1,19 +1,19 @@
 header {
-  background-color: rgb(8,108,84);
+  background-color: rgb(8, 108, 84);
   color: white;
   padding-right: 100%;
   position: fixed;
   top: 0;
   margin-left: -8px;
-  z-index: 1;
-  
+  z-index: 5; 
+  padding-left: 10px;
 }
 
 body {
   background-color: rgb(253, 251, 251);
   font-family: Montserrat, sans-serif;
   font-weight: 300;
-  margin-bottom: 30px;
+  line-height: 20px;
 }
 
 #minha_foto {
@@ -24,13 +24,12 @@ body {
   border-style: dashed;
 }
 
-.listas {
-  background-color: rgba(255, 0, 0, 0);
+.listas{
   padding: 10px;
   display: inline-block;
   position: relative;
-  left: 200px;
-  top: 50px;
+  left: 620px;
+  bottom: 200px;
 }
 
 #artigo {
@@ -44,9 +43,12 @@ body {
 }
 
 footer {
-  background-color: rgba(36, 36, 36, 0.644);
+  background-color: rgba(36, 36, 36, 0.555);
   bottom: 180px;
   padding: 20px;
+  width: 100%;
+  margin-left: -10px;
+  margin-bottom: -10px;
 }
 
 h2 {
@@ -54,30 +56,35 @@ h2 {
 }
 
 .lado-esquerdo {
-  background-color: rgba(137, 43, 226, 0);
   padding: 35px;
-  position: relative;
-  bottom: 720px;
-  left: 550px;
+  position: absolute;
+  bottom: 250px;
+  left: 600px;
 }
 
 .lado-direito {
-  background-color: rgba(137, 43, 226, 0);
   padding: 10px 10px 10px 20px;
-  position: relative;
-  bottom: 980px;
-  left: 1150px;
+  position: absolute;
+  bottom: 130px;
+  left: 1200px;
 }
 
-table, td, th {  
-  border: 1px solid rgb(223, 222, 222);
+#tabela {  
   text-align: center;
-  width: 50px;
+  width: 600px;
   position: relative;
-  bottom: -30px;
+  bottom: 280px;
+  right: 25px;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
+nav {
+  position: absolute;
+  top: -5px;
+  left: 1368px
+}
+
+#giovanni_text_footer {
+  position: absolute;
+  left: 1200px;
+  top: 960px;
 }
