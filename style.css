@@ -16,7 +16,7 @@ nav ul li {
   list-style: none;
 }
 
-table , caption , td {
+table , caption , td , th {
   border: 1px solid white;
   background-color: #2d4654;
   color: white;
