@@ -52,7 +52,6 @@ body {
   margin-top: 300px;
   margin-left: 60px;
   margin-bottom: 100px;
-  
 }
 
 #licoes_a_aprender {
@@ -84,7 +83,6 @@ body {
   border-top: 3px solid rgb(45, 121, 121);
   border-left: 3px solid rgb(45, 121, 121);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-  background-color:;
 }
 
 .lado-direito {
@@ -102,7 +100,6 @@ body {
   border-right: 3px solid rgb(45, 121, 121);
   color: rgb(45, 121, 121);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-  background-color:;
 }
 
 p {
