@@ -15,6 +15,13 @@ table {
   margin-top: 50px;
   padding-top: 6000px;}
 
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+  
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -31,7 +38,9 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;}
+  margin-top: 150px;
+  width: 30%;
+  border-radius: 50%;}
 
 #laprendidas {
   margin-top: 35px;
@@ -56,7 +65,7 @@ table {
   margin-left: 200px;
   float: left;
   text-align: center;
-  width: 35%;}
+  width: 25%;}
 
 #aprendendo_html {
   margin-top: 20px;
@@ -64,17 +73,31 @@ table {
   margin-right: 200px;
   padding: 25px;
   text-align: center;
-  width: 35%;}
+  width: 25%;}
 
-.titulos_artigos{
+.titulos_artigos {
   margin-bottom: 20px;
   padding-top: 50px;}
 
-#objetivos{
+#objetivos {
   margin-top: 500px;
   padding-bottom: 50px;
   text-align: center;}
 
-footer{
+footer {
   background-color: seagreen;
-}
+  padding: 30px;
+  text-align: center;}
+
+#instagram-svg {
+  width: 50px;
+  margin-left: 30px;
+  margin-top: 20px;}
+
+#git-svg {
+  width: 50px;
+  margin-left : 10px;}
+
+#linkedin-svg {
+  width: 50px;
+  margin-left: 30px;}
