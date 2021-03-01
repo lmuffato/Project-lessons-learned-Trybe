@@ -9,13 +9,19 @@ body {
   color: #4e4d4d;
 }
 
+table {
+  width: 100%;
+}
+
 th {
   background-color: #A8E0CA;
   color: #696868;
+  padding: 10px 15px 10px 35px;
 }
 
 td {
   background-color: #EEF1EA;
+  padding: 10px 15px 10px 35px;
 }
 
 li {
