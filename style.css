@@ -51,7 +51,7 @@ body {
   display: inline-block;
 }
 .lessons {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 270px;
   width: 750px;
   height: 190px;
@@ -78,28 +78,23 @@ body {
 h2 {
   margin-left: 100px;
 }
-.next_text {
-  margin-left: 10px;
-  position: relative;
-
-}
-.one-side {
-  height: fit-content;
-  margin-left: 270px;
-  width: 350px;
-  font-size: 150%;
+.article {
+  float: left;
+  margin-left: 30%;
+  width: 33%;
   display: inline-block;
-  text-align: justify;
-  
+  border: solid;
 }
-.other-side {
-  height: max-content;
-  margin-left: 50px;
-  width: 250px;
-  font-size: 150%;
-  display: inline-block;
-  
+.aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  border: solid;
 }
 #linkedin-logo {
   height: 25px;
+}
+#rodape{
+  margin-top: 340px;
+  margin-left: 10px;
 }
