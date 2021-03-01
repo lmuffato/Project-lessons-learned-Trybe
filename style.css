@@ -36,7 +36,7 @@ nav {
 }
 
 #labelnews {
-  padding-left: 250px;
+  padding-left: 150px;
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -66,6 +66,7 @@ article {
   background-color: rgb(168, 224, 202);
   width: 800px;
   height: 270px;
+  line-height: 1.25;
 }
 
 #title-article {
@@ -116,7 +117,7 @@ article {
   width: 280px;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 #p-sobre {
@@ -155,6 +156,31 @@ section {
   text-align: center;
 }
 
+table {
+  background-color: rgb(168, 224, 202);
+  margin-top: 20px;
+}
+
+th {
+  width: 200px;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+td {
+  width: 200px;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
 footer {
   background-color: rgb(192, 204, 199);
   position: absolute;
@@ -165,4 +191,4 @@ footer {
   text-align: center;
   font-size: 18px;
   font-family: sans-serif;
-  }
+}
