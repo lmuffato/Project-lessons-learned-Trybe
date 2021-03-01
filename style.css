@@ -5,7 +5,7 @@ header {
   position: fixed;
   top: 0;
   margin-left: -8px;
-  z-index: 5; 
+  z-index: 5;
   padding-left: 10px;
 }
 
@@ -24,7 +24,7 @@ body {
   border-style: dashed;
 }
 
-.listas{
+.listas {
   padding: 10px;
   display: inline-block;
   position: relative;
@@ -33,12 +33,10 @@ body {
 }
 
 #artigo {
-  width: 400px;
   color: rgb(32, 32, 32);
 }
 
 #experiencia {
-  width: 120px;
   color: rgb(32, 32, 32);
 }
 
@@ -60,6 +58,7 @@ h2 {
   position: absolute;
   bottom: 250px;
   left: 600px;
+  width: 400px;
 }
 
 .lado-direito {
@@ -67,9 +66,10 @@ h2 {
   position: absolute;
   bottom: 130px;
   left: 1200px;
+  width: 120px;
 }
 
-#tabela {  
+#tabela {
   text-align: center;
   width: 600px;
   position: relative;
@@ -80,7 +80,7 @@ h2 {
 nav {
   position: absolute;
   top: -5px;
-  left: 1368px
+  left: 1368px;
 }
 
 #giovanni_text_footer {
