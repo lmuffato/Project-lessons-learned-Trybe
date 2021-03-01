@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Prompt", sans-serif;
+  font-family: Prompt, sans-serif;
 }
 
 #cabecalho {
@@ -21,16 +21,19 @@ body {
 }
 
 #minha_foto {
-  margin-top: 300px;
-  margin-left: 60px;
+  display: block;
+  float: right;
+  margin-top: 360px;
+  margin-right: 60px;
+  margin-bottom: 90px;
   width: 200px;
   border: 8px solid white;
   box-shadow: 1px 1px 4px black;
 }
 
 .tabela_licoesAprendidas {
-  border: 8px solid white;
-  box-shadow: 1px 1px 4px black;
+  border: 8px solid rgb(45, 121, 121);
+  box-shadow: 1px 1px 6px black;
   border-spacing: 0px;
   list-style: none;
   font-size: 20px;
@@ -44,42 +47,62 @@ body {
 }
 
 #licoes_aprendidas {
-  margin-top: -220px;
-  margin-left: 460px;
+  display: inline;
+  float: left;
+  margin-top: 300px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  
 }
 
 #licoes_a_aprender {
-  margin-top: -360px;
-  margin-left: 960px;
-
+  display: inline;
+  float: left;
+  margin-top: 300px;
+  margin-left: 80px;
+  margin-bottom: 100px;
 }
 
-#licoes_aprendidas h2 ,#licoes_a_aprender h2 {
+#licoes_aprendidas h2 , #licoes_a_aprender h2 {
   text-align: justify;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 .lado-esquerdo {
+  display: block;
+  width: 800px;
+  float: left;
   text-indent: 50px;
   text-align: justify;
   padding: 20px;
-  margin-right: 579px;
-  margin-top: 100px;
-  color: white;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-right: 8px solid rgb(45, 121, 121);
+  padding-right: 30px;
+  border-bottom: 8px solid rgb(45, 121, 121);
+  color: rgb(45, 121, 121);
+  border-top: 3px solid rgb(45, 121, 121);
+  border-left: 3px solid rgb(45, 121, 121);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-  background-color: rgb(77, 162, 168);
+  background-color:;
 }
 
 .lado-direito {
+  display: block;
+  width: 350px;
+  float: right;
   text-indent: 50px;
   text-align: justify;
-  margin-left: 900px;
   padding: 20px;
-  margin-top: -346px;
-  padding-bottom: 80px;
-  color: white;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  border-top: 8px solid rgb(45, 121, 121);
+  border-left: 8px solid rgb(45, 121, 121);
+  border-bottom: 3px solid rgb(45, 121, 121);
+  border-right: 3px solid rgb(45, 121, 121);
+  color: rgb(45, 121, 121);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-  background-color: rgba(104, 165, 165, 0.959);
+  background-color:;
 }
 
 p {
@@ -89,12 +112,14 @@ p {
 }
 
 #rodape {
+  clear: both;
+  display: block;
   border: 2px solid black;
   padding: 50px;
-  margin-top: 10px;
+  margin-top: 200px;
   background-color: rgb(155, 151, 168);
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);  
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 #rodape a {
