@@ -32,11 +32,10 @@ header h1 {
 }
     
 #secao_aside {
-    position: relative;
-    float: right;
-    top: -240px;
-    background-color: green;
-    width: 180px;
+    width: 300px;
+    
+    
+
 }
 
 li:hover {
@@ -53,16 +52,25 @@ li:hover {
 
 #artigo {
     width: 50%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* position: relative;
+    top: 250px; */
+    
 }
 
 .posicao {
-    position: relative;
-    top: 200px;
+    /* position: relative;
+    top: 200px; */
  }
 
 .trybe {
      color: forestgreen;
      font-weight: 900;
+ }
+
+ .art_sec {
+     display: inline-block;
+     
+
  }
