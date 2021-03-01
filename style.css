@@ -102,6 +102,32 @@ main section .lado-esquerdo {
 
 main section .lado-direito {
   width: 75%;
+  margin-bottom: 16px;
   float: right;
   background-color: rgb(20, 33, 61);
+}
+
+main section .profile-box {
+  display: flex;
+  align-items: center;
+}
+
+main section .profile-box p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.7rem;
+  font-style: italic;
+  line-height: 2rem;
+  color: rgb(252, 163, 17);
+  margin-left: 16px;
+}
+
+main section .profile-box img {
+  height: 200px;
+  border: 5px solid rgb(252, 163, 17);
+  border-radius: 50%;
+}
+
+main section .profile-box , .profile-table {
+  width: 75%;
+  float: right;
 }
