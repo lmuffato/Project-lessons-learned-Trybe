@@ -109,7 +109,7 @@ body {
 p {
   font-size: 20px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #rodape {
@@ -129,7 +129,7 @@ p {
   margin: 10px;
   background-color: rgb(77, 162, 168);
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
 }
 
