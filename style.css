@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   width: 100%;
   font-family: cursive;
-  margin:0;
+  margin: 0;
 }
 
 #cabecalho {
@@ -10,7 +10,7 @@ body {
   top: 0;
   background-color: rgb(255, 101, 121);
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 aside {
@@ -98,7 +98,7 @@ footer {
   background-color: rgb(255, 101, 121);
   padding-top: 2px;
   padding-bottom: 2px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-style: italic;
   font-size: 1em;
 }
