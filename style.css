@@ -40,3 +40,12 @@ footer {
   text-align: center;
   font-size: 13px;
 }
+
+div.lado-esquerdo , div.lado-direito {
+  display: inline-block;
+  width: 500px;
+}
+
+div.lado-direito {
+  float: right;
+}
