@@ -15,6 +15,7 @@ body {
   font-style: italic;
   padding-top: 10px;
   padding-left: 400px;
+  font-family: Courier New, Courier, monospace;
 }
 
 table tr td {
@@ -25,7 +26,7 @@ table tr td {
 
 table {
   margin-top: 194px;
-  width:565px;
+  width: 565px;
   float: right;
   margin-right: 50px;
 }
