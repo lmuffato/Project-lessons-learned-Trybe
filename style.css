@@ -15,6 +15,15 @@ body {
   background-color: rgb(236, 99, 99);
 }
 
+.nav_links {
+  padding: 120px 0 0 90px;
+  display: inline-block;
+}
+
+#titulo {
+  padding-left: 20px;
+}
+
 #titulo {
   left: 10px;
   position: fixed;
@@ -22,18 +31,34 @@ body {
 }
 
 #minha_foto {
-  width: 300px;
+  width: 100px;
   position: fixed;
-  left: 300px;
-  top: 300px;
+  left: 500px;
+  top: 30px;
 }
 
-#licos_aprendidas {
-  left: 200px;
-  margin-bottom: 100px;
+.section_aprendidas {
+  padding: 100px 0 0 50px;
 }
 
-#licoes_a_aprender {
-  left: 200px;
-  margin-bottom: 100px;
+.section_aprender {
+  padding: 50px 0 50px 50px;
+}
+
+#aside {
+  float: right;
+  width: 22%;
+  background: lightblue;
+  padding: 50px 2%;
+}
+
+#article {
+  float: left;
+  width: 70%;
+  background: lightsalmon;
+  padding: 50px 2%;
+}
+
+#rodape {
+  background: lime;  
 }
