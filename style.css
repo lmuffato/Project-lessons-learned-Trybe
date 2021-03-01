@@ -36,23 +36,23 @@ figcaption p {
   background-color: rosybrown;
   margin-top: -45px;
   padding: 35px;
-  font-weight: bold;
+  font-weight: 800px;
   font-family: monospace;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   width: 65%;
   display: inline-block;
 }
 
-.lado_direito {
+.lado-direito {
   width: 30%;
   display: inline-block;
   float: right;
   margin-top: 100px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   line-height: 35px;
   font-size: 20px;
   box-sizing: content-box;
@@ -76,8 +76,19 @@ h3 {
 
 .cor {
   color: rosybrown;
-  font-weight: bold;
+  font-weight: 800px;
   font-family: monospace;
+}
+
+.tabela {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.tabela td {
+  border-style: dotted;
+  border-color: rosybrown;
+  padding: 10px;
 }
 
 #rodape {
