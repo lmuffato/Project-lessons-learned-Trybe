@@ -13,19 +13,32 @@
     rel="stylesheet">
 </head>
 
-<body>
+<!--- As imagens que contém a classe "icones_pequenos"
+    têm como fonte o site https://www.betrybe.com/ 
+    e foram baixadas e alteradas apenas para propósito
+    estético, todo o conteúdo dessa classe é de autoria da Trybe
+    e não pertecem a mim de forma alguma. --->
 
+<!--- Agradecimento Especial aos meus colegas de Turma, 
+  Wanderson Sales:  https://github.com/wandersonsales-dev
+    e
+  Willian Alves: https://www.linkedin.com/in/willianalmeidaalves/
+  Que me ajudaram de forma presente nas dificuldades que encontrei
+  no desenvolvimento do projeto. --->
+
+<body>
+  <p id="topo_da_pagina">topo</p>
   <header id="cabecalho">
     <section>
-      <h1 id="titulo">Lições Aprendidas na Trybe</h1>
+      <h1 id="titulo">Projeto Lessons Learned</h1>
     </section>
     <nav class="navegacao">
       <ul>
-        <li><a href="">Bloco 1</a></li>
-        <li><a href="">Bloco 2</a></li>
-        <li><a href="">Bloco 3</a></li>
-        <li><a href="">Lições aprendidas</a></li>
-        <li><a href="">O que vou aprender</a></li>
+        <li><a href="#aprendizado">Meu aprendizado</a></li>
+        <li><a href="#soft_skills">Soft Skills</a></li>
+        <li><a href="#planos_para_o_futuro">Planos para o futuro</a></li>
+        <li><a href="https://www.linkedin.com/in/wendell-costa-8673131a6/" target="_blank">Meu linkedin</a></li>
+        <li><a href="https://www.betrybe.com/" target="_blank">O que é a Trybe?</a></li>
       </ul>
     </nav>
   </header>
@@ -35,6 +48,7 @@
       <section id="info_estudante">
         <img id="minha_foto" src="Minha_foto.jpeg" alt="Foto do estudante Wendell Costa">
         <h2 id="nome"> Wendell Costa </h2> <br>
+        <hr>
         <table id="tabela">
           <tr>
             <td>Idade:</td>
@@ -42,11 +56,11 @@
           </tr>
           <tr id="table">
             <td>Profissão: </td>
-            <td>Estudante</td>
+            <td>Estudante de Desenvolvimento Web</td>
           </tr>
         </table>
       </section>
-      <p style="margin-left: 10% ;"> Lições Aprendidas</p>
+      <hr>
       <section id="licoes">
         <ol id="licoes_aprendidas">
           <li>HTML</li>
@@ -73,15 +87,19 @@
           <li>Node</li>
           <li>SQL</li>
         </ul>
-
       </section>
+      <hr>
       <article>
-        <h3 class="titulo">Meu Aprendizado até agora</h3>
-        <p>
-          Desde o momento em que as aulas da Trybe começaram,eu pude me sentir cada vez mais confiante, todo meu
-          aprendizado foi construído de forma prática e acertiva. Já aprendi bastante sobre UNIX, GIT, GITHUB, HTML, CSS
+        <h3 class="titulo">Meu Aprendizado até agora</h3> <img class="icones_pequenos" src="code.svg"
+          alt="Símbolo que contém fechamento de um código">
+        <p id="aprendizado">
+          Desde o momento em que as aulas da Trybe começaram,eu pude me sentir cada vez mais confiante, todo meu <br>
+          aprendizado foi construído de forma ativa. Já aprendi bastante sobre UNIX, GIT, GITHUB, HTML, CSS
+          <br>
           e HMTL Semântico, além de aprender a utilizar ferramentas amplamente utilizadas no mercado, como o Zoom e o
+          <br>
           Slack. Pude também ter uma breve introdução sobre o que são as Soft Skills e o quão valorizadas elas são no
+          <br>
           mercado de trabalho.
         </p>
       </article>
@@ -89,27 +107,39 @@
 
     <section>
       <aside>
-        <h3 class="titulo">Passagem</h3>
-        <p>
-          Desde o momento em que as aulas da Trybe começaram,eu pude me sentir cada vez mais confiante, todo meu
-          aprendizado foi construído de forma prática e acertiva.
+        <h3 class="titulo">Soft Skills</h3> <img class="icones_pequenos" src="soft_skills.svg"
+          alt="Símbolo que contém um coração">
+        <p id="soft_skills">
+          As Soft Skills, assim foram introduzidas no curso, são parte fundamental <br>
+          da nossa formação enquanto pessoa programadora e profissional de sucesso <br>
+          sendo de extrema importância na avaliação de um possível recrutador.
         </p>
       </aside>
     </section>
 
-    <p class="titulo">Soft Skills</p>
-    <p>
-      As Soft Skills, como foram introduzido no curso, são parte fundamentais <br>
-      da nossa formação enquanto pessoa programadora e profissional
+    <p class="titulo">Planos para o futuro</p> <img class="icones_pequenos" src="planos_futuro.svg"
+      alt="Símbolo que contém um avião de papel">
+    <p id="planos_para_o_futuro">
+      Ao decidir começar minha carreira como desenvolvedor, pude dar inicio ao o maior de meus sonhos: Me tornar uma pessoa
+      programadora, desenvolvedora de tecnologias revolucionárias. <br> Sempre fui apaixonado por tecnologia e por desafios que movem o mundo, e meu maior sonho é tornar
+      o mundo melhor através de linhas de código escritas com carinho e dedicação :) <br> Pretendo evoluir minhas habilidades
+      constantemente para me manter sempre atualizado quanto a novas tecnologias e linguagens de programação.
     </p>
   </main>
+  <hr>
+
+  <a href="#topo_da_pagina">
+    <p style="margin-left: 10px;">
+      Voltar ao topo
+    </p>
+  </a>
 
   <footer id="rodape">
     <nav>
       <p id="texto_rodape">Feito com as lições apredidas no curso de desenvolvimento Web na
         <a id="link" href="https://www.betrybe.com/" target="_blank">Trybe</a>
         :) Que tal nos conectarmos? Entre em contato pelo <a href="https://www.linkedin.com/in/wendell-costa-8673131a6/"
-          target="_blank">linkedin</a>
+          target="_blank">linkedin.</a>
       </p>
     </nav>
   </footer>

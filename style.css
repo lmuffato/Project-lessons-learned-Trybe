@@ -67,7 +67,7 @@ footer {
   background-color: rgb(29, 208, 93);
   color: antiquewhite;
   width: 100%;
-  line-height: 10px;
+  line-height: 26px;
 }
 
 #licoes_a_aprender {
@@ -84,7 +84,9 @@ footer {
 }
 
 #texto_rodape {
-  margin-left: 2px;
+  margin-left: 14%;
+  margin-top: 30px;
+  padding-top: 18px;
 }
 
 #texto_rodape a {
@@ -99,4 +101,10 @@ footer {
 
 #tabela {
   padding-left: 27px;
+  border: 1;
+}
+
+.icones_pequenos {
+  height: 25px;
+  width: 50px;
 }
