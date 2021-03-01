@@ -31,12 +31,17 @@ body {
 
 a {
   color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  text-decoration: black 2px underline;
 }
 
 #cabecalho nav a {
   font-weight: 600;
   margin-right: 20px;
-  text-decoration: none;
 }
 
 #minha_foto {
