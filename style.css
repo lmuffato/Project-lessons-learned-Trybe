@@ -73,6 +73,43 @@ aside h3 {
   font-size: 16px;
 }
 
+.tabela {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  padding-top: 50px;
+  width: 40%;
+  display: block;
+  text-align: center;
+  line-height: 7.5mm;
+  margin: 0 auto;
+}
+
+table {
+  border: 1px solid rgb(9, 139, 74);
+  width: 60%;
+  border:"1";
+}
+td {
+  border: 1px solid rgb(9, 139, 74);
+}
+
+table td:hover {
+  background-color:  rgb(21, 211, 116);
+}
+
+table td:active {
+  font-weight: bolder;
+}
+
+.tabela table{
+  margin: 0 auto;
+}
+
+.tabela a{
+  text-decoration: none;
+  color: black;
+}
+
 footer ul {
   text-align: center;
   margin-left: -100px;
