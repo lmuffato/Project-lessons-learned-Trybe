@@ -7,15 +7,15 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(255 87 34 / 31%);
+  background-color: green;
   width: 1264px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
 }
 
 #titulo {
-  font-style: italic;
   padding-top: 10px;
-  padding-left: 400px;
-  font-family: Courier New, Courier, monospace;
+  padding-left: 350px;
 }
 
 table tr td {
@@ -25,29 +25,28 @@ table tr td {
 }
 
 table {
-  margin-top: 194px;
-  width: 565px;
-  float: right;
-  margin-right: 50px;
+  justify-content: center;
+  padding-top: 180px;
+  padding-left: 10px;
 }
 
-article , section {
-  padding-left: 30px;
-  padding-right: 30px;
-  border: solid 1px black;
-  margin-top: 10px;
+.meu-aprendizado {
+  display: flex;
+  padding: 30px;
+  
 }
 
 article {
-  float: left;
   width: 500px;
   margin-left: 50px;
+  text-align: justify;
 }
 
 section {
   width: 500px;
-  float: right;
   margin-right: 50px;
+  text-align: justify;
+  padding-left: 40px;
 }
 
 img {
@@ -58,23 +57,31 @@ img {
 
 aside {
   margin-top: 150px;
-  margin-right: 50px;
-  width: 400px;
+  margin-right: 200px;
+  width: 300px;
+  height: 200px;
   text-align: justify;
-  border: black solid 1px;
   padding-left: 10px;
   padding-right: 10px;
   float: right;
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.listas {
-  display: flex;
-  float: left;
+ .listas {
   width: 500px;
-  margin-left: 50px;
-}
+  
+  display: flex;
+ }
+
+ .lista-tabela {
+   display: flex;
+   margin-left: 60px;
+ }
 
 footer {
-  margin-top: 500px;
-  margin-left: 50px;
+  margin-top: 10px;
+  margin-left: 80px;
 }
