@@ -9,6 +9,7 @@ body {
 }
 
 #cabecalho {
+  position: fixed;
   color: aliceblue;
   top: 0px;
   padding-top: 20px;
