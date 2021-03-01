@@ -3,13 +3,16 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  color:black
 }
 
 #cabecalho h1 {
   position: fixed;
-  top: 0;
+  top: 0px;
   color: darkorange;
+}
+
+#titulo {
+  position: fixed;
 }
 
 #minha_foto {
@@ -72,5 +75,4 @@ li:active {
   border-color: green;
   padding-top: 10px;
   color: blue;
-  
 }
