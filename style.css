@@ -4,27 +4,28 @@ body{
   background-repeat: no-repeat;
   height: 100px;
   background-size: 100%;
+  width:fit-content;
   font-family: matrix;
+  border:1px solid black;
   @font-face {
     font-family: matrix;
     src: url("matrix.ttf") format("truetype")
+    
   }
 }
 #cabecalho{
-  position: relative;
+  position: fixed;
   top: 0px;
   color: white;
-  margin-left: 500px;
-  width: 500px;
-     
+  width: 250px;  
+  border:1px solid black;
 }
 
 #titulo { 
   color:#0D0208;
   font-family: matrix; 
-  font-size: 400%;
-  text-align: center;
-
+  font-size: 200%;
+  border:1px solid black;
 }
 @font-face {
   font-family: matrix;
@@ -38,78 +39,74 @@ body{
   width: 300px;
   font-size: 100%;
   display: inline;
+  
 }
 #minha_foto{
-  width: 70%;
+  width: 50%;
   border-radius: 50%;
   padding: 0%;
   float: left;
   display: inline-block;
   
+  
 }
 
-.title-container {
-  margin-left: 5px;
-  margin-right: 5px;
+.lessons{
+  width: 1366px;
+  height: 768px;
+  border:1px solid black;
+  
+}
+.lessons-learned{
+  margin-left: 300px;
+  margin-top:100px;
   display: inline-block;
-    
+}
+
+#licoes_aprendidas{
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;//this is important addition
+}
+
+.lessons-to-be-learn{
+  margin-left: 300px;
+  margin-top:100px;
+  display: inline-block;
+}
+#licoes_a_aprender{
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;//this is important addition
+} 
+}
+#projects{
+  margin-left: 500px;
+  width: 200px;
+  display: inline-block;
+  float:left;
+  border:1px solid black;
+}
 }
 .side-bar {
   margin-left: 500px;
   width: 200px;
   display: inline-block;
   float:left;
+  border:1px solid black;
 }
 #contact{
   margin-left: 5px;
   display: inline-block;
   width: 250px;
+  border:1px solid black;
     
 }
-
-#licoes_aprendidas{
-  font-size: 100%;
-  display: inline-block;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  list-style: square;
-
-}
-h2{
-  margin-left: 145px;
-}
-
-.lessons-learned{
-  display: inline-block;
-  width: 420px;
-  vertical-align: top;
-}
-
-#licoes_a_aprender{
-  font-size: 100%;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  list-style-type: square
-
-}
-h2{
-  margin-left: 145px;
-}
-.lessons-to-be-learned{
-  display: inline-block;
-  width: 420px;
-  vertical-align: top;
-  margin-left: 50px; 
-}
-.lessons{
-  width: 1550px;
-  padding: 50px;
-}
-
 #linkedin-logo{
   height: 25px;
+  border:1px solid black;
 }
   
   
