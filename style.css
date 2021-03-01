@@ -151,7 +151,12 @@ aside h3 {
   color: white;
 }
 
-/* #rodape{
-background-color: rgba(15, 163, 107,0.5);
-} */
+#rodape {
+  padding-left: 20px;
+  background-color: rgba(15, 163, 107, 0.5);
+  height: 40px;
+}
+#rodape a:hover {
+  color: white;
+}
 
