@@ -23,7 +23,9 @@ body {
   color: rgb(242, 204, 143);
   font-size: 35px;
   letter-spacing: 4px;
-  top:10px;
+  top: 10px;
+  left: 100px;
+  position: relative;
 }
 
 .navegacao {
@@ -147,11 +149,6 @@ table , td , th {
   padding: 40px;
   font-family: Nunito, sans-serif;
   font-style: italic;
-}
-
-#titulo {
-  left: 100px;
-  position: relative;
 }
 
 .lado-esquerdo {
