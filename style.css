@@ -95,14 +95,13 @@ body {
   text-align: center;
 }
 
-#aprendizado {
+.aprendizado {
   margin: 2em 0 3em 1em;
   display: inline-block;
-  margin-left: 400px;
-  margin-top: 0;
+  margin-top: 0500px;
 }
 
-#aprendizado h2 {
+.aprendizado h2 {
   margin: 2em 0 2em 1em;
   background-color: rgba(46, 193, 139, 255);
   width: 500px;
@@ -110,7 +109,28 @@ body {
   display: inline-block;
 }
 
-#aprendizado p {
+.aprendizado p {
+  margin-left: 1em;
+  width: 30em;
+  text-align: justify;
+  padding-left: 15px;
+}
+.aprendizado2 {
+ 
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 0;
+}
+
+.aprendizado2 h2 {
+  margin: 2em 0 2em 1em;
+  background-color: rgba(46, 193, 139, 255);
+  width: 500px;
+  text-align: center;
+  display: inline-block;
+}
+
+.aprendizado2 p {
   margin-left: 1em;
   width: 30em;
   text-align: justify;
