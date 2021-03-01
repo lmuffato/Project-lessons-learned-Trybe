@@ -4,7 +4,7 @@ body {
 
 #cabecalho h1 {
   position: fixed;
-  top: 0px;
+  top: 0;
   color: darkorange;
 }
 
