@@ -61,7 +61,7 @@ h2 {
   text-align: center;
   margin-top: 20px;}
 
-#lado-esquerdo {
+.lado-esquerdo {
   margin-top: 20px;
   margin-left: 200px;
   float: left;
@@ -110,5 +110,4 @@ footer {
   margin: 100px;}
 
 #artigos {
-  line-height: 25px;
-}
+  line-height: 25px;}
