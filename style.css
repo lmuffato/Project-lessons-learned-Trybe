@@ -46,8 +46,9 @@ body {
   font-family: italic;
   padding: 5px;
   line-height: 18px;
-  top: 100px;  
+  top: 100px;
 }
+
 table, th, td {
   position: relative;
   color: rgb(1, 141, 141);
@@ -59,6 +60,7 @@ table, th, td {
   padding: 5px;
   bottom: 45px;
 }
+
 #Linkedin {
   position: relative;
   bottom: 390px;
