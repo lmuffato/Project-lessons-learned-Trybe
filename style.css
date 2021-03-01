@@ -5,11 +5,11 @@ body {
   height: 100px;
   background-size: 100%;
   width: fit-content;
-  font-family: matrix;
+  font-family: matrix, matrix;
 
   @font-face {
     font-family: matrix;
-    src: url('matrix.ttf') format('truetype')
+    src: url('matrix.ttf') format('truetype');
   }
 }
 #cabecalho {
@@ -21,7 +21,7 @@ body {
 #titulo {
   color: black;
   margin-top: 0;
-  font-family: matrix;
+  font-family: matrix, matrix;
   width: 900px;
   font-size: 350%;
   font-style: italic;
@@ -29,10 +29,9 @@ body {
 
 @font-face {
   font-family: matrix;
-  src: url('matrix.ttf') format('truetype')
+  src: url('matrix.ttf') format('truetype');
 }
 #navigation {
-  font-family: 'Courier New', Courier, monospace;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 5px;
@@ -41,7 +40,7 @@ body {
   display: inline;
   line-height: 10mm;
   font-color: black;
-  font-family: matrix;
+  font-family: matrix, matrix;
 }
 #minha_foto {
   width: 50%;
@@ -60,7 +59,6 @@ body {
   margin-left: 0;
   margin-top: 50px;
   display: inline-block;
-  
 }
 #licoes_aprendidas {
   columns: 2;
@@ -83,16 +81,17 @@ h2 {
   margin-left: 30%;
   width: 33%;
   display: inline-block;
-  
 }
 .lado-direito {
   float: right;
   margin: 0 2%;
   width: 33%;
   display: inline-block;
-
 }
 #linkedin-logo {
+  height: 25px;
+}
+#github-logo {
   height: 25px;
 }
 #rodape {
