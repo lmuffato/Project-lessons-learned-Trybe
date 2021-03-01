@@ -1,8 +1,31 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Quicksand', sans-serif;
+  color: #4e4d4d;
+}
+
+th {
+  background-color: #A8E0CA;
+  color: #696868;
+}
+
+td {
+  background-color: #EEF1EA;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #2B8099;
+  color: #EEF1EA;
+}
+
+#minha_foto {
+
+}
+
+#rodape {
+  color: #8f8e8e;
+  font-style: italic;
+  font-size: 15px;
 }
