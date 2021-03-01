@@ -11,8 +11,6 @@ body {
 }
 
 .listas {
-  border-radius: 10%;
-  background-color: rgb(10, 153, 105);
   padding: 10px;
   display: inline-block;
 }
@@ -49,7 +47,7 @@ body {
   top: 100px;
 }
 
-table, th, td {
+table {
   position: relative;
   color: rgb(1, 141, 141);
   border: 3px solid black;
