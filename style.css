@@ -7,13 +7,11 @@ body {
 
 #cabecalho h1 {
   position: fixed;
-  top: 0;
   color: darkorange;
 }
 
 #titulo {
   position: fixed;
-  top : 0;
 }
 
 #minha_foto {
