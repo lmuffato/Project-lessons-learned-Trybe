@@ -43,13 +43,14 @@ nav {
   padding-left: 20px;
 }
 
-.testimony {
+.lado_esquerdo, .lado_direito {
   width: 550px;
   margin: 40px 10px 15px 45px;
   display: inline-block;
   text-align: justify;
   padding: 10px 5px 5px 10px;
   border-style: outset;
+  line-height: 130%;
 }
 
 #cabecalho {
