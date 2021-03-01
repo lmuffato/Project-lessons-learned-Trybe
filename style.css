@@ -23,7 +23,14 @@ body {
   border-width: 10px;
 }
 
-figcaption p{
+p {
+  text-indent: 35pt;
+  line-height: 35px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+figcaption p {
   font-size: 25px;
   text-align: right;
   background-color: rosybrown;
@@ -35,12 +42,12 @@ figcaption p{
 
 .lado_esquerdo {
   width: 65%;
-  display: block;
-
+  display: inline-block;
 }
+
 .lado_direito {
   width: 30%;
-  display: block;
+  display: inline-block;
   float: right;
   margin-top: 100px;
 }
@@ -50,30 +57,22 @@ figcaption p{
   font-size: 20px;
   box-sizing: content-box;
   height: 455px;
-  width: 200px;
+  width: 300px;
   display: inline-block;
 }
-
 
 h2 {
   font-family: cursive, monospace;
   font-size: 30px;
 }
 
-h5 {
+h3 {
   font-size: 25px;
   border-style: dotted;
   border-color: rosybrown;
   padding: 25px;
+  text-align: center;
 }
-
-p {
-  text-indent: 35pt;
-  line-height: 35px;
-  font-size: 20px;
-  text-align: justify;
-}
-
 
 .cor {
   color: rosybrown;
@@ -93,7 +92,7 @@ p {
 #rodape li {
   display: inline-block;
   padding-left: 30px;
-  list-style: none;  
+  list-style: none;
   font-size: 20px;
 }
 
