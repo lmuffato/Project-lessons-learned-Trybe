@@ -13,6 +13,7 @@ body {
 
 #titulo {
   position: fixed;
+  top : 0;
 }
 
 #minha_foto {
@@ -49,7 +50,7 @@ li:active {
   margin-left: 50px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   width: 40%;
   display: inline-block;
   margin-left: 20px;
@@ -58,7 +59,7 @@ li:active {
   border-style: groove;
 }
 
-#lado-direito {
+.lado-direito {
   background-color: slategrey;
   width: 35%;
   display: inline-block;
