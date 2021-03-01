@@ -24,17 +24,15 @@ body {
   padding: 10px;
   position: absolute;
   bottom: 500px;
-  right: 340px;
+  right: 570px;
   top: 40px;
 }
 
 #coisas_que_vou_aprender {
   padding: 10px;
   position: absolute;
-  right: 500px;
-  bottom: 500px;
-  top: 280px;
-  left: 320px;
+  bottom: 320px;
+  left: 750px;
 }
 
 #coisas_aprendidas {
@@ -45,7 +43,6 @@ body {
   padding: 5px;
   line-height: 18px;
   top: 100px;
-  right: 230px;
 }
 
 table {
