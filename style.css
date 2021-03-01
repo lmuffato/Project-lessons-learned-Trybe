@@ -37,12 +37,10 @@ header h1 {
     top: -240px;
     background-color: green;
     width: 180px;
-
 }
 
 li:hover {
     background-color: yellow;
-    
 }
 
 #rodape {
@@ -62,7 +60,6 @@ li:hover {
 .posicao {
     position: relative;
     top: 200px;
-     
  }
 
 .trybe {
