@@ -1,36 +1,33 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   background-image: url('https://www.news.gatech.edu/sites/default/files/pictures/feature_images/icon_math_1.gif');
   background-repeat: no-repeat;
   height: 100px;
   background-size: 100%;
-  width:fit-content;
+  width: fit-content;
   font-family: matrix;
   @font-face {
     font-family: matrix;
-    src: url("matrix.ttf") format("truetype")
-    
+    src: url('matrix.ttf') format('truetype')
   }
 }
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0px;
   color: white;
-  width: 300px;  
-  
+  width: 300px;
 }
-
-#titulo { 
-  color:#0D0208;
+#titulo {
+  color: #0d0208;
   margin-top: 0px;
-  font-family: matrix; 
+  font-family: matrix;
   width: 900px;
   font-size: 350%;
+  font-style: italic;
 }
 @font-face {
   font-family: matrix;
-  src: url("matrix.ttf") format("truetype")
-      
+  src: url("matrix.ttf") format("truetype") 
 }
 #navigation {
   font-family: 'Courier New', Courier, monospace;
@@ -40,47 +37,38 @@ body{
   width: 300px;
   font-size: 100%;
   display: inline;
-  
 }
-#minha_foto{
+#minha_foto {
   width: 50%;
   border-radius: 50%;
   padding: 0%;
   float: left;
   display: inline-block;
-  
-  
 }
-
-.lessons{
+.lessons {
   margin-top: 100px;
   margin-left: 270px;
   width: 750px;
   height: 190px;
-  
-  
 }
-.lessons-learned{
+.lessons-learned {
   margin-left: 0px;
   margin-top:50px;
   display: inline-block;
   
 }
-
-#licoes_aprendidas{
+#licoes_aprendidas {
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
   list-style-position: inside;
 }
-
-.lessons-to-be-learn{
+.lessons-to-be-learn {
   margin-left: 0px;
   margin-top:50px;
   display: inline-block;
-  
 }
-#licoes_a_aprender{
+#licoes_a_aprender {
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
@@ -89,28 +77,21 @@ body{
 h2{
   margin-left: 100px;
 }
-.article{
-  margin-top: 25px;
-  margin-left: 270px;
-  width: 750px;
-  height: 190px;
-  border:1px solid black;
-}
-#projects{
+.side-bar {
   margin-left: 270px;
   border:1px solid black;
   width: 350px;
   font-size: 150%;
   display: inline-block;
-  
 }
-#linkedin-logo{
+.side-bar-contact {
+  margin-top: 0px;
+  margin-left: 270px;
+  border:1px solid black;
+  width: 350px;
+  font-size: 150%;
+  display: inline-block;
+}
+#linkedin-logo {
   height: 25px;
-  
 }
-  
-  
-
-
-    
-
