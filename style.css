@@ -11,7 +11,6 @@ a {
   color: inherit;
 }
 
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -105,10 +104,10 @@ div {
 
 p {
   margin-right: 20px;
+  line-height: 30px;
 }
 
 #paragrafo {
-  
   display: inline-block;
   width: 300px;
   margin-left: 300px;
@@ -120,7 +119,7 @@ aside {
   background-color: rgba(15, 163, 107, 0.5);
   display: inline-block;
   width: 300px;
-  height: 200px;
+  height: 300px;
   margin-right: 200px;
   margin-bottom: 100px;
 }
@@ -130,11 +129,11 @@ aside p {
   text-align: justify;
   padding-left: 10px;
 }
+
 h3 {
   color: grey;
   text-align: center;
 }
-
 
 table {
   width: 200px;
@@ -147,9 +146,11 @@ table, th, tr, td {
   border-collapse: collapse;
   background-color: white;
 }
+
 aside h3 {
   color: white;
 }
+
 /* #rodape{
 background-color: rgba(15, 163, 107,0.5);
 } */
