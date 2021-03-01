@@ -15,30 +15,30 @@ body {
   background-color: rgb(236, 99, 99);
 }
 
-.nav_links {
-  padding: 120px 0 0 90px;
+.nav_links li {
+  padding: 100px 30px 0 0;
   display: inline-block;
 }
 
 #titulo {
-  padding-left: 20px;
+  padding-left: 30px;
   left: 10px;
   position: fixed;
   top: 25px;
 }
 
 #minha_foto {
-  width: 100px;
+  width: 250px;
   position: fixed;
-  left: 500px;
-  top: 30px;
+  left: 550px;
+  top: 100px;
 }
 
-.section_aprendidas {
+#section_aprendidas {
   padding: 100px 0 0 50px;
 }
 
-.section_aprender {
+#section_aprender {
   padding: 50px 0 50px 50px;
 }
 
