@@ -38,6 +38,7 @@ body {
   color: rgb(253, 251, 251);
   font-size: larger;
 }
+
 #menu a:hover {
   color: rgba(46, 193, 139, 255);
 }
@@ -109,4 +110,26 @@ body {
   width: 50px;
   margin-top: 10px;
   margin-inline-end: 20px;
+}
+
+#tabela {
+  margin-top: 50px;
+}
+
+#tabela th, tr, td {
+  margin-top: 50px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+
+#tabela th {
+  margin-top: 50px;
+  font-weight: bold;
+  background-color: rgba(46, 193, 139, 255);
+}
+
+#tabela td {
+  text-align: center;
+  padding: 20px;
 }
