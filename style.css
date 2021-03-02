@@ -4,7 +4,7 @@
   border: 0;
   box-sizing: border-box;
   font-family: Courier New, Courier, monospace;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.6;
   color: rgb(32, 30, 30);
 }
@@ -19,64 +19,86 @@ body {
   position: fixed;
   top: 0;
   display: block;
-  background-color: rgb(236, 99, 99);
+  background-color: rgb(248, 194, 174);
 }
 
 .nav_links li {
-  padding: 100px 10px 0 30px;
+  padding: 68px 10px 0 42px;
   display: inline-block;
 }
 
 #titulo {
-  padding-left: 30px;
+  padding-left: 27px;
   left: 10px;
   position: fixed;
-  top: 25px;
+  top: 22px;
+  font-size: 30px;
 }
 
 #minha_foto {
-  width: 250px;
-  position: fixed;
-  left: 550px;
-  top: 100px;
+  width: 200px;
+  float: left;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 100px;
+  display: inline-block;
 }
 
-#section_aprendidas {
-  padding: 100px 0 0 50px;
+.main {
+  margin-top: 120px;
 }
 
-#section_aprender {
-  padding: 50px 0 50px 50px;
+.section {
+  width: 200px;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 #aside {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 55%;
   float: right;
-  width: 22%;
   background: lightblue;
-  padding: 50px 2%;
+  padding: 20px;
 }
 
+#aside_text {
+  margin-left: 950px;
+  width: 310px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
 #article {
+  width: 55%;
+  background: rgb(236, 99, 99);
+  padding: 50px;
+  display: inline-block;
+}
+
+#article_title {
+  font-size: 22px;
+}
+
+#article_paragraph {
+  font-size: 18px;
+}
+
+
+.lado-esquerdo {
   float: left;
-  width: 70%;
-  background: lightsalmon;
-  padding: 50px 2%;
+}
+
+.lado-direito {
+  float: right;
 }
 
 #rodape {
+  margin-top: 425px;
+  margin-left: 30px;
   background: rgb(253, 251, 251);
-}
-
-.table {
-  margin: 10px;
-  padding: 10px;
-  border: aqua;
-}
-
-#logo_github {
-  padding-left: 310px;
-}
-
-#logo_linkedin {
-  padding-left: 315px;
+  text-align: left;
 }

@@ -12,22 +12,29 @@
     <header>
         <div id="cabecalho">
             <h1 id="titulo">LIÇÕES APRENDIDAS | TRYBE</h1>
+
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Portfólio</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
             
-            <img src="ny redux.jpg" alt="Foto de Julia Baptista, aluna da Trybe - Turma 10 - Tribo A" id="minha_foto">
         </div>
         
-        <nav>
-            <ul class="nav_links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        
     </header>
 
-    <main>
-        <section id="section_aprendidas">
+    <main class="main   ">
+
+        <article id="article" class="lado-esquerdo">
+            <h2 id="article_title">Fique por dentro</h2>
+            <p id="article_paragraph">Cada vez mais, empresas abrem espaço para o perfil profissional que combina as habilidades de front-end e back-end, conhecido como full stack. Pois, além de poder cobrir qualquer espaço em um time de desenvolvimento, ele é capaz de enxergar o processo de produção como um todo. Por isso escolhi a Trybe! Durante nossas aulas, somos instruídos em soft skills, aprendemos práticas de relacionamento, desenvolvimento pessoal, trabalho em equipe, além de todo o conhecimento técnico necessário para alavancar a carreira dos estudantes.</p>
+        </article>
+
+        <section class="section" class="lado-direito">
 
             <h2>Lições aprendidas</h2>
 
@@ -46,7 +53,7 @@
 
         </section>
 
-        <section id="section_aprender">
+        <section class="section" class="lado-direito">
 
             <h2>Lições a aprender</h2>
 
@@ -66,25 +73,23 @@
 
         </section>
 
-        <article id="article">
-            <h2>Fique por dentro</h2>
-            <p>Cada vez mais, empresas abrem espaço para o perfil profissional que combina as habilidades de front-end e back-end, conhecido como full stack. Pois, além de poder cobrir qualquer espaço em um time de desenvolvimento, ele é capaz de enxergar o processo de produção como um todo. Por isso escolhi a Trybe! Durante nossas aulas, somos instruídos em soft skills, aprendemos práticas de relacionamento, desenvolvimento pessoal, trabalho em equipe, além de todo o conhecimento técnico necessário para alavancar a carreira dos estudantes.</p>
-        </article>
-    
-        <aside id="aside">
-            <h3>"Durante nossas aulas, somos instruídos em soft skills, aprendemos práticas de relacionamento, desenvolvimento pessoal, trabalho em equipe, além de todo o conhecimento técnico necessário para alavancar a carreira dos estudantes."</h3>
-        </aside>
-
     </main>
 
+    <aside id="aside">
+
+        <img src="ny redux.jpg" alt="Foto de Julia Baptista, aluna da Trybe - Turma 10 - Tribo A" id="minha_foto">
+
+        <h3 id="aside_text">"Durante nossas aulas, somos instruídos em soft skills, aprendemos práticas de relacionamento, desenvolvimento pessoal, trabalho em equipe, além de todo o conhecimento técnico necessário para alavancar a carreira dos estudantes."</h3>
+
+    </aside>
+        
 </body>
 
 <footer id="rodape">
-    <table class="table">
-        <tr>
-            <th id=table_title>Desenvolvido por Julia Baptista</th>
-        </tr>
+    <p>Desenvolvido por Julia Baptista</p>
 
+    <table class="table">
+       
         <tr>
            <td><img src="GitHub-Mark-32px.png" alt="Logo do GitHub" id="logo_github"></td>
            <td><a href="https://github.com/juliabaptista" target="_blank">GitHub</a></td>
