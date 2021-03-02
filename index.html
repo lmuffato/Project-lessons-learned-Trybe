@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <nav>
-    <ul>
+    <ul id="navigation">
       <li><a href="#cabecalho">Início</a></li>
       <li><a href="#minha_foto">Apresentação</a></li>
       <li><a href="#licoes_aprendidas">Skills</a></li>
@@ -17,9 +17,10 @@
     <header id="cabecalho">
       <h1 id="titulo"> Aprendendo na Trybe </h1>
     </header> 
-    <div>
+    <div id="images">
       <img id="minha_foto" src="images/Foto perfil.jpeg" alt="Foto de Djaniza">
-      <a href="https://github.com/Djaniza" target="_blank"><img src="images/GitHub-Logo.png" alt="Link para acessar o Github de Djaniza" width="100px"></a>
+      <h4>Acesse o Github para conhecer meus projetos e visite meu perfil no Linkedin</h4>
+      <a id="logo_git" href="https://github.com/Djaniza" target="_blank"><img src="images/GitHub-Logo.png" alt="Link para acessar o Github de Djaniza" width="100px"></a>
       <a href="https://www.linkedin.com/in/djaniza-vasques-ferreira-8258a8125/" target="_blank"><img src="images/linkedin-logo.png" alt="Link para acessar o Linkedin" width="100px"></a>
     </div>
       <section>
@@ -52,22 +53,25 @@
             <li>Resolução de Problemas</li>
           </ul>
       </section>
-      <section class="style_box">
-        <h3>O dia na Trybe</h3>
-        <article id="depoimentos">
-          A Trybe é uma escola de programação que traz um modelo inovador de Educação.
-          Com aulas 100% online, as pessoas estudantes tem a oportunidade de estudar de qualquer lugar do Brasil!
-          Nosso dia na Trybe começa as 13h, quando podemos participar de plantões para sanar dúvidas,
-          e seguimos com momentos síncronos e assíncronos até as 20h. Aqui o aluno é o protagonista de seu aprendizado,
-          desenvolvendo exercícios e projetos quando tiver disponibilidade, e é incentivado a buscar mais sobre as habilidades que deseja desenvolver.
-        </article>
-      </section>
-      <section class="style_box">
-        <h3>Depoimento</h3>
-        <aside>
-          "A experiência de estudar na trybe certamente tem superado minhas expectativas, em apenas 1 mês me sinto segura para desenvolver pequenos projetos."
-        </aside>
-      </section>
+      <div id="side_section">
+        <section class="style_box">
+          <h3>O dia na Trybe</h3>
+          <article id="depoimentos">
+            A Trybe é uma escola de programação que traz um modelo inovador de Educação.
+            Com aulas 100% online, as pessoas estudantes tem a oportunidade de estudar de qualquer lugar do Brasil!
+            Nosso dia na Trybe começa as 13h, quando podemos participar de plantões para sanar dúvidas,
+            e seguimos com momentos síncronos e assíncronos até as 20h. Aqui o aluno é o protagonista de seu aprendizado,
+            desenvolvendo exercícios e projetos quando tiver disponibilidade, e é incentivado a buscar mais sobre as habilidades que deseja desenvolver.
+          </article>
+        </section>
+        <section class="style_box">
+          <h3>Depoimento</h3>
+          <aside>
+            "A experiência de estudar na trybe certamente tem superado minhas expectativas, em apenas 1 mês me sinto segura para desenvolver pequenos projetos."
+          </aside>
+          <img id="logo_trybe" src="images/5fba9c9a93a2e77624258d49_Logo.png" alt="logo da Trybe" width="150px">
+        </section>
+      </div>
       <footer id="rodape">
         <p>Desenvolvido por Djaniza Vasques - Aluna de Desenvolvimento Web na Trybe</p>
       </footer>
