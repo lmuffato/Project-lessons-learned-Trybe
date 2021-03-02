@@ -39,6 +39,15 @@ section , article , aside , nav {
 
 .licoes {
   display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 30px;
+}
+
+#licoes_trybe {
+  width: 670px;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 #name {
