@@ -3,7 +3,6 @@ body {
 }
 
 #cabecalho {
-  background-color: red;
   text-align: center;
 }
 
@@ -40,12 +39,10 @@ section , article , aside , nav {
 
 .licoes {
   display: inline-block;
-  background-color: red;
 }
 
 #name {
   display: absolute;
-  background-color: yellow;
   text-align: center;
   font-size: 30px;
   text-decoration: underline;
@@ -73,4 +70,9 @@ footer {
 img {
   border: 10px solid hsl(202, 30%, 25%);
   border-radius: 5%;
+}
+
+#img {
+  text-align: center;
+  margin-top: 10px;
 }
