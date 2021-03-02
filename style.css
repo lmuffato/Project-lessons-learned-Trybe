@@ -5,7 +5,6 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  font-family: comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: 10px;
   margin-top: 5px;
   color: aliceblue;
@@ -16,7 +15,7 @@ nav {
   background-color: darkorange;
   padding: 10px;
   text-align: right;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 nav li {
