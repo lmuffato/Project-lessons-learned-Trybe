@@ -1,25 +1,25 @@
 body {
-        background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-        position: fixed;
-        background-color: rgb(49, 45, 45);
-        top: 0px;
-        width: 100%;
-        height: 80px;
-        color: yellow;
-        z-index: 1;
-        margin-left: -8px;
-        text-align: center;
+  position: fixed;
+  background-color: rgb(49, 45, 45);
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  color: yellow;
+  z-index: 1;
+  margin-left: -8px;
+  text-align: center;
 }
 
 header h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 40px;
-        display: inline-block;
-        margin-left: 30 0px;
-        line-height: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  display: inline-block;
+  margin-left: 30 0px;
+  line-height: 0px;
 }
 
 #minha_foto {
@@ -32,14 +32,6 @@ header h1 {
 
 li:hover {
     background-color: yellow;
-}
-
-#rodape {
-    width: 100%;
-    height: 200px;
-    background-color: rgb(83, 226, 214);
-    position: relative;
-    top: 600px;
 }
 
 .lado-esquerdo {
@@ -57,15 +49,50 @@ li:hover {
     margin-left: 300px;
     position: relative;
     font-size: 20px;
-    top: -110px;
+    top: -80px;
 }
 
 .trybe {
-     color: forestgreen;
+  color: forestgreen;
+  font-weight: 900;
+ }
+
+ footer nav a {
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     text-decoration: none;
+     margin-left: 30px;
+     font-family: 'Lucida Console',sans-serif;
      font-weight: 900;
  }
 
- .ext-link {
-     position: relative;
-     top: 100px;
- }
+.links-rodape {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+#rodape {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(61, 61, 61);
+    position: relative;
+    top: 300px;
+    border: 3px solid rgb(180, 180, 180);
+}
+
+#teste {
+    color: white;
+    display: inline-block;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(6, 6, 233);
+    border-radius: 100%;
+    line-height: 45px;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
