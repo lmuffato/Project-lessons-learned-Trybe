@@ -30,7 +30,7 @@ table , caption , td , th {
   padding: 5px;
 }
 
-section , article , aside , nav {
+.licoes , article , aside , nav {
   border: 1px solid grey;
   padding-left: 20px;
   padding-right: 20px;
@@ -84,4 +84,11 @@ img {
 #img {
   text-align: center;
   margin-top: 10px;
+}
+
+#table {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
