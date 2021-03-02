@@ -28,15 +28,15 @@ header {
 }
 
 #link_cabecalho {
-    color: rgb(253, 251, 251);
+  color: rgb(253, 251, 251);
 }
 
 #rodape {
-    background-color : rgb(36, 112, 134);
-    width: 100%;
-    position: fixed;
-    padding: 20px;
-    bottom: 0;
+  background-color : rgb(36, 112, 134);
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
 }
 
 h2 {
@@ -77,8 +77,9 @@ h2 {
 .conteudo {
   top: 450px;
   position: absolute;
-  bottom: 20px; display: inline-block;
-    }
+  bottom: 20px;
+  display: inline-block;
+}
 
 #linkein {
   color: white;
