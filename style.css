@@ -1,11 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
-  text-align: center;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  font-family: comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: aliceblue;
 }
 
 nav {
@@ -13,6 +16,7 @@ nav {
   background-color: darkorange;
   padding: 10px;
   text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav li {
@@ -20,9 +24,8 @@ nav li {
 }
 
 #minha_foto {
-  position: absolute;
-  left: 825px;
-  top: 100px;
+  margin: 20px;
+  width: 300px;
 }
 
 main {
@@ -30,15 +33,16 @@ main {
   background-color: purple;
 }
 
-aside {
+.lado-direito {
   float: right;
-  width: 10%;
+  width: 9.8%;
   margin-right: 20px;
   font-style: italic;
   background-color: violet;
   border: 5px solid violet;
   line-height: 27px;
   text-align: right;
+  font-size: 17px;
 }
 
 aside > p {
@@ -46,22 +50,21 @@ aside > p {
 }
 
 #licoes_a_aprender , ol {
-  width: 200px;
+  width: 300px;
   background-color: darkcyan;
   color: white;
   border: 5px solid white;
   font-family: monospace;
-  display: inline-block;
-  text-align: justify;
+  margin: 20px;
 }
 
 h2 {
   text-align: left;
 }
 
-article {
+.lado-esquerdo {
   float: left;
-  width: 15%;
+  width: 14.5%;
   margin-left: 20px;
   background-color: crimson;
   border: 5px solid crimson;
@@ -70,6 +73,7 @@ article {
   text-shadow: 1px;
   letter-spacing: 0.5px;
   text-align: left;
+
 }
 
 #licoes_a_aprender {
@@ -79,6 +83,7 @@ article {
 footer {
   border: 5px solid orange;
   background-color: orange;
+  text-align: center;
 }
 
 #rodape li {
@@ -86,4 +91,8 @@ footer {
   padding: 5px;
   margin: 5px;
   background-color: orange;
+}
+
+section {
+  display: inline-block;
 }
