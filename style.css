@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  text-align: center;
 }
 
 #cabecalho {
@@ -20,11 +21,11 @@ nav li {
 
 #minha_foto {
   position: absolute;
-  left: 500px;
+  left: 825px;
   top: 100px;
 }
 
-main{
+main {
   border: 5px solid purple;
   background-color: purple;
 }
@@ -32,28 +33,30 @@ main{
 aside {
   float: right;
   width: 10%;
-  margin-right: 20px ;
+  margin-right: 20px;
   font-style: italic;
   background-color: violet;
   border: 5px solid violet;
+  line-height: 27px;
+  text-align: right;
 }
 
 aside > p {
   margin: 10px;
 }
 
-ul#licoes_a_aprender , ol{
+#licoes_a_aprender , ol {
   width: 200px;
-  margin: 10px;
-  background-color: blue;
+  background-color: darkcyan;
   color: white;
-  border: 5px solid blue;
+  border: 5px solid white;
   font-family: monospace;
   display: inline-block;
+  text-align: justify;
 }
 
 h2 {
-  margin-left: -15px;
+  text-align: left;
 }
 
 article {
@@ -62,15 +65,18 @@ article {
   margin-left: 20px;
   background-color: crimson;
   border: 5px solid crimson;
-  font-weight: bold;
+  font-weight: 600;
   font-style: oblique;
+  text-shadow: 1px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
-ul#licoes_a_aprender {
+#licoes_a_aprender {
   left: 500px;
 }
 
-footer{
+footer {
   border: 5px solid orange;
   background-color: orange;
 }
