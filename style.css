@@ -11,6 +11,9 @@ body {
   background-color: rgb(255, 101, 121);
   width: 100%;
   color: white;
+  line-height: 2em;
+  font-size: 1em;
+  font-family: cursive;
 }
 
 aside {
