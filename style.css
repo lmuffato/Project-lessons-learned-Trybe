@@ -3,5 +3,9 @@ body {
   margin: 20px;
   padding: 50;
   border: 10px;
+  font-size: 18px;
+  color: coral;
+  line-height: 24px;
+  font-family: monospace;
 }
 
