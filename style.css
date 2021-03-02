@@ -155,3 +155,11 @@ aside {
 #logo_link {
   margin-top: 33px;
 }
+
+table {
+  width: 100%;
+  text-align: center;
+  font-family: monospace;
+  color: rgb(253, 251, 251);
+  background-color: rgb(9, 121, 118);
+}
