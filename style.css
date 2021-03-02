@@ -1,12 +1,38 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: helvetica;
+}
+
+header {
+  width: 100%;
+}
+
+h1 { 
+  font-size: 30px;
+  text-align: center;
+}
+
+#nav {
+  padding: 5px;
+  border: 5px solid black;
+  left: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  background-color: rgb(103, 201, 247);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-links li {
+  display: inline-block;
+  width: 150px;
 }
 
 #minha_foto {
-  width: 200px;
+  width: 150px;
+  padding: 120px 10px 10px 10px;
 }
