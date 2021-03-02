@@ -25,7 +25,7 @@ body {
   margin-top: 140px;
   border: 5px;
   border-color: black;
-  border-style: solid;    
+  border-style: solid;
 }
 
 #licoes_aprendidas {
@@ -50,7 +50,7 @@ body {
   color: white;
   font-family: sans-serif;
   border-radius: 10px;
-  line-height: 20px; 
+  line-height: 20px;
 }
 
 #Artigo1 {
@@ -77,4 +77,4 @@ body {
 #Section1 {
   width: 50%;
   float: left;
-}
+};
