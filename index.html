@@ -10,109 +10,237 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <title>Lições Aprendidas - Trybe</title>
+  <script src="https://kit.fontawesome.com/0d1c1feb78.js" crossorigin="anonymous"></script>
+  <title>Lições Aprendidas na Trybe</title>
 </head>
 
 <body>
   <header id="cabecalho">
     <nav>
       <ul id="menu">
-        <li>Aprendendo a Aprender</li>
-        <li>Lições aprendidas</li>
-        <li>Lições a aprender</li>
-        <li>Sobre o autor</li>
+         <!-- Para resolver o ancoramento com a nav fixed(cobria os títulos), foi utilizado como referência o seguinte link:
+https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header  -->
+        <a href="#aprendizado_trybe"><li>Aprendizado na Trybe</li></a>
+        <a href="#licoes_aprendidas"><li>Lições aprendidas</li></a>
+        <a href="#licoes_a_aprender"><li>Lições a aprender</li></a>
+        <a href="#agenda_ancora"><li>Agenda</li></a>
       </ul>
     </nav>
     <h1 id="titulo">Lições Aprendidas - Trybe</h1>
   </header>
-  <main class="lado-esquerdo">
-    <figure>
-      <img src="/images/my_photo.png" id="minha_foto" alt="Foto do Marcus, desenvolvedor desse projeto." />
-      <figcaption>Marcus Cesar Hüsemann Filho, aluno Trybe.</figcaption>
-    </figure>
-    <article>
-      <header>
-        <h2 id="article_title">O Aprendizado na Trybe</h2>
-      </header>
-      <p class="texto_simples">
-        Em duas semanas de curso na Trybe, adquiri conhecimentos sólidos de Unix, Bash, Git, GitHub, bem como,
-        funcionamento da Internet, HTML e CSS, aprendendendo as suas funcionalidades e finalidades de maneira bem
-        interativa. <br>Outro aprendizado que venho desenvolvendo através do curso são as soft skills, essas que são
-        primordiais para a entrada no mercado de trabalho.
-      </p>
-    </article>
+  <main id="aprendizado_trybe">
+      <section class="lado-esquerdo">
+        <figure>
+          <img src="/images/my_photo.png" id="minha_foto" alt="Foto do Marcus, desenvolvedor desse projeto." />
+          <figcaption>Marcus Cesar Hüsemann Filho, aluno Trybe.</figcaption>
+        </figure>
+        <article>
+          <header>
+            <h2 id="article_title">Aprendizado na Trybe</h2>
+          </header>
+          <p class="texto_simples">
+            Em duas semanas de curso na <a id="link_trybe" href="https://www.betrybe.com" target=_blank>Trybe</a>, adquiri conhecimentos sólidos de Unix, Bash, Git, GitHub, bem como,
+            funcionamento da Internet, HTML e CSS, aprendendendo as suas funcionalidades e finalidades de maneira bem
+            interativa. <br>Outro aprendizado que venho desenvolvendo através do curso são as soft skills, essas que são
+            primordiais para a entrada no mercado de trabalho.
+          </p>
+        </article>
+      </section>
+      <section class="lado-direito">
+        <header>
+          <h3 id="titulo_aside">Aprendendo a Aprender</h3>
+        </header>
+        <aside>
+          <p class="p_aside">Somos incentivados a buscar conteúdos além do que nos foi dado durante as aulas e possui
+            uma
+            interação muito rica com alunos e especialistas de todas as turmas da Trybe através do Slack, gerando uma
+            troca de conhecimento e experiências entre todos.</p>
+        </aside>
+      </section>
   </main>
-  <section class="lado-direito">
-    <header>
-      <h3 id="titulo_aside">Aprendendo a Aprender</h3>
+  <section class="secao_lista" >
+    <a class="anchor" id="licoes_aprendidas"></a>
+    <header class="cabecalho_lista">
+      <h3 class="titulo_lista">Lições aprendidas</h3>
     </header>
-    <aside>
-      <div>
-        <p class="p_aside">Somos incentivados a buscar conteúdos além do que nos foi dado durante as aulas e possui uma interação muito rica com alunos e especialistas de todas as turmas da Trybe através do Slack, gerando uma troca de conhecimento e experiências entre todos.</p>
-      </div>
-    </aside>
+    <ol class="lista_ordenada">
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/1.1">
+        <li class="lista_unix_item lista_licoes">Unix & Bash - Parte 1</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/1.1">
+        <li class="lista_unix_item lista_licoes">Unix & bash - Parte 2</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/2.1">
+        <li class="lista_git_item lista_licoes">Git & Github - O que é e para que serve</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/2.2">
+        <li class="lista_git_item lista_licoes">Git & Github - Entendendo os comandos</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/2.3">
+        <li class="lista_internet_item lista_licoes">Internet - Entendendo como ela funciona</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/3.1">
+        <li class="lista_HTML_item lista_licoes">HTML & CSS - Estruturas de páginas</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/3.2">
+        <li class="lista_HTML_item lista_licoes">HTML & CSS - Primeiros passos em CSS</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises">
+        <li class="lista_HTML_item lista_licoes">HTML & CSS - Seletores e Posicionamento</li>
+      </a>
+      <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/3.4">
+        <li class="lista_HTML_item lista_licoes">HTML Semântico</li>
+      </a>
+      <a target="_blank"
+        href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/4.1/Javascript%20-%20Primeiros%20Passos">
+        <li class="lista_javascript_item lista_licoes">Javascript - Primeiros Passos</li>
+      </a>
+    </ol>
   </section>
-  <section>
-    <table id="tabela">
+  <section class="secao_lista">
+    <a class="anchor" id="licoes_a_aprender"></a>
+    <header class="cabecalho_lista">
+      <h3 class="titulo_lista">Lições a aprender</h3>
+    </header>
+    <ul class="lista_nao_ordenada">
+      <a target="_blank"
+        href="https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API">
+        <li class="lista_javascript_item lista_licoes">Javascript: DOM, Eventos e Web Storage</li>
+      </a>
+      <a target="_blank" href="https://blog.betrybe.com/framework-de-programacao/">
+        <li class="lista_javascript_item lista_licoes">Biblioteca Javascript & Frameworks CSS</li>
+      </a>
+      <a target="_blank" href="https://jestjs.io/docs/en/getting-started">
+        <li class="lista_jest_item  lista_licoes">Testes automatizados com Jest</li>
+      </a>
+      <a target="_blank" href="https://pt-br.reactjs.org/docs/getting-started.html">
+        <li class="lista_react_item lista_licoes">React</li>
+      </a>
+      <a target="_blank" href="https://blog.betrybe.com/carreira/metodologias-ageis/">
+        <li class="lista_metodologias_item lista_licoes">Metodologias Ágeis</li>
+      </a>
+      <a target="_blank" href="https://redux.js.org/">
+        <li class="lista_redux_item lista_licoes">Gerenciamento de Estados com Redux</li>
+      </a>
+      <a target="_blank" href="https://dev.mysql.com/doc/">
+        <li class="lista_banco_de_dados_item lista_licoes">SQL</li>
+      </a>
+      <a target="_blank" href="https://docs.mongodb.com/">
+        <li class="lista_banco_de_dados_item lista_licoes">MongoDB</li>
+      </a>
+      <a target="_blank" href="https://nodejs.org/en/docs/">
+        <li class="lista_node_item lista_licoes">NodeJS</li>
+      </a>
+      <a target="_blank" href="http://www.bosontreinamentos.com.br/estruturas-de-dados/estruturas-de-dados/">
+        <li class="lista_estrutura_dados_item lista_licoes">Estrutura de Dados</li>
+      </a>
+    </ul>
+  </section>
+
+  <!-- As agendas foram retiradas do site da Trybe:
+  https://www.betrybe.com/formacao-desenvolvimento-web -->
+
+  <section id="secao_agenda">
+    <a class="anchor" id="agenda_ancora"></a>
+    <header>
+      <h3 id="titulo_agenda">Agenda dos dias da Trybe</h3>
+    </header>
+
+    <table>
       <thead>
         <tr>
-          <th>Um table head aqui</th>
-          <th>Um table head aqui</th>
+          <th class="tabela_cabecalho">Horário</th>
+          <th class="tabela_cabecalho">Atividade (Dias de Estudo)</th>
         </tr>
       </thead>
-      <tfoot>
-        <tr>
-          <td>Um footer aqui</td>
-          <td>um footer auqi</td>
-        </tr>
-      </tfoot>
       <tbody>
         <tr>
-          <td>Conteúdo aqui</td>
-          <td>Conteúdo aqui</td>
+          <td class="tabela_conteudo">13:00</td>
+          <td class="tabela_conteudo">Plantão de dúvidas</td>
         </tr>
+        <tr>
+          <td class="tabela_conteudo">14:00</td>
+          <td class="tabela_conteudo">Abertura*</td>
+        </tr>
+        <tr >
+          <td class="tabela_conteudo">14:30</td>
+          <td class="tabela_conteudo">Estudo do conteúdo do dia</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">16:30</td>
+          <td class="tabela_conteudo">Aula ao vivo</td>
+        </tr>
+        <tr> 
+          <td class="tabela_conteudo">17:50</td>
+          <td class="tabela_conteudo">Exercícios</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">18:40</td>
+          <td class="tabela_conteudo">Plantão de dúvidas</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">19:30</td>
+          <td class="tabela_conteudo">Formulário de Feedbacks</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">19:40</td>
+          <td class="tabela_conteudo">Fechamento do dia</td>
+        </tr>
+      <tfoot>
+        <tr>
+          <td colspan="2" class="tabela_conteudo_footer">*Dinâmica, carreira, ou soft skills</td>
+        </tr>
+      </tfoot>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th  class="tabela_cabecalho">Horário</th>
+          <th  class="tabela_cabecalho">Atividade (Dias de Projeto)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tabela_conteudo">14:00</td>
+          <td class="tabela_conteudo">Abertura*</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">14:30</td>
+          <td class="tabela_conteudo">Elaboração do projeto</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">16:30</td>
+          <td class="tabela_conteudo">Plantão de dúvidas</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">17:50</td>
+          <td class="tabela_conteudo">Elaboração do projeto</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">19:30</td>
+          <td class="tabela_conteudo">Formulário de feedbacks</td>
+        </tr>
+        <tr>
+          <td class="tabela_conteudo">19:40</td>
+          <td class="tabela_conteudo">Fechamento do dia</td>
+        </tr>
+      <tfoot>
+        <tr>
+          <td colspan="2" class="tabela_conteudo_footer">*Dinâmica, carreira, ou soft skills</td>
+        </tr>
+      </tfoot>
       </tbody>
     </table>
   </section>
-  <section>
-    <header>
-      <h3>Lições aprendidas</h3>
-    </header>
-    <ol id="licoes_aprendidas">
-      <li>Unix & Bash - Parte 1</li>
-      <li>Unix & bash - Parte 2</li>
-      <li>Git & Github - O que é e para que serve</li>
-      <li>Git & Github - Entendendo os comandos</li>
-      <li>Internet - Entendendo como ela funciona</li>
-      <li>HTML & CSS - Introdução</li>
-      <li>HTML & CSS - Estruturas de páginas</li>
-      <li>HTML & CSS - Primeiros passos em CSS</li>
-      <li>HTML & CSS - Seletores e Posicionamento</li>
-      <li>HTML Semântico</li>
-    </ol>
-  </section>
-  <section>
-    <header>
-      <h3>Lições a aprender</h3>
-    </header>
-    <ul id="licoes_a_aprender">
-      <ul>
-        <li>Javascript</li>
-        <li>Biblioteca Javascript & Frameworks CSS</li>
-        <li>Testes automatizados com Jest</li>
-        <li>React</li>
-        <li>Metodologias Ágeis</li>
-        <li>Gerenciamento de Estados com Redux</li>
-        <li>SQL</li>
-        <li>MongoDB</li>
-        <li>NodeJS</li>
-        <li>Estrutura de Dados</li>
-      </ul>
-    </ul>
-  </section>
+  <span id="redes_sociais"></span>
   <footer id="rodape">
-    <a href="https://www.github.com/Marcuscps19" target="_blank">GitHub</a>
+    <a href="https://www.github.com/Marcuscps19" target="_blank"><em class="fab fa-github-square"> /Marcuscps19</em></a>
+    <a href="https://www.linkedin.com/in/marcus-husemann/" target="_blank"><em class="fab fa-linkedin">
+        /marcus-husemann/</em></a>
+    <p>Copyright 2021 © Marcus Cesar Hüsemann Filho </p>
   </footer>
+
 </body>
 
 </html>
