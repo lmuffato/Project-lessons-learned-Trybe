@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
 
 }
 
@@ -10,7 +12,7 @@ body {
   background-color: rgb(253, 251, 251);
   width: 600px;
   padding: 20px;
-  
+
 }
 
 #minha_foto {
@@ -27,10 +29,24 @@ body {
 
 .listas {
   display: inline-block;
+  margin-left:20px
 
 }
 
 .meuaprendizado {
   width: 600px;
   text-align: justify;
+  display: inline-block;
+  margin-left: 15px;
+
+}
+
+.navigation {
+  display: inline-block;
+  font-family: monospace;
+  margin-left: 20px;
+}
+
+.link {
+  margin-top: 100px;
 }
