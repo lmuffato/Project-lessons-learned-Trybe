@@ -5,17 +5,16 @@
 #cabecalho {
   background-color: green;
   width: 100%;
-  height: 100px;
-  text-align: center;
+  height: 150px;
   position: fixed;
   top: 0px;
   margin: 0px;
 }
 
-#titulo {
-  border: 60px;
+#titulo  {
+  border: 10px;
   text-align: center;
-  margin: 10px
+  padding-bottom: 10px;
 }
 
 #minha_foto {
@@ -23,18 +22,26 @@
   width: 200px;
 }
 
+.geralListas div {
+  padding-left: 30px;
+  display: inline-block;
+}
+
 #licoes_aprendidas {
-  margin-top: 1px;
+  margin-top: 50px;
   color: blue;
   font-family: 'Courier New'
 }
 
 #licoes_a_aprender {
+  margin-top: 50px;
   color: red;
   margin-top: 1px;
 }
 
 #rodape {
+  margin-bottom: 50px;
+  margin-top: 50px;
   font-size: large;
   text-align: center;
   height: 50px;
@@ -47,7 +54,9 @@
   padding-top: 10px;
 }
 
-.Article {
+
+.lado-direito {
+  width: max-content;
   line-height: 30px;
   border-radius: 30px;
   border: 5px;
@@ -59,18 +68,60 @@
   margin-top: 12px;
 }
 
+
+.lado-esquerdo {
+  width: max-content;
+  line-height: 30px;
+  border-radius: 30px;
+  border: 5px;
+  border-style: solid;
+  border-color: blue;
+  color: aquamarine;
+  padding-top: 10px;
+  font-family: Arial;
+  margin-top: 12px;
+}
+
+
+.lado-esquerdo p {
+  width: 450px;
+}
+
+
+.lado-direito p {
+  width: 450px;
+}
+
+
+.Article article , section {
+display: inline-block;
+}
+
 .Article p , h2 , h3 {
   margin-left: 30px;
 }
 
 nav li {
-  padding-bottom: 0px;
   padding-right: 50px;
-  margin: 2px;
+  margin: 5px;
   list-style-type: none;
 }
 
-.homelogin {
-  text-align: center;
-  margin:10px
+#tabela {
+  width: 100%;
+  height: 100px;
+}
+
+#lado {
+  display: inline-block;
+}
+
+table, th, td {
+  margin-top: 50px;
+  border: 1px solid blue;
+}
+
+#linkgit {
+  margin-top: 50px;
+  padding-top: 30px;
 }
