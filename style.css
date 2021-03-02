@@ -2,7 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
+  font-size: x-large;
+  color: rgb(5, 5, 5);
 
 }
 
@@ -10,17 +11,15 @@ body {
   position: fixed;
   top: 0;
   background-color: rgb(253, 251, 251);
-  width: 600px;
+  width: 700px;
   padding: 20px;
-
 }
 
 #minha_foto {
   height: 300px;
   width: 300px;
-  margin-top: 155px;
+  margin-top: 200px;
   border-radius: 50%;
-
 }
 
 #rodape {
@@ -29,16 +28,12 @@ body {
 
 .listas {
   display: inline-block;
-  margin-left:20px
-
+  margin-left:20px;
 }
 
 .meuaprendizado {
   width: 600px;
   text-align: justify;
-  display: inline-block;
-  margin-left: 15px;
-
 }
 
 .navigation {
@@ -49,4 +44,16 @@ body {
 
 .link {
   margin-top: 100px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  margin-left: 15px;
+  line-height: 25px;
+}
+
+.lado-direito {
+  display: inline-block;
+  margin-left: 15px;
+  line-height: 25px;
 }
