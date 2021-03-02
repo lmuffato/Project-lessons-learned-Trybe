@@ -6,13 +6,14 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
 }
 
 #cabecalho {
-  background-color: #52796f;
-  margin-top: 0px;
+  background-color: rgb(82, 121, 111);
   position: fixed;
-  width: 1300px;;
+  width: 1300px;
+  z-index: 1;
 }
 
 #titulo {
@@ -28,14 +29,14 @@ body {
 }
 
 #nav-header {
-  background-color: #84a98c;
+  background-color: rgb(132, 169, 140);
   padding-bottom: 10px;
 }
 
 .nav-list {
   display: inline-block;
   margin-top: 150px;
-  margin-left: 30px
+  margin-left: 30px;
 }
 
 #minha_foto {
@@ -43,6 +44,44 @@ body {
   border-radius: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 500px;
+}
+
+#title-aprendidas {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#licoes_aprendidas {
+  text-align: center;
+}
+
+#title-aprender {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#licoes_a_aprender {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#article {
+  position: absolute;
+  width: 500px;
+  margin-top: 80px;
+  text-align: left;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+#section-aside {
+  position: relative;
+  width: 500px;
+  margin-left: 700px;
+  margin-bottom: 500px;
+  margin-top: 60px;
+  text-align: justify;
 }
 
 #rodape {
