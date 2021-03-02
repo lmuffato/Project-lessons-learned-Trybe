@@ -10,11 +10,11 @@ body {
 }
 
 .lado_esquerdo {
-    width: 45%;
-    display: inline-block;
+  width: 45%;
+  display: inline-block;
 }
 
 .lado_direito {
-    width: 45%;
-    display: inline-block;
+  width: 45%;
+  display: inline-block;
 }
