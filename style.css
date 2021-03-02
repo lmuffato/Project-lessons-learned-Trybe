@@ -19,8 +19,7 @@ header h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   display: inline-block;
-  margin-left: 30 0px;
-  line-height: 0px;
+  line-height: 25px;
 }
 
 #minha_foto {
@@ -55,16 +54,16 @@ li:hover {
 .trybe {
   color: forestgreen;
   font-weight: 900;
- }
+}
 
- footer nav a {
+footer nav a {
   color: white;
   font-size: 18px;
   text-decoration: none;
   margin-left: 30px;
   font-family: 'Lucida Console', sans-serif;
   font-weight: 900;
- }
+}
 
 .links-rodape {
   position: relative;
