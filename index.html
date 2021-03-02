@@ -20,15 +20,15 @@
       <ul id="menu">
          <!-- Para resolver o ancoramento com a nav fixed(cobria os títulos), foi utilizado como referência o seguinte link:
 https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header  -->
-        <a href="#aprendizado_trybe"><li>Aprendizado na Trybe</li></a>
-        <a href="#licoes_aprendidas"><li>Lições aprendidas</li></a>
-        <a href="#licoes_a_aprender"><li>Lições a aprender</li></a>
+        <a href="#aprendizado_trybe_ancora"><li>Aprendizado na Trybe</li></a>
+        <a href="#licoes_aprendidas_ancora"><li>Lições aprendidas</li></a>
+        <a href="#licoes_a_aprender_ancora"><li>Lições a aprender</li></a>
         <a href="#agenda_ancora"><li>Agenda</li></a>
       </ul>
     </nav>
     <h1 id="titulo">Lições Aprendidas - Trybe</h1>
   </header>
-  <main id="aprendizado_trybe">
+  <main id="aprendizado_trybe_ancora">
       <section class="lado-esquerdo">
         <figure>
           <img src="/images/my_photo.png" id="minha_foto" alt="Foto do Marcus, desenvolvedor desse projeto." />
@@ -51,19 +51,16 @@ https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust
           <h3 id="titulo_aside">Aprendendo a Aprender</h3>
         </header>
         <aside>
-          <p class="p_aside">Somos incentivados a buscar conteúdos além do que nos foi dado durante as aulas e possui
-            uma
-            interação muito rica com alunos e especialistas de todas as turmas da Trybe através do Slack, gerando uma
-            troca de conhecimento e experiências entre todos.</p>
+          <p class="p_aside">"Através da Trybe, venho conhecendo muita gente, é incrível a quantidade de conhecimento sendo compartilhado."</p>
         </aside>
       </section>
   </main>
   <section class="secao_lista" >
-    <a class="anchor" id="licoes_aprendidas"></a>
+    <a class="anchor" id="licoes_aprendidas_ancora" ></a>
     <header class="cabecalho_lista">
       <h3 class="titulo_lista">Lições aprendidas</h3>
     </header>
-    <ol class="lista_ordenada">
+    <ol class="lista_ordenada" id="licoes_aprendidas">
       <a target="_blank" href="https://github.com/Marcuscps19/trybe_exercises/tree/main/exercises/1.1">
         <li class="lista_unix_item lista_licoes">Unix & Bash - Parte 1</li>
       </a>
@@ -98,11 +95,11 @@ https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust
     </ol>
   </section>
   <section class="secao_lista">
-    <a class="anchor" id="licoes_a_aprender"></a>
+    <a class="anchor" id="licoes_a_aprender_ancora"></a>
     <header class="cabecalho_lista">
       <h3 class="titulo_lista">Lições a aprender</h3>
     </header>
-    <ul class="lista_nao_ordenada">
+    <ul class="lista_nao_ordenada" id="licoes_a_aprender">
       <a target="_blank"
         href="https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API">
         <li class="lista_javascript_item lista_licoes">Javascript: DOM, Eventos e Web Storage</li>
