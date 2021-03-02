@@ -47,12 +47,15 @@ body {
 
 .lado-esquerdo {
   display: inline-block;
-  line-height: 25px;
+  margin-left: 25px;
   text-align: justify;
 }
 
 .lado-direito {
-  display: inline-block;
-  margin-left: 30px;
   text-align: justify;
+  float: right;
+}
+
+.secao {
+  width: 1250px;
 }
