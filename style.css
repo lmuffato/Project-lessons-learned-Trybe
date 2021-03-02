@@ -2,14 +2,21 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+#cabecalho {
+  background-color: red;
+  text-align: center;
+}
+
 header {
   position: fixed;
   top: 0;
 }
 
 #content {
-  margin-top: 100px;
-  padding: 50px;
+  margin: 100px;
+  padding: 10px;
+  border: 3px solid hsl(202, 30%, 25%);
+  border-radius: 1%;
 }
 
 nav ul li {
@@ -48,4 +55,9 @@ footer {
 
 .lado-direito {
   float: right;
+}
+
+img {
+  border: 10px solid hsl(202, 30%, 25%);
+  border-radius: 5%;
 }
