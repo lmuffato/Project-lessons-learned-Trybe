@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -20,9 +20,7 @@ body {
     background-size: cover;
     background-position: 10px;
     background-color:#2fc18c;
-    position: fixed;
-    
-        
+    position: fixed;        
 }
 
 #titulo {
@@ -34,8 +32,7 @@ body {
     margin-left: 25px;
     margin-top: 20px;
     color: black;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;    
 }
 
 #licoes_a_aprender {
@@ -43,7 +40,7 @@ body {
     margin-top: 20px;
     color: black;
     margin-bottom: 50px;
-    
+
 }
 
 #rodape {
@@ -59,21 +56,42 @@ body {
 }
 
 #minha_foto {
-    
+
     padding: 60px;
     border-radius: 50%;
     
-
 }
 
 .titles {
 
     font-weight: bold;
+
 }
 
 .artigos {
 
     text-align: left;
-    max-width: 500px;
+    width: 500px;
+    margin-bottom: 100px;
 
+}
+
+section {
+
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+    
+}
+
+#nome {
+
+    font-size: 30px;
+
+}
+
+.lado-esquerdo, .lado-direito {
+    width: 200px;
+    margin: 0 17%;
+    display: inline-block;
 }
