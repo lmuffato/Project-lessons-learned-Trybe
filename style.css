@@ -38,6 +38,10 @@ section , article , aside , nav {
   margin-top: 5px;
 }
 
+.licoes {
+  display: inline-block;
+}
+
 h1 , h2 , h3 , h4 , ul , ol , p , table {
   font-family: Montserrat, sans-serif;
   line-height: 20px;
