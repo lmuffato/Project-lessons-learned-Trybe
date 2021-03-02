@@ -43,6 +43,14 @@ img {
   margin-left: 15px;
 }
 
+.licoes {
+  display: flex;
+}
+
+.position-content {
+  display: flex;
+}
+
 #artigo {
   width: 1000px;
   border: dashed darkgreen;
