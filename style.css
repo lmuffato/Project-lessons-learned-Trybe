@@ -1,36 +1,35 @@
 body {
-background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-top: 0;
-position: fixed;
-background-color: springgreen;
-width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: springgreen;
+    width: 100%;
 }
 
 #licoes_aprendidas {
-font-size: 20px;
-font-family: cursive;
-color: seagreen;
-line-height: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    color: seagreen;
+    line-height: 30px;
 }
 
 .lado-direito {
-display: inline-block;
-width: 49%;
+    display: inline-block;
+    width: 49%;
 }
 
 .lado-esquerdo {
-display: inline-block;
-width: 49%;
+    display: inline-block;
+    width: 49%;
 }
 
 #minha_foto {
-padding: 0;
-margin: 0;
-border-width: 10px;
-border-color: springgreen;
-width: 150px;
+    padding: 0;
+    margin: 0;
+    border-width: 10px;
+    border-color: springgreen;
+    width: 150px;
 }
-  
