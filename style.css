@@ -5,7 +5,7 @@ body {
   color: rgb(7, 29, 71);
 }
 
-#titulo { 
+#titulo {
   font-size: 30px;
   text-align: center;
 }
@@ -41,7 +41,14 @@ body {
   font-style: italic;
   font-size: 20px;
   height: 40px;
-  padding: 25px 10px 10px 10px;
+  padding: 25px 10px 10px;
   background-color: rgb(103, 201, 247);
   border: 5px solid black;
+}
+
+.article-left, .aside-right {
+  padding: 20px 10px 10px;
+  width: 400px;
+  display: inline-block;
+  text-align: center;
 }
