@@ -1,49 +1,51 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-size: 24px; font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 24px;
+    font-family: Times New Roman, Times, sans-serif;
 }
 header {
     background-color: rgb(31, 84, 125);
     width: 100%;
-     top: 0px;
-      position: fixed;
-       padding: 30px;
-        z-index: 2;
+    top: 0px;
+    position: fixed;
+    padding: 30px;
+    z-index: 2;
 }
 #titulo {
     color: rgb(253, 251, 251);
-     text-align: center;
+    text-align: center;
 }
 #minha_foto {
-    width: 200px; 
-    height: auto; 
+    width: 200px;
+    height: auto;
     position: absolute;
-     margin: 20px; 
-     top: 210px; 
-     z-index: 1;     
+    margin: 20px;
+    top: 210px;
+    z-index: 1;
 }
 #link_cabecalho {
     color: rgb(253, 251, 251);
 }
 #rodape {
-    background-color: rgb(36, 112, 134); 
+    background-color :rgb(36, 112, 134);
     width: 100%;
-     position:fixed; 
-     padding: 20px;
-      bottom: 0px;
+    position: fixed;
+    padding: 20px;
+    bottom: 0px;
 }
 h2 {
     color: rgb(31, 84, 125);
 }
 #author-comments {
-    background-color: rgb(62, 182, 172); 
+    background-color: rgb(62, 182, 172);
     width: 400px;
-     height: 500px; 
-     border-style: solid; 
-     border-color: rgb(31, 84, 125); 
-     position: relative; 
+    height: 500px;
+    border-style: solid;
+    border-color: rgb(31, 84, 125);
+    position: relative;
     text-align: justify;
-     border-width: 20px; color: rgb(31, 84, 125);
+    border-width: 20px;
+    color: rgb(31, 84, 125);
 }
 #aside-title {
     text-align: center;
@@ -53,17 +55,17 @@ h2 {
 }
 #side-coments {
     right: 60px;
-     position: absolute;
-      top: 280px;
+    position: absolute;
+    top: 280px;
 }
 #text {
-    width: 65%; 
+    width: 65%;
     text-align: justify;
 }
 .conteudo {
     top: 450px;
-     position: absolute; 
-     bottom: 20px; display: inline-block;
+    position: absolute;
+    bottom: 20px; display: inline-block;
 }
 #linkein {
     color: white;
