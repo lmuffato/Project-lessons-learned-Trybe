@@ -22,8 +22,6 @@ body {
 }
 
 nav {
-  position: absolute;
-  display: flex;
   margin-top: 20px;
   right: 15px;
 }
