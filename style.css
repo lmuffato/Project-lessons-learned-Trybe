@@ -19,7 +19,7 @@ body {
   position: fixed;
   top: 0;
   display: block;
-  background-color: rgb(248, 194, 174);
+  background-color: rgb(236, 99, 99);
 }
 
 .nav_links li {
@@ -33,6 +33,7 @@ body {
   position: fixed;
   top: 22px;
   font-size: 30px;
+  color: rgb(253, 251, 251);
 }
 
 #minha_foto {
@@ -74,7 +75,7 @@ body {
 
 #article {
   width: 55%;
-  background: rgb(236, 99, 99);
+  background: rgb(248, 194, 174);
   padding: 50px;
   display: inline-block;
 }
