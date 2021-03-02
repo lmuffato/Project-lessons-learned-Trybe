@@ -9,3 +9,12 @@ body {
   font-family: monospace;
 }
 
+.lado_esquerdo{
+    width: 45%;
+    display: inline-block;
+}
+
+.lado_direito{
+    width: 45%;
+    display: inline-block;
+}
