@@ -1,12 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   background-color: seagreen;
 }
@@ -30,10 +30,18 @@ img {
 footer {
   position: absolute;
   z-index: 2;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   text-align: center;
   height: 60px;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  color: black;
 }
 
 .menu {
@@ -41,8 +49,8 @@ footer {
   width: 100%;
   float: left;
   background-color: seagreen;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   top: 60px;
   padding-left: 60px;
 }
@@ -57,7 +65,7 @@ footer {
 }
 
 .menu li a:hover {
-  color: #fff;
+  color: white;
 }
 
 #listas {
@@ -95,12 +103,4 @@ table {
   width: 400px;
   right: 60px;
   border: 5px solid seagreen;
-}
-
-footer a {
-  color: #9d9d9d;
-}
-
-footer a:hover {
-  color: black;
 }
