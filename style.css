@@ -58,3 +58,11 @@ body {
   padding: 0 2% 0 1%;
   background-color: lightgrey;
 }
+
+.rodape {
+  height: 10%;
+}
+
+.copyright {
+  text-align: center;
+}
