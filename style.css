@@ -1,82 +1,80 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: rgb(54,54,50);
-    margin-left: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-    border: 3px;
-    border-style: solid;
-    border-color: rgb(20, 20, 20);
+  position: fixed;
+  top: 0;
+  background-color: rgb(54, 54, 50);
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(20, 20, 20);
 }
-#titulo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#rodape {
-    background-color: rgb(54,54,50);
-}
-#minha_foto {
-    width: 400px;
-    border-radius: 10px;
-    margin-top: 140px;
-    border: 5px;
-    border-color: black;
-    border-style: solid;
-    
-}
-#licoes_aprendidas {
-    display: inline-block;
-    background-color: rgb(11, 11, 29);
-    padding: 20px;
-    margin: 10px;
-    font-size: 10px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 10px;
-    line-height: 20px;
-}
-#licoes_a_aprender {
-    display: inline-block;
-    background-color: rgb(11, 11, 29);
-    padding: 20px;
-    margin: 10px;
-    border: 10px;
-    font-size: 10px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 10px;
-    line-height: 20px; 
-}
-#Artigo1 {
-    width: 100%;
 
+#titulo {
+  font-family: sans-serif;
 }
-#Artigo2 {
-    
+
+#minha_foto {
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 140px;
+  border: 5px;
+  border-color: black;
+  border-style: solid;    
 }
+
+#licoes_aprendidas {
+  display: inline-block;
+  background-color: rgb(11, 11, 29);
+  padding: 20px;
+  margin: 10px;
+  font-size: 10px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+  line-height: 20px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  background-color: rgb(11, 11, 29);
+  padding: 20px;
+  margin: 10px;
+  border: 10px;
+  font-size: 10px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+  line-height: 20px; 
+}
+
+#Artigo1 {
+  width: 100%;
+}
+
 #rodape {
-    padding: 5px;
-    margin: 0px;
-    border-radius: 10px;
-    margin-top: 80px;
+  background-color: rgb(54, 54, 50);
+  padding: 5px;
+  margin: 0;
+  border-radius: 10px;
+  margin-top: 80px;
 }
 
 #nav {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  font-family: sans-serif;
 }
 
 #lists {
-    display: inline-block;
-    width: 50%;
+  display: inline-block;
+  width: 50%;
 }
 
 #Section1 {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
