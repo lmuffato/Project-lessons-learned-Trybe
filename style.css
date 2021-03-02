@@ -95,7 +95,7 @@ figcaption {
   background-color: black;
   color: white;
   text-align: left;
-  flex-basis: 50%;
+  flex-basis: 45%;
   padding-top: 8em;
   border-bottom: 2px solid rgb(255, 166, 43);
 }
