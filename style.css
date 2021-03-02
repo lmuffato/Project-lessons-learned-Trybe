@@ -75,9 +75,15 @@ table {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  margin-left: 150px;
   font-size: 10px;
   text-align: justify;
+}
+
+#fim_da_pagina {
+  display: flex;
+  background-color: rgb(59, 175, 160);
+  width: 100%;
+  margin: 5px;
+  padding: 3px;
 }
