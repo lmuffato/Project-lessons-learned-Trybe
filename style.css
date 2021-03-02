@@ -16,7 +16,7 @@ body {
   font-family: cursive;
 }
 
-aside {
+.minha-foto-links {
   display: flex;
   justify-content: center;
 }
@@ -68,7 +68,7 @@ section {
   padding-left: 50px;
 }
 
-img {
+#minha_foto {
   border-radius: 100%;
   margin-top: 80px;
   width: 200px;
@@ -96,7 +96,7 @@ img {
   margin-top: 20px;
 }
 
-footer {
+#rodape {
   text-align: center;
   background-color: rgb(255, 101, 121);
   padding-top: 2px;
