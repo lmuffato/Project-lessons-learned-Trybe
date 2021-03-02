@@ -9,4 +9,7 @@ body {
 
 #rodape li {
   display: inline;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(253, 251, 251);
 }
