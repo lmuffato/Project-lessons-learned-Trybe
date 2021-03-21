@@ -1,54 +1,97 @@
-body {
-  background-color: rgb(253, 251, 251);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: rgb(7, 29, 71);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#titulo {
-  font-size: 30px;
-  text-align: center;
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 20px;
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgb(103, 201, 247);
-  padding: 10px;
-  margin-bottom: 10px;
+  background-color: brown;
+  text-align: center;
+  height: 100px;
   width: 100%;
+  border-bottom: 5px solid black;
+  position: fixed;
 }
 
-#nav {
-  padding: 5px;
-  border: 5px solid black;
-  left: 0;
-}
-
-.nav-links li {
-  display: inline-block;
-  width: 150px;
+h1 {
+  color: wheat;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 25px;
 }
 
 #minha_foto {
-  width: 150px;
-  padding: 180px 10px 10px;
+  margin-top: 6%;
+  margin-left: 45%;
+  border-radius: 50%;
 }
 
-#rodape {
-  color: rgb(7, 29, 71);
-  font-style: italic;
-  font-size: 20px;
-  height: 40px;
-  padding: 25px 10px 10px;
-  background-color: rgb(103, 201, 247);
-  border: 5px solid black;
+#nav {
+  margin-top: 25px;
+  margin-left: 48%;
+  font-size: 50px;
 }
 
-.article-left , .aside-right {
-  padding: 20px 10px 10px;
-  width: 400px;
-  display: inline-block;
+table {
+  margin-top: 25px;
+  margin-left: 40%;
+}
+
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.list {
+  display: flex;
+  margin-left: 30%;
+}
+
+#licoes_aprendidas {
+  padding: 30px;
+  line-height: 150%;
+}
+
+#licoes_a_aprender {
+  padding: 30px;
+  line-height: 150%;
+}
+
+main {
+  display: flex;
+  margin-left: 25%;
+}
+
+.lado-esquerdo {
+  height: 350px;
+  width: 450px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.lado-direito {
+  height: 350px;
+  margin-left: 25px;
+  width: 450px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+h2 {
   text-align: center;
+  padding: 10px;
 }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 5px solid black;
+  color: wheat;
+  background-color: brown;
+}
+
