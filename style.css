@@ -6,13 +6,13 @@
 h1 {
   font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
   font-size: 50px;
-  color: rgb(0 , 202 , 0);
+  color: rgb(0, 202 ,0);
   text-shadow: 2px 2px black;
   padding: 20px;
 }
 
 h2 {
-  color: rgb(0 , 202 , 0);
+  color: rgb(0, 202, 0);
   margin-left: 25px;
   padding: 25px;
 }
@@ -28,7 +28,7 @@ h4 {
 }
 
 table {
-  background-color: rgb(168 , 168 , 168);
+  background-color: rgb(168, 168, 168);
   border-style: solid;
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 body {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -64,7 +64,7 @@ body {
   position: fixed;
   text-align: center;
   top: 0;
-  background-image: linear-gradient(grey , rgb(65 , 64 , 64));
+  background-image: linear-gradient(grey, rgb(65, 64, 64));
   width: 100%;
 }
 
