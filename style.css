@@ -1,0 +1,123 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
+  font-size: 50px;
+  color: rgb(0 , 202 , 0);
+  text-shadow: 2px 2px black;
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(0 , 202 , 0);
+  margin-left: 25px;
+  padding: 25px;
+}
+
+h3 {
+  text-align: center;
+  padding: 25px;
+}
+
+h4 {
+  padding: 15px;
+  text-align: center;
+}
+
+table {
+  background-color: rgb(168 , 168 , 168);
+  border-style: solid;
+}
+
+p {
+  padding-left: 20px;
+}
+
+main {
+  line-height: 25px;
+  vertical-align: top;
+  top: 0;
+  width: 60%;
+  display: inline-block;
+  margin: 100px 0 40px;
+}
+
+#left_side_screen {
+  border: 1px black solid;
+  padding: 20px;
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  margin: 100px 25px 0 0;
+  background-color: gray;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+}
+
+#cabecalho {
+  min-height: 100px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  background-image: linear-gradient(grey , rgb(65 , 64 , 64));
+  width: 100%;
+}
+
+nav {
+  padding: 4px;
+  background-color: 008000;
+  font-size: 14px;
+}
+
+#learning {
+  padding: 20px 100px;
+  border-style: solid;
+  border-collapse: collapse;
+  box-shadow: 10px 5px 5px black;
+  width: 600px;
+  text-align: center;
+}
+
+#rodape {
+  padding: 5px;
+  background-color: whitesmoke;
+  width: 100%;
+  bottom: 0;
+  border: 1px black solid;
+  position: fixed;
+  font-size: 10px;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  font-size: 15px;
+  padding-left: 25px;
+}
+
+#Learn-history {
+  padding-bottom: 49px;
+}
+
+#minha_foto {
+  box-shadow: 2px;
+  padding: 20px;
+  margin: 5%;
+  width: 200px;
+}
+
+#licoes_aprendidas {
+  border: 3px solid black;
+  text-align: left;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  border: 3px solid black;
+  display: inline-block;
+  text-align: left;
+}
