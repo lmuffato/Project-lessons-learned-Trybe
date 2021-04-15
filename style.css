@@ -94,16 +94,14 @@ nav {
   text-align: center;
 }
 
-#lado-direito {
-  float: right;
+.lado-direito {
   font-size: 15px;
   padding-left: 25px;
 }
 
-#lado-esquerdo {
-  float: left;
+.lado-esquerdo {
   font-size: 15px;
-  padding-left: 25px;
+  padding-right: 25px;
 }
 
 #Learn-history {
