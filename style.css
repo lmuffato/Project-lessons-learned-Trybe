@@ -73,7 +73,7 @@ body {
   padding: 0;
 }
 
-.hidden{
+.hidden {
   padding: 0;
 }
 
@@ -104,13 +104,11 @@ nav {
 }
 
 .lado-direito {
-  /* float: inline-end; */
   font-size: 15px;
   padding-left: 25px;
 }
 
 .lado-esquerdo {
-  /* float: inline-start; */
   font-size: 15px;
   padding-right: 25px;
 }
