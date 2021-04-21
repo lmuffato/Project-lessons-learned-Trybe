@@ -59,7 +59,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+.cabecalho {
   min-height: 100px;
   position: fixed;
   text-align: center;
@@ -74,7 +74,7 @@ nav {
   font-size: 14px;
 }
 
-#learning {
+.learning {
   padding: 20px 100px;
   border-style: solid;
   border-collapse: collapse;
@@ -83,7 +83,7 @@ nav {
   text-align: center;
 }
 
-#rodape {
+.rodape {
   padding: 5px;
   background-color: whitesmoke;
   width: 100%;
@@ -104,24 +104,24 @@ nav {
   padding-right: 25px;
 }
 
-#Learn-history {
+.Learn-history {
   padding-bottom: 49px;
 }
 
-#minha_foto {
+.minha_foto {
   box-shadow: 2px;
   padding: 20px;
   margin: 5%;
   width: 200px;
 }
 
-#licoes_aprendidas {
+.licoes_aprendidas {
   border: 3px solid black;
   text-align: left;
   display: inline-block;
 }
 
-#licoes_a_aprender {
+.licoes_a_aprender {
   border: 3px solid black;
   display: inline-block;
   text-align: left;
