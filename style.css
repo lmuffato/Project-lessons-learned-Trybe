@@ -45,7 +45,7 @@ main {
   margin: 100px 0 40px;
 }
 
-#left_side_screen {
+.left_side_screen {
   border: 1px black solid;
   padding: 20px;
   height: 100%;
