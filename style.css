@@ -8,7 +8,7 @@ h1 {
   font-size: 50px;
   color: rgb(0, 202, 0);
   text-shadow: 2px 2px black;
-  padding: 20px;
+  padding: 10px;
 }
 
 h2 {
@@ -68,6 +68,15 @@ body {
   width: 100%;
 }
 
+.fixing {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden{
+  padding: 0;
+}
+
 nav {
   padding: 4px;
   background-color: 008000;
@@ -95,13 +104,13 @@ nav {
 }
 
 .lado-direito {
-  float: inline-end;
+  /* float: inline-end; */
   font-size: 15px;
   padding-left: 25px;
 }
 
 .lado-esquerdo {
-  float: inline-start;
+  /* float: inline-start; */
   font-size: 15px;
   padding-right: 25px;
 }
