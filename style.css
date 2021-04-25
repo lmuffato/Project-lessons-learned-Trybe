@@ -41,7 +41,9 @@ main {
 }
 
 footer {
-  vertical-align: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   line-height: 30px;
   background-color: rgb(144, 175, 197);
