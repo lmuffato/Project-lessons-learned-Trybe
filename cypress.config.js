@@ -1,0 +1,19 @@
+module.exports = {
+  reporter: 'cypress-multi-reporters',
+  reporterOptions: {
+    configFile: 'reporter.json',
+  },
+  video: false,
+  screenshotOnRunFailure: false,
+  viewportWidth: 1366,
+  viewportHeight: 768,
+  defaultCommandTimeout: 10000,
+  pageLoadTimeout: 10000,
+  e2e: {
+    // We've imported your old cypress plugins here.
+    // You may want to clean this up later by importing these.
+    setupNodeEvents(on, config) {
+      return require('./cypress/plugins/index.js')(on, config)
+    },
+  },
+}

@@ -2,7 +2,7 @@ import {
   shouldExist,
 } from '../actions/ActionBase';
 
-describe('1 - Adicione uma cor de fundo específica para a página', () => {
+describe.only('1 - Adicione uma cor de fundo específica para a página', () => {
   beforeEach(() => {
     cy.visit('/');
   });
